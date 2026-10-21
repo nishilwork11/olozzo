@@ -22,7 +22,7 @@ export default async function CatalogPage({
   const where: Prisma.ProductWhereInput = {
     active: true,
     supplier: { status: "APPROVED", ...(from ? { country: from } : {}) },
-    ...(q ? { OR: [{ title: { contains: q } }, { description: { contains: q } }] } : {}),
+    ...(q ? { OR: [{ title: { contains: q, mode: "insensitive" } }, { description: { contains: q, mode: "insensitive" } }] } : {}),
     ...(category ? { category: { slug: category } } : {}),
   };
   const orderBy: Prisma.ProductOrderByWithRelationInput =

@@ -12,7 +12,7 @@ export default async function AdminUsers({ searchParams }: { searchParams: Promi
   const me = await getCurrentUser();
   const users = await db.user.findMany({
     where: {
-      ...(q ? { OR: [{ email: { contains: q } }, { name: { contains: q } }] } : {}),
+      ...(q ? { OR: [{ email: { contains: q, mode: "insensitive" } }, { name: { contains: q, mode: "insensitive" } }] } : {}),
       ...(role ? { role } : {}),
     },
     include: { store: { select: { name: true } }, supplier: { select: { companyName: true } }, _count: { select: { orders: true } } },

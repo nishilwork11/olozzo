@@ -15,7 +15,7 @@ per supplier and sent to them automatically, and suppliers ship straight to the 
 
 ```bash
 npm install
-npm run setup        # creates the SQLite DB and seeds demo data
+npm run setup        # creates the tables in DATABASE_URL (Postgres) and seeds demo data
 npm run dev          # http://localhost:3000
 ```
 
@@ -103,7 +103,7 @@ Merchant profit per order = (total − VAT) − supplier cost − supplier shipp
 
 ## Tech stack
 - Next.js 15 (App Router, Server Components, Server Actions), React 19, TypeScript
-- Prisma ORM: SQLite locally, Postgres in production
+- Prisma ORM on Postgres (e.g. Neon)
 - Tailwind CSS 3, lucide-react icons
 - `jose` (JWT sessions), `bcryptjs` (passwords), `zod` (validation), `stripe`
 
@@ -124,8 +124,8 @@ suppliers update their parcels.
 
 ## Going to production
 
-1. **Database:** set `provider = "postgresql"` in `prisma/schema.prisma`, point `DATABASE_URL` at Postgres
-   (Neon, Supabase, RDS…), then run `npx prisma db push` (or `prisma migrate deploy`).
+1. **Database:** point `DATABASE_URL` at Postgres (Neon via the Vercel Marketplace, Supabase, RDS…),
+   then run `npx prisma db push` (or `prisma migrate deploy`).
 2. **Secrets:** set a long random `AUTH_SECRET`, and set `NEXT_PUBLIC_APP_URL` to your domain.
 3. **Payments:** add your Stripe and/or Mollie live keys. In Stripe, create a webhook to
    `https://<domain>/api/webhooks/stripe` for `checkout.session.completed`, `checkout.session.async_payment_succeeded`,

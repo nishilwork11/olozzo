@@ -4,15 +4,15 @@
 // Money:      all amounts are integer cents in EUR
 // Retail:     prices shown to customers are gross (VAT included, EU B2C rule)
 //
-// SQLite is used for local development. To deploy on Postgres change
-// `provider` below to "postgresql" and point DATABASE_URL at your database.
+// Postgres everywhere (Vercel cannot run SQLite: its filesystem is read-only
+// and not shared between functions). Point DATABASE_URL at your database.
 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 

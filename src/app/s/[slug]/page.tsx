@@ -37,7 +37,7 @@ export default async function StoreHome({
   };
   const where: Prisma.StoreProductWhereInput = {
     ...baseWhere,
-    ...(q ? { OR: [{ title: { contains: q } }, { description: { contains: q } }] } : {}),
+    ...(q ? { OR: [{ title: { contains: q, mode: "insensitive" } }, { description: { contains: q, mode: "insensitive" } }] } : {}),
     ...(category ? { product: { active: true, supplier: { status: "APPROVED" }, category: { slug: category } } } : {}),
   };
 

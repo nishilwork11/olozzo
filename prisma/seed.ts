@@ -6,7 +6,8 @@ import { planFor } from "../src/lib/plans";
 import { endWith99, variantRetailPrice } from "../src/lib/pricing";
 
 const db = new PrismaClient();
-const PASSWORD = "Demo1234!";
+// Set SEED_PASSWORD when seeding a public deployment — the default is published in the README
+const PASSWORD = process.env.SEED_PASSWORD || "Demo1234!";
 const img = (id: string) => `https://images.unsplash.com/photo-${id}?w=900&q=80&auto=format&fit=crop`;
 
 // Deterministic pseudo-random so every seed looks the same

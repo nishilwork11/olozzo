@@ -9,7 +9,7 @@ import { toggleProductActive } from "../actions";
 export default async function AdminProducts({ searchParams }: { searchParams: Promise<{ q?: string; ok?: string; error?: string }> }) {
   const { q, ...flash } = await searchParams;
   const products = await db.product.findMany({
-    where: q ? { OR: [{ title: { contains: q } }, { sku: { contains: q } }] } : {},
+    where: q ? { OR: [{ title: { contains: q, mode: "insensitive" } }, { sku: { contains: q, mode: "insensitive" } }] } : {},
     include: { supplier: true, category: true, variants: true, _count: { select: { storeProducts: true } } },
     orderBy: { createdAt: "desc" },
     take: 200,
