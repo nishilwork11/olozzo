@@ -1,0 +1,272 @@
+// olozzo — dropshipping platform data model
+//
+// Roles:      ADMIN | MERCHANT | SUPPLIER | CUSTOMER   (see src/lib/rbac.ts)
+// Money:      all amounts are integer cents in EUR
+// Retail:     prices shown to customers are gross (VAT included, EU B2C rule)
+//
+// SQLite is used for local development. To deploy on Postgres change
+// `provider` below to "postgresql" and point DATABASE_URL at your database.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String   @id @default(cuid())
+  email          String   @unique
+  name           String
+  passwordHash   String
+  role           String   @default("CUSTOMER") // ADMIN | MERCHANT | SUPPLIER | CUSTOMER
+  status         String   @default("ACTIVE") // ACTIVE | SUSPENDED
+  marketingOptIn Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  store     Store?
+  supplier  Supplier?
+  orders    Order[]
+  auditLogs AuditLog[]
+}
+
+// A merchant's storefront (Shopify "shop")
+model Store {
+  id               String   @id @default(cuid())
+  ownerId          String   @unique
+  owner            User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  name             String
+  slug             String   @unique
+  tagline          String?
+  description      String?
+  logoUrl          String?
+  bannerUrl        String?
+  accentColor      String   @default("#059669")
+  country          String   @default("DE")
+  supportEmail     String?
+  plan             String   @default("STARTER") // STARTER | GROWTH | PRO
+  markupPercent    Int      @default(150) // import pricing rule: retail = cost × (1 + markup/100)
+  priceEnding99    Boolean  @default(true) // round imported prices to x.99
+  shippingRate     Int      @default(495) // flat shipping charged to customers (cents)
+  freeShippingOver Int?     @default(5000) // free shipping threshold (cents), null = never
+  published        Boolean  @default(true)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  products  StoreProduct[]
+  orders    Order[]
+  discounts DiscountCode[]
+}
+
+// A wholesale supplier who ships orders directly to customers
+model Supplier {
+  id             String   @id @default(cuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  companyName    String
+  country        String // ships-from country (ISO 3166-1 alpha-2)
+  vatNumber      String?
+  description    String?
+  website        String?
+  processingDays Int      @default(2)
+  status         String   @default("PENDING") // PENDING | APPROVED | REJECTED
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  products     Product[]
+  fulfillments SupplierOrder[]
+}
+
+model Category {
+  id       String    @id @default(cuid())
+  name     String    @unique
+  slug     String    @unique
+  products Product[]
+}
+
+// Supplier catalog product (what merchants import)
+model Product {
+  id              String    @id @default(cuid())
+  supplierId      String
+  supplier        Supplier  @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  categoryId      String?
+  category        Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  title           String
+  description     String
+  images          String // JSON array of image URLs
+  sku             String
+  costPrice       Int // wholesale price per unit (cents) for the base variant
+  suggestedPrice  Int // recommended retail price incl. VAT (cents)
+  shippingCost    Int       @default(0) // supplier's shipping fee per order (cents)
+  shippingDaysMin Int       @default(2)
+  shippingDaysMax Int       @default(5)
+  weightGrams     Int       @default(500)
+  active          Boolean   @default(true)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  variants      ProductVariant[]
+  storeProducts StoreProduct[]
+  orderItems    OrderItem[]
+}
+
+model ProductVariant {
+  id        String  @id @default(cuid())
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  name      String // e.g. "Black / M" — "Default" for single-variant products
+  sku       String
+  costPrice Int
+  stock     Int     @default(0)
+  position  Int     @default(0)
+
+  orderItems OrderItem[]
+}
+
+// A supplier product imported into a merchant's store
+model StoreProduct {
+  id             String   @id @default(cuid())
+  storeId        String
+  store          Store    @relation(fields: [storeId], references: [id], onDelete: Cascade)
+  productId      String
+  product        Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  title          String
+  slug           String
+  description    String
+  price          Int // retail price incl. VAT (cents) for the base variant
+  compareAtPrice Int?
+  active         Boolean  @default(true)
+  featured       Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  orderItems OrderItem[]
+
+  @@unique([storeId, slug])
+  @@unique([storeId, productId])
+}
+
+model Order {
+  id              String    @id @default(cuid())
+  number          String    @unique
+  storeId         String
+  store           Store     @relation(fields: [storeId], references: [id], onDelete: Cascade)
+  customerId      String?
+  customer        User?     @relation(fields: [customerId], references: [id], onDelete: SetNull)
+  email           String
+  name            String
+  phone           String?
+  addressLine1    String
+  addressLine2    String?
+  city            String
+  postalCode      String
+  country         String
+  status          String    @default("PENDING") // PENDING | PROCESSING | SHIPPED | DELIVERED | CANCELLED | REFUNDED
+  paymentStatus   String    @default("UNPAID") // UNPAID | PAID | FAILED | REFUNDED
+  paymentProvider String // stripe | mollie | demo
+  paymentRef      String?
+  currency        String    @default("EUR")
+  subtotal        Int // items total incl. VAT, before discount
+  discountCode    String?
+  discountTotal   Int       @default(0)
+  shippingTotal   Int
+  vatRate         Float
+  vatTotal        Int // VAT contained in total
+  total           Int
+  costTotal       Int // supplier item cost + supplier shipping
+  platformFee     Int       @default(0)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  paidAt          DateTime?
+
+  items        OrderItem[]
+  fulfillments SupplierOrder[]
+  returns      ReturnRequest[]
+}
+
+model OrderItem {
+  id              String          @id @default(cuid())
+  orderId         String
+  order           Order           @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  storeProductId  String?
+  storeProduct    StoreProduct?   @relation(fields: [storeProductId], references: [id], onDelete: SetNull)
+  productId       String?
+  product         Product?        @relation(fields: [productId], references: [id], onDelete: SetNull)
+  variantId       String?
+  variant         ProductVariant? @relation(fields: [variantId], references: [id], onDelete: SetNull)
+  supplierId      String
+  supplierOrderId String?
+  supplierOrder   SupplierOrder?  @relation(fields: [supplierOrderId], references: [id], onDelete: SetNull)
+  title           String
+  variantName     String
+  image           String?
+  quantity        Int
+  unitPrice       Int // retail incl. VAT
+  unitCost        Int // supplier cost
+  shippingCost    Int             @default(0) // supplier shipping fee of the product (snapshot)
+}
+
+// The part of an order a single supplier must fulfil (auto-created on payment)
+model SupplierOrder {
+  id             String    @id @default(cuid())
+  orderId        String
+  order          Order     @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  supplierId     String
+  supplier       Supplier  @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  status         String    @default("PENDING") // PENDING | ACCEPTED | SHIPPED | DELIVERED | CANCELLED
+  itemsCost      Int
+  shippingCost   Int
+  carrier        String?
+  trackingNumber String?
+  trackingUrl    String?
+  shippedAt      DateTime?
+  deliveredAt    DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  items OrderItem[]
+}
+
+model DiscountCode {
+  id          String    @id @default(cuid())
+  storeId     String
+  store       Store     @relation(fields: [storeId], references: [id], onDelete: Cascade)
+  code        String
+  type        String // PERCENT | FIXED
+  value       Int // percent (e.g. 10) or cents
+  minSubtotal Int       @default(0)
+  maxUses     Int?
+  usedCount   Int       @default(0)
+  active      Boolean   @default(true)
+  expiresAt   DateTime?
+  createdAt   DateTime  @default(now())
+
+  @@unique([storeId, code])
+}
+
+// EU 14-day right of withdrawal / returns
+model ReturnRequest {
+  id         String   @id @default(cuid())
+  orderId    String
+  order      Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  reason     String
+  details    String?
+  status     String   @default("REQUESTED") // REQUESTED | APPROVED | REJECTED | REFUNDED
+  resolution String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action    String
+  entity    String
+  entityId  String?
+  details   String?
+  createdAt DateTime @default(now())
+}
