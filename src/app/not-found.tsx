@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "@/components/ui";
+import { OPEN_STORE_ENABLED } from "@/lib/features";
 
 export default function NotFound() {
   return (
@@ -10,7 +11,11 @@ export default function NotFound() {
       <p className="mt-3 text-ink-500">The store or product may have moved, or is no longer available.</p>
       <div className="mt-8 flex gap-3">
         <Link href="/" className="btn btn-dark">Go home</Link>
-        <Link href="/explore" className="btn btn-secondary">Explore stores</Link>
+        {OPEN_STORE_ENABLED ? (
+          <Link href="/explore" className="btn btn-secondary">Explore stores</Link>
+        ) : (
+          <Link href="/#products" className="btn btn-secondary">Browse products</Link>
+        )}
       </div>
     </div>
   );

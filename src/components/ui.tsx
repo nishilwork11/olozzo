@@ -3,6 +3,16 @@ import { AlertCircle, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
+// Each "o" in olozzo gets its own colour; l, z and z follow the text colour
+const LOGO_LETTERS: { char: string; color?: string; colorOnDark?: string }[] = [
+  { char: "o", color: "text-brand-600", colorOnDark: "text-brand-400" },
+  { char: "l" },
+  { char: "o", color: "text-orange-500", colorOnDark: "text-orange-400" },
+  { char: "z" },
+  { char: "z" },
+  { char: "o", color: "text-violet-600", colorOnDark: "text-violet-400" },
+];
+
 export function Logo({ className, light = false }: { className?: string; light?: boolean }) {
   return (
     <Link href="/" className={cn("flex items-center gap-2", className)} aria-label="olozzo home">
@@ -10,7 +20,13 @@ export function Logo({ className, light = false }: { className?: string; light?:
         <span className="h-3.5 w-3.5 rounded-full border-[3px] border-white" />
         <span className="absolute right-1.5 top-1.5 h-1.5 w-1.5 rounded-full bg-lime-300" />
       </span>
-      <span className={cn("text-xl font-extrabold tracking-tight", light ? "text-white" : "text-ink-900")}>olozzo</span>
+      <span className={cn("text-xl font-extrabold tracking-tight", light ? "text-white" : "text-ink-900")}>
+        {LOGO_LETTERS.map((l, i) => (
+          <span key={i} className={light ? l.colorOnDark : l.color}>
+            {l.char}
+          </span>
+        ))}
+      </span>
     </Link>
   );
 }
