@@ -2,13 +2,13 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { ProductForm } from "@/components/supplier/ProductForm";
 import { PageHeader } from "@/components/ui";
-import { db } from "@/lib/db";
 import { requireSupplier } from "@/lib/supplier";
 import { createProduct } from "../../actions";
+import { getCategoryGroups } from "../category-groups";
 
 export default async function NewSupplierProduct() {
   await requireSupplier();
-  const categories = await db.category.findMany({ orderBy: { name: "asc" } });
+  const categories = await getCategoryGroups();
   return (
     <>
       <Link href="/supplier/products" className="mb-4 inline-flex items-center gap-1 text-sm text-ink-500 hover:text-ink-900">

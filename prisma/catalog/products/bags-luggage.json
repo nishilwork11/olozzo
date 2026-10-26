@@ -1,0 +1,635 @@
+[
+  {
+    "sku": "OLZ-BAG-001",
+    "title": "Structured Top-Handle Handbag with Detachable Shoulder Strap",
+    "category": "handbags",
+    "supplier": "oro-luce",
+    "description": "A polished everyday handbag with a firm shape, a sturdy top handle and a detachable strap for shoulder or crossbody wear. Roomy enough for a small tablet, wallet and make-up bag.\n• Material: PU faux leather exterior, polyester lining, gold-tone metal hardware\n• Size: 28 × 21 × 12 cm; handle drop 10 cm; strap adjustable 70–125 cm\n• Zip main compartment with inner zip pocket and two slip pockets\n• Protective metal feet on the base",
+    "images": [
+      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1774702535771-eec0c74d6cb9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 4499,
+    "costPrice": 1299,
+    "variants": [
+      {
+        "name": "Brown",
+        "stock": 90
+      },
+      {
+        "name": "Black",
+        "stock": 120
+      },
+      {
+        "name": "Burgundy",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 720,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-BAG-002",
+    "title": "Women's Satchel Bag with Buckle Flap and Shoulder Strap",
+    "category": "handbags",
+    "supplier": "oro-luce",
+    "description": "A neat satchel with twin buckle straps on the flap that hide magnetic snaps for quick opening. Carry it by the top handle or on the shoulder.\n• Material: PU faux leather, polyester lining, metal buckles\n• Size: 26 × 19 × 10 cm; strap adjustable 65–120 cm\n• Magnetic snap closures behind the decorative buckles\n• Main compartment with inner zip pocket and phone pocket",
+    "images": [
+      "https://images.unsplash.com/photo-1605733513597-a8f8341084e6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1614179689702-355944cd0918?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1049,
+    "variants": [
+      {
+        "name": "Grey",
+        "stock": 80
+      },
+      {
+        "name": "Black",
+        "stock": 110
+      },
+      {
+        "name": "Taupe",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-003",
+    "title": "Heavy Canvas Tote Bag with Inner Zip Pocket",
+    "category": "tote-bags",
+    "supplier": "oro-luce",
+    "description": "A sturdy cotton canvas tote for groceries, the gym or the beach. Long handles sit comfortably on the shoulder, even when the bag is full.\n• Material: 12 oz cotton canvas\n• Size: 40 × 38 × 10 cm with gusseted base; handle drop 28 cm\n• Inner zip pocket for keys and phone\n• Carries up to 15 kg; machine washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1574365569389-a10d488ca3fb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1630381260512-e3fe55c11973?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": 1199,
+    "costPrice": 329,
+    "variants": [
+      {
+        "name": "Natural",
+        "stock": 200
+      },
+      {
+        "name": "Off-White",
+        "stock": 140
+      },
+      {
+        "name": "Black",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 280,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-004",
+    "title": "Large Faux Leather Zip Tote Bag, Fits 15.6-Inch Laptop",
+    "category": "tote-bags",
+    "supplier": "oro-luce",
+    "description": "A spacious work tote with a full zip top, a padded laptop sleeve and room for a whole day's essentials. Clean lines and a soft-touch finish keep it looking smart.\n• Material: PU faux leather exterior, polyester lining\n• Size: 40 × 30 × 14 cm; handle drop 25 cm\n• Padded sleeve fits laptops up to 15.6 inches\n• Inner zip pocket, two slip pockets and a key clip",
+    "images": [
+      "https://images.unsplash.com/photo-1578237493287-8d4d2b03591a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760624294582-5341f33f9fa4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3999,
+    "costPrice": 1199,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 120
+      },
+      {
+        "name": "Tan",
+        "stock": 80
+      },
+      {
+        "name": "Grey",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 850,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-005",
+    "title": "Small Crossbody Phone Bag with Adjustable Strap",
+    "category": "crossbody-bags",
+    "supplier": "oro-luce",
+    "description": "A compact crossbody bag sized for your phone, cards and keys, so you can head out hands-free. The adjustable strap works across the body or on the shoulder.\n• Material: PU faux leather, polyester lining\n• Size: 19 × 12 × 5 cm; fits phones up to 6.8 inches\n• Zip top with front slip pocket and 3 inner card slots\n• Strap adjustable 70–130 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1799,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Brown",
+        "stock": 140
+      },
+      {
+        "name": "Black",
+        "stock": 160
+      },
+      {
+        "name": "Beige",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-006",
+    "title": "Saddle Crossbody Bag with Wide Adjustable Strap",
+    "category": "crossbody-bags",
+    "supplier": "oro-luce",
+    "description": "A rounded saddle-shape bag with a magnetic flap and a wide strap that sits comfortably on the shoulder. Comes in a range of easy-to-style colours.\n• Material: PU faux leather, microfibre lining\n• Size: 22 × 17 × 7 cm; strap 3.8 cm wide, adjustable 80–130 cm\n• Magnetic flap closure with inner zip pocket\n• Holds a phone, wallet, sunglasses and keys",
+    "images": [
+      "https://images.unsplash.com/photo-1760624294514-ca40aafe3d96?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1718622795525-2295971921ba?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "Tan",
+        "stock": 90
+      },
+      {
+        "name": "Black",
+        "stock": 120
+      },
+      {
+        "name": "Burgundy",
+        "stock": 60
+      },
+      {
+        "name": "Olive",
+        "stock": 50
+      },
+      {
+        "name": "Cream",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-007",
+    "title": "Men's Water-Repellent Chest Sling Bag",
+    "category": "crossbody-bags",
+    "supplier": "oro-luce",
+    "description": "A slim sling bag that keeps everyday essentials close to the body on commutes, city trips and festivals. Wear it on the chest or on the back.\n• Material: water-repellent 600D polyester with nylon zips\n• Size: 32 × 17 × 7 cm, approx. 4 L\n• Main zip compartment, front pocket and hidden back pocket\n• Padded adjustable strap with quick-release buckle",
+    "images": [
+      "https://images.unsplash.com/photo-1620786514684-ff35b5aae55e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1620786514669-06e2340fce71?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2199,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 180
+      },
+      {
+        "name": "Grey",
+        "stock": 90
+      },
+      {
+        "name": "Navy",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 340,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-008",
+    "title": "Water-Resistant Laptop Backpack with USB Port, 15.6-Inch",
+    "category": "backpacks",
+    "supplier": "oro-luce",
+    "description": "A commuter backpack with a padded laptop compartment, organiser pockets and a built-in USB port for charging on the go (power bank not included). A luggage strap slides it over a suitcase handle.\n• Material: water-resistant polyester with padded mesh back panel\n• Size: 45 × 30 × 15 cm, approx. 25 L; fits laptops up to 15.6 inches\n• External USB-A port with internal cable for your power bank\n• Hidden back pocket for valuables and luggage pass-through strap",
+    "images": [
+      "https://images.unsplash.com/photo-1594299447935-e5b840f54b9b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1667411425122-8b6be5da1c48?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1541240290619-3f2fad86473d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3799,
+    "costPrice": 1049,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 200
+      },
+      {
+        "name": "Grey",
+        "stock": 120
+      },
+      {
+        "name": "Navy",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-009",
+    "title": "Faux Leather Mini Backpack for Women",
+    "category": "backpacks",
+    "supplier": "oro-luce",
+    "description": "A small, structured backpack that holds the day's essentials and converts to a shoulder bag with its adjustable straps. A hands-free alternative to a handbag for city days.\n• Material: PU faux leather, polyester lining\n• Size: 24 × 20 × 11 cm, approx. 5 L\n• Drawstring top under a magnetic flap, plus a front zip pocket\n• Adjustable straps that can be worn as a single shoulder strap",
+    "images": [
+      "https://images.unsplash.com/photo-1622560480654-d96214fdc887?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Red",
+        "stock": 70
+      },
+      {
+        "name": "Brown",
+        "stock": 100
+      },
+      {
+        "name": "Black",
+        "stock": 130
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-010",
+    "title": "Camouflage Print Everyday Backpack, 20 L",
+    "category": "backpacks",
+    "supplier": "oro-luce",
+    "description": "A lightweight, roomy backpack with a bold monochrome camo print for school, work or weekend trips. Padded straps keep longer carries comfortable.\n• Material: 600D polyester with water-repellent coating\n• Size: 44 × 29 × 14 cm, approx. 20 L\n• Main compartment with padded sleeve for laptops up to 14 inches\n• Front zip pocket and two side bottle pockets",
+    "images": [
+      "https://images.unsplash.com/photo-1787095626867-b67df2ed85a5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "Black & White Camo",
+        "stock": 120
+      },
+      {
+        "name": "Green Camo",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 560,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-011",
+    "title": "Faux Pearl Beaded Evening Clutch with Chain Strap",
+    "category": "clutches",
+    "supplier": "oro-luce",
+    "description": "An evening clutch covered in faux pearl beads for weddings, parties and nights out. Hold it as a clutch or clip on the chain to wear it over the shoulder.\n• Material: acrylic faux pearls on a satin-lined metal frame\n• Size: 20 × 11 × 6 cm\n• Kiss-lock closure; fits a phone, lipstick and cards\n• Detachable 110 cm metal chain strap",
+    "images": [
+      "https://images.unsplash.com/photo-1783700549620-a6699881dc45?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "Ivory",
+        "stock": 90
+      },
+      {
+        "name": "Champagne",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-012",
+    "title": "Envelope Clutch Bag in Faux Leather with Wrist Strap",
+    "category": "clutches",
+    "supplier": "oro-luce",
+    "description": "A slim envelope clutch with a fold-over flap that tucks neatly under the arm. Ideal for dinners, events and travel days when you only need the basics.\n• Material: PU faux leather, polyester lining\n• Size: 28 × 17 × 2 cm; fits an e-reader or small tablet\n• Magnetic flap closure with inner slip pocket\n• Detachable wrist strap",
+    "images": [
+      "https://images.unsplash.com/photo-1749294435694-ce3c586591e6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1749294435693-4f39ec7e0ab2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "Brown",
+        "stock": 100
+      },
+      {
+        "name": "Black",
+        "stock": 120
+      },
+      {
+        "name": "Nude",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-013",
+    "title": "Everyday Belt Bag with Adjustable Strap",
+    "category": "waist-bags",
+    "supplier": "oro-luce",
+    "description": "A compact belt bag that keeps your phone, keys and cards close at hand. Wear it around the waist or slung across the chest.\n• Material: water-repellent nylon, polyester lining\n• Size: 23 × 13 × 6 cm\n• Main zip compartment, front zip pocket and back pocket\n• Strap adjustable 70–120 cm with quick-release buckle",
+    "images": [
+      "https://images.unsplash.com/photo-1785333175546-1bcefb03ac28?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 180
+      },
+      {
+        "name": "Cream",
+        "stock": 90
+      },
+      {
+        "name": "Khaki",
+        "stock": 80
+      },
+      {
+        "name": "Navy",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 170,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-014",
+    "title": "Holographic Iridescent Fanny Pack",
+    "category": "waist-bags",
+    "supplier": "oro-luce",
+    "description": "A shimmering waist bag that shifts colour in the light, a fun pick for festivals, beach days and city trips. The wide strap fits most waist sizes.\n• Material: iridescent TPU outer, polyester lining\n• Size: 25 × 12 × 7 cm\n• Two zip compartments\n• Strap adjustable 75–125 cm with clip buckle",
+    "images": [
+      "https://images.unsplash.com/photo-1789110854612-12d259eaf0e5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 359,
+    "variants": [
+      {
+        "name": "Orange",
+        "stock": 80
+      },
+      {
+        "name": "Silver",
+        "stock": 100
+      },
+      {
+        "name": "Pink",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-015",
+    "title": "Felt Laptop Sleeve with Front Pocket, 13–14 Inch",
+    "category": "laptop-bags",
+    "supplier": "oro-luce",
+    "description": "A soft felt sleeve that protects a laptop from scratches and bumps inside a backpack or tote. The front pocket holds a charger, mouse or notebook.\n• Material: 4 mm polyester felt with a soft inner lining\n• Inner size: 35 × 25 cm, fits most 13–14 inch laptops\n• Magnetic flap closure and front slip pocket\n• Weight: 230 g",
+    "images": [
+      "https://images.unsplash.com/photo-1789540137980-a2baca8ddbbf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1699,
+    "costPrice": 479,
+    "variants": [
+      {
+        "name": "Light Grey",
+        "stock": 150
+      },
+      {
+        "name": "Charcoal",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 230,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-016",
+    "title": "Slim Laptop Briefcase with Shoulder Strap, 15.6-Inch",
+    "category": "laptop-bags",
+    "supplier": "oro-luce",
+    "description": "A professional slim briefcase with a padded laptop compartment and an organiser panel for pens, cables and cards. Carry it by the handles or with the padded shoulder strap.\n• Material: water-resistant polyester with PU leather trim\n• Size: 40 × 29 × 7 cm; fits laptops up to 15.6 inches\n• Padded laptop section, document pocket and organiser panel\n• Luggage pass-through strap on the back",
+    "images": [
+      "https://images.unsplash.com/photo-1763034179057-acad3a072568?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1689757875266-66446af145dc?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": null,
+    "costPrice": 949,
+    "variants": [
+      {
+        "name": "Navy",
+        "stock": 90
+      },
+      {
+        "name": "Brown",
+        "stock": 60
+      },
+      {
+        "name": "Black",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 780,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-017",
+    "title": "Hard Shell Cabin Suitcase 55 cm with 4 Spinner Wheels",
+    "category": "luggage",
+    "supplier": "oro-luce",
+    "description": "A lightweight hard-shell carry-on that glides on four 360° spinner wheels. Sized for the cabin on most airlines; check your carrier's limits before you fly.\n• Material: ABS and polycarbonate shell, polyester lining\n• Size: 55 × 37 × 22 cm, approx. 38 L; empty weight 2.9 kg\n• Built-in 3-digit combination lock\n• Telescopic aluminium handle, interior compression straps and zip divider",
+    "images": [
+      "https://images.unsplash.com/photo-1718702662411-11d9672eb179?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1714235058817-af16a662fe1d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2199,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 80
+      },
+      {
+        "name": "Navy",
+        "stock": 60
+      },
+      {
+        "name": "Champagne",
+        "stock": 40
+      },
+      {
+        "name": "Sage Green",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 2900,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-BAG-018",
+    "title": "3-Piece Hard Shell Luggage Set, 55, 65 and 75 cm",
+    "category": "luggage",
+    "supplier": "oro-luce",
+    "description": "A complete nesting luggage set for weekend breaks and long holidays alike: cabin, medium and large suitcases that store one inside another.\n• Sizes: 55 × 37 × 22 cm (38 L), 65 × 43 × 26 cm (65 L), 75 × 49 × 30 cm (100 L)\n• ABS shells with four 360° spinner wheels on every case\n• Built-in 3-digit combination locks\n• Expandable zip on the medium and large cases",
+    "images": [
+      "https://images.unsplash.com/photo-1639598003276-8a70fcaaad6c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1670888664952-efff442ec0d2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 12999,
+    "compareAtPrice": 17999,
+    "costPrice": 5999,
+    "variants": [
+      {
+        "name": "Blue",
+        "stock": 30
+      },
+      {
+        "name": "Black",
+        "stock": 40
+      },
+      {
+        "name": "Grey",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 8,
+    "weightGrams": 11500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-019",
+    "title": "Water-Resistant Toiletry Bag with Hanging Hook",
+    "category": "travel-accessories",
+    "supplier": "oro-luce",
+    "description": "A fold-out wash bag that hangs from a towel rail or door hook, so everything stays visible and within reach. Packs flat into a suitcase or backpack.\n• Material: water-resistant polyester with PEVA-lined compartments\n• Size folded: 24 × 18 × 9 cm; open: 24 × 62 cm\n• 4 zip compartments, including a clear section for liquids\n• Swivel metal hook and carry handle",
+    "images": [
+      "https://images.unsplash.com/photo-1758398332771-0a79c5df74a3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1679466231026-7b632eb05b90?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Beige",
+        "stock": 120
+      },
+      {
+        "name": "Grey",
+        "stock": 140
+      },
+      {
+        "name": "Navy",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-020",
+    "title": "Silicone Luggage Tags with Address Cards, Set of 4",
+    "category": "travel-accessories",
+    "supplier": "oro-luce",
+    "description": "Bright, flexible luggage tags that make your bags easy to spot on the baggage carousel. A privacy flap covers your contact details.\n• Material: soft silicone with stainless steel loop strap\n• Tag size: 11 × 7 cm\n• Includes 4 tags and 4 address cards\n• Assorted colours: blue, red, yellow and green",
+    "images": [
+      "https://images.unsplash.com/photo-1720430544263-a616840d04b3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": null,
+    "costPrice": 189,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 250
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  }
+]

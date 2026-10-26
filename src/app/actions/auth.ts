@@ -7,6 +7,7 @@ import { audit } from "@/lib/audit";
 import { createSession, destroySession } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { isEuCountry } from "@/lib/eu";
+import { OPEN_STORE_ENABLED } from "@/lib/features";
 import { homeForRole, isRole } from "@/lib/rbac";
 import { slugify, str } from "@/lib/utils";
 
@@ -78,6 +79,9 @@ export async function registerAction(_prev: AuthState, form: FormData): Promise<
   if (!parsed.success) return { error: parsed.error.issues[0]?.message ?? "Please check the form.", fields };
   const data = parsed.data;
   const email = data.email.toLowerCase();
+  if (!OPEN_STORE_ENABLED && data.role !== "CUSTOMER") {
+    return { error: "Store and supplier sign-ups are closed. You can create a customer account.", fields };
+  }
 
   if (await db.user.findUnique({ where: { email } })) {
     return { error: "An account with this email already exists. Try signing in.", fields };

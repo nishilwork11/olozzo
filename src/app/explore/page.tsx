@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import { SiteFooter } from "@/components/marketing/SiteFooter";
 import { SiteHeader } from "@/components/marketing/SiteHeader";
 import { db } from "@/lib/db";
 import { countryName } from "@/lib/eu";
+import { OPEN_STORE_ENABLED } from "@/lib/features";
 import { formatMoney } from "@/lib/money";
 import { parseImages } from "@/lib/utils";
 
@@ -12,6 +14,8 @@ export const metadata: Metadata = { title: "Explore stores" };
 export const dynamic = "force-dynamic";
 
 export default async function ExplorePage() {
+  if (!OPEN_STORE_ENABLED) redirect("/");
+
   const stores = await db.store.findMany({
     where: { published: true },
     include: {

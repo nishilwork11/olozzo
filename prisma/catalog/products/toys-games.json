@@ -1,0 +1,433 @@
+[
+  {
+    "sku": "OLZ-TOY-001",
+    "title": "Wireless Game Controller for Most Consoles and PCs, Dual Vibration",
+    "category": "video-games",
+    "supplier": "juego-feliz",
+    "description": "A comfortable wireless gamepad with responsive sticks and triggers for console, PC and mobile gaming.\n• Bluetooth 5.0 plus 2.4 GHz USB receiver; works with most consoles, PCs and smartphones\n• Dual vibration motors, 6-axis motion sensor and turbo function\n• Built-in 800 mAh battery for up to 12 hours of play; charges via USB-C\n• Textured grips and 2 programmable back buttons\n• USB-C cable included",
+    "images": [
+      "https://images.unsplash.com/photo-1768166210760-9c9a4299c436?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1774103249154-32adc0bf71a7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Black", "stock": 200 },
+      { "name": "White", "stock": 160 },
+      { "name": "Purple", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 280,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-TOY-002",
+    "title": "Gaming Headset with Noise-Cancelling Mic and RGB Lights, for Consoles and PC",
+    "category": "video-games",
+    "supplier": "juego-feliz",
+    "description": "An over-ear gaming headset with deep bass and a flexible microphone, so you hear footsteps clearly and talk to your team without background noise.\n• 50 mm drivers and soft memory-foam ear cushions\n• Adjustable noise-cancelling microphone with mute switch on the ear cup\n• 3.5 mm jack for most consoles, PCs, laptops and phones; USB plug powers the RGB lights\n• In-line volume control and 2 m braided cable\n• Self-adjusting padded headband, weight 320 g",
+    "images": [
+      "https://images.unsplash.com/photo-1758025196602-ba4a98310e6f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1673669231301-09baa4d7761b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1049,
+    "variants": [
+      { "name": "Black / Red", "stock": 140 },
+      { "name": "Black / Blue", "stock": 110 },
+      { "name": "White / Pink", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-003",
+    "title": "Dual Controller Charging Dock with LED Indicators and Swappable Tips",
+    "category": "video-games",
+    "supplier": "juego-feliz",
+    "description": "Keep two wireless controllers charged and tidy on your desk or TV stand: just dock them after playing.\n• Charges 2 controllers at once in about 3 hours\n• USB-C and Micro-USB connector tips included to suit most wireless controllers\n• LED glows red while charging and green when full\n• Powered by the included USB cable from a console, PC or USB adapter (adapter not included)\n• Non-slip base, size 15 × 9 × 5 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1786537266393-6fc0245e1fa4?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789530012404-ae9d6285fc3e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Black", "stock": 160 },
+      { "name": "White", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-004",
+    "title": "RGB Gaming Mouse, Wired, 7200 DPI, 7 Programmable Buttons",
+    "category": "video-games",
+    "supplier": "juego-feliz",
+    "description": "A lightweight wired gaming mouse with precise tracking and side buttons you can set for in-game actions.\n• Optical sensor with 6 DPI steps from 800 to 7200\n• 7 programmable buttons with on-board memory\n• Customisable RGB lighting with 7 effects\n• Braided 1.8 m USB-A cable and smooth PTFE feet\n• Ergonomic right-handed shape, weight 85 g",
+    "images": [
+      "https://images.unsplash.com/photo-1771444700533-ff7aa34d29fe?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      { "name": "Black", "stock": 220 },
+      { "name": "White", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-005",
+    "title": "Folding Wooden Chess Set 39 cm with Felt-Lined Storage, Ages 6+",
+    "category": "board-games",
+    "supplier": "juego-feliz",
+    "description": "A classic wooden chess set whose board folds in half to store all 32 pieces, ready for family game nights or travel.\n• 39 × 39 cm folding board with inlaid squares and magnetic clasp\n• Hand-finished wooden pieces, king height 7.5 cm\n• Felt-lined compartments inside the board keep pieces from rattling\n• 2 spare queens and a rule sheet included\n• For 2 players, ages 6+; not suitable for children under 3 years due to small parts",
+    "images": [
+      "https://images.unsplash.com/photo-1695480542225-bc22cac128d0?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606594914778-09d99f53ecf7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Default", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1300,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-TOY-006",
+    "title": "2-in-1 Ludo and Snakes & Ladders Wooden Board Game, Ages 4+",
+    "category": "board-games",
+    "supplier": "juego-feliz",
+    "description": "Two family favourites on one reversible wooden board, great for teaching young children to count, take turns and enjoy some friendly competition.\n• Reversible 30 × 30 cm wooden board: ludo on one side, snakes and ladders on the other\n• 16 coloured wooden pawns and 2 dice\n• Cotton drawstring bag for the pieces\n• For 2–4 players, ages 4+; not suitable for children under 3 years due to small parts",
+    "images": [
+      "https://images.unsplash.com/photo-1629760946220-5693ee4c46ac?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1763875067516-e947790c74ac?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Default", "stock": 180 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-007",
+    "title": "Family Treasure Hunt Board Game, 2–4 Players, Ages 6+",
+    "category": "board-games",
+    "supplier": "juego-feliz",
+    "description": "Race through the jungle, collect treasure cards and dodge surprise traps in this family adventure game. A turning section of the board changes the route every game.\n• 50 × 50 cm game board, 4 explorer pawns, 60 treasure and trap cards and 2 dice\n• Learn in 5 minutes; a game takes about 30 minutes\n• For 2–4 players, ages 6+\n• Rules in English, German, French, Spanish and Italian\n• Not suitable for children under 3 years due to small parts",
+    "images": [
+      "https://images.unsplash.com/photo-1761716475708-ef98183ccb62?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1763875018525-1d39fe1a4354?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1399,
+    "variants": [
+      { "name": "Default", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-008",
+    "title": "Waterproof Plastic Playing Cards, 2 Decks, Standard Poker Size",
+    "category": "card-games",
+    "supplier": "juego-feliz",
+    "description": "Durable plastic playing cards that survive spilled drinks, beach trips and countless rounds without bending or fraying.\n• 2 decks of 54 cards (52 plus 2 jokers), one with red backs and one with blue\n• 100 % PVC, waterproof and wipe-clean\n• Standard poker size 63 × 88 mm with large, easy-to-read indices\n• Each deck in its own plastic case; ages 6+",
+    "images": [
+      "https://images.unsplash.com/photo-1541278107931-e006523892df?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1765624408968-f50eaac94e2f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": 999,
+    "costPrice": 279,
+    "variants": [
+      { "name": "Default", "stock": 260 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-009",
+    "title": "Party Question Card Game for Teens and Adults, 300 Cards, Ages 14+",
+    "category": "card-games",
+    "supplier": "juego-feliz",
+    "description": "Break the ice at parties, dinners and game nights with 300 funny, curious and thought-provoking questions that get everyone talking.\n• 300 question cards in 3 categories: light-hearted, deep and daring\n• Simple rules: draw a card, then answer or take a forfeit\n• For 3–10 players, ages 14+\n• Sturdy magnetic gift box, 10 × 7 × 7 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1764786076961-cf295d0600bc?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1764733907486-0fa77a834dd9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 549,
+    "variants": [
+      { "name": "English edition", "stock": 160 },
+      { "name": "German edition", "stock": 120 },
+      { "name": "French edition", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-010",
+    "title": "Colour Matching Card Game for Families, 108 Cards, Ages 6+",
+    "category": "card-games",
+    "supplier": "juego-feliz",
+    "description": "A quick twist on the classic crazy-eights game: match colours and numbers, play action cards to skip or reverse, and race to empty your hand first.\n• 108 cards: numbers in 4 colours plus skip, reverse, draw and wild cards\n• Learn in minutes; a round takes about 15 minutes\n• For 2–10 players, ages 6+\n• Coated cards in a sturdy tuck box, rules in 5 languages",
+    "images": [
+      "https://images.unsplash.com/photo-1784162091156-6958692b9bdf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 349,
+    "variants": [
+      { "name": "Default", "stock": 240 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-011",
+    "title": "1000-Piece Jigsaw Puzzle for Adults, Colourful Scenes, 70 × 50 cm",
+    "category": "puzzles",
+    "supplier": "juego-feliz",
+    "description": "A relaxing 1000-piece puzzle with a detailed, colourful picture, made from thick recycled board so the pieces fit snugly and stay put.\n• Finished size 70 × 50 cm\n• 2 mm thick pieces with an anti-glare matt finish\n• Reference poster of the picture included\n• Ages 12+; not suitable for children under 3 years due to small parts",
+    "images": [
+      "https://images.unsplash.com/photo-1763833294658-188ce0766732?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1494059980473-813e73ee784b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 499,
+    "variants": [
+      { "name": "Mountain Lake", "stock": 120 },
+      { "name": "Flower Market", "stock": 100 },
+      { "name": "Coastal Village", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-012",
+    "title": "Wooden Alphabet Puzzle Board with 26 Chunky Letter Pieces, Ages 3+",
+    "category": "puzzles",
+    "supplier": "juego-feliz",
+    "description": "A colourful wooden puzzle that helps little ones learn their letters while practising hand–eye coordination.\n• 26 capital-letter pieces with matching pictures underneath\n• Thick, smooth-sanded wood finished with water-based paints\n• Board size 40 × 30 cm\n• Ages 3+; not suitable for children under 3 years due to small parts",
+    "images": [
+      "https://images.unsplash.com/photo-1759678444821-565ff103465c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1759678444866-e71e5484b0e5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      { "name": "Default", "stock": 160 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-013",
+    "title": "Wooden Labyrinth Maze Puzzle with Steel Ball, Brain Teaser, Ages 6+",
+    "category": "puzzles",
+    "supplier": "juego-feliz",
+    "description": "Tilt and turn the wooden board to guide the steel ball along twisting paths to the centre: a calm, screen-free challenge for kids and adults.\n• Wooden frame with a clear acrylic cover, so the ball stays inside\n• 3 routes of increasing difficulty in one maze\n• Diameter 20 cm (round) or 20 × 20 cm (square)\n• Ages 6+",
+    "images": [
+      "https://images.unsplash.com/photo-1784064857498-1c2396827f2b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1772901337932-4ee4053eaecf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 399,
+    "variants": [
+      { "name": "Round maze", "stock": 140 },
+      { "name": "Square maze", "stock": 110 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-014",
+    "title": "Wooden Building Blocks Set, 100 Pieces in Bright Colours, Ages 3+",
+    "category": "building-toys",
+    "supplier": "juego-feliz",
+    "description": "A big set of smooth wooden blocks for building towers, houses and bridges, encouraging creative play and an early feel for shapes and balance.\n• 100 pieces in 12 shapes, including arches, cylinders and triangles\n• Solid pine wood with water-based paint\n• Pieces from 3 to 10 cm, sized for small hands\n• Cotton storage bag included\n• Ages 3+",
+    "images": [
+      "https://images.unsplash.com/photo-1638802538115-041e14d28d6a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 849,
+    "variants": [
+      { "name": "Default", "stock": 130 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-015",
+    "title": "Fashion Doll 30 cm with 3 Outfits, Shoes and Accessories, Ages 3+",
+    "category": "dolls",
+    "supplier": "juego-feliz",
+    "description": "A posable fashion doll with a wardrobe of mix-and-match outfits for endless dress-up stories.\n• 30 cm doll with 11 movable joints and long, brushable hair\n• 3 outfits including a pink party dress, plus 3 pairs of shoes\n• Hairbrush, handbag and necklace included\n• Ages 3+; not suitable for children under 3 years due to small parts",
+    "images": [
+      "https://images.unsplash.com/photo-1612506001235-f0d0892aa11b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Blonde hair", "stock": 120 },
+      { "name": "Brown hair", "stock": 110 },
+      { "name": "Black hair", "stock": 100 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 350,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-016",
+    "title": "Realistic Dinosaur Figures Set, 12 Pieces, 10–15 cm, Ages 3+",
+    "category": "action-figures",
+    "supplier": "juego-feliz",
+    "description": "A herd of detailed, hand-painted dinosaurs for small-world play, the sandpit and bath time.\n• 12 different species, each 10–15 cm long\n• Solid soft-touch PVC that is easy to wash\n• Name card with fun facts for each dinosaur\n• Ages 3+",
+    "images": [
+      "https://images.unsplash.com/photo-1627874458536-1ab04485398e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1592628458001-5b3045c5b6e3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 499,
+    "variants": [
+      { "name": "Default", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-017",
+    "title": "Remote Control Monster Truck 1:16, 2.4 GHz, Off-Road, Rechargeable, Ages 8+",
+    "category": "rc-toys",
+    "supplier": "juego-feliz",
+    "description": "A tough off-road truck with big, springy tyres that climbs over grass, gravel and small obstacles at up to 20 km/h.\n• 1:16 scale, 4-wheel drive with independent spring suspension\n• 2.4 GHz remote with up to 80 m range, so several trucks can race together\n• 2 rechargeable batteries give up to 40 minutes of play; USB charging cable included\n• Remote runs on 2 × AA batteries (not included)\n• Ages 8+",
+    "images": [
+      "https://images.unsplash.com/photo-1643236873141-6511884b19e2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1675301590589-c56007c935d4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1399,
+    "variants": [
+      { "name": "Red", "stock": 100 },
+      { "name": "Blue", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-018",
+    "title": "DIY Programmable Robot Car Kit with Sensors, STEM Toy, Ages 10+",
+    "category": "stem-toys",
+    "supplier": "juego-feliz",
+    "description": "Build your own robot car from the motors up, then program it to follow lines, avoid obstacles or drive by remote control from a phone.\n• Kit includes chassis, 2 geared motors, wheels, controller board, line and distance sensors, wires and screwdriver\n• Program with drag-and-drop blocks in the free app, then move on to text coding\n• Step-by-step illustrated building guide\n• Runs on 4 × AA batteries (not included)\n• Ages 10+; adult supervision recommended",
+    "images": [
+      "https://images.unsplash.com/photo-1678225867994-e7a5b071ebfd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": null,
+    "costPrice": 1599,
+    "variants": [
+      { "name": "Default", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-019",
+    "title": "Soft Teddy Bear 40 cm with Bow Tie, Classic Plush Toy, Ages 3+",
+    "category": "plush-toys",
+    "supplier": "juego-feliz",
+    "description": "A cuddly, classic teddy bear with soft fur and a smart bow tie, a sweet gift for birthdays and holidays.\n• 40 cm tall (28 cm sitting)\n• Super-soft polyester plush with polyester fibre filling\n• Embroidered eyes and nose\n• Surface-wash with a damp cloth\n• Ages 3+",
+    "images": [
+      "https://images.unsplash.com/photo-1602734846297-9299fc2d4703?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1556012018-50c5c0da73bf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Brown", "stock": 160 },
+      { "name": "Cream", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TOY-020",
+    "title": "Kids' Kite with 50 m Line and Winding Handle, Easy to Fly, Ages 6+",
+    "category": "outdoor-play",
+    "supplier": "juego-feliz",
+    "description": "A bright, easy-flying kite that lifts off even in light winds, perfect for beach days, parks and family outings.\n• 110 × 70 cm ripstop polyester sail with fibreglass frame\n• 50 m line on a winding handle\n• Long tail for steady flight\n• Folds into the included storage bag\n• Ages 6+; fly away from power lines and roads",
+    "images": [
+      "https://images.unsplash.com/photo-1489011397388-494518edf378?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1554234742-92481f1e2e9a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      { "name": "Rainbow", "stock": 160 },
+      { "name": "Green / Yellow", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": false
+  }
+]

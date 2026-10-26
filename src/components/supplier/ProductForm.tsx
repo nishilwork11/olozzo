@@ -6,6 +6,9 @@ import type { FormState } from "@/app/supplier/actions";
 
 type Variant = { id?: string; name: string; sku: string; cost: string; stock: string };
 
+/** A top-level category with its subcategories, in menu order. */
+export type CategoryGroup = { id: string; name: string; children: { id: string; name: string }[] };
+
 export type ProductFormValues = {
   title: string;
   description: string;
@@ -30,7 +33,7 @@ export function ProductForm({
 }: {
   action: (state: FormState, form: FormData) => Promise<FormState>;
   initial: ProductFormValues;
-  categories: { id: string; name: string }[];
+  categories: CategoryGroup[];
   submitLabel: string;
 }) {
   const [state, formAction, pending] = useActionState(action, undefined);
@@ -118,12 +121,23 @@ export function ProductForm({
             <h2 className="font-semibold">Organisation</h2>
             <div>
               <label className="label" htmlFor="categoryId">Category</label>
-              <select id="categoryId" name="categoryId" defaultValue={initial.categoryId} className="input">
+              <select id="categoryId" name="categoryId" defaultValue={initial.categoryId} aria-describedby="categoryId-hint" className="input">
                 <option value="">Uncategorised</option>
-                {categories.map((c) => (
-                  <option key={c.id} value={c.id}>{c.name}</option>
-                ))}
+                {categories.map((top) =>
+                  top.children.length === 0 ? (
+                    <option key={top.id} value={top.id}>{top.name}</option>
+                  ) : (
+                    <optgroup key={top.id} label={top.name}>
+                      {/* products filed under the top level itself (before subcategories existed) keep that choice */}
+                      {top.id === initial.categoryId && <option value={top.id}>{top.name} (no subcategory)</option>}
+                      {top.children.map((c) => (
+                        <option key={c.id} value={c.id}>{c.name}</option>
+                      ))}
+                    </optgroup>
+                  ),
+                )}
               </select>
+              <p id="categoryId-hint" className="mt-1 text-xs text-ink-500">Pick the most specific subcategory: shoppers browse by it.</p>
             </div>
             <div>
               <label className="label" htmlFor="sku">Base SKU</label>

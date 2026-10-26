@@ -1,0 +1,575 @@
+[
+  {
+    "sku": "OLZ-JWL-001",
+    "title": "Sterling Silver Halo Pendant Necklace with Cubic Zirconia",
+    "category": "necklaces",
+    "supplier": "oro-luce",
+    "description": "A sparkling cushion-shaped pendant with a round centre stone framed by a halo of smaller stones, hung on a fine box chain. Elegant on its own or layered.\n• Material: 925 sterling silver, rhodium-plated\n• Stones: cubic zirconia; pendant 12 × 10 mm\n• Box chain with spring-ring clasp\n• Comes in a gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1598560917505-59a3ad559071?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "Chain 40 cm",
+        "stock": 90
+      },
+      {
+        "name": "Chain 45 cm",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 60,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-JWL-002",
+    "title": "Glass Pearl Strand Necklace with Silver-Tone Clasp",
+    "category": "necklaces",
+    "supplier": "oro-luce",
+    "description": "A classic single-strand necklace of lustrous glass pearls, knotted between each bead and finished with a decorative clasp. Perfect for weddings, office days and evenings out.\n• Material: glass pearls on silk-look thread\n• Hand-knotted between pearls\n• Length: 45 cm; silver-tone box clasp\n• Comes in a gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1595345705177-ffe090eb0784?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "6 mm pearls",
+        "stock": 100
+      },
+      {
+        "name": "8 mm pearls",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 80,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-003",
+    "title": "Gold-Plated Pendant Necklace with Abstract Loop and Pearl",
+    "category": "necklaces",
+    "supplier": "oro-luce",
+    "description": "A modern pendant with a free-form open loop cradling a small pearl, on a delicate gold-plated chain. An easy everyday piece with a subtle twist.\n• Material: 18K gold-plated brass, nickel-free\n• Pendant: 20 × 12 mm with shell pearl\n• Chain: 42 cm plus 5 cm extender\n• Comes in a gift pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1786052337650-9e1c0dd01f5e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 30,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-004",
+    "title": "Chunky Twisted Hoop Earrings, 18K Gold-Plated",
+    "category": "earrings",
+    "supplier": "oro-luce",
+    "description": "Bold twisted hoops with a polished, rope-like texture that catches the light. Lightweight hollow construction keeps them comfortable all day.\n• Material: 18K gold-plated brass, nickel-free\n• Diameter: 25 mm; thickness: 5 mm\n• Hinged snap closure\n• Supplied as a pair in a gift pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Gold Tone",
+        "stock": 160
+      },
+      {
+        "name": "Silver Tone",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 30,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-005",
+    "title": "Gold-Tone Seashell Drop Earrings",
+    "category": "earrings",
+    "supplier": "oro-luce",
+    "description": "Sculpted spiral seashell earrings in a warm gold tone, a summery statement that suits beach days and evening dresses alike.\n• Material: gold-plated brass, nickel-free\n• Length: 35 mm\n• Stud post with butterfly backs\n• Supplied as a pair in a gift pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1778182553300-7593326ca29d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 220
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 25,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-006",
+    "title": "Statement Crystal Drop Earrings with Blue Glass Stone",
+    "category": "earrings",
+    "supplier": "oro-luce",
+    "description": "Glamorous drop earrings with a deep blue teardrop stone framed by sparkling baguette and round crystals. Made for weddings, galas and special occasions.\n• Material: rhodium-plated brass with glass crystals\n• Length: 55 mm; width: 25 mm\n• Post fastening with secure backs\n• Supplied as a pair in a gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 40,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-007",
+    "title": "Stackable Thin Rings in Mixed Metal Tones, Set of 15",
+    "category": "rings",
+    "supplier": "oro-luce",
+    "description": "A set of slim stacking rings in gold, rose gold and silver tones, some plain, some textured and some set with tiny crystals. Mix and match them across your fingers.\n• Set of 15 rings in 3 metal tones\n• Material: plated brass with glass crystals, nickel-free\n• Band width: 1–2 mm\n• Sizes: S (EU 52–54), M (EU 55–57), L (EU 58–60)",
+    "images": [
+      "https://images.unsplash.com/photo-1587593692659-38c32c496642?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": 1199,
+    "costPrice": 299,
+    "variants": [
+      {
+        "name": "S (EU 52–54)",
+        "stock": 100
+      },
+      {
+        "name": "M (EU 55–57)",
+        "stock": 130
+      },
+      {
+        "name": "L (EU 58–60)",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 30,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-008",
+    "title": "Sterling Silver Halo Ring with Blue Oval Stone",
+    "category": "rings",
+    "supplier": "oro-luce",
+    "description": "A vintage-inspired ring with an oval blue centre stone surrounded by a halo of clear stones, with more stones set along the split shoulders.\n• Material: 925 sterling silver, rhodium-plated\n• Stones: blue and clear cubic zirconia\n• Centre stone: 8 × 6 mm\n• Comes in a ring box; sizes EU 50–60",
+    "images": [
+      "https://images.unsplash.com/photo-1586104237516-5b7075e00d45?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "EU 50",
+        "stock": 20
+      },
+      {
+        "name": "EU 52",
+        "stock": 35
+      },
+      {
+        "name": "EU 54",
+        "stock": 45
+      },
+      {
+        "name": "EU 56",
+        "stock": 40
+      },
+      {
+        "name": "EU 58",
+        "stock": 30
+      },
+      {
+        "name": "EU 60",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 40,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-009",
+    "title": "Handwoven Macramé Beaded Bracelets, Set of 3",
+    "category": "bracelets",
+    "supplier": "oro-luce",
+    "description": "Colourful bracelets hand-knotted in fine macramé cord with tiny glass seed beads woven into geometric patterns. Stack all three or share them with friends.\n• Set of 3 bracelets\n• Material: polyester cord and glass seed beads\n• Adjustable sliding knot fits 15–21 cm wrists\n• Avoid soaking to keep the colours bright",
+    "images": [
+      "https://images.unsplash.com/photo-1766560360281-d3c264734a1f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1599,
+    "costPrice": 449,
+    "variants": [
+      {
+        "name": "Warm Tones",
+        "stock": 90
+      },
+      {
+        "name": "Cool Tones",
+        "stock": 80
+      },
+      {
+        "name": "Mixed Colours",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 40,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-010",
+    "title": "Cubic Zirconia Tennis Bracelet, Silver Tone",
+    "category": "bracelets",
+    "supplier": "oro-luce",
+    "description": "A timeless line bracelet with a continuous row of square-set sparkling stones, secured with a box clasp and a safety catch.\n• Material: rhodium-plated brass with cubic zirconia\n• Stone size: 3 mm\n• Box clasp with safety catch\n• Lengths: 17 cm or 19 cm; comes in a gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1619119069152-a2b331eb392a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "17 cm",
+        "stock": 90
+      },
+      {
+        "name": "19 cm",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 50,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-011",
+    "title": "Green Crystal Necklace and Drop Earrings Set",
+    "category": "jewelry-sets",
+    "supplier": "oro-luce",
+    "description": "A matching evening set: a sparkling collar necklace of clear crystals with green teardrop accents, paired with ornate drop earrings in the same design.\n• Set includes 1 necklace and 1 pair of earrings\n• Material: rhodium-plated brass with glass crystals\n• Necklace: 42 cm plus 5 cm extender; earrings: 45 mm drop\n• Comes in a gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1739194806935-3b4c66aee282?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1299,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-012",
+    "title": "Gold-Tone Filigree Bib Necklace and Earrings Set",
+    "category": "jewelry-sets",
+    "supplier": "oro-luce",
+    "description": "A rich gold-tone set with an intricate filigree bib necklace and matching chandelier earrings, ideal for weddings, festivals and celebrations.\n• Set includes 1 necklace and 1 pair of earrings\n• Material: gold-plated alloy, nickel-free\n• Adjustable cord tie at the back of the necklace\n• Earrings: 60 mm drop with hook fastening",
+    "images": [
+      "https://images.unsplash.com/photo-1758995115857-2de1eb6283d0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": null,
+    "costPrice": 1499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-013",
+    "title": "Men's Chronograph-Style Quartz Watch with Leather Strap",
+    "category": "mens-watches",
+    "supplier": "oro-luce",
+    "description": "A clean white dial with two sub-dials and slim baton hands, set in a polished steel case on a soft leather strap. Smart enough for the office and relaxed enough for weekends.\n• Case: 42 mm stainless steel; mineral glass\n• Quartz movement with working stopwatch function\n• Genuine leather strap, 22 mm, with pin buckle\n• Water resistant to 3 ATM (splash-proof); battery included",
+    "images": [
+      "https://images.unsplash.com/photo-1557531365-e8b22d93dbd0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5499,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "Brown Strap",
+        "stock": 80
+      },
+      {
+        "name": "Black Strap",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-014",
+    "title": "Men's Minimalist Black Watch with Mesh Strap",
+    "category": "mens-watches",
+    "supplier": "oro-luce",
+    "description": "An all-black watch with a slim case, matt dial and fine stainless steel mesh strap. Understated styling that goes with everything.\n• Case: 40 mm, 7 mm thin, black-plated stainless steel\n• Quartz movement; mineral glass\n• Mesh strap, 20 mm, with adjustable slide clasp\n• Water resistant to 3 ATM (splash-proof); battery included",
+    "images": [
+      "https://images.unsplash.com/photo-1779409919727-bafd9a982269?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1299,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-015",
+    "title": "Women's Rose Gold Tone Watch with Crystal Bezel",
+    "category": "womens-watches",
+    "supplier": "oro-luce",
+    "description": "A glamorous watch with a chocolate-brown dial, decorative sub-dials and a bezel ringed with crystals, on a rose gold tone link bracelet.\n• Case: 36 mm rose gold plated stainless steel; mineral glass\n• Quartz movement with date window\n• Link bracelet with fold-over clasp; links removable to resize\n• Water resistant to 3 ATM (splash-proof); battery included",
+    "images": [
+      "https://images.unsplash.com/photo-1751437774882-deeea4352018?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4999,
+    "costPrice": 1549,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 110,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-JWL-016",
+    "title": "Women's Minimalist Quartz Watch with Leather Strap",
+    "category": "womens-watches",
+    "supplier": "oro-luce",
+    "description": "A slim watch with a clean white dial and rose gold tone case on a soft leather strap. Choose a fresh mint, soft pink or classic black strap.\n• Case: 34 mm rose gold plated stainless steel; mineral glass\n• Quartz movement\n• Faux leather strap, 16 mm, with pin buckle\n• Water resistant to 3 ATM (splash-proof); battery included",
+    "images": [
+      "https://images.unsplash.com/photo-1535449425-adc6f5faa71c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "Mint",
+        "stock": 80
+      },
+      {
+        "name": "Blush Pink",
+        "stock": 90
+      },
+      {
+        "name": "Black",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-017",
+    "title": "Curved-End Rubber Watch Strap with Steel Buckle",
+    "category": "watch-accessories",
+    "supplier": "oro-luce",
+    "description": "A soft, flexible rubber strap with curved ends for a gap-free fit on most round watch cases. Quick-release spring bars make swapping straps a ten-second job, no tools needed.\n• Material: FKM rubber with brushed stainless steel buckle\n• Widths: 20 mm or 22 mm\n• Quick-release spring bars included\n• Fits wrists 15–21 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1787386543051-e2fb5374bb60?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1787386543071-00c7058835bb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Black / 20 mm",
+        "stock": 70
+      },
+      {
+        "name": "Black / 22 mm",
+        "stock": 70
+      },
+      {
+        "name": "Olive / 20 mm",
+        "stock": 50
+      },
+      {
+        "name": "Olive / 22 mm",
+        "stock": 50
+      },
+      {
+        "name": "Red / 20 mm",
+        "stock": 40
+      },
+      {
+        "name": "Navy / 22 mm",
+        "stock": 45
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 40,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-018",
+    "title": "Grained Leather Watch Strap with Deployant Clasp",
+    "category": "watch-accessories",
+    "supplier": "oro-luce",
+    "description": "A padded strap in richly grained leather with a stainless steel butterfly clasp that is easy to fasten and gentle on the leather.\n• Material: genuine grained cowhide; steel deployant clasp\n• Widths: 20 mm or 22 mm\n• Quick-release spring bars included\n• Fits wrists 16–20 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1783422674720-11d03d828565?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1783422674620-56ce7353b2e3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Black / 20 mm",
+        "stock": 60
+      },
+      {
+        "name": "Black / 22 mm",
+        "stock": 60
+      },
+      {
+        "name": "Navy / 20 mm",
+        "stock": 45
+      },
+      {
+        "name": "Navy / 22 mm",
+        "stock": 45
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-019",
+    "title": "Faux Leather Jewellery Box with Two Drawers",
+    "category": "jewelry-storage",
+    "supplier": "oro-luce",
+    "description": "A generous jewellery box with a quilted lid, a lift-up top compartment and two pull-out drawers lined in soft velvet, so every piece has its place.\n• Size: 26 × 19 × 17 cm\n• Faux leather exterior with velvet-lined interior\n• Ring rolls, earring slots and necklace hooks\n• Gold-tone clasp closure",
+    "images": [
+      "https://images.unsplash.com/photo-1780745167657-9144974347c4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1299,
+    "variants": [
+      {
+        "name": "Tan",
+        "stock": 80
+      },
+      {
+        "name": "Black",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-JWL-020",
+    "title": "Compact Travel Jewellery Case with Ring Rolls",
+    "category": "jewelry-storage",
+    "supplier": "oro-luce",
+    "description": "A small zip-around case that keeps rings, earrings and necklaces organised and tangle-free on trips and weekends away.\n• Size: 10 × 10 × 5 cm\n• Faux leather shell with velvet lining\n• Ring rolls, 4 compartments and necklace hooks in the lid\n• Smooth all-round zip",
+    "images": [
+      "https://images.unsplash.com/photo-1769116416517-594639a769a7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1769116416641-e714b71851e8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Blush Pink",
+        "stock": 120
+      },
+      {
+        "name": "Grey",
+        "stock": 100
+      },
+      {
+        "name": "Cream",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  }
+]

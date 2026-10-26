@@ -1,0 +1,495 @@
+[
+  {
+    "sku": "OLZ-GRD-001",
+    "title": "Bypass Pruning Shears with SK5 Steel Blade and Safety Lock",
+    "category": "gardening-tools",
+    "supplier": "actief",
+    "description": "Sharp, comfortable secateurs for roses, shrubs, fruit trees and deadheading flowers.\n• Bypass blade in SK5 carbon steel, cuts branches up to 20 mm\n• Non-stick coated blades with a sap groove\n• Ergonomic soft-grip handles and a strong return spring\n• One-hand safety lock; length 20 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1774647001686-314f877fb9c5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1680124744737-03fb697f303d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 449,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 220
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-002",
+    "title": "Garden Hand Tool Set 3-Piece: Trowel, Transplanter and Hand Fork",
+    "category": "gardening-tools",
+    "supplier": "actief",
+    "description": "Rust-resistant hand tools for planting bulbs, potting up seedlings and loosening soil in beds and containers.\n• Wide trowel, narrow transplanter with depth markings and 3-prong hand fork\n• Polished stainless steel heads\n• Hardwood handles with hanging holes\n• Length approx. 30 cm each",
+    "images": [
+      "https://images.unsplash.com/photo-1598851418241-f52c34b6e4c3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781521215146-5aa55e800b0d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-003",
+    "title": "Bypass Loppers 70 cm for Branches up to 40 mm",
+    "category": "gardening-tools",
+    "supplier": "actief",
+    "description": "Long-handled loppers that give extra reach and leverage for thick branches in hedges, shrubs and fruit trees.\n• Hardened steel bypass blades for clean cuts up to 40 mm\n• Lightweight aluminium handles, 70 cm overall length\n• Shock-absorbing bumpers and soft-grip handles\n• Blade guard included for safe storage",
+    "images": [
+      "https://images.unsplash.com/photo-1764173040050-b7a87824bc22?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-004",
+    "title": "Ceramic Plant Pots, Set of 2 with Drainage Holes and Saucers",
+    "category": "planters",
+    "supplier": "actief",
+    "description": "Clean, modern pots for houseplants, herbs and succulents, in one white and one black glazed finish.\n• Sizes: Ø 15 × 13 cm and Ø 12 × 11 cm\n• Glazed ceramic with a soft matte finish\n• Drainage hole with rubber plug and matching saucer\n• For indoor use and sheltered balconies",
+    "images": [
+      "https://images.unsplash.com/photo-1765261221630-70f10fc301fa?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1768000937050-d0968fb1dd89?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2699,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-005",
+    "title": "Hanging Flower Basket 30 cm with Coco Liner and Chain",
+    "category": "planters",
+    "supplier": "actief",
+    "description": "Classic hanging basket for trailing petunias, fuchsias, strawberries and herbs on porches, pergolas and balconies.\n• Diameter 30 cm, black powder-coated steel wire frame\n• Natural coconut fibre liner holds moisture and lets excess water drain\n• 3-arm chain with hook, hanging length about 45 cm\n• Replaceable liner",
+    "images": [
+      "https://images.unsplash.com/photo-1706890364395-92c236173d68?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-006",
+    "title": "Wooden Raised Garden Bed 120 × 60 × 30 cm",
+    "category": "planters",
+    "supplier": "actief",
+    "description": "Raised bed for growing vegetables, herbs and flowers at a comfortable working height, with soil that warms up early in spring.\n• Outer size 120 × 60 × 30 cm, holds about 200 L of soil\n• Pressure-treated pine boards with corner posts\n• Open bottom; weed membrane liner included\n• Slot-together assembly, no tools needed",
+    "images": [
+      "https://images.unsplash.com/photo-1779760346345-669a477fa233?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1779760478460-89c2f9e9c1e3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2699,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 9500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-007",
+    "title": "Aluminium Wind Chime with 6 Tubes, 80 cm",
+    "category": "outdoor-decor",
+    "supplier": "actief",
+    "description": "Wind chime with six tuned aluminium tubes that ring out calm, deep tones in the slightest breeze.\n• Overall length approx. 80 cm, tubes 30–55 cm\n• Anodised aluminium tubes with wooden striker and wind sail\n• Strong nylon cord and hanging ring\n• Weather-resistant for gardens, balconies and porches",
+    "images": [
+      "https://images.unsplash.com/photo-1764064924493-25d80a2285fb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-008",
+    "title": "Garden Gnome Figurines, Set of 2, Hand-Painted Resin",
+    "category": "outdoor-decor",
+    "supplier": "actief",
+    "description": "Cheerful gnomes that bring colour and a bit of fun to flower beds, rockeries, balconies and garden steps.\n• Set of 2, each approx. 20 cm tall\n• Weather-resistant polyresin with hand-painted details\n• UV-stable paint that resists fading\n• Flat base for stable standing outdoors or indoors",
+    "images": [
+      "https://images.unsplash.com/photo-1785579879096-d2ffeb78c51e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517968999727-292e5049d12a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2299,
+    "costPrice": 749,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-009",
+    "title": "Folding Bistro Set 3-Piece: Round Table and 2 Chairs, Powder-Coated Steel",
+    "category": "patio-furniture",
+    "supplier": "actief",
+    "description": "Space-saving metal bistro set for balconies, small patios and garden corners that folds flat for winter storage.\n• Table Ø 60 cm, height 71 cm; chairs 41 × 49 × 82 cm\n• Powder-coated steel frame resists rust\n• Each chair supports up to 110 kg\n• Delivered fully assembled",
+    "images": [
+      "https://images.unsplash.com/photo-1789143677012-5bbee8fe3d23?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781107878035-205cea6b1ef4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 8999,
+    "compareAtPrice": 12999,
+    "costPrice": 4999,
+    "variants": [
+      {
+        "name": "Green",
+        "stock": 40
+      },
+      {
+        "name": "Black",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 13500,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-GRD-010",
+    "title": "Parachute Nylon Hammock with Tree Straps, Holds up to 200 kg",
+    "category": "patio-furniture",
+    "supplier": "actief",
+    "description": "Light, packable hammock for the garden, camping and festivals that sets up between two trees in minutes.\n• Size 270 × 140 cm, breathable 210T parachute nylon\n• Holds up to 200 kg\n• Includes 2 tree straps with 10 loops each and 2 steel carabiners\n• Packs into an attached pouch; weighs 650 g",
+    "images": [
+      "https://images.unsplash.com/photo-1513753833700-6aad41f378b1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1567496662086-7cba3cf0de3a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "Green",
+        "stock": 90
+      },
+      {
+        "name": "Orange",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-011",
+    "title": "Patio Parasol 2.7 m with Crank and Tilt",
+    "category": "patio-furniture",
+    "supplier": "actief",
+    "description": "Large market-style parasol that shades a dining table for 4–6 people on patios, decks and terraces.\n• Canopy Ø 270 cm in 180 g/m² polyester with a UV-resistant, fade-resistant coating\n• Crank opening and push-button tilt\n• Powder-coated steel pole Ø 38 mm with 8 ribs and an air vent\n• Base not included; fits stands for 38 mm poles",
+    "images": [
+      "https://images.unsplash.com/photo-1783125247622-0fa37eba6afd?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1596910715979-6a1ef3bb0731?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 2099,
+    "variants": [
+      {
+        "name": "Beige",
+        "stock": 80
+      },
+      {
+        "name": "Grey",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 4800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-012",
+    "title": "Garden Hose 20 m with Wall Hanger, Connectors and Spray Gun",
+    "category": "watering",
+    "supplier": "actief",
+    "description": "Complete watering set for gardens, balconies and washing the car, ready to connect to an outside tap.\n• 20 m reinforced PVC hose, 13 mm (1/2 inch) inner diameter, kink-resistant\n• 7-pattern spray gun with lockable trigger\n• Tap adaptor, quick connectors and hose stop\n• Steel wall hanger with screws",
+    "images": [
+      "https://images.unsplash.com/photo-1774647001664-90f85d4da5bd?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1774647001091-50d355f802b4?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781594307634-7eda264650e4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 3400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-013",
+    "title": "Galvanised Metal Watering Can 5 L with Removable Rose",
+    "category": "watering",
+    "supplier": "actief",
+    "description": "Traditional watering can for flower beds, pots and greenhouse plants, made to last for years outdoors.\n• Capacity 5 L\n• Hot-dip galvanised steel, rust-resistant\n• Removable rose for a gentle shower, or pour directly from the spout\n• Balanced top and rear handles for easy pouring",
+    "images": [
+      "https://images.unsplash.com/photo-1786459558726-2b672982ba55?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1786461157611-b04e0ca44f48?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 130
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-014",
+    "title": "Rotating Lawn Sprinkler with 3 Arms, Covers up to 113 m²",
+    "category": "watering",
+    "supplier": "actief",
+    "description": "Rotating sprinkler that waters lawns, vegetable plots and flower beds evenly in a full circle.\n• Spray radius adjustable up to 6 m (about 113 m²)\n• 3 adjustable arms with nozzles for fine or coarse spray\n• Stable weighted base with ground spike\n• Standard click connector for 13 mm (1/2 inch) hoses",
+    "images": [
+      "https://images.unsplash.com/photo-1718565524318-b58b8b86b813?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1780772415259-bda4359205a8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 949,
+    "compareAtPrice": 1299,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-015",
+    "title": "Charcoal Kettle Barbecue 47 cm with Lid and Ash Catcher",
+    "category": "grills",
+    "supplier": "actief",
+    "description": "Classic round kettle grill for juicy burgers, sausages and vegetables; close the lid to roast and smoke as well.\n• Cooking grate Ø 47 cm, chrome-plated steel\n• Enamelled bowl and lid with adjustable air vents and lid thermometer\n• Ash catcher and wheels for easy moving\n• Height approx. 90 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1560951105-a23933755abc?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781166431336-e10d4685a560?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2799,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 8500,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-GRD-016",
+    "title": "BBQ Tool Set 5-Piece, Stainless Steel, with Storage Case",
+    "category": "grills",
+    "supplier": "actief",
+    "description": "Long-handled grill tools that keep your hands away from the heat while turning, basting and serving.\n• Tongs, spatula with bottle opener, grill fork, basting brush and grill cleaning brush\n• Brushed stainless steel, 40–45 cm long\n• Heat-resistant handles with hanging loops\n• Zipped storage case",
+    "images": [
+      "https://images.unsplash.com/photo-1560614382-33bd4daa1b9e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1597075349414-e594898d46a9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-017",
+    "title": "Hanging Bird Seed Feeder with 4 Ports and Perches",
+    "category": "bird-care",
+    "supplier": "actief",
+    "description": "Clear tube feeder for sunflower hearts and mixed seed that lets you watch finches, tits and sparrows up close.\n• Height 30 cm, holds about 600 g of seed\n• 4 feeding ports with metal perches\n• UV-resistant polycarbonate tube with metal lid and base\n• Lid lifts off for easy filling and cleaning",
+    "images": [
+      "https://images.unsplash.com/photo-1621807147195-580cddd8f758?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542749420-30441d9e8315?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1599,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-018",
+    "title": "Wooden Bird House Nest Box with Hanging Cord",
+    "category": "bird-care",
+    "supplier": "actief",
+    "description": "Small wooden nest box that gives tits, sparrows and other small garden birds a safe place to raise their young.\n• Size approx. 15 × 13 × 22 cm, entrance hole Ø 32 mm\n• Solid fir wood with weatherproof water-based stain\n• Removable side panel for cleaning at the end of the season\n• Hanging cord and screw eye included; can also be wall-mounted",
+    "images": [
+      "https://images.unsplash.com/photo-1764699186514-399d4c3d0971?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1588033771114-270c4e0c12e2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1249,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "Natural",
+        "stock": 90
+      },
+      {
+        "name": "Yellow",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-019",
+    "title": "Polytunnel Greenhouse 3 × 2 m with Roll-Up Door and Windows",
+    "category": "greenhouse",
+    "supplier": "actief",
+    "description": "Walk-in tunnel greenhouse that extends the growing season for tomatoes, peppers, cucumbers and seedlings.\n• Size 300 × 200 × 200 cm (L × W × H)\n• Reinforced PE cover with roll-up zip door and 4 ventilation windows\n• Galvanised steel tube frame, Ø 19 mm\n• Ground pegs and guy ropes included",
+    "images": [
+      "https://images.unsplash.com/photo-1786377464888-4222d41b8c45?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 6999,
+    "compareAtPrice": 9999,
+    "costPrice": 3899,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 7800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GRD-020",
+    "title": "Seed Starter Kit: 3 Trays with 36 Cells Each and Humidity Domes",
+    "category": "greenhouse",
+    "supplier": "actief",
+    "description": "Start vegetables, herbs and flowers indoors weeks before the outdoor season begins.\n• 3 trays with 36 cells each (108 cells in total)\n• Clear humidity domes with adjustable vents\n• Reusable BPA-free plastic\n• Plant labels and a dibber included",
+    "images": [
+      "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1647550232391-f758832be5c2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "sku": "OLZ-ECP-001",
+    "title": "5 mm LED Assortment, 300 Pieces in 6 Colours with Storage Box",
+    "category": "components",
+    "supplier": "werkbank",
+    "description": "Diffused 5 mm through-hole LEDs for breadboard projects, status indicators and repairs, sorted by colour in a compartment box.\n• Contents: 300 LEDs, 50 each in red, green, blue, yellow, white and orange\n• Forward voltage approx. 2.0–2.2 V (red, yellow, orange) and 3.0–3.2 V (green, blue, white) at 20 mA\n• Longer leg marks the anode for easy polarity identification\n• Use a series resistor when connecting to 5 V or higher",
+    "images": [
+      "https://images.unsplash.com/photo-1649959203405-cf62af043736?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 749,
+    "costPrice": 190,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-002",
+    "title": "Electronic Components Starter Assortment, 1,000 Pieces in Labelled Box",
+    "category": "components",
+    "supplier": "werkbank",
+    "description": "A well-stocked parts box for prototyping, repairs and learning electronics, with the most-used values sorted into labelled compartments.\n• Resistors: 600 pieces in 30 values from 10 Ω to 1 MΩ, 1/4 W, 1% metal film\n• Capacitors: 120 ceramic (10 pF–100 nF) and 60 electrolytic (1–470 µF)\n• Semiconductors: 100 LEDs, 60 diodes and 60 NPN/PNP transistors\n• Supplied in a clear storage box with a printed value chart",
+    "images": [
+      "https://images.unsplash.com/photo-1649622494972-2b9903a61c0b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 640,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-003",
+    "title": "Trimmer Potentiometer Assortment, 130 Pieces in 13 Values, 100 Ω–1 MΩ",
+    "category": "components",
+    "supplier": "werkbank",
+    "description": "Small adjustable resistors for setting voltages, display contrast, sensor thresholds and calibration points on circuit boards.\n• Contents: 130 trimmers, 10 each of 13 values from 100 Ω to 1 MΩ\n• Square top-adjust housing with 3 through-hole pins (2.5 mm pitch)\n• Power rating 0.5 W; tolerance ±10%\n• Supplied in a compartment box with value labels",
+    "images": [
+      "https://images.unsplash.com/photo-1649959265008-f262fa46d9a6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": null,
+    "costPrice": 290,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-004",
+    "title": "Hook-Up Wire Kit 22 AWG, 6 Colours x 10 m, Solid Tinned Copper",
+    "category": "components",
+    "supplier": "werkbank",
+    "description": "Solid-core wire that pushes neatly into breadboards and holds its shape, ideal for prototyping, wiring LEDs and small electronics.\n• Contents: 6 spools x 10 m in black, red, yellow, green, blue and white\n• 22 AWG (0.33 mm²) solid tinned copper with PVC insulation\n• Rated 300 V and up to 80 °C\n• Dispenser box lets wire pull out without tangling",
+    "images": [
+      "https://images.unsplash.com/photo-1761507320645-b11a00bfcc34?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1761507321319-2d59343016f6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 560,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-005",
+    "title": "Breadboard Starter Kit with 830-Point Board, Power Module and Jumper Wires",
+    "category": "dev-boards",
+    "supplier": "werkbank",
+    "description": "Everything you need to start building and testing circuits without soldering, for beginners and quick prototypes alike.\n• 830 tie-point solderless breadboard with adhesive back, approx. 16.5 x 5.5 cm\n• Breadboard power module supplying 3.3 V and 5 V rails (USB or DC jack input)\n• 65 flexible jumper wires in assorted lengths and colours\n• Plus 40 male-to-female and 40 female-to-female jumper cables (20 cm)",
+    "images": [
+      "https://images.unsplash.com/photo-1634452015397-ad0686a2ae2d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1775457480933-a9ca6953ef69?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1399,
+    "costPrice": 420,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-006",
+    "title": "Wi-Fi and Bluetooth Development Board, Dual-Core 240 MHz, USB-C, 2-Pack",
+    "category": "dev-boards",
+    "supplier": "werkbank",
+    "description": "Compact microcontroller boards with built-in wireless connectivity for smart-home sensors, connected gadgets and learning to code.\n• Dual-core 32-bit processor up to 240 MHz with 520 KB SRAM and 4 MB flash\n• 2.4 GHz Wi-Fi (802.11 b/g/n) and Bluetooth 4.2 / low energy\n• USB-C port for power and programming; 3.3 V logic with 30 pins on headers\n• Programmable with popular free, open-source development tools (no software included)",
+    "images": [
+      "https://images.unsplash.com/photo-1631376604263-5d803038b389?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 650,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 50,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-007",
+    "title": "Adjustable DC-DC Step-Down Converter Module, 4.5–24 V In, 5 A, 2-Pack",
+    "category": "dev-boards",
+    "supplier": "werkbank",
+    "description": "Turns a higher DC voltage into a stable, adjustable lower voltage for powering microcontrollers, LED strips, small motors and sensors.\n• Input: 4.5–24 V DC; output: 0.8–20 V adjustable\n• Up to 5 A output (add cooling above 3 A); efficiency up to 92%\n• Screw terminals for input and output; multi-turn trimmer for setting the voltage\n• Board size approx. 6 x 5 cm; pack of 2",
+    "images": [
+      "https://images.unsplash.com/photo-1769148023257-02df7ec903be?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 380,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 80,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-008",
+    "title": "Digital Multimeter with Large LCD, 1999 Counts and Protective Holster",
+    "category": "test-measurement",
+    "supplier": "werkbank",
+    "description": "A full-function multimeter for home electrics, car batteries and electronics projects, with a big display and a rubber holster that absorbs knocks.\n• Measures DC voltage up to 1000 V, AC voltage up to 750 V and current up to 20 A\n• Also measures resistance, capacitance, diodes and transistor gain, with continuity buzzer\n• Safety rating CAT II 600 V; fuse protection on the current ranges\n• Included: silicone test leads, holster and 9 V battery",
+    "images": [
+      "https://images.unsplash.com/photo-1565608438257-fac3c27beb36?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 880,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-ECP-009",
+    "title": "Digital Caliper 150 mm, Stainless Steel with mm/inch LCD Display",
+    "category": "test-measurement",
+    "supplier": "werkbank",
+    "description": "Measure outside and inside diameters, depths and steps quickly and precisely, for workshop, 3D printing and model making.\n• Range 0–150 mm, resolution 0.01 mm, accuracy ±0.03 mm\n• Hardened stainless steel jaws with locking screw and depth rod\n• mm/inch switch, zero at any position and automatic power-off\n• Includes LR44 battery, a spare battery and a protective case",
+    "images": [
+      "https://images.unsplash.com/photo-1758873263563-5ba4aa330799?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 620,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-010",
+    "title": "USB-C and USB-A Power Meter with Colour Display, 4–24 V, 0–3 A",
+    "category": "test-measurement",
+    "supplier": "werkbank",
+    "description": "Plug it in between a charger and a device to see exactly how much voltage, current and power is flowing, for checking chargers, cables and power banks.\n• Measures voltage (4–24 V), current (0–3 A), power, capacity (mAh) and energy (Wh)\n• Detects common fast-charging protocols\n• Colour display with selectable orientation\n• USB-C and USB-A input and output ports; powered by the connection, no battery needed",
+    "images": [
+      "https://images.unsplash.com/photo-1787926652413-fac5d7d064cd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 560,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 130
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 40,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-011",
+    "title": "Soldering Iron Kit 60 W with Adjustable Temperature 200–450 °C, EU Plug",
+    "category": "soldering",
+    "supplier": "werkbank",
+    "description": "A complete starter soldering set for electronics repairs, DIY kits and hobby projects, packed in a carry case.\n• 60 W iron with temperature dial (200–450 °C); EU plug and 1.5 m cable\n• Ceramic heating element heats up in about 30–60 seconds\n• Included: 5 interchangeable tips, stand with cleaning sponge, 0.8 mm lead-free solder wire, desoldering pump and tweezers\n• Use in a ventilated area and always return the iron to its stand",
+    "images": [
+      "https://images.unsplash.com/photo-1521798604188-0d6595d6d6ae?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1560846389-8c7e1d88eca8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 860,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 750,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-ECP-012",
+    "title": "Soldering Practice Kit with PCB Board and Through-Hole Components",
+    "category": "soldering",
+    "supplier": "werkbank",
+    "description": "Learn to solder, or warm up your technique before a real project, on a practice board designed for repetition.\n• Practice PCB with surface-mount pads and through-hole positions in several sizes\n• Includes matching parts: resistors, LEDs, ceramic capacitors and pin headers\n• Step-by-step guide covering technique and how to inspect a good joint\n• Soldering iron and solder not included; ages 14+ with adult supervision",
+    "images": [
+      "https://images.unsplash.com/photo-1767448068187-5be3cbc848c7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": null,
+    "costPrice": 290,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 80,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-013",
+    "title": "Precision Screwdriver Set, 25 Bits with Magnetic Holder for Electronics Repair",
+    "category": "soldering",
+    "supplier": "werkbank",
+    "description": "A compact repair kit for opening phones, laptops, controllers, glasses and small appliances without damaging tiny screws.\n• 25 S2 steel bits: cross PH000–PH2, slotted 1.5–4 mm, star T3–T20, hex 1.5–4 mm, pentalobe and tri-wing\n• Aluminium handle with swivel top and magnetic bit holder\n• Bits stored in a hinged case with labelled slots\n• Includes a flexible extension shaft",
+    "images": [
+      "https://images.unsplash.com/photo-1739124794981-833209d1dcd8?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1712600096151-9949dffdc39a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 380,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-014",
+    "title": "Anti-Static Precision Tweezers Set, 6 Pieces, ESD-Safe Stainless Steel",
+    "category": "soldering",
+    "supplier": "werkbank",
+    "description": "Fine tweezers for placing and holding small parts during soldering, electronics repair, model making and crafts.\n• 6 tweezers with straight, curved, fine-point, flat, rounded and angled tips\n• Non-magnetic stainless steel with ESD-safe coating\n• Length approx. 11.5–14 cm\n• Stored in a zipped protective pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1640955785023-1854685dae05?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 599,
+    "compareAtPrice": null,
+    "costPrice": 240,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 110,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-015",
+    "title": "Electrical Insulating Tape, 10 Rolls 19 mm x 20 m, Flame-Retardant PVC",
+    "category": "industrial-supplies",
+    "supplier": "werkbank",
+    "description": "Stretchy PVC tape for insulating and bundling wires, colour-coding cables and quick repairs around the home and workshop.\n• 10 rolls x 20 m, 19 mm wide, 0.13 mm thick\n• Flame-retardant PVC rated to 600 V and up to 80 °C\n• Stretches and conforms tightly around joints and connectors\n• Choose all black or 10 assorted colours",
+    "images": [
+      "https://images.unsplash.com/photo-1760377821917-722e631cd716?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": 1199,
+    "costPrice": 330,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 150
+      },
+      {
+        "name": "Assorted Colours",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-016",
+    "title": "Nuts, Bolts and Washers Assortment, 600 Pieces M3–M8 in Storage Case",
+    "category": "industrial-supplies",
+    "supplier": "werkbank",
+    "description": "A workshop assortment of the most common metric fasteners, so you always have the right size to hand for repairs and builds.\n• 600 pieces: hex bolts, hex nuts, flat washers and spring washers\n• Sizes M3, M4, M5, M6 and M8; bolt lengths 10–40 mm\n• Zinc-plated carbon steel for corrosion resistance\n• Sorted in a 24-compartment case with a labelled lid",
+    "images": [
+      "https://images.unsplash.com/photo-1769971361558-3e32ddc52388?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1763888450676-f0f7a3987917?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 640,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-017",
+    "title": "Small Parts Storage Cabinet with 24 Clear Drawers, Wall-Mountable",
+    "category": "industrial-supplies",
+    "supplier": "werkbank",
+    "description": "Keep screws, electronic components, fuses and fittings sorted and visible in a compact drawer cabinet for the workshop or hobby room.\n• 24 transparent drawers, each approx. 13 x 6.5 x 4 cm, with label holders\n• Sturdy polypropylene frame; stands on a bench or hangs on the wall (screws and plugs included)\n• Drawer stops prevent drawers falling out when opened\n• Overall size approx. 38 x 15 x 31 cm; cabinets can be stacked",
+    "images": [
+      "https://images.unsplash.com/photo-1527849214787-c99cd25c2f09?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1100,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-018",
+    "title": "Clear Packing Tape, 6 Rolls 48 mm x 66 m with Handheld Dispenser",
+    "category": "packaging",
+    "supplier": "werkbank",
+    "description": "Strong, clear tape for sealing parcels, moving boxes and storage cartons, with a dispenser that makes taping fast and neat.\n• 6 rolls x 66 m, 48 mm wide, 45 µm thick\n• Acrylic adhesive that holds on cardboard in warm and cold conditions\n• Handheld dispenser with serrated blade and blade guard\n• Low-noise unwind",
+    "images": [
+      "https://images.unsplash.com/photo-1760376208573-49ee415fc66c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789309917168-9f55a7552a66?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 560,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-019",
+    "title": "Bubble Wrap Roll 50 cm x 10 m with 10 mm Bubbles, Perforated",
+    "category": "packaging",
+    "supplier": "werkbank",
+    "description": "Cushioning wrap that protects glassware, electronics and other fragile items when moving house or shipping parcels.\n• Roll size: 50 cm x 10 m with 10 mm air bubbles\n• Perforated every 30 cm for easy tearing without scissors\n• Lightweight LDPE film keeps parcel weight low\n• Recyclable where facilities exist",
+    "images": [
+      "https://images.unsplash.com/photo-1791305570240-d20fd5a26fae?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1791305570955-81f0d2129cb1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 380,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ECP-020",
+    "title": "Cardboard Shipping Boxes, Pack of 25, 30 x 20 x 15 cm Single Wall",
+    "category": "packaging",
+    "supplier": "werkbank",
+    "description": "Sturdy brown postal boxes for sending parcels, storing items or moving, delivered flat to save space until you need them.\n• 25 boxes, internal size 30 x 20 x 15 cm\n• Single-wall corrugated cardboard (B flute) in brown kraft\n• Fold and tape to assemble; flaps close flush\n• Made with recycled fibre and fully recyclable",
+    "images": [
+      "https://images.unsplash.com/photo-1782405183431-893f08e24b1a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1624137527136-66e631bdaa0e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2499,
+    "costPrice": 900,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 4500,
+    "featured": false
+  }
+]

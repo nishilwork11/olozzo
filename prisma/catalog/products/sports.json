@@ -1,0 +1,441 @@
+[
+  {
+    "sku": "OLZ-SPT-001",
+    "title": "Resistance Band Set, 5 Levels, with Handles, Door Anchor and Ankle Straps",
+    "category": "fitness",
+    "supplier": "actief",
+    "description": "A complete home gym in a bag: stack the tubes to set the resistance for squats, rows, presses and curls, from warm-ups to hard sets.\n• 5 latex tubes from 4.5 to 13.5 kg, stackable up to about 45 kg (contains natural latex)\n• 2 foam handles, 2 ankle straps and a padded door anchor\n• Metal carabiners and reinforced inner cord\n• Storage bag and illustrated exercise guide included",
+    "images": [
+      "https://images.unsplash.com/photo-1767404890803-228d5390fcd4?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1552226351-1ac7863af926?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 849,
+    "variants": [
+      { "name": "Default", "stock": 250 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-SPT-002",
+    "title": "Vinyl-Coated Cast Iron Kettlebell 8 kg with Wide Grip Handle",
+    "category": "fitness",
+    "supplier": "actief",
+    "description": "A solid cast iron kettlebell for swings, goblet squats and presses, with a vinyl coating that protects floors and keeps the noise down.\n• 8 kg cast iron core with a smooth vinyl coating\n• Wide handle fits both hands for two-handed swings\n• Flat base so it stands upright when stored\n• Height 25 cm, handle opening 13 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1562771241-2e852edfce63?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1754839004013-0276d56bc0e7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1199,
+    "variants": [
+      { "name": "Default", "stock": 90 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 8300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-003",
+    "title": "Adjustable Speed Jump Rope with Ball Bearings and Foam Handles",
+    "category": "fitness",
+    "supplier": "actief",
+    "description": "A fast, tangle-free skipping rope for cardio workouts, boxing training and double-unders.\n• PVC-coated steel cable, adjustable up to 3 m\n• Ball-bearing handles spin smoothly without twisting the cable\n• Soft foam grips for a comfortable, non-slip hold\n• Spare cable and adjustment screws included",
+    "images": [
+      "https://images.unsplash.com/photo-1516876345887-6dd74f80787a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1514994667787-b48ca37155f0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": 1199,
+    "costPrice": 299,
+    "variants": [
+      { "name": "Black", "stock": 220 },
+      { "name": "Pink", "stock": 140 },
+      { "name": "Blue", "stock": 160 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-004",
+    "title": "Non-Slip TPE Yoga Mat 6 mm with Carry Strap, 183 × 61 cm",
+    "category": "yoga",
+    "supplier": "actief",
+    "description": "A cushioned, double-sided yoga mat that grips the floor and your hands, for yoga, pilates and stretching at home or in class.\n• 183 × 61 cm, 6 mm thick TPE foam\n• Textured non-slip surface on both sides\n• Lightweight at about 900 g, with carry strap\n• Free from latex and PVC; wipe clean with mild soap and water",
+    "images": [
+      "https://images.unsplash.com/photo-1763004871583-4183d64096b1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1767605545968-a102fc151b08?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 799,
+    "variants": [
+      { "name": "Purple", "stock": 160 },
+      { "name": "Blue", "stock": 180 },
+      { "name": "Black", "stock": 200 },
+      { "name": "Green", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1000,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-SPT-005",
+    "title": "Yoga Block and Strap Set, 2 EVA Foam Blocks and 2.5 m Cotton Strap",
+    "category": "yoga",
+    "supplier": "actief",
+    "description": "Props that help you hold poses with good alignment, reach further in stretches and build flexibility at your own pace.\n• 2 high-density EVA foam blocks, 23 × 15 × 7.5 cm, with bevelled edges\n• 2.5 m cotton strap with metal D-ring buckle\n• Light, firm and non-slip; easy to wipe clean\n• Suitable for yoga, pilates and everyday stretching routines",
+    "images": [
+      "https://images.unsplash.com/photo-1646239646963-b0b9be56d6b5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1761971975858-c487bc10daab?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Purple", "stock": 140 },
+      { "name": "Grey", "stock": 160 },
+      { "name": "Blue", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-006",
+    "title": "Anti-Burst Exercise Ball 55–75 cm with Foot Pump, for Yoga and Pilates",
+    "category": "yoga",
+    "supplier": "actief",
+    "description": "A thick, anti-burst stability ball for core workouts, pilates and stretching, or as an active seat at your desk.\n• 55 cm (for heights 150–165 cm), 65 cm (165–180 cm) or 75 cm (over 180 cm)\n• 2 mm anti-burst PVC, takes up to 200 kg static load\n• Ribbed, non-slip surface\n• Foot pump and 2 spare plugs included",
+    "images": [
+      "https://images.unsplash.com/photo-1522898467493-49726bf28798?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      { "name": "55 cm", "stock": 120 },
+      { "name": "65 cm", "stock": 180 },
+      { "name": "75 cm", "stock": 100 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-007",
+    "title": "USB Rechargeable Bike Light Set, Front and Rear, Water-Resistant",
+    "category": "cycling",
+    "supplier": "actief",
+    "description": "Bright front and rear lights that make you easier to see on evening rides, and recharge from any USB port.\n• Front light up to 400 lumens with 4 modes; rear light with 6 red modes\n• Built-in batteries: up to 6 hours (front) and 10 hours (rear) per charge\n• IPX5 water resistant for riding in the rain\n• Tool-free rubber mounts fit most handlebars and seat posts\n• Steady modes for road use (check local lighting rules); 2 USB-C cables included",
+    "images": [
+      "https://images.unsplash.com/photo-1579118690145-7753994c2d56?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2199,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Default", "stock": 220 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-008",
+    "title": "Bike Chain Lock with 5-Digit Combination, 90 cm, Fabric Sleeve",
+    "category": "cycling",
+    "supplier": "actief",
+    "description": "A keyless combination chain lock for bikes, e-scooters and gates, long enough to loop around the frame, a wheel and a post.\n• 90 cm hardened steel chain with 6 mm links\n• Resettable 5-digit combination, so there are no keys to lose\n• Fabric sleeve protects your bike's paintwork\n• Weighs about 1 kg; easy to carry in a bag or wrapped around the seat post",
+    "images": [
+      "https://images.unsplash.com/photo-1775209601094-d2e9045652db?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 699,
+    "variants": [
+      { "name": "Black", "stock": 180 },
+      { "name": "Red", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-009",
+    "title": "Aluminium Trekking Poles, Pair, Adjustable 65–135 cm, Anti-Shock",
+    "category": "camping-hiking",
+    "supplier": "actief",
+    "description": "A pair of lightweight walking poles that give extra balance and support on steep, rocky or muddy trails.\n• 7075 aluminium, adjustable from 65 to 135 cm with quick flip locks\n• Built-in anti-shock spring that can be switched off\n• EVA foam grips and adjustable wrist straps\n• Rubber tips plus mud and snow baskets included\n• About 250 g per pole; carry bag included",
+    "images": [
+      "https://images.unsplash.com/photo-1776006534692-2c35e298732a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789455105302-c7fa05e28f8c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Black", "stock": 120 },
+      { "name": "Blue", "stock": 90 },
+      { "name": "Green", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-010",
+    "title": "Camping Hammock with Tree Straps, Parachute Nylon, Holds up to 200 kg",
+    "category": "camping-hiking",
+    "supplier": "actief",
+    "description": "A light, quick-drying hammock that packs down to the size of a water bottle, for camping trips, festivals or the garden.\n• Breathable 210T parachute nylon, 270 × 140 cm\n• Holds up to 200 kg\n• 2 tree-friendly straps with 10 loops each, plus 2 steel carabiners\n• Sets up in minutes; built-in stuff sack, packed size 20 × 12 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1602174207566-41fce5d08e0b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505602905825-fc5da2df670f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 799,
+    "variants": [
+      { "name": "Green", "stock": 140 },
+      { "name": "Orange", "stock": 100 },
+      { "name": "Navy", "stock": 110 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-011",
+    "title": "Rechargeable LED Headlamp with Motion Sensor, 5 Modes, IPX4",
+    "category": "camping-hiking",
+    "supplier": "actief",
+    "description": "A bright, comfortable head torch for camping, hiking and night walks, with a wave-to-switch sensor for when your hands are full.\n• Up to 300 lumens with 5 modes, including red light\n• Motion sensor switches it on and off with a wave of the hand\n• Built-in 1200 mAh battery, about 5 hours on high; charges via USB-C\n• IPX4 splash-proof, with adjustable elastic band and 45° tilting head",
+    "images": [
+      "https://images.unsplash.com/photo-1515444744559-7be63e1600de?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Default", "stock": 240 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-012",
+    "title": "Telescopic Fishing Rod and Reel Combo, 2.1 m, with Line and Lures",
+    "category": "fishing",
+    "supplier": "actief",
+    "description": "A compact starter fishing kit that folds down to fit in a backpack or car boot, ready for lakes, rivers and piers.\n• 2.1 m carbon fibre telescopic rod, collapses to 45 cm\n• Spinning reel with 5+1 ball bearings, pre-spooled with nylon line\n• 10 assorted lures plus hooks, floats and sinkers\n• Carry bag with compartments for every part",
+    "images": [
+      "https://images.unsplash.com/photo-1529230117010-b6c436154f25?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583249598754-b7a2f59651fb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1399,
+    "variants": [
+      { "name": "Default", "stock": 120 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-013",
+    "title": "Fishing Lure Set, 60 Pieces, with Two-Sided Tackle Box",
+    "category": "fishing",
+    "supplier": "actief",
+    "description": "A ready-to-go mix of lures for pike, perch, trout and bass, sorted in a clear tackle box so you can find the right one quickly.\n• 60 pieces: crankbaits, spoons, spinners, soft lures and jig heads\n• Treble and single hooks fitted where needed\n• Sizes from 3 to 10 cm in bright and natural colours\n• Water-resistant two-sided tackle box, 23 × 12 × 4 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1762110751033-882a1ecc63ea?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1570353825353-5daea21cdc4d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Default", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-014",
+    "title": "Football Size 4 or 5, Machine-Stitched, for Grass and Artificial Turf",
+    "category": "team-sports",
+    "supplier": "actief",
+    "description": "A durable training and match ball for the park, the club or the back garden, made to keep its shape after many hard kicks.\n• Size 5 (ages 12+) or size 4 (ages 8–12), 32 panels\n• Soft PU cover, machine-stitched, with butyl bladder for good air retention\n• Suitable for natural grass, artificial turf and hard courts\n• Supplied deflated with inflation needle; pump not included",
+    "images": [
+      "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Size 4", "stock": 120 },
+      { "name": "Size 5", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-015",
+    "title": "Basketball Sizes 5–7, Composite Leather, for Indoor and Outdoor Courts",
+    "category": "team-sports",
+    "supplier": "actief",
+    "description": "A grippy, deep-channel basketball that feels good in the hand on both sports hall floors and outdoor courts.\n• Size 7 (standard men's), size 6 (women's and youth) or size 5 (ages 9–11)\n• Moisture-absorbing composite leather cover\n• Butyl bladder holds air well\n• Ships inflated in a box, with inflation needle",
+    "images": [
+      "https://images.unsplash.com/photo-1627627256672-027a4613d028?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781786501670-82355e5b12c4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      { "name": "Size 5", "stock": 80 },
+      { "name": "Size 6", "stock": 90 },
+      { "name": "Size 7", "stock": 160 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-016",
+    "title": "Anti-Fog Swim Goggles with UV Filter and Adjustable Strap",
+    "category": "water-sports",
+    "supplier": "actief",
+    "description": "Comfortable, leak-resistant goggles for pool training and open water, with wide lenses for a clear view.\n• Anti-fog coated polycarbonate lenses with UV filter\n• Soft silicone seals and an easy-adjust split head strap\n• 3 interchangeable nose bridges for a better fit\n• Hard protective case included; for adults and teens",
+    "images": [
+      "https://images.unsplash.com/photo-1747494749148-c3f5018799c2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781123542514-9b2e234c4ad3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      { "name": "Blue", "stock": 220 },
+      { "name": "Black", "stock": 180 },
+      { "name": "Pink", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 80,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-017",
+    "title": "Snorkel Mask and Dry-Top Snorkel Set with Mesh Carry Bag",
+    "category": "water-sports",
+    "supplier": "actief",
+    "description": "Everything you need to explore the sea on holiday: a wide-view mask and a snorkel with a valve that keeps water out when waves splash over the top.\n• Tempered glass lens with soft silicone skirt\n• Dry-top snorkel with purge valve and flexible silicone mouthpiece\n• Quick-adjust strap buckles\n• Mesh carry bag included; for adults; not a life-saving device",
+    "images": [
+      "https://images.unsplash.com/photo-1544551763-8485fc927679?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1746252000399-8af3d8375b78?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "S/M", "stock": 120 },
+      { "name": "L/XL", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-018",
+    "title": "Ski Goggles with Anti-Fog Double Lens, Over-Glasses Fit, UV400",
+    "category": "winter-sports",
+    "supplier": "actief",
+    "description": "Wide spherical ski and snowboard goggles that fit over most prescription glasses and keep your view clear in snow, wind and bright sun.\n• Double-layer lens with anti-fog coating and UV400 protection\n• Mirrored category 3 lens for sunny days\n• Triple-layer face foam and vents to reduce fogging\n• Fits over most glasses; silicone-backed strap fits over helmets\n• Soft cleaning pouch included",
+    "images": [
+      "https://images.unsplash.com/photo-1768245427630-664cd80ded29?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1768375210833-5908e9d275eb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Black / Silver mirror", "stock": 100 },
+      { "name": "White / Gold mirror", "stock": 80 },
+      { "name": "Blue / Blue mirror", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-019",
+    "title": "Running Phone Armband, Sweat-Resistant, for Phones up to 6.9 Inch",
+    "category": "running",
+    "supplier": "actief",
+    "description": "Carry your phone securely on runs and at the gym, with a clear window so you can still use the touchscreen.\n• Fits most smartphones up to 6.9 inch, with or without a slim case\n• Touchscreen-friendly window and headphone cable opening\n• Breathable, sweat-resistant neoprene and stretch fabric\n• Adjustable strap fits arms 24–42 cm\n• Key pocket and reflective strip for low light",
+    "images": [
+      "https://images.unsplash.com/photo-1480179087180-d9f0ec044897?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 349,
+    "variants": [
+      { "name": "Black", "stock": 240 },
+      { "name": "Grey", "stock": 160 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-020",
+    "title": "Reflective Running Vest with LED Light Bands, USB Rechargeable",
+    "category": "running",
+    "supplier": "actief",
+    "description": "A light, adjustable high-visibility vest that makes you easy to spot when running, cycling or walking the dog after dark.\n• Reflective strips on the front and back plus LED light bands\n• 3 light modes: steady, slow flash and fast flash\n• USB rechargeable, up to 8 hours per charge\n• Elastic straps fit chest sizes 70–130 cm\n• Zipped pocket for keys or cards",
+    "images": [
+      "https://images.unsplash.com/photo-1672350053310-26c40914dca2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1779621750262-ff55157e076b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Orange", "stock": 160 },
+      { "name": "Yellow", "stock": 180 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  }
+]

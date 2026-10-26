@@ -8,6 +8,7 @@ import { centsToInput } from "@/lib/money";
 import { requireSupplier } from "@/lib/supplier";
 import { parseImages } from "@/lib/utils";
 import { updateProduct } from "../../actions";
+import { getCategoryGroups } from "../category-groups";
 
 export default async function EditSupplierProduct({
   params,
@@ -21,7 +22,7 @@ export default async function EditSupplierProduct({
   const { supplier } = await requireSupplier();
   const [product, categories, storeCount] = await Promise.all([
     db.product.findFirst({ where: { id, supplierId: supplier.id }, include: { variants: { where: { position: { lt: 999 } }, orderBy: { position: "asc" } } } }),
-    db.category.findMany({ orderBy: { name: "asc" } }),
+    getCategoryGroups(),
     db.storeProduct.count({ where: { productId: id } }),
   ]);
   if (!product) notFound();

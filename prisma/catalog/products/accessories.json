@@ -1,0 +1,672 @@
+[
+  {
+    "sku": "OLZ-ACC-001",
+    "title": "Polarised Square Sunglasses with UV400 Lenses, Unisex",
+    "category": "sunglasses",
+    "supplier": "oro-luce",
+    "description": "Classic square sunglasses with polarised lenses that cut glare from water, roads and snow. A lightweight everyday pair that suits most face shapes.\n• Frame: matte polycarbonate with spring hinges, total width 142 mm, lens height 45 mm\n• Lenses: polarised TAC, UV400 protection, filter category 3\n• Weight: 26 g\n• Includes a soft pouch and microfibre cleaning cloth",
+    "images": [
+      "https://images.unsplash.com/photo-1584036553516-bf83210aa16c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1610136649349-0f646f318053?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1999,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "Black / Grey Lens",
+        "stock": 140
+      },
+      {
+        "name": "Black / Green Lens",
+        "stock": 90
+      },
+      {
+        "name": "Tortoiseshell / Brown Lens",
+        "stock": 85
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 60,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-ACC-002",
+    "title": "Retro Round Metal Sunglasses, Gold-Tone Frame, UV400",
+    "category": "sunglasses",
+    "supplier": "oro-luce",
+    "description": "Round wire-frame sunglasses with a 1970s feel and a slim gold-tone metal frame. Adjustable nose pads keep them comfortable all day.\n• Frame: alloy metal, lens diameter 50 mm, bridge 21 mm\n• Lenses: tinted, UV400 protection, filter category 3\n• Adjustable silicone nose pads\n• Includes a drawstring pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Gold / Brown Lens",
+        "stock": 110
+      },
+      {
+        "name": "Gold / Green Lens",
+        "stock": 75
+      },
+      {
+        "name": "Silver / Grey Lens",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 45,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-003",
+    "title": "Oversized Square Sunglasses for Women, Gradient Lenses",
+    "category": "sunglasses",
+    "supplier": "oro-luce",
+    "description": "Bold oversized sunglasses with soft gradient lenses and a chunky frame. The large lenses give generous coverage on bright days.\n• Frame: lightweight polycarbonate, total width 148 mm, lens height 55 mm\n• Lenses: gradient tint, UV400 protection, filter category 2\n• Frame weight: 32 g\n• Includes a hard clamshell case",
+    "images": [
+      "https://images.unsplash.com/photo-1577803645773-f96470509666?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1785672021160-29cccd65500d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1699,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Ivory / Brown Gradient",
+        "stock": 95
+      },
+      {
+        "name": "Black / Grey Gradient",
+        "stock": 120
+      },
+      {
+        "name": "Tortoiseshell / Brown Gradient",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 110,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-004",
+    "title": "Cotton Baseball Cap with Adjustable Strap, Unisex",
+    "category": "hats-caps",
+    "supplier": "oro-luce",
+    "description": "A classic six-panel cap in washed cotton twill with a pre-curved peak. The adjustable back strap fits most adult head sizes.\n• Material: 100% cotton twill with a cotton sweatband\n• Fits head circumference 55–61 cm\n• Pre-curved 7 cm peak and embroidered air holes\n• Metal slide buckle at the back",
+    "images": [
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1645266729222-17cd32e06fd0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": 1199,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 150
+      },
+      {
+        "name": "Grey",
+        "stock": 120
+      },
+      {
+        "name": "Yellow",
+        "stock": 60
+      },
+      {
+        "name": "Black",
+        "stock": 180
+      },
+      {
+        "name": "Navy",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 85,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-005",
+    "title": "Ribbed Knit Beanie with Turn-Up Cuff, Unisex",
+    "category": "hats-caps",
+    "supplier": "oro-luce",
+    "description": "A soft, stretchy rib-knit beanie that keeps ears warm on cold mornings. Wear it slouchy or with the cuff turned up.\n• Material: 100% acrylic soft-touch yarn\n• One size, stretches to fit 54–60 cm\n• Length 30 cm unfolded with a double-layer cuff\n• Machine washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1618354691792-d1d42acfd860?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1630691650107-53dd500d2907?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 599,
+    "compareAtPrice": null,
+    "costPrice": 249,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 200
+      },
+      {
+        "name": "Cream",
+        "stock": 130
+      },
+      {
+        "name": "Mustard",
+        "stock": 80
+      },
+      {
+        "name": "Grey",
+        "stock": 150
+      },
+      {
+        "name": "Forest Green",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 70,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-006",
+    "title": "Wide-Brim Woven Straw Sun Hat with Ribbon Band",
+    "category": "hats-caps",
+    "supplier": "oro-luce",
+    "description": "A breezy woven sun hat with a wide brim for beach days, gardens and city breaks. The inner drawstring lets you fine-tune the fit.\n• Material: paper straw with a polyester ribbon band\n• Brim width 9 cm, fits 56–58 cm with the inner adjuster\n• Packable: the brim springs back into shape after folding\n• Weight: 120 g",
+    "images": [
+      "https://images.unsplash.com/photo-1779447810263-9ac2da5cf6f9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1718909603336-62fb533e6027?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "Natural / Cream Band",
+        "stock": 90
+      },
+      {
+        "name": "Natural / Black Band",
+        "stock": 85
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-007",
+    "title": "Soft Brushed Winter Scarf, Extra Long 180 cm",
+    "category": "scarves",
+    "supplier": "oro-luce",
+    "description": "A warm, generously sized scarf with a soft brushed finish that wraps twice around the neck. Short fringed ends add a classic touch.\n• Material: 100% acrylic, brushed on both sides\n• Size: 180 × 30 cm plus 8 cm fringe\n• Machine washable at 30 °C\n• Weight: 180 g",
+    "images": [
+      "https://images.unsplash.com/photo-1457545195570-67f207084966?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1643312892626-80632ef6d7dc?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Grey",
+        "stock": 120
+      },
+      {
+        "name": "Forest Green",
+        "stock": 80
+      },
+      {
+        "name": "Cream",
+        "stock": 100
+      },
+      {
+        "name": "Camel",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-008",
+    "title": "Lightweight Printed Square Scarf, 90 × 90 cm",
+    "category": "scarves",
+    "supplier": "oro-luce",
+    "description": "A silky-smooth printed scarf that works as a neck scarf, head wrap or bag accent. Light enough for spring and summer outfits.\n• Material: 100% polyester satin with neatly rolled edges\n• Size: 90 × 90 cm\n• Wear it as a neckerchief, headband or tied to a bag handle\n• Hand wash cold, cool iron",
+    "images": [
+      "https://images.unsplash.com/photo-1761369332487-777e59fa4bcf?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760727467162-084a855a70f7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": null,
+    "costPrice": 279,
+    "variants": [
+      {
+        "name": "Floral Red",
+        "stock": 90
+      },
+      {
+        "name": "Geometric Blue",
+        "stock": 85
+      },
+      {
+        "name": "Paisley Green",
+        "stock": 70
+      },
+      {
+        "name": "Sunset Orange",
+        "stock": 75
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-009",
+    "title": "Men's Leather Belt with Brushed Pin Buckle, 35 mm",
+    "category": "belts",
+    "supplier": "oro-luce",
+    "description": "A dependable everyday belt cut from split cowhide leather and finished with a brushed pin buckle. Works with jeans and chinos alike.\n• Material: split cowhide leather, zinc alloy buckle\n• Width 35 mm, thickness 3.5 mm\n• Five adjustment holes spaced 2.5 cm apart\n• Length is measured from the buckle to the middle hole",
+    "images": [
+      "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1711443982852-b3df5c563448?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1705493655920-20c572928501?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2299,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "Brown / 95 cm",
+        "stock": 60
+      },
+      {
+        "name": "Brown / 105 cm",
+        "stock": 80
+      },
+      {
+        "name": "Brown / 115 cm",
+        "stock": 50
+      },
+      {
+        "name": "Black / 95 cm",
+        "stock": 70
+      },
+      {
+        "name": "Black / 105 cm",
+        "stock": 90
+      },
+      {
+        "name": "Black / 115 cm",
+        "stock": 55
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-010",
+    "title": "Women's Slim Faux Leather Belt with Gold-Tone Buckle",
+    "category": "belts",
+    "supplier": "oro-luce",
+    "description": "A slim belt for cinching dresses, cardigans and high-waisted trousers. The polished gold-tone buckle adds a neat finishing detail.\n• Material: PU faux leather, zinc alloy buckle\n• Width 20 mm, total length 105 cm with 7 holes\n• Fits waist sizes 68–90 cm\n• Weight: 90 g",
+    "images": [
+      "https://images.unsplash.com/photo-1784832555222-230841ae7b34?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1664286074176-5206ee5dc878?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": null,
+    "costPrice": 329,
+    "variants": [
+      {
+        "name": "Tan",
+        "stock": 110
+      },
+      {
+        "name": "Black",
+        "stock": 140
+      },
+      {
+        "name": "White",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-011",
+    "title": "Touchscreen Knit Gloves with Fleece Lining",
+    "category": "gloves",
+    "supplier": "oro-luce",
+    "description": "Warm knitted gloves with conductive fingertips on the thumb, index and middle finger, so you can use your phone without taking them off. Ribbed cuffs keep the cold out.\n• Material: 95% acrylic, 5% elastane with a brushed fleece lining\n• Conductive pads on three fingertips, work with most smartphones and tablets\n• Silicone grip dots on the palm\n• One size fits most adult hands",
+    "images": [
+      "https://images.unsplash.com/photo-1777713174791-9dc206c3a901?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1679224636670-3c77124fcdf6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": 999,
+    "costPrice": 279,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 180
+      },
+      {
+        "name": "Grey",
+        "stock": 120
+      },
+      {
+        "name": "Navy",
+        "stock": 90
+      },
+      {
+        "name": "Burgundy",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 70,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-012",
+    "title": "Sherpa-Lined Cable Knit Gloves for Winter",
+    "category": "gloves",
+    "supplier": "oro-luce",
+    "description": "Chunky cable-knit gloves with a plush sherpa lining for the coldest days. A long ribbed cuff tucks neatly under coat sleeves.\n• Outer: 100% acrylic cable knit; lining: polyester sherpa\n• Length 24 cm including a 7 cm cuff\n• One size, fits palm widths up to 9.5 cm\n• Machine washable at 30 °C in a laundry bag",
+    "images": [
+      "https://images.unsplash.com/photo-1771089357992-9b74bb5fe110?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 369,
+    "variants": [
+      {
+        "name": "Cream",
+        "stock": 100
+      },
+      {
+        "name": "Grey",
+        "stock": 110
+      },
+      {
+        "name": "Red",
+        "stock": 60
+      },
+      {
+        "name": "Camel",
+        "stock": 75
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 110,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-013",
+    "title": "Satin Scrunchies Set of 6, Soft Hair Ties",
+    "category": "hair-accessories",
+    "supplier": "oro-luce",
+    "description": "Smooth satin scrunchies that hold ponytails and buns with less pulling than ordinary elastic ties. A mixed set of six colours to match any outfit.\n• Material: polyester satin over covered elastic\n• Diameter approx. 10 cm when relaxed\n• Set of 6 assorted colours\n• Suitable for fine, thick and curly hair",
+    "images": [
+      "https://images.unsplash.com/photo-1777795530508-005312461d00?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1788079962459-dceba255d033?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 749,
+    "costPrice": 199,
+    "variants": [
+      {
+        "name": "Neutrals Mix",
+        "stock": 160
+      },
+      {
+        "name": "Pastel Mix",
+        "stock": 140
+      },
+      {
+        "name": "Jewel Tones Mix",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-014",
+    "title": "Polished Metal Hair Clips, Set of 3 Sizes",
+    "category": "hair-accessories",
+    "supplier": "oro-luce",
+    "description": "Polished metal hair clips with a strong spring hinge for half-up styles, twists and low buns. Minimal shapes that look smart from desk to dinner.\n• Material: zinc alloy with a plated finish and steel spring\n• Sizes: 9 cm, 7 cm and 5 cm\n• Firm grip for medium to thick hair\n• Supplied in a reusable organza bag",
+    "images": [
+      "https://images.unsplash.com/photo-1744177762258-c98418b7a4eb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1613405091285-2c3ece70ff2e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": null,
+    "costPrice": 279,
+    "variants": [
+      {
+        "name": "Gold-Tone",
+        "stock": 130
+      },
+      {
+        "name": "Silver-Tone",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 55,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-015",
+    "title": "Bobby Pins 120 Pieces with Storage Tin",
+    "category": "hair-accessories",
+    "supplier": "oro-luce",
+    "description": "Everyday hair grips with a wavy side for extra hold and rounded tips that slide in gently. The flip-top tin keeps them together in a bag or drawer.\n• 120 pins, 5 cm long, steel with a matte coating\n• Rounded protective tips\n• Wavy top side for a secure grip\n• Includes a reusable metal storage tin",
+    "images": [
+      "https://images.unsplash.com/photo-1757472530665-e89976d34f30?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 399,
+    "compareAtPrice": null,
+    "costPrice": 159,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 200
+      },
+      {
+        "name": "Brown",
+        "stock": 150
+      },
+      {
+        "name": "Blonde",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-016",
+    "title": "Men's Leather Bifold Wallet with RFID Blocking Lining",
+    "category": "wallets",
+    "supplier": "oro-luce",
+    "description": "A slim bifold wallet in smooth leather with an RFID-blocking lining that helps shield contactless cards. Plenty of room for cards and notes without the bulk.\n• Material: cowhide leather exterior, RFID-blocking polyester lining\n• 8 card slots, 2 note compartments and 1 ID window\n• Closed size: 11.5 × 9.5 × 1.5 cm\n• Gift box included",
+    "images": [
+      "https://images.unsplash.com/photo-1620109176813-e91290f6c795?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1624538000860-24716b9050f2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1601592996763-f05c9c80a7f1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2499,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "Brown",
+        "stock": 150
+      },
+      {
+        "name": "Black",
+        "stock": 170
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-ACC-017",
+    "title": "Slim Leather Card Holder with 6 Card Slots",
+    "category": "wallets",
+    "supplier": "oro-luce",
+    "description": "A pocket-friendly card holder for days when you only need the essentials. Three slots on each side plus a centre pocket for folded notes.\n• Material: genuine leather with stitched edges\n• 6 card slots and 1 centre pocket, holds up to 10 cards\n• Size: 10.5 × 7.5 × 0.6 cm\n• Weight: 30 g",
+    "images": [
+      "https://images.unsplash.com/photo-1614330316567-11d8e572db16?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Tan",
+        "stock": 120
+      },
+      {
+        "name": "Black",
+        "stock": 150
+      },
+      {
+        "name": "Navy",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 30,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-018",
+    "title": "Plush Bunny Bag Charm Keychain with Checked Skirt",
+    "category": "keychains",
+    "supplier": "oro-luce",
+    "description": "A fluffy bunny charm in a little checked skirt that adds a playful touch to bags, keys and backpacks. The lobster clasp clips on and off in seconds.\n• Material: polyester plush, cotton-blend skirt, alloy clasp and ring\n• Size: approx. 12 cm tall (charm only)\n• Lobster clasp plus split key ring\n• Decorative accessory, not a toy",
+    "images": [
+      "https://images.unsplash.com/photo-1762587596660-738308fe432e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 599,
+    "compareAtPrice": null,
+    "costPrice": 229,
+    "variants": [
+      {
+        "name": "Pink Check",
+        "stock": 140
+      },
+      {
+        "name": "Blue Check",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 40,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-019",
+    "title": "Stainless Steel Heart Keyring with Polished Finish",
+    "category": "keychains",
+    "supplier": "oro-luce",
+    "description": "A sleek heart-shaped keyring cut from stainless steel that resists rust and tarnish in daily use. A small, thoughtful gift for partners and friends.\n• Material: 304 stainless steel, polished finish\n• Heart size: 3.2 × 3 cm; split ring diameter 25 mm\n• Short chain link between heart and ring\n• Comes in a velvet gift pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1727154085760-134cc942246e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 699,
+    "costPrice": 189,
+    "variants": [
+      {
+        "name": "Silver",
+        "stock": 150
+      },
+      {
+        "name": "Gold-Tone",
+        "stock": 100
+      },
+      {
+        "name": "Rose Gold-Tone",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 25,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ACC-020",
+    "title": "Men's Paisley Tie Set with Pocket Square and Cufflinks",
+    "category": "ties-cufflinks",
+    "supplier": "oro-luce",
+    "description": "A coordinated three-piece set for weddings, interviews and office days: a woven paisley tie, a matching pocket square and polished cufflinks. Presented in a gift box, ready to give.\n• Tie: polyester microfibre jacquard, 148 × 8 cm\n• Pocket square: 23 × 23 cm\n• Cufflinks: silver-tone alloy with bullet-back closure\n• Gift box size: 25 × 12 × 4 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1779630389516-334d96704c83?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1558545541-c8e2470bbf71?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2299,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Navy Paisley",
+        "stock": 110
+      },
+      {
+        "name": "Burgundy Paisley",
+        "stock": 80
+      },
+      {
+        "name": "Grey Paisley",
+        "stock": 70
+      },
+      {
+        "name": "Green Paisley",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  }
+]

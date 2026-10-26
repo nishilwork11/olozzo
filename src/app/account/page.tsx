@@ -3,6 +3,7 @@ import { ChevronRight, ShoppingBag } from "lucide-react";
 import { Card, EmptyState, ProductThumb, StatusBadge } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { OPEN_STORE_ENABLED } from "@/lib/features";
 import { formatMoney } from "@/lib/money";
 import { formatDate } from "@/lib/utils";
 
@@ -21,7 +22,13 @@ export default async function AccountOrders() {
           icon={ShoppingBag}
           title="No orders yet"
           description="Orders you place while signed in will appear here with live tracking."
-          action={<Link href="/explore" className="btn btn-primary">Explore stores</Link>}
+          action={
+            OPEN_STORE_ENABLED ? (
+              <Link href="/explore" className="btn btn-primary">Explore stores</Link>
+            ) : (
+              <Link href="/#products" className="btn btn-primary">Start shopping</Link>
+            )
+          }
         />
       </Card>
     );

@@ -1,0 +1,564 @@
+[
+  {
+    "sku": "OLZ-BEA-001",
+    "title": "Hydrating Face Serum with Hyaluronic Acid, 30 ml",
+    "category": "skincare",
+    "supplier": "bella-cura",
+    "description": "A lightweight, fast-absorbing serum that leaves skin feeling soft, smooth and hydrated. Use it morning and evening before your moisturiser.\n• Key ingredients: hyaluronic acid, glycerin and panthenol\n• 30 ml amber glass bottle with dropper\n• Fragrance-free, suitable for all skin types\n• Full ingredient list (INCI) printed on the box",
+    "images": [
+      "https://images.unsplash.com/photo-1781344116880-029945a42b75?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1715750968540-841103c78d47?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1764694187667-f28a05a52c0e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 220
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-002",
+    "title": "Daily Moisturising Face Cream with Shea Butter, 50 ml",
+    "category": "skincare",
+    "supplier": "bella-cura",
+    "description": "A rich yet non-greasy cream for day and night that helps keep skin soft and comfortable. It absorbs quickly, so it sits nicely under make-up.\n• Key ingredients: shea butter, squalane and vitamin E\n• 50 ml glass jar with screw lid\n• Lightly scented, suitable for normal to dry skin\n• Full ingredient list (INCI) printed on the box",
+    "images": [
+      "https://images.unsplash.com/photo-1764694071508-e4b1efcd39bc?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1763503836825-97f5450d155a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1763503834047-ac85c4105c0b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": null,
+    "costPrice": 479,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-003",
+    "title": "Hydrating Sheet Face Masks, Pack of 10",
+    "category": "skincare",
+    "supplier": "bella-cura",
+    "description": "Soft sheet masks soaked in a refreshing essence for an easy at-home pamper session. Leave on for 15–20 minutes, then pat the remaining essence into your skin.\n• 10 individually sealed masks with 25 ml essence each\n• Choose aloe vera, green tea or cucumber essence\n• Breathable cotton-blend sheet that fits most face shapes\n• Single use; full ingredient list on every sachet",
+    "images": [
+      "https://images.unsplash.com/photo-1775642548902-2f60a0aa1405?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1775642545235-ecf37792d1fe?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Aloe Vera",
+        "stock": 150
+      },
+      {
+        "name": "Green Tea",
+        "stock": 120
+      },
+      {
+        "name": "Cucumber",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-004",
+    "title": "18-Shade Eyeshadow Palette, Matte and Shimmer Neutrals",
+    "category": "makeup",
+    "supplier": "bella-cura",
+    "description": "A versatile palette of neutral shades, from soft everyday mattes to light-catching shimmers. Richly pigmented, blendable colours for both day and evening looks.\n• 18 shades: 10 matte and 8 shimmer\n• Pressed powder, 1.2 g per pan (21.6 g in total)\n• Full-size mirror inside the lid\n• Full ingredient list on the packaging",
+    "images": [
+      "https://images.unsplash.com/photo-1768983224486-b4dcd179b4a5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583931537180-7d26921260e4?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533562389935-457b1ae48a39?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Warm Neutrals",
+        "stock": 160
+      },
+      {
+        "name": "Rose Nudes",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-BEA-005",
+    "title": "Matte Liquid Lipstick Set, 4 Long-Wear Shades",
+    "category": "makeup",
+    "supplier": "bella-cura",
+    "description": "Four creamy liquid lipsticks that glide on smoothly and set to a soft matte finish. Pick the classic set of nudes and red or the berry set of pinks and plums.\n• 4 × 3.5 ml tubes with doe-foot applicators\n• Lightweight formula that resists transfer once set\n• Classic set: nude beige, rosewood, terracotta, red; berry set: pink, mauve, plum, berry\n• Full ingredient list on the box",
+    "images": [
+      "https://images.unsplash.com/photo-1760860992755-c432351d47e9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631214499500-2e34edcaccfe?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Classic Set",
+        "stock": 160
+      },
+      {
+        "name": "Berry Set",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-006",
+    "title": "Creamy Satin Lipstick with Vitamin E",
+    "category": "makeup",
+    "supplier": "bella-cura",
+    "description": "A comfortable bullet lipstick with a soft satin finish and rich colour in a single swipe. Vitamin E and jojoba oil help lips feel smooth.\n• 3.8 g bullet in a slim twist-up case\n• Satin finish with buildable coverage\n• Key ingredients: vitamin E and jojoba oil\n• Full ingredient list on the packaging",
+    "images": [
+      "https://images.unsplash.com/photo-1773372238338-f26460145162?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1773372238316-5f080152bcf1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": null,
+    "costPrice": 189,
+    "variants": [
+      {
+        "name": "Coral",
+        "stock": 90
+      },
+      {
+        "name": "Classic Red",
+        "stock": 140
+      },
+      {
+        "name": "Rose Nude",
+        "stock": 120
+      },
+      {
+        "name": "Berry",
+        "stock": 80
+      },
+      {
+        "name": "Mauve",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 30,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-007",
+    "title": "Floral Eau de Parfum for Women, 50 ml",
+    "category": "fragrances",
+    "supplier": "bella-cura",
+    "description": "A bright floral fragrance that opens with pear and bergamot, blooms into jasmine and peony, and settles on a warm musk base. Elegant enough for evenings, light enough for every day.\n• Top notes: pear, bergamot; heart: jasmine, peony; base: white musk, cedar\n• 50 ml glass spray bottle\n• Eau de parfum concentration\n• Flammable: keep away from heat and open flames",
+    "images": [
+      "https://images.unsplash.com/photo-1761659760494-32b921a2449f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1784183972601-17a1b00ea05e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 320,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-008",
+    "title": "Woody Eau de Toilette for Men, 100 ml",
+    "category": "fragrances",
+    "supplier": "bella-cura",
+    "description": "A fresh woody scent that blends citrus and spice with a smooth vetiver and amber base. A versatile everyday fragrance for work and weekends.\n• Top notes: grapefruit, pink pepper; heart: lavender, geranium; base: vetiver, amber, cedarwood\n• 100 ml glass spray bottle\n• Eau de toilette concentration\n• Flammable: keep away from heat and open flames",
+    "images": [
+      "https://images.unsplash.com/photo-1760920250029-36af9369a0bb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1458538977777-0549b2370168?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": null,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-009",
+    "title": "Quick-Dry Nail Polish Set, 6 Colours",
+    "category": "nail-care",
+    "supplier": "bella-cura",
+    "description": "Six glossy nail polishes in a ready-to-wear mix of shades, with a fast-drying formula and a wide brush for even coverage. Two coats give full, rich colour.\n• 6 bottles × 10 ml\n• Touch-dry in about 60 seconds per coat\n• Wide flat brush for smooth application\n• Removes with any standard nail polish remover",
+    "images": [
+      "https://images.unsplash.com/photo-1763987300719-fd27c51a3227?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1759526997116-c8f4f2431869?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1619607146034-5a05296c8f9a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1099,
+    "compareAtPrice": 1599,
+    "costPrice": 439,
+    "variants": [
+      {
+        "name": "Nude Collection",
+        "stock": 120
+      },
+      {
+        "name": "Bright Collection",
+        "stock": 100
+      },
+      {
+        "name": "Autumn Collection",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-010",
+    "title": "Press-On Nails, 24 Pieces in 12 Sizes with Adhesive Tabs",
+    "category": "nail-care",
+    "supplier": "bella-cura",
+    "description": "Salon-look nails in minutes, with no lamp needed. Each set includes 12 sizes so you can find a close fit for every finger.\n• 24 ABS nails in 12 sizes\n• Includes 24 adhesive tabs, a mini nail file and a cuticle stick\n• Wear for up to 7 days with tabs; reusable when removed gently\n• Styles: soft pink almond, tortoiseshell square or glitter mauve coffin",
+    "images": [
+      "https://images.unsplash.com/photo-1610992015762-45dca7fa3a85?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 749,
+    "costPrice": 179,
+    "variants": [
+      {
+        "name": "Soft Pink Almond",
+        "stock": 150
+      },
+      {
+        "name": "Tortoiseshell Square",
+        "stock": 90
+      },
+      {
+        "name": "Glitter Mauve Coffin",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 50,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-011",
+    "title": "Ionic Hair Dryer 2000 W with Diffuser and Concentrator, EU Plug",
+    "category": "hair-care",
+    "supplier": "bella-cura",
+    "description": "A powerful 2000 W hair dryer with an ionic function for smoother, less frizzy results. Three heat settings, two speeds and a cool-shot button let you tailor every style.\n• 2000 W, 220–240 V, EU plug, 1.8 m cord\n• 3 heat and 2 speed settings plus cool shot\n• Includes a slim concentrator nozzle and a diffuser\n• Removable rear filter and hanging loop",
+    "images": [
+      "https://images.unsplash.com/photo-1522336284037-91f7da073525?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3799,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "Grey",
+        "stock": 120
+      },
+      {
+        "name": "Black",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-BEA-012",
+    "title": "Detangling Paddle Hair Brush with Flexible Pins",
+    "category": "hair-care",
+    "supplier": "bella-cura",
+    "description": "A wide paddle brush with flexible ball-tipped pins that glide through knots in wet or dry hair. The cushioned base follows the shape of your head as you brush.\n• Size: 25 × 8.5 cm\n• Nylon pins with rounded tips on an air-cushion pad\n• Suitable for long, thick and curly hair\n• Non-slip handle",
+    "images": [
+      "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1620331317312-74b88bf40907?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 599,
+    "compareAtPrice": null,
+    "costPrice": 229,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 180
+      },
+      {
+        "name": "White",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-013",
+    "title": "Sea Salt Bath Soak with Essential Oils, 500 g",
+    "category": "bath-body",
+    "supplier": "bella-cura",
+    "description": "Coarse sea salt blended with essential oils and dried botanicals for a relaxing, fragrant soak at the end of the day. Dissolves quickly in warm water.\n• 500 g glass jar with wooden scoop\n• Ingredients: sea salt, magnesium sulfate, essential oil, dried botanicals\n• Use 2–3 scoops per bath\n• Full ingredient list on the label",
+    "images": [
+      "https://images.unsplash.com/photo-1550623685-2227f7bbef18?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1636333885549-86304699925f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Lavender",
+        "stock": 140
+      },
+      {
+        "name": "Eucalyptus",
+        "stock": 100
+      },
+      {
+        "name": "Rose",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 720,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-014",
+    "title": "Handmade Olive Oil Soap Bars, Set of 6 Scents",
+    "category": "bath-body",
+    "supplier": "bella-cura",
+    "description": "Six cold-process soap bars made with olive and coconut oils for a creamy, rich lather. A colourful assortment that makes a lovely gift or guest-bathroom set.\n• 6 bars × 100 g\n• Scents: lavender, citrus, rose, oat and honey, mint and sea breeze\n• Palm-oil-free recipe\n• Each bar wrapped in recyclable paper",
+    "images": [
+      "https://images.unsplash.com/photo-1781080922537-7d5338f96e95?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1546552768-9e3a94b38a59?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1783773465109-30a94863dbc2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 680,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-015",
+    "title": "Makeup Brush Set, 14 Pieces with Travel Pouch",
+    "category": "beauty-tools",
+    "supplier": "bella-cura",
+    "description": "A complete set of soft synthetic brushes for foundation, powder, blush, contour, eyeshadow and brows. The roll-up pouch keeps every brush clean and organised.\n• 14 brushes: 6 face and 8 eye brushes\n• Dense synthetic fibres (no animal hair) with aluminium ferrules\n• Wooden handles, 13–18 cm long\n• Includes a PU leather travel pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1620464003286-a5b0d79f32c2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1999,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Rose Gold / Pink",
+        "stock": 120
+      },
+      {
+        "name": "Black / Gold",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-016",
+    "title": "Lighted Vanity Makeup Mirror with 12 Dimmable LED Bulbs",
+    "category": "beauty-tools",
+    "supplier": "bella-cura",
+    "description": "A table-top makeup mirror framed with 12 dimmable LED bulbs for clear, even light while you apply make-up. Touch controls switch between three colour temperatures.\n• Mirror size: 50 × 42 cm\n• 12 LED bulbs, 3 colour modes (warm, natural, cool) with stepless dimming\n• Powered by the included EU plug adapter or by USB\n• Freestanding or wall-mountable",
+    "images": [
+      "https://images.unsplash.com/photo-1551723454-7565a1f5b161?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5999,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 60
+      },
+      {
+        "name": "Black",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 3200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-017",
+    "title": "Bamboo Toothbrushes with Soft Bristles, Pack of 10",
+    "category": "oral-care",
+    "supplier": "bella-cura",
+    "description": "Everyday toothbrushes with bamboo handles and soft nylon bristles. Each handle is numbered so the whole family can tell them apart.\n• 10 brushes, 19 cm long\n• Soft BPA-free nylon bristles\n• Bamboo handles with a water-resistant finish\n• Packed in recyclable kraft paper",
+    "images": [
+      "https://images.unsplash.com/photo-1553691475-f38e4026275b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1633591056817-6f7b3b067c60?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": null,
+    "costPrice": 259,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 260
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-018",
+    "title": "Beard Care Kit with Oil, Balm, Brush and Comb",
+    "category": "mens-grooming",
+    "supplier": "bella-cura",
+    "description": "Everything needed to keep a beard soft, tidy and well shaped, packed in a gift box. The oil and balm share a light cedar and bergamot scent.\n• Beard oil 30 ml and beard balm 60 g\n• Boar-bristle brush and wooden comb\n• Key ingredients: argan, jojoba and sweet almond oils, shea butter (contains nut oil)\n• Gift box: 20 × 15 × 6 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1673350963924-cb4267d9b6eb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1673350963997-fc802e774580?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2499,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-019",
+    "title": "Cordless Hair Clipper with 8 Guide Combs, USB-C Rechargeable",
+    "category": "mens-grooming",
+    "supplier": "bella-cura",
+    "description": "A cordless clipper for home haircuts, fades and beard trims. The stainless steel blade adjusts with a side lever, and eight guide combs cover lengths from 1.5 to 25 mm.\n• Up to 120 minutes of use after a 2-hour charge, with LED battery display\n• 8 guide combs: 1.5, 3, 6, 10, 13, 16, 19 and 25 mm\n• USB-C charging cable included (no plug)\n• Includes cleaning brush, blade oil and storage pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 120
+      },
+      {
+        "name": "Silver",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 480,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-020",
+    "title": "Wooden Massage Tool Set, 5 Pieces",
+    "category": "massage",
+    "supplier": "bella-cura",
+    "description": "A set of smooth beech-wood massage tools for a relaxing self-massage of the back, shoulders, legs and feet. Simple, quiet and needs no batteries.\n• Includes a multi-wheel roller, foot roller, hand paddle, round body roller and scraper board\n• Natural beech wood with a sanded, oiled finish\n• Roller lengths 18–30 cm\n• Stored in a cotton drawstring bag",
+    "images": [
+      "https://images.unsplash.com/photo-1767043088777-1884c2ef6c97?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  }
+]

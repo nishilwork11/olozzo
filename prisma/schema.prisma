@@ -80,11 +80,20 @@ model Supplier {
   fulfillments SupplierOrder[]
 }
 
+// Two levels, like Temu/DHgate: top-level categories (parentId = null) and their subcategories.
+// Products are normally assigned to a subcategory.
 model Category {
-  id       String    @id @default(cuid())
-  name     String    @unique
-  slug     String    @unique
+  id       String     @id @default(cuid())
+  name     String     @unique
+  slug     String     @unique
+  icon     String? // lucide-react icon name shown in the category menu (top level)
+  position Int        @default(0)
+  parentId String?
+  parent   Category?  @relation("CategoryTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children Category[] @relation("CategoryTree")
   products Product[]
+
+  @@index([parentId])
 }
 
 // Supplier catalog product (what merchants import)
@@ -111,6 +120,8 @@ model Product {
   variants      ProductVariant[]
   storeProducts StoreProduct[]
   orderItems    OrderItem[]
+
+  @@index([categoryId])
 }
 
 model ProductVariant {

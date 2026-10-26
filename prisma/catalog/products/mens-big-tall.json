@@ -1,0 +1,511 @@
+[
+  {
+    "sku": "OLZ-MBT-001",
+    "title": "Big & Tall Crew Neck Cotton T-Shirt, Pack of 2",
+    "category": "bigtall-tops",
+    "supplier": "moda-lusa",
+    "description": "Two roomy crew neck tees cut longer in the body and wider through the chest, so they stay tucked in and don't ride up.\n• Material: 100% cotton jersey, 180 g/m²\n• Ribbed crew neck and taped shoulder seams\n• Body length approx. 84 cm in size 3XL; tall sizes add 5 cm\n• Pack of 2: white and grey\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1552642986-ccb41e7059e7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2399,
+    "costPrice": 789,
+    "variants": [
+      { "name": "2XL", "stock": 90 },
+      { "name": "3XL", "stock": 85 },
+      { "name": "4XL", "stock": 60 },
+      { "name": "5XL", "stock": 40 },
+      { "name": "6XL", "stock": 25 },
+      { "name": "2XLT", "stock": 45 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 480,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-MBT-002",
+    "title": "Big & Tall Brushed Flannel Check Shirt",
+    "category": "bigtall-tops",
+    "supplier": "moda-lusa",
+    "description": "A warm brushed-cotton flannel shirt with extra room across the chest and shoulders, plus longer sleeves for taller frames.\n• Material: 100% brushed cotton flannel\n• Button front with two buttoned chest pockets\n• Curved hem, body length approx. 86 cm in size 3XL\n• Check patterns in grey or red tones\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1782227286076-4f5153a8cdac?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1782226728289-f81457b760f5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": null,
+    "costPrice": 1229,
+    "variants": [
+      { "name": "Grey Check / 2XL", "stock": 40 },
+      { "name": "Grey Check / 3XL", "stock": 45 },
+      { "name": "Grey Check / 4XL", "stock": 30 },
+      { "name": "Red Check / 2XL", "stock": 40 },
+      { "name": "Red Check / 3XL", "stock": 45 },
+      { "name": "Red Check / 4XL", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-003",
+    "title": "Big & Tall Long Sleeve Gingham Check Shirt",
+    "category": "bigtall-tops",
+    "supplier": "moda-lusa",
+    "description": "A smart-casual gingham shirt in breathable cotton, cut generously through the body with longer sleeves and tails.\n• Material: 100% cotton poplin\n• Point collar, button front and adjustable two-button cuffs\n• Body length approx. 85 cm in size 3XL\n• Blue and white check\n• Machine wash at 40°C, iron on medium heat",
+    "images": [
+      "https://images.unsplash.com/photo-1623756597226-caa7154b4306?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "2XL", "stock": 50 },
+      { "name": "3XL", "stock": 55 },
+      { "name": "4XL", "stock": 40 },
+      { "name": "5XL", "stock": 25 },
+      { "name": "XLT", "stock": 35 },
+      { "name": "2XLT", "stock": 35 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 330,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-004",
+    "title": "Big & Tall Cotton Pique Polo Shirt",
+    "category": "bigtall-tops",
+    "supplier": "moda-lusa",
+    "description": "A classic polo with a wider cut through the chest and stomach and a longer back hem for an easy, comfortable fit.\n• Material: 100% cotton pique, 210 g/m²\n• Ribbed collar and armbands with a three-button placket\n• Side vents; body length approx. 82 cm in size 3XL\n• Colours: lilac and black\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1775816364124-b305f2b06ce7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1761956255550-e1d6d12e94be?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 879,
+    "variants": [
+      { "name": "Lilac / 2XL", "stock": 35 },
+      { "name": "Lilac / 3XL", "stock": 40 },
+      { "name": "Lilac / 4XL", "stock": 25 },
+      { "name": "Black / 2XL", "stock": 55 },
+      { "name": "Black / 3XL", "stock": 60 },
+      { "name": "Black / 4XL", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 290,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-005",
+    "title": "Big & Tall Crew Neck Knit Sweater",
+    "category": "bigtall-tops",
+    "supplier": "moda-lusa",
+    "description": "A soft, mid-weight jumper with a relaxed cut and extra length in the body and sleeves, made for layering through autumn and winter.\n• Material: 60% cotton, 40% acrylic\n• Ribbed crew neck, cuffs and hem\n• Body length approx. 78 cm in size 3XL\n• Colours: black and red\n• Machine wash at 30°C on a wool cycle; dry flat",
+    "images": [
+      "https://images.unsplash.com/photo-1564586595722-f005a0011aa9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1642886512785-b5fee9faad7f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3299,
+    "compareAtPrice": 4299,
+    "costPrice": 1449,
+    "variants": [
+      { "name": "Black / 2XL", "stock": 40 },
+      { "name": "Black / 3XL", "stock": 45 },
+      { "name": "Black / 4XL", "stock": 35 },
+      { "name": "Black / 5XL", "stock": 20 },
+      { "name": "Red / 2XL", "stock": 30 },
+      { "name": "Red / 3XL", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-006",
+    "title": "Big & Tall Regular Fit Stretch Jeans",
+    "category": "bigtall-bottoms",
+    "supplier": "moda-lusa",
+    "description": "Comfortable regular fit jeans with added stretch and a roomier seat and thigh, offered in larger waist sizes and longer legs.\n• Material: 98% cotton, 2% elastane, mid-blue wash\n• Zip fly with button fastening and five-pocket styling\n• Regular straight leg\n• Leg lengths 32 in and 34 in\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1713880453396-aa0493e308ec?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4499,
+    "costPrice": 1539,
+    "variants": [
+      { "name": "W40 L32", "stock": 45 },
+      { "name": "W42 L32", "stock": 50 },
+      { "name": "W44 L32", "stock": 40 },
+      { "name": "W46 L32", "stock": 30 },
+      { "name": "W40 L34", "stock": 35 },
+      { "name": "W42 L34", "stock": 35 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 780,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-007",
+    "title": "Big & Tall Relaxed Fit Jeans with Comfort Waist",
+    "category": "bigtall-bottoms",
+    "supplier": "moda-lusa",
+    "description": "Easy-wearing relaxed jeans with stretch panels in the waistband and extra room through the hip and thigh for all-day comfort.\n• Material: 99% cotton, 1% elastane denim\n• Hidden stretch panels in the waistband\n• Relaxed straight leg with zip fly\n• Leg length 32 in (81 cm)\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1721637222188-fa7bf56ceaf5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1715758890151-2c15d5d482aa?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3699,
+    "compareAtPrice": null,
+    "costPrice": 1629,
+    "variants": [
+      { "name": "W40", "stock": 40 },
+      { "name": "W42", "stock": 45 },
+      { "name": "W44", "stock": 40 },
+      { "name": "W46", "stock": 30 },
+      { "name": "W48", "stock": 20 },
+      { "name": "W50", "stock": 15 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 820,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-008",
+    "title": "Big & Tall Stretch Chino Trousers with Flexible Waist",
+    "category": "bigtall-bottoms",
+    "supplier": "moda-lusa",
+    "description": "Smart chinos with a hidden elastic section in the waistband that gives up to 5 cm of extra room when you need it.\n• Material: 97% cotton, 3% elastane twill\n• Flexible waistband with belt loops, zip fly and button fastening\n• Two slant pockets and two back welt pockets\n• Leg lengths 32 in and 34 in\n• Colour: beige",
+    "images": [
+      "https://images.unsplash.com/photo-1791573391881-98b6b072e7ff?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1788380944948-f5fe4a3b3a13?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1319,
+    "variants": [
+      { "name": "W40 L32", "stock": 40 },
+      { "name": "W42 L32", "stock": 45 },
+      { "name": "W44 L32", "stock": 35 },
+      { "name": "W46 L32", "stock": 25 },
+      { "name": "W40 L34", "stock": 30 },
+      { "name": "W42 L34", "stock": 30 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 620,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-009",
+    "title": "Big & Tall Cotton Twill Shorts with Elastic Back Waist",
+    "category": "bigtall-bottoms",
+    "supplier": "moda-lusa",
+    "description": "Comfortable knee-length shorts with a partly elasticated waistband and a roomy leg for warm summer days.\n• Material: 100% cotton twill\n• Flat front with elastic at the back, belt loops and zip fly\n• Two side pockets and one back pocket\n• Inseam approx. 25 cm\n• Colour: blue",
+    "images": [
+      "https://images.unsplash.com/photo-1617951907145-53f6eb87a3a3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 869,
+    "variants": [
+      { "name": "2XL", "stock": 55 },
+      { "name": "3XL", "stock": 50 },
+      { "name": "4XL", "stock": 40 },
+      { "name": "5XL", "stock": 25 },
+      { "name": "6XL", "stock": 15 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 340,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-010",
+    "title": "Big & Tall Tapered Stretch Trousers, Black",
+    "category": "bigtall-bottoms",
+    "supplier": "moda-lusa",
+    "description": "Versatile black trousers with a modern tapered leg and four-way stretch, smart enough for work and comfortable enough to wear all day.\n• Material: 88% polyester, 12% elastane\n• Elasticated waistband with drawcord and belt loops\n• Two zip side pockets and one back pocket\n• Tapered leg in 32 in or 34 in length\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1584865288642-42078afe6942?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1584864783592-f1d6d4fcd1d0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3499,
+    "costPrice": 1229,
+    "variants": [
+      { "name": "2XL / L32", "stock": 45 },
+      { "name": "3XL / L32", "stock": 45 },
+      { "name": "4XL / L32", "stock": 35 },
+      { "name": "5XL / L32", "stock": 20 },
+      { "name": "2XL / L34", "stock": 30 },
+      { "name": "3XL / L34", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 480,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-011",
+    "title": "Big & Tall Hooded Puffer Jacket",
+    "category": "bigtall-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A warm puffer jacket with a hood, cut longer and wider for big and tall builds so it covers well and closes comfortably over layers.\n• Shell and lining: 100% polyester; padding: polyester fibre fill\n• Fixed hood and two-way front zip with storm flap\n• Two zip hand pockets and an inner pocket\n• Length approx. 80 cm in size 3XL\n• Colours: black and white",
+    "images": [
+      "https://images.unsplash.com/photo-1769689388217-c3c8fec7099d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1706765779494-2705542ebe74?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": 7999,
+    "costPrice": 2639,
+    "variants": [
+      { "name": "Black / 2XL", "stock": 35 },
+      { "name": "Black / 3XL", "stock": 40 },
+      { "name": "Black / 4XL", "stock": 30 },
+      { "name": "Black / 5XL", "stock": 20 },
+      { "name": "White / 2XL", "stock": 20 },
+      { "name": "White / 3XL", "stock": 20 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1250,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-MBT-012",
+    "title": "Big & Tall Water-Resistant Hooded Rain Jacket",
+    "category": "bigtall-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A lightweight rain jacket with taped seams and an adjustable hood to keep showers out on walks, commutes and festivals.\n• Material: 100% polyester with water-resistant coating; mesh lining\n• Adjustable hood, front zip with storm flap and hook-and-loop cuffs\n• Two zip pockets\n• Length approx. 82 cm in size 3XL\n• Colour: blue with orange",
+    "images": [
+      "https://images.unsplash.com/photo-1567955465163-c355df3b74bf?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1567955465154-078c60ff5c9e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1759,
+    "variants": [
+      { "name": "2XL", "stock": 45 },
+      { "name": "3XL", "stock": 45 },
+      { "name": "4XL", "stock": 35 },
+      { "name": "5XL", "stock": 20 },
+      { "name": "6XL", "stock": 15 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-013",
+    "title": "Big & Tall Hooded Softshell Jacket with Fleece Lining",
+    "category": "bigtall-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A versatile softshell jacket with a soft fleece back, a wind-resistant outer and enough stretch to move freely outdoors.\n• Material: 94% polyester, 6% elastane bonded to a micro-fleece lining\n• Adjustable hood and full-length front zip\n• Two zip hand pockets and a chest pocket\n• Length approx. 80 cm in size 3XL\n• Colour: black",
+    "images": [
+      "https://images.unsplash.com/photo-1721745740020-ed1e8e0d4db8?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1721745848080-3ed6f21e7ba8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": 5999,
+    "costPrice": 1979,
+    "variants": [
+      { "name": "2XL", "stock": 40 },
+      { "name": "3XL", "stock": 40 },
+      { "name": "4XL", "stock": 30 },
+      { "name": "5XL", "stock": 20 },
+      { "name": "2XLT", "stock": 25 },
+      { "name": "3XLT", "stock": 20 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 760,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-014",
+    "title": "Big & Tall Classic Denim Jacket",
+    "category": "bigtall-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A timeless denim trucker jacket in larger and longer sizes, with roomy arms that fit over a hoodie.\n• Material: 100% cotton denim, mid-blue wash\n• Button front with point collar and buttoned cuffs\n• Two chest flap pockets and two side pockets\n• Length approx. 72 cm in size 3XL\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1527016021513-b09758b777bd?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1759,
+    "variants": [
+      { "name": "2XL", "stock": 40 },
+      { "name": "3XL", "stock": 40 },
+      { "name": "4XL", "stock": 30 },
+      { "name": "5XL", "stock": 20 },
+      { "name": "6XL", "stock": 10 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 980,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-015",
+    "title": "Big & Tall Lightweight Packable Windbreaker",
+    "category": "bigtall-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A featherweight windbreaker that folds into its own pocket, handy to keep in a bag for breezy days and light showers.\n• Material: 100% nylon ripstop with water-repellent finish\n• Hood with drawcord and full front zip\n• Elasticated cuffs and drawcord hem\n• Packs into its own chest pocket\n• Colour: yellow",
+    "images": [
+      "https://images.unsplash.com/photo-1697064369450-bdbc429de71a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1649768722440-214c14158d65?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1319,
+    "variants": [
+      { "name": "2XL", "stock": 45 },
+      { "name": "3XL", "stock": 45 },
+      { "name": "4XL", "stock": 35 },
+      { "name": "5XL", "stock": 20 },
+      { "name": "6XL", "stock": 15 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-016",
+    "title": "Big & Tall Quick-Dry Training T-Shirt",
+    "category": "bigtall-activewear",
+    "supplier": "moda-lusa",
+    "description": "A breathable sports tee with a relaxed athletic fit, made from fast-drying fabric for gym sessions, runs and active days.\n• Material: 100% polyester knit, quick-drying\n• Crew neck with flat seams to reduce rubbing\n• Body length approx. 82 cm in size 3XL\n• Colours: grey and black\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1587249247014-079373c40427?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Grey / 2XL", "stock": 50 },
+      { "name": "Grey / 3XL", "stock": 50 },
+      { "name": "Grey / 4XL", "stock": 35 },
+      { "name": "Black / 2XL", "stock": 60 },
+      { "name": "Black / 3XL", "stock": 60 },
+      { "name": "Black / 4XL", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-017",
+    "title": "Big & Tall Fleece Jogger Sweatpants with Zip Pockets",
+    "category": "bigtall-activewear",
+    "supplier": "moda-lusa",
+    "description": "Soft fleece joggers with a tapered leg and ribbed cuffs, sized up for comfort at the gym, on the sofa or out and about.\n• Material: 65% cotton, 35% polyester brushed fleece\n• Elastic waistband with drawcord\n• Two zip side pockets and one back pocket\n• Inside leg 32 in, or 34 in in tall sizes\n• Colour: black",
+    "images": [
+      "https://images.unsplash.com/photo-1635439714465-3ed3e6a122e3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "2XL", "stock": 55 },
+      { "name": "3XL", "stock": 55 },
+      { "name": "4XL", "stock": 40 },
+      { "name": "5XL", "stock": 25 },
+      { "name": "2XLT", "stock": 30 },
+      { "name": "3XLT", "stock": 25 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 560,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-018",
+    "title": "Big & Tall Two-Piece Tracksuit, Zip Jacket and Pants",
+    "category": "bigtall-activewear",
+    "supplier": "moda-lusa",
+    "description": "A matching tracksuit with a full-zip jacket and straight-leg pants in smooth, lightweight fabric for training, travel and lounging.\n• Material: 100% polyester tricot\n• Jacket: stand collar, full zip and two zip pockets\n• Pants: elastic waist with drawcord and zipped ankle openings\n• Set includes jacket and pants\n• Colours: black and navy",
+    "images": [
+      "https://images.unsplash.com/photo-1715609104589-97585b210c6e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 4999,
+    "costPrice": 1759,
+    "variants": [
+      { "name": "Black / 2XL", "stock": 35 },
+      { "name": "Black / 3XL", "stock": 35 },
+      { "name": "Black / 4XL", "stock": 25 },
+      { "name": "Navy / 2XL", "stock": 30 },
+      { "name": "Navy / 3XL", "stock": 30 },
+      { "name": "Navy / 4XL", "stock": 20 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 750,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-019",
+    "title": "Big & Tall Sleeveless Training Tank Top, Pack of 2",
+    "category": "bigtall-activewear",
+    "supplier": "moda-lusa",
+    "description": "Two breathable tank tops with deep armholes and a longer body for lifting, running and hot summer days.\n• Material: 60% cotton, 40% polyester\n• Wide shoulder straps and a curved hem\n• Body length approx. 80 cm in size 3XL\n• Pack of 2: black and white\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549476464-37392f717541?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": null,
+    "costPrice": 789,
+    "variants": [
+      { "name": "2XL", "stock": 60 },
+      { "name": "3XL", "stock": 55 },
+      { "name": "4XL", "stock": 40 },
+      { "name": "5XL", "stock": 25 },
+      { "name": "6XL", "stock": 15 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MBT-020",
+    "title": "Big & Tall Full-Zip Hooded Training Jacket",
+    "category": "bigtall-activewear",
+    "supplier": "moda-lusa",
+    "description": "A lightweight hooded training jacket with a soft-touch finish, ideal for warm-ups, cool-downs and everyday wear.\n• Material: 92% polyester, 8% elastane\n• Fitted hood and full-length front zip\n• Two zip hand pockets and thumbholes in the cuffs\n• Length approx. 80 cm in size 3XL\n• Colour: blue",
+    "images": [
+      "https://images.unsplash.com/photo-1624548140129-74786c5f1279?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1610446309917-65a70484b75a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3299,
+    "compareAtPrice": 3999,
+    "costPrice": 1449,
+    "variants": [
+      { "name": "2XL", "stock": 40 },
+      { "name": "3XL", "stock": 40 },
+      { "name": "4XL", "stock": 30 },
+      { "name": "5XL", "stock": 20 },
+      { "name": "6XL", "stock": 10 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  }
+]

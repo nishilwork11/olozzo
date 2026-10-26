@@ -1,5 +1,26 @@
 import { CheckCircle2 } from "lucide-react";
 import { Logo } from "@/components/ui";
+import { OPEN_STORE_ENABLED } from "@/lib/features";
+
+const PANEL = OPEN_STORE_ENABLED
+  ? {
+      title: ["Sell to 450 million customers", "without holding stock."],
+      points: [
+        "Import products from verified EU suppliers in one click",
+        "Suppliers ship directly to your customers in 2–6 days",
+        "Stripe & Mollie payments: cards, SEPA, iDEAL, Bancontact, Klarna",
+        "VAT calculated automatically for all 27 EU countries",
+      ],
+    }
+  : {
+      title: ["Great products,", "delivered across Europe."],
+      points: [
+        "Shipped from European warehouses, most orders arrive in 2–6 days",
+        "Track every order from your account",
+        "14-day returns, requested online in a few clicks",
+        "Pay with cards, SEPA, iDEAL, Bancontact or Klarna",
+      ],
+    };
 
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -15,16 +36,11 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
         <div className="relative flex h-full flex-col justify-center px-16 text-white">
           <p className="text-sm font-semibold uppercase tracking-widest text-brand-300">Built for Europe</p>
           <h2 className="mt-4 text-4xl font-bold leading-tight">
-            Sell to 450 million customers
-            <br /> without holding stock.
+            {PANEL.title[0]}
+            <br /> {PANEL.title[1]}
           </h2>
           <ul className="mt-10 space-y-4 text-ink-200">
-            {[
-              "Import products from verified EU suppliers in one click",
-              "Suppliers ship directly to your customers in 2–6 days",
-              "Stripe & Mollie payments: cards, SEPA, iDEAL, Bancontact, Klarna",
-              "VAT calculated automatically for all 27 EU countries",
-            ].map((t) => (
+            {PANEL.points.map((t) => (
               <li key={t} className="flex items-start gap-3">
                 <CheckCircle2 className="mt-0.5 shrink-0 text-brand-400" size={20} />
                 <span>{t}</span>

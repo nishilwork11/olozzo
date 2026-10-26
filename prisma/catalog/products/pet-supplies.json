@@ -1,0 +1,443 @@
+[
+  {
+    "sku": "OLZ-PET-001",
+    "title": "Waterproof Dog Raincoat with Hood and Reflective Strips",
+    "category": "dog-supplies",
+    "supplier": "actief",
+    "description": "Keep your dog dry and easy to see on rainy walks with a light, packable raincoat that slips on in seconds.\n• Waterproof polyester shell with soft mesh lining\n• Detachable hood and reflective strips for low light\n• Leash opening on the back for use with a harness\n• Adjustable hook-and-loop chest and belly straps\n• Measure your dog's back length: S 30 cm, M 36 cm, L 42 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1530041539828-114de669390e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1699259160973-760107911ee1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Yellow / S", "stock": 80 },
+      { "name": "Yellow / M", "stock": 100 },
+      { "name": "Yellow / L", "stock": 70 },
+      { "name": "Navy / S", "stock": 50 },
+      { "name": "Navy / M", "stock": 60 },
+      { "name": "Navy / L", "stock": 50 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-002",
+    "title": "Waterproof Dog Car Seat Cover for the Back Seat, Hammock Style",
+    "category": "dog-supplies",
+    "supplier": "actief",
+    "description": "Protects your back seat from muddy paws, hair and scratches, and stops your dog slipping into the footwell.\n• Fits most cars, SUVs and estates; 137 × 147 cm\n• 4-layer waterproof Oxford fabric with non-slip backing\n• Hammock design with side flaps and zipped openings for seat belts\n• Mesh window so your dog can see you\n• Machine washable at 30 °C; carry bag included",
+    "images": [
+      "https://images.unsplash.com/photo-1597893503977-e51f98d178e1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1774538272530-983c1119a5e3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1349,
+    "variants": [
+      { "name": "Black", "stock": 120 },
+      { "name": "Grey", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-003",
+    "title": "Cat Carrier Backpack with Ventilated Window, for Pets up to 8 kg",
+    "category": "cat-supplies",
+    "supplier": "actief",
+    "description": "Take your cat or small dog to the vet, on trips or out exploring in a comfortable backpack carrier with a view.\n• Fits pets up to 8 kg; inside 32 × 25 × 42 cm\n• Ventilation holes and mesh side panels for airflow\n• Clear window shields from wind and rain\n• Padded shoulder straps, chest strap and internal safety leash\n• Removable, washable floor mat",
+    "images": [
+      "https://images.unsplash.com/photo-1788774928836-ab347ea5d291?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1763798709003-f1ac7af27e5c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1349,
+    "variants": [
+      { "name": "Pink", "stock": 90 },
+      { "name": "Grey", "stock": 110 },
+      { "name": "Black", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-004",
+    "title": "Double-Layer Cat Litter Mat, Waterproof, Honeycomb Design, 60 × 45 cm",
+    "category": "cat-supplies",
+    "supplier": "actief",
+    "description": "Catches the litter your cat kicks out or carries on its paws, so less of it ends up scattered around your home.\n• Honeycomb top layer traps granules; waterproof bottom layer holds them\n• 60 × 45 cm, fits in front of most litter boxes\n• Open the side to tip out the collected litter\n• Soft on paws; rinse clean with water",
+    "images": [
+      "https://images.unsplash.com/photo-1727510153658-643787acb16a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      { "name": "Grey", "stock": 200 },
+      { "name": "Beige", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-005",
+    "title": "Sisal Cat Scratching Post 60 cm with Hanging Ball Toy",
+    "category": "cat-supplies",
+    "supplier": "actief",
+    "description": "Gives your cat a place to scratch, stretch and play, which helps spare your sofa and carpets.\n• 60 cm tall post wrapped in natural sisal rope\n• Wide, stable 35 × 35 cm base covered in soft plush\n• Dangling ball toy on a spring\n• Simple screw-together assembly",
+    "images": [
+      "https://images.unsplash.com/photo-1636543459630-8975a3548121?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1642394443976-974f8f6186b6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 849,
+    "variants": [
+      { "name": "Grey", "stock": 120 },
+      { "name": "Beige", "stock": 100 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 2200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-006",
+    "title": "Plush Dog Bed with Raised Rim and Non-Slip Base, 80 × 60 cm",
+    "category": "pet-beds",
+    "supplier": "actief",
+    "description": "A soft, cosy bed with a raised rim your dog can rest its head on and a cushioned base for curling up.\n• 80 × 60 cm, suits dogs up to about 25 kg\n• Short plush cover with thick polyester fibre filling\n• Non-slip, water-resistant base\n• The whole bed is machine washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1581888227599-779811939961?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1598397678815-c5dc869035b8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Grey", "stock": 120 },
+      { "name": "Beige", "stock": 100 },
+      { "name": "Brown", "stock": 70 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-007",
+    "title": "Multi-Level Cat Tree 120 cm with Condo, Hammock and Scratching Posts",
+    "category": "pet-beds",
+    "supplier": "actief",
+    "description": "A climbing, scratching and napping tower that gives indoor cats room to play and a high spot to watch the world.\n• 120 cm tall with 3 platforms, an enclosed condo and a hammock\n• 6 sisal-wrapped scratching posts\n• Soft plush covering and dangling pom-pom toys\n• Wall anchor kit included for extra stability\n• Assembly tools and instructions included",
+    "images": [
+      "https://images.unsplash.com/photo-1759568572593-41dabc3b6029?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1628783592539-cef32fec57e8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2499,
+    "variants": [
+      { "name": "Grey", "stock": 70 },
+      { "name": "Beige", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 9500,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-PET-008",
+    "title": "Dog Rope Toy Set, 10 Pieces, Cotton Chew and Tug Toys",
+    "category": "pet-toys",
+    "supplier": "actief",
+    "description": "A bundle of knotted cotton rope toys for tug-of-war, fetch and chewing, in different shapes to keep playtime interesting.\n• 10 rope toys in assorted shapes and colours, 15–40 cm\n• Strong braided cotton-blend rope\n• For small to large dogs; replace any toy once it frays\n• Always supervise play",
+    "images": [
+      "https://images.unsplash.com/photo-1761591006830-434a9cc31872?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1791209135232-0be355f15c69?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Default", "stock": 220 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-009",
+    "title": "Interactive Cat Feather Wand Set with 10 Refills",
+    "category": "pet-toys",
+    "supplier": "actief",
+    "description": "Bring out your cat's inner hunter with flexible wands and a mix of feather, bell and worm attachments.\n• 2 telescopic wands that extend up to 90 cm\n• 10 swappable refills: feathers, bells and fabric worms\n• Bendy steel wire for lifelike movement\n• Supervise play and store out of reach afterwards",
+    "images": [
+      "https://images.unsplash.com/photo-1747980725888-f9a89611d4dd?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1638826595775-e2eae86cda8e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 349,
+    "variants": [
+      { "name": "Default", "stock": 260 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-010",
+    "title": "Snack-Dispensing Dog Ball, Durable Natural Rubber, 7 cm",
+    "category": "pet-toys",
+    "supplier": "actief",
+    "description": "Fill it with kibble or small snacks and your dog has to roll, nudge and chase the ball to get the rewards out.\n• 7 cm natural rubber ball, bouncy and tough\n• Adjustable opening for different snack sizes\n• Keeps dogs busy and slows down fast eaters\n• Top-rack dishwasher safe; always supervise play",
+    "images": [
+      "https://images.unsplash.com/photo-1508948956644-0017e845d797?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1599867685938-9d7701a2d1ab?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      { "name": "Red", "stock": 180 },
+      { "name": "Blue", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-011",
+    "title": "Self-Cleaning Slicker Brush for Dogs and Cats, One-Click Hair Release",
+    "category": "pet-grooming",
+    "supplier": "actief",
+    "description": "Removes loose hair, tangles and dirt in a few strokes, then clears the bristles with a single click.\n• Fine, bent stainless steel pins with rounded tips\n• Press the button to retract the pins and wipe the hair away\n• Non-slip ergonomic handle\n• Suits short, medium and long coats",
+    "images": [
+      "https://images.unsplash.com/photo-1681305761221-1d0baf420eb0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      { "name": "Grey", "stock": 200 },
+      { "name": "Green", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-012",
+    "title": "Pet Hair Dryer, Low Noise, 3 Heat and 4 Speed Settings, EU Plug",
+    "category": "pet-grooming",
+    "supplier": "actief",
+    "description": "Dries your dog or cat after a bath or a rainy walk much faster than towels, with gentle airflow for calmer drying.\n• 1200 W with 3 heat and 4 airflow settings\n• Low-noise motor, around 60 dB on the lowest setting\n• 4 nozzles including a comb attachment\n• Overheat protection; 2 m cable with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1727510190155-51abda425a82?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1727681200723-9513e4e3c394?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1899,
+    "variants": [
+      { "name": "Default", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-013",
+    "title": "Automatic Pet Feeder 4 L with Meal Timer and Voice Recording",
+    "category": "pet-feeding",
+    "supplier": "actief",
+    "description": "Serves your cat or small dog dry food on schedule, even when you are running late or away for the weekend.\n• 4 L container for dry kibble from 2 to 15 mm\n• Up to 6 meals a day, 1–10 portions each\n• Record a 10-second voice message to call your pet to meals\n• Power adapter with EU plug included, plus backup for 3 × D batteries (not included)\n• Removable stainless steel bowl, dishwasher safe",
+    "images": [
+      "https://images.unsplash.com/photo-1765110278433-7b0d294a1104?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1775387307543-4411d4b4863d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6499,
+    "costPrice": 2399,
+    "variants": [
+      { "name": "White", "stock": 100 },
+      { "name": "Black", "stock": 60 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-014",
+    "title": "Cat Water Fountain 2.5 L with Filters and Quiet Pump",
+    "category": "pet-feeding",
+    "supplier": "actief",
+    "description": "Fresh, filtered running water that tempts cats to drink, with a pump quiet enough to leave on overnight.\n• 2.5 L capacity, several days of water for one cat\n• 3 ways to drink: flower spout, gentle stream and still bowl\n• 2 replaceable carbon filters included\n• Pump stops automatically when the water runs low; USB cable and adapter with EU plug included\n• Dishwasher-safe top",
+    "images": [
+      "https://images.unsplash.com/photo-1772800562154-2a321e304f19?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 849,
+    "variants": [
+      { "name": "White", "stock": 160 },
+      { "name": "Grey", "stock": 100 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-PET-015",
+    "title": "Raised Double Dog Bowl Stand with Stainless Steel Bowls, 2 × 850 ml",
+    "category": "pet-feeding",
+    "supplier": "actief",
+    "description": "Lifts food and water to a comfortable height for medium and large dogs, and stops bowls sliding across the floor.\n• 2 removable stainless steel bowls, 850 ml each\n• Stand 12 cm high with non-slip feet\n• Bowls are dishwasher safe\n• Stand wipes clean with a damp cloth",
+    "images": [
+      "https://images.unsplash.com/photo-1659692679023-9bd14ab700c4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      { "name": "White", "stock": 120 },
+      { "name": "Black", "stock": 100 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-016",
+    "title": "No-Pull Dog Harness, Reflective, with Front and Back Leash Rings",
+    "category": "leashes-collars",
+    "supplier": "actief",
+    "description": "A padded, easy-on harness that spreads pressure across the chest and gives you more control on walks than a collar.\n• Front ring discourages pulling; back ring for relaxed walks\n• Breathable padded mesh with reflective stitching\n• 4 adjustment points and quick-release buckles\n• Sturdy top handle for extra control\n• Chest girth: S 40–55 cm, M 50–65 cm, L 60–80 cm, XL 75–95 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1787561375245-efc541f1ee87?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1777745493227-9f6cdc2ba32b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2299,
+    "costPrice": 699,
+    "variants": [
+      { "name": "Purple / S", "stock": 70 },
+      { "name": "Purple / M", "stock": 90 },
+      { "name": "Orange / M", "stock": 80 },
+      { "name": "Orange / L", "stock": 70 },
+      { "name": "Black / L", "stock": 80 },
+      { "name": "Black / XL", "stock": 50 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-017",
+    "title": "Reflective Nylon Dog Leash 1.5 m with Padded Handle",
+    "category": "leashes-collars",
+    "supplier": "actief",
+    "description": "A strong everyday lead with reflective threads for evening walks and a soft handle that is kind to your hands.\n• 1.5 m long, 2 cm wide double-layer nylon webbing\n• Reflective stitching along the full length\n• Neoprene-padded handle\n• Swivel metal clip helps prevent tangling\n• For dogs up to 40 kg",
+    "images": [
+      "https://images.unsplash.com/photo-1708062270853-ee7c66b69f07?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1708062270783-0e9fa7f4c1c1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 349,
+    "variants": [
+      { "name": "Red", "stock": 200 },
+      { "name": "Black", "stock": 180 },
+      { "name": "Blue", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-018",
+    "title": "Full-Spectrum LED Aquarium Light with Extendable Brackets and Timer",
+    "category": "aquarium",
+    "supplier": "actief",
+    "description": "Shows off the colours of your fish and plants with bright, even light, and a built-in timer keeps a regular day-and-night rhythm.\n• Full-spectrum white, blue and red LEDs with 3 modes and 10 brightness levels\n• Extendable brackets for tanks 30–45 cm or 45–60 cm long\n• Timer for 6, 10 or 12 hours of light a day\n• Waterproof housing; adapter with EU plug included",
+    "images": [
+      "https://images.unsplash.com/photo-1758854486625-2ef3d73853fc?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1691387824643-227cc84127cf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "For 30–45 cm tanks", "stock": 90 },
+      { "name": "For 45–60 cm tanks", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-019",
+    "title": "Nano Aquarium Starter Kit 20 L with Filter, LED Lid and Heater",
+    "category": "aquarium",
+    "supplier": "actief",
+    "description": "Everything you need to set up a small tropical or cold-water aquarium on a desk or shelf.\n• 20 L glass tank, 40 × 25 × 28 cm\n• Lid with built-in LED light and feeding hatch\n• Quiet internal filter (200 l/h) and adjustable 25 W heater\n• Fish net, thermometer and water care guide included\n• Power adapters with EU plug; fish, plants and gravel not included",
+    "images": [
+      "https://images.unsplash.com/photo-1711539137981-ddf32f60c77b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1633465091434-117f2bcffd9d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": null,
+    "costPrice": 2999,
+    "variants": [
+      { "name": "Default", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 6500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PET-020",
+    "title": "Small Animal Wooden Hideout and Chew Toy Set, 10 Pieces",
+    "category": "small-animals",
+    "supplier": "actief",
+    "description": "A natural playset for hamsters, gerbils, rats and dwarf rabbits, with a cosy hideout to sleep in and plenty to gnaw on.\n• Wooden hideout house, 15 × 11 × 10 cm\n• 9 chew toys: fruit-wood sticks, rattan balls, a seesaw and a climbing ladder\n• Natural wood with no paint or varnish\n• Replace chew toys when worn down",
+    "images": [
+      "https://images.unsplash.com/photo-1676918555382-fcd06a483e25?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 499,
+    "variants": [
+      { "name": "Default", "stock": 180 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 500,
+    "featured": false
+  }
+]

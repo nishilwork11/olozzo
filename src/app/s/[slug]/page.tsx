@@ -138,6 +138,7 @@ export default async function StoreHome({
                   compareAtPrice={sp.compareAtPrice}
                   hasVariants={new Set(prices).size > 1}
                   soldOut={sp.product.variants.every((v) => v.stock <= 0)}
+                  sizes="(min-width: 1280px) 300px, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
                 />
               );
             })}

@@ -2,9 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Search, ShieldCheck, Truck, RotateCcw, User } from "lucide-react";
+import { SiteFooter } from "@/components/marketing/SiteFooter";
+import { SiteHeader } from "@/components/marketing/SiteHeader";
 import { CartProvider } from "@/components/store/CartProvider";
 import { CartButton } from "@/components/store/StoreClient";
 import { getCurrentUser } from "@/lib/auth";
+import { HOUSE_STORE_SLUG } from "@/lib/catalog";
 import { formatMoney } from "@/lib/money";
 import { getStorefront } from "@/lib/store";
 
@@ -20,14 +23,30 @@ export default async function StoreLayout({ children, params }: { children: Reac
   const [store, user] = await Promise.all([getStorefront(slug), getCurrentUser()]);
   if (!store) notFound();
 
+  const previewBanner = !store.published && (
+    <div className="bg-amber-400 px-4 py-1.5 text-center text-xs font-semibold text-amber-950">
+      Preview — this store is unpublished and only visible to you.
+    </div>
+  );
+
+  // olozzo's own store is the shop itself: product → cart → checkout keep the site header and footer
+  if (store.slug === HOUSE_STORE_SLUG) {
+    return (
+      <CartProvider storeSlug={store.slug}>
+        <div style={{ "--accent": store.accentColor } as React.CSSProperties} className="flex min-h-screen flex-col">
+          {previewBanner}
+          <SiteHeader liveCart />
+          <main className="flex-1">{children}</main>
+          <SiteFooter />
+        </div>
+      </CartProvider>
+    );
+  }
+
   return (
     <CartProvider storeSlug={store.slug}>
       <div style={{ "--accent": store.accentColor } as React.CSSProperties} className="flex min-h-screen flex-col">
-        {!store.published && (
-          <div className="bg-amber-400 px-4 py-1.5 text-center text-xs font-semibold text-amber-950">
-            Preview — this store is unpublished and only visible to you.
-          </div>
-        )}
+        {previewBanner}
         <div className="px-4 py-2 text-center text-xs font-medium text-white" style={{ background: "var(--accent)" }}>
           {store.freeShippingOver !== null ? `Free EU shipping on orders over ${formatMoney(store.freeShippingOver)}` : "Fast shipping from EU warehouses"} · 14-day returns
         </div>

@@ -1,0 +1,439 @@
+[
+  {
+    "sku": "OLZ-GAM-001",
+    "title": "Wireless Game Controller for PC and Most Consoles, Dual Vibration, 6-Axis Gyro",
+    "category": "gaming-controllers",
+    "supplier": "voltix",
+    "description": "A full-size wireless gamepad with a familiar layout that pairs over Bluetooth with PCs, tablets, smartphones and most current consoles. Twin vibration motors and a motion sensor add feedback in racing and action games.\n• Bluetooth 5.0 with up to 10 m range, or play wired with the included 1 m USB-C cable\n• Built-in 600 mAh battery for about 12 hours of play; full charge in about 2 hours\n• Dual vibration motors, 6-axis gyroscope and turbo button\n• Textured grips and analogue triggers; weight 225 g\n• Works with PCs, most smartphones and tablets, and most consoles that accept standard Bluetooth controllers",
+    "images": [
+      "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1768166206522-dfffc0783b0c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3699,
+    "costPrice": 1199,
+    "variants": [
+      { "name": "Black", "stock": 160 },
+      { "name": "White", "stock": 140 },
+      { "name": "Neon Purple", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 320,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-GAM-002",
+    "title": "Wired USB Gamepad for PC and Laptop, Plug and Play, Dual Vibration, 1.8 m Cable",
+    "category": "gaming-controllers",
+    "supplier": "voltix",
+    "description": "A no-fuss wired controller for PC gaming: plug it into a free USB port and it is ready to go, with no batteries to charge. The long cable reaches comfortably from desk to sofa.\n• Plug and play on PCs and laptops; mode switch on the back for wider game support\n• Two 360° analogue sticks, D-pad and pressure-sensitive triggers\n• Dual vibration motors for in-game feedback\n• Braided 1.8 m USB-A cable\n• Size 15.5 × 10.5 × 6 cm; weight 210 g",
+    "images": [
+      "https://images.unsplash.com/photo-1767476907114-d7bc77571914?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 699,
+    "variants": [
+      { "name": "Black", "stock": 220 },
+      { "name": "White", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 290,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-003",
+    "title": "Telescopic Mobile Game Controller for Most Smartphones, Bluetooth, USB-C Charging",
+    "category": "gaming-controllers",
+    "supplier": "voltix",
+    "description": "Turns your phone into a handheld console. The spring-loaded grip stretches to hold phones from 4.7 to 6.9 inches, with proper sticks, buttons and triggers on both sides, ideal for cloud gaming and games with controller support.\n• Fits most smartphones with 4.7–6.9 in screens (up to 17.5 cm long); slim cases can stay on\n• Bluetooth 5.0 connection for most smartphones and tablets with game controller support\n• Two analogue sticks, D-pad, shoulder buttons and analogue triggers\n• 500 mAh battery for about 15 hours of play; USB-C charging cable included\n• Folds to 18 × 9.5 × 4 cm for your bag; weight 190 g",
+    "images": [
+      "https://images.unsplash.com/photo-1760604359281-b738de589439?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760604359369-45675611f750?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 4499,
+    "costPrice": 1399,
+    "variants": [
+      { "name": "Black", "stock": 140 },
+      { "name": "White", "stock": 110 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-004",
+    "title": "Over-Ear Gaming Headset with Flexible Mic, 3.5 mm Jack, 50 mm Drivers, LED Light",
+    "category": "gaming-headsets",
+    "supplier": "voltix",
+    "description": "A comfortable over-ear headset for long sessions on PCs, consoles, laptops and phones. Large 50 mm drivers bring out footsteps and explosions, and the bendable boom mic keeps team chat clear.\n• 50 mm drivers, 20 Hz–20 kHz frequency response\n• Flexible omnidirectional microphone; in-line volume wheel and mic mute switch\n• Soft protein-leather ear cushions and adjustable padded headband\n• 3.5 mm 4-pole jack plus Y-splitter for PCs with separate mic and audio ports; the USB plug powers the LED lights only\n• Cable length 2.2 m; weight 310 g",
+    "images": [
+      "https://images.unsplash.com/photo-1610041321327-b794c052db27?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1610041321420-a596dd14ebc9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 899,
+    "variants": [
+      { "name": "Black", "stock": 150 },
+      { "name": "White", "stock": 90 },
+      { "name": "Pink", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 480,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-005",
+    "title": "Wireless Gaming Headset, 2.4 GHz Low Latency and Bluetooth, 30-Hour Battery",
+    "category": "gaming-headsets",
+    "supplier": "voltix",
+    "description": "Cut the cable without adding lag: the USB dongle gives a stable 2.4 GHz link for gaming on PCs and most consoles, while Bluetooth mode connects to phones, tablets and laptops.\n• 2.4 GHz wireless via USB-C dongle (USB-A adapter included), up to 12 m range\n• Bluetooth 5.3 for smartphones, tablets and laptops\n• Detachable noise-reducing microphone with mute button on the earcup\n• 1,000 mAh battery for about 30 hours per charge; USB-C charging cable included\n• 40 mm drivers and memory-foam ear cushions; folds flat; weight 270 g",
+    "images": [
+      "https://images.unsplash.com/photo-1599669454699-248893623440?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1610041321063-bbaf5286de89?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": 5999,
+    "costPrice": 2099,
+    "variants": [
+      { "name": "Black", "stock": 120 },
+      { "name": "White", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-006",
+    "title": "USB Gaming Headset with 7.1 Virtual Surround Sound and RGB Earcups",
+    "category": "gaming-headsets",
+    "supplier": "voltix",
+    "description": "A plug-and-play USB headset with a built-in sound chip, so no separate sound card is needed. Virtual 7.1 surround helps you place footsteps and engines around you in shooters and racing games.\n• USB-A connection; stereo works plug and play, and downloadable PC software adds 7.1 surround and light control\n• 50 mm drivers with deep, punchy bass\n• Flip-up boom microphone that mutes when raised\n• Breathable mesh ear cushions and self-adjusting suspension headband\n• 2.1 m braided cable; weight 320 g",
+    "images": [
+      "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1399,
+    "variants": [
+      { "name": "Black", "stock": 130 },
+      { "name": "White", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-007",
+    "title": "60% Compact Mechanical Gaming Keyboard, 61 Keys, Hot-Swappable Switches, RGB",
+    "category": "gaming-keyboards",
+    "supplier": "voltix",
+    "description": "A space-saving 60% layout that keeps the keys you use most and frees up room for wide mouse movements. Hot-swappable sockets let you change switches without soldering.\n• 61 keys, US QWERTY layout, double-shot PBT keycaps; arrows and F-keys on the Fn layer\n• Hot-swappable sockets for 3- and 5-pin mechanical switches; keycap and switch puller included\n• Per-key RGB backlight with 20 preset effects\n• Detachable USB-C cable (1.5 m) and full N-key rollover\n• Size 29.5 × 10.3 × 3.8 cm; weight 580 g",
+    "images": [
+      "https://images.unsplash.com/photo-1637243218672-d338945efdf7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760348213199-cb69ddf323d3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4999,
+    "costPrice": 1699,
+    "variants": [
+      { "name": "Red switches (linear)", "stock": 110 },
+      { "name": "Brown switches (tactile)", "stock": 90 },
+      { "name": "Blue switches (clicky)", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 780,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-008",
+    "title": "Wired RGB Gaming Mouse, Up to 7200 DPI, 7 Programmable Buttons",
+    "category": "gaming-keyboards",
+    "supplier": "voltix",
+    "description": "An ergonomic right-handed gaming mouse with a fast optical sensor and side buttons you can assign to reloads, macros or shortcuts. The rainbow lighting can be switched off for a darker desk.\n• Optical sensor with 6 DPI steps from 800 to 7,200 and 1,000 Hz polling rate\n• 7 buttons including 2 thumb buttons and a DPI switch; remapping via downloadable PC software\n• Main switches rated for 10 million clicks\n• 1.8 m braided cable and smooth PTFE feet\n• Size 12.6 × 7.2 × 4 cm; weight 105 g",
+    "images": [
+      "https://images.unsplash.com/photo-1629429408209-1f912961dbd8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1999,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Black", "stock": 260 },
+      { "name": "White", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-009",
+    "title": "Mechanical Gaming Keyboard and Mouse Set, Full Size, RGB Backlight, Wired",
+    "category": "gaming-keyboards",
+    "supplier": "voltix",
+    "description": "A matching full-size mechanical keyboard and 6-button mouse that set up a complete gaming desk in one go. Clicky blue switches give crisp feedback with every keystroke.\n• 104-key full-size US QWERTY layout with blue mechanical switches and N-key rollover\n• RGB backlight with 18 effects and adjustable brightness; floating keycaps are easy to clean\n• Mouse with 4 DPI steps up to 6,400 and RGB light ring\n• Aluminium top plate and fold-out feet\n• USB-A plugs with 1.6 m braided cables; keyboard 44 × 13.5 × 3.6 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1771521971801-b24e291166d1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1777691973962-12dfdd860807?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1899,
+    "variants": [
+      { "name": "Black", "stock": 120 },
+      { "name": "White", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 1350,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-010",
+    "title": "Ergonomic Gaming Chair with Headrest and Lumbar Cushion, 155° Recline",
+    "category": "gaming-chairs",
+    "supplier": "voltix",
+    "description": "A racing-style chair with a high backrest, removable headrest pillow and lumbar cushion for comfortable support through long gaming or work sessions.\n• PU leather cover over high-density foam; seat width 52 cm, backrest height 80 cm\n• Backrest reclines from 90° to 155°, with lockable rocking function\n• Height-adjustable seat on a class 4 gas lift; linked armrests fold up\n• Steel frame and nylon five-star base with 60 mm casters; max load 150 kg\n• Self-assembly in about 20 minutes; tools included",
+    "images": [
+      "https://images.unsplash.com/photo-1770194993269-2521ad916c23?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1770195483917-b3bb444b7a29?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1770195555068-37103df33bf8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 12999,
+    "compareAtPrice": 17999,
+    "costPrice": 6999,
+    "variants": [
+      { "name": "Black / Red", "stock": 60 },
+      { "name": "Black / Blue", "stock": 45 },
+      { "name": "Black / White", "stock": 35 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 8,
+    "weightGrams": 18500,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-GAM-011",
+    "title": "Gaming Desk 120 × 60 cm with Carbon Fibre Texture, Cup Holder and Headset Hook",
+    "category": "gaming-chairs",
+    "supplier": "voltix",
+    "description": "A sturdy Z-frame desk with space for a monitor, keyboard and speakers, plus handy extras that keep drinks and headphones off the desktop.\n• Desktop 120 × 60 cm, height 75 cm; MDF top with carbon fibre-look laminate\n• Powder-coated steel Z-frame with adjustable feet for uneven floors\n• Clip-on cup holder and headset hook included\n• Two cable grommets and a rear cable tray keep wires tidy\n• Max load 80 kg; self-assembly, tools included",
+    "images": [
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1775410631936-7de96322df0b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 8999,
+    "compareAtPrice": 12999,
+    "costPrice": 4799,
+    "variants": [
+      { "name": "Black", "stock": 70 },
+      { "name": "White", "stock": 40 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 8,
+    "weightGrams": 21000,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-012",
+    "title": "Dual Charging Stand for Wireless Controllers with USB-C Port, LED Indicators",
+    "category": "gaming-charging",
+    "supplier": "voltix",
+    "description": "Keeps two controllers charged and tidy between sessions. Each cradle has a USB-C connector, so it suits most wireless controllers that charge via USB-C.\n• Charges two controllers at the same time; about 2.5 hours for a full charge\n• LED indicator per slot: red while charging, green when full\n• Powered via the included 1 m USB cable from a console, PC or any 5 V USB adapter (adapter not included)\n• Protection against overcharging, overheating and short circuits\n• Non-slip base; size 14 × 8.5 × 5 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1611696830380-c2b5cb3fe675?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2299,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Black", "stock": 180 },
+      { "name": "White", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-013",
+    "title": "Headset Stand with RGB Light Base and 2 USB Ports, Aluminium Arm",
+    "category": "gaming-charging",
+    "supplier": "voltix",
+    "description": "Gives your headset a proper place on the desk instead of the corner of the monitor. The base adds two handy USB ports and a soft ring of light.\n• Aluminium arm with a soft silicone rest that protects the headband\n• RGB light ring with 9 modes; touch button to change or switch off\n• 2 × USB-A 2.0 ports for data and charging small devices (5 V), connected to your PC by a 1.5 m USB cable\n• Weighted non-slip base; height 27 cm\n• Fits most over-ear gaming headsets and headphones",
+    "images": [
+      "https://images.unsplash.com/photo-1646771032150-6243ff3aea4d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1710265029735-434f63c672c4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 899,
+    "variants": [
+      { "name": "Black", "stock": 150 },
+      { "name": "White", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-014",
+    "title": "Padded Travel Bag for Game Consoles, Controllers and Accessories",
+    "category": "gaming-cases",
+    "supplier": "voltix",
+    "description": "A padded shoulder bag that carries a home console and its extras to a friend's place or on holiday. Movable dividers keep the console, controllers, cables and games apart.\n• Main compartment 40 × 30 × 12 cm fits most full-size and slim consoles\n• 10 mm foam padding on all sides; water-repellent polyester outer\n• Movable hook-and-loop dividers, mesh cable pockets and a front zip pocket for game cases\n• Padded carry handle and detachable shoulder strap\n• Weight 850 g",
+    "images": [
+      "https://images.unsplash.com/photo-1640041538049-057eaa9bc82f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1299,
+    "variants": [
+      { "name": "Black", "stock": 120 },
+      { "name": "Grey", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 950,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-015",
+    "title": "Hard Shell Carrying Case for Controllers, Water-Resistant, Pick-and-Pluck Foam",
+    "category": "gaming-cases",
+    "supplier": "voltix",
+    "description": "A tough, lockable case that protects controllers and their cables in a backpack or suitcase. The pre-cut foam can be shaped to fit almost any controller or small accessory.\n• Impact-resistant polypropylene shell with rubber seal and pressure-release valve\n• Pick-and-pluck foam insert; inner size 28 × 20 × 9 cm\n• Holds two standard controllers plus cables, or one handheld console\n• Two snap latches with padlock holes (padlock not included)\n• Outer size 33 × 26 × 11 cm; weight 1.2 kg",
+    "images": [
+      "https://images.unsplash.com/photo-1672765032482-073b9e9dcca1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1199,
+    "variants": [
+      { "name": "Black", "stock": 110 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 1350,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-016",
+    "title": "VR Headset for Smartphones 4.7–6.8 in, Adjustable Lenses, with Bluetooth Remote",
+    "category": "vr-accessories",
+    "supplier": "voltix",
+    "description": "An easy way to enjoy 3D films, 360° videos and VR apps with the phone you already have. Slide the phone into the front tray, set the lenses and the soft strap, and you are ready.\n• Fits most smartphones with 4.7–6.8 in screens\n• Adjustable focus and lens distance; resin lenses with about 100° field of view\n• Breathable face foam, three-way adjustable head strap and room for most glasses\n• Bluetooth remote with joystick for menus and simple games (2 × AAA batteries, not included)\n• Recommended for ages 12+; take a short break every 30 minutes",
+    "images": [
+      "https://images.unsplash.com/photo-1758526213714-a0743a6c101f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1758526213704-00abd491c31b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "White", "stock": 120 },
+      { "name": "Black", "stock": 100 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-017",
+    "title": "Disposable VR Eye Masks, 100 Pack, Breathable Covers for Shared Headsets",
+    "category": "vr-accessories",
+    "supplier": "voltix",
+    "description": "Single-use fabric covers that sit between your face and the headset foam, keeping it cleaner when a VR headset is shared at home, at parties or at events.\n• 100 individually wrapped masks\n• Soft, breathable non-woven fabric with pre-cut eye openings\n• Elastic band fits most standalone and PC VR headsets\n• One size, 23 × 9 cm\n• Use once, then dispose of with household waste",
+    "images": [
+      "https://images.unsplash.com/photo-1554474051-0256b98c36f8?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1538388149542-5e24932d11a8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1149,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      { "name": "White", "stock": 180 },
+      { "name": "Black", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 350,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-018",
+    "title": "XXL Gaming Mouse Pad 90 × 40 cm, Stitched Edges, Non-Slip Rubber Base",
+    "category": "gaming-accessories",
+    "supplier": "voltix",
+    "description": "A desk-sized mouse pad that fits your keyboard and mouse together, with plenty of room for full-arm swipes at low sensitivity. The smooth cloth surface glides evenly with optical and laser sensors.\n• Size 90 × 40 cm, 4 mm thick\n• Micro-weave cloth surface balanced for speed and control\n• Anti-fray stitched edges and natural rubber base that stays in place\n• Water-resistant coating; wipe clean with a damp cloth\n• Ships rolled; lies flat after a few hours",
+    "images": [
+      "https://images.unsplash.com/photo-1587749091716-f7b291a87f87?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1899,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Black", "stock": 200 },
+      { "name": "Grey", "stock": 120 },
+      { "name": "Pink", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-019",
+    "title": "Silicone Thumb Grip Caps for Controllers, 8 Pieces, Two Heights",
+    "category": "gaming-accessories",
+    "supplier": "voltix",
+    "description": "Soft, textured caps that slip over analogue sticks for extra grip and finer aim. The set mixes tall and low caps so you can find what suits your play style.\n• 8 caps: 4 tall concave caps (+6 mm) and 4 low convex caps (+2 mm)\n• Soft silicone with an anti-slip texture; washable with water\n• Fits most standard analogue sticks on console and PC controllers\n• Push on and pull off without tools\n• Small storage pouch included",
+    "images": [
+      "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 449,
+    "compareAtPrice": null,
+    "costPrice": 189,
+    "variants": [
+      { "name": "Black", "stock": 300 },
+      { "name": "Mixed colours", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 40,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-GAM-020",
+    "title": "Phone Cooling Fan for Mobile Gaming, Semiconductor Cooler with Clip, USB-C",
+    "category": "gaming-accessories",
+    "supplier": "voltix",
+    "description": "A clip-on cooler that draws heat away from the back of your phone during long gaming sessions, helping to keep frame rates steady. The spring clamp holds most phones, even with a slim case.\n• Semiconductor cooling plate with a quiet 7-blade fan\n• Spring clamp fits phones 6.5–9 cm wide\n• Powered via the included 1 m USB-C cable; use a 5 V / 2 A USB adapter or power bank (not included)\n• RGB light ring that can be switched off\n• Size 6.8 × 6.6 × 3.2 cm; weight 75 g",
+    "images": [
+      "https://images.unsplash.com/photo-1639656333010-b6a054423b63?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1738830260465-6d1aead840f1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2299,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Black", "stock": 160 },
+      { "name": "White", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": false
+  }
+]
