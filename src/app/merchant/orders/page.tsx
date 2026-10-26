@@ -1,7 +1,10 @@
+import type { Metadata } from "next";
 import { OrderStatusTabs, OrdersTable } from "@/components/orders/OrdersTable";
 import { PageHeader } from "@/components/ui";
 import { db } from "@/lib/db";
 import { requireMerchantStore } from "@/lib/merchant";
+
+export const metadata: Metadata = { title: "Orders · Merchant" };
 
 export default async function MerchantOrders({ searchParams }: { searchParams: Promise<{ status?: string }> }) {
   const { status } = await searchParams;

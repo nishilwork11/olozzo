@@ -13,7 +13,7 @@ export function GameFrame({ slug, children }: { slug: GameSlug; children: React.
     <div className="mx-auto max-w-6xl px-4 pb-16 pt-5 sm:px-6 sm:pt-8">
       <Link
         href="/games"
-        className="inline-flex items-center gap-1.5 rounded-lg py-1 text-sm font-semibold text-brand-700 hover:text-brand-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+        className="inline-flex items-center gap-1.5 rounded-lg py-1 text-sm font-semibold text-plum-700 hover:text-plum-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-plum-500"
       >
         <ArrowLeft size={16} aria-hidden="true" /> Back to games
       </Link>
@@ -34,12 +34,12 @@ export function GameFrame({ slug, children }: { slug: GameSlug; children: React.
         <aside className="space-y-4" aria-label={`About ${game.name}`}>
           <section className="card p-5">
             <h2 className="flex items-center gap-2 font-bold text-ink-900">
-              <Info size={18} className="text-brand-600" aria-hidden="true" /> How to play
+              <Info size={18} className="text-plum-600" aria-hidden="true" /> How to play
             </h2>
             <ol className="mt-3 space-y-2.5 text-sm text-ink-600">
               {game.howTo.map((text, i) => (
                 <li key={text} className="flex gap-2.5">
-                  <span className="grid h-5 w-5 shrink-0 place-items-center rounded-full bg-brand-100 text-[11px] font-bold text-brand-800" aria-hidden="true">
+                  <span className="grid h-5 w-5 shrink-0 place-items-center rounded-full bg-plum-100 text-[11px] font-bold text-plum-800" aria-hidden="true">
                     {i + 1}
                   </span>
                   <span>{text}</span>
@@ -57,8 +57,8 @@ export function GameFrame({ slug, children }: { slug: GameSlug; children: React.
             </dl>
           </section>
 
-          <p className="flex gap-3 rounded-2xl border border-brand-200 bg-brand-50 p-4 text-sm text-brand-900">
-            <Sparkles size={18} className="mt-0.5 shrink-0 text-brand-600" aria-hidden="true" />
+          <p className="flex gap-3 rounded-2xl border border-plum-200 bg-plum-50 p-4 text-sm text-plum-900">
+            <Sparkles size={18} className="mt-0.5 shrink-0 text-plum-600" aria-hidden="true" />
             <span>
               <strong>Just for fun.</strong> There are no prizes, coupons or sign-up. Your best score is saved only in this browser.
             </span>
@@ -75,7 +75,7 @@ export function GameFrame({ slug, children }: { slug: GameSlug; children: React.
                   <li key={g.slug}>
                     <Link
                       href={`/games/${g.slug}`}
-                      className="group flex items-center gap-3 rounded-xl border border-ink-200 bg-white p-3 transition hover:border-brand-300 hover:bg-brand-50/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+                      className="group flex items-center gap-3 rounded-xl border border-ink-200 bg-white p-3 transition hover:border-plum-300 hover:bg-plum-50/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-plum-500"
                     >
                       <span className={cn("grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-gradient-to-br text-white", g.gradient)}>
                         <OtherIcon size={18} aria-hidden="true" />
@@ -84,7 +84,7 @@ export function GameFrame({ slug, children }: { slug: GameSlug; children: React.
                         <span className="block font-semibold text-ink-900">{g.name}</span>
                         <span className="block truncate text-xs text-ink-500">{g.tagline}</span>
                       </span>
-                      <ArrowRight size={16} className="shrink-0 text-ink-400 transition group-hover:text-brand-600" aria-hidden="true" />
+                      <ArrowRight size={16} className="shrink-0 text-ink-400 transition group-hover:text-plum-600" aria-hidden="true" />
                     </Link>
                   </li>
                 );

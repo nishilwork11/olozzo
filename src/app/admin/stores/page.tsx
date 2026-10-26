@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import { SubmitButton } from "@/components/client";
@@ -6,6 +7,8 @@ import { db } from "@/lib/db";
 import { formatMoney } from "@/lib/money";
 import { PLANS } from "@/lib/plans";
 import { updateStoreAdmin } from "../actions";
+
+export const metadata: Metadata = { title: "Stores · Admin" };
 
 export default async function AdminStores({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

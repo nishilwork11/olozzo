@@ -83,22 +83,22 @@ function canMove(tiles: Tile[]): boolean {
 
 const TILE_COLORS: Record<number, string> = {
   2: "bg-white text-ink-800",
-  4: "bg-brand-100 text-brand-900",
-  8: "bg-brand-300 text-brand-950",
-  16: "bg-brand-400 text-brand-950",
-  32: "bg-lime-200 text-lime-950",
-  64: "bg-lime-300 text-lime-950",
-  128: "bg-teal-200 text-teal-950",
-  256: "bg-teal-300 text-teal-950",
-  512: "bg-cyan-200 text-cyan-950",
-  1024: "bg-cyan-300 text-cyan-950",
-  2048: "bg-yellow-300 text-yellow-950 ring-4 ring-yellow-200/80",
+  4: "bg-sun-100 text-ink-900",
+  8: "bg-sun-300 text-ink-950",
+  16: "bg-sun-400 text-ink-950",
+  32: "bg-coral-200 text-coral-900",
+  64: "bg-coral-300 text-coral-900",
+  128: "bg-coral-400 text-ink-950",
+  256: "bg-coral-500 text-white",
+  512: "bg-plum-400 text-white",
+  1024: "bg-plum-600 text-white",
+  2048: "bg-plum-800 text-sun-300 ring-4 ring-sun-300/80",
 };
 
 function tileClass(value: number): string {
   const size =
     value < 100 ? "text-3xl sm:text-4xl" : value < 1000 ? "text-2xl sm:text-3xl" : value < 10000 ? "text-xl sm:text-2xl" : "text-base sm:text-xl";
-  return cn(TILE_COLORS[value] ?? "bg-ink-900 text-lime-300", size);
+  return cn(TILE_COLORS[value] ?? "bg-ink-900 text-sun-400", size);
 }
 
 export function Game2048() {
@@ -201,7 +201,7 @@ export function Game2048() {
                   <span
                     key={gain.key}
                     aria-hidden="true"
-                    className={cn("pointer-events-none absolute inset-x-0 -top-1 text-center text-sm font-extrabold text-brand-600 opacity-0", styles.gain)}
+                    className={cn("pointer-events-none absolute inset-x-0 -top-1 text-center text-sm font-extrabold text-plum-600 opacity-0", styles.gain)}
                   >
                     +{gain.value}
                   </span>
@@ -224,7 +224,7 @@ export function Game2048() {
           aria-label="2048 board"
           className={cn(
             styles.board,
-            "select-none rounded-2xl bg-brand-700 shadow-inner focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-300",
+            "select-none rounded-2xl bg-plum-700 shadow-inner focus:outline-none focus-visible:ring-4 focus-visible:ring-plum-300",
             status === "playing" && "touch-none",
           )}
         >
@@ -233,7 +233,7 @@ export function Game2048() {
             {grid.map((row, r) => (
               <div role="row" key={r} className={styles.row}>
                 {row.map((value, c) => (
-                  <div role="cell" key={c} className="aspect-square rounded-lg bg-brand-800/50 sm:rounded-xl">
+                  <div role="cell" key={c} className="aspect-square rounded-lg bg-plum-800/50 sm:rounded-xl">
                     <span className="sr-only">{value || "empty"}</span>
                   </div>
                 ))}
@@ -280,7 +280,7 @@ export function Game2048() {
                     setMessage("Keep going! Use the arrow keys or swipe.");
                     boardRef.current?.focus({ preventScroll: true });
                   }}
-                  className="btn btn-lg bg-white text-brand-800 shadow-sm hover:bg-brand-50"
+                  className="btn btn-lg bg-white text-plum-800 shadow-sm hover:bg-plum-50"
                 >
                   Keep playing
                 </button>

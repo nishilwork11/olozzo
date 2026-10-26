@@ -32,7 +32,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
         </div>
       </div>
       <div className="relative hidden overflow-hidden bg-ink-950 lg:block">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(16,185,129,0.35),transparent_55%),radial-gradient(circle_at_80%_80%,rgba(163,230,53,0.18),transparent_50%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(244,123,88,0.32),transparent_55%),radial-gradient(circle_at_80%_80%,rgba(255,200,87,0.18),transparent_50%)]" />
         <div className="relative flex h-full flex-col justify-center px-16 text-white">
           <p className="text-sm font-semibold uppercase tracking-widest text-brand-300">Built for Europe</p>
           <h2 className="mt-4 text-4xl font-bold leading-tight">

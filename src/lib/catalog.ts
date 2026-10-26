@@ -4,6 +4,7 @@ import { unstable_cache } from "next/cache";
 import { cache } from "react";
 import { db } from "@/lib/db";
 import { parseImages } from "@/lib/utils";
+import trendingList from "../../prisma/catalog/trending.json";
 
 // Shop catalog queries (Temu/DHgate-style shop): category tree, product listings with search,
 // filters, sorting and pagination, and the homepage rails. Server-only.
@@ -286,12 +287,32 @@ async function matchingRows(where: Prisma.StoreProductWhereInput): Promise<Light
   return rows.filter((r) => (seen.has(r.productId) ? false : (seen.add(r.productId), true)));
 }
 
+/**
+ * Search relevance for the default sort: listings with the term in their title first, then those in a category
+ * named after it, then the ones that only mention it in the description. The order within each group is kept.
+ */
+async function rankBySearch(rows: LightRow[], where: Prisma.StoreProductWhereInput, term: string): Promise<LightRow[]> {
+  const contains = { contains: term, mode: "insensitive" as const };
+  const [inTitle, inCategory] = await Promise.all([
+    db.storeProduct.findMany({ where: { AND: [where, { title: contains }] }, select: { id: true } }),
+    db.storeProduct.findMany({ where: { AND: [where, { product: { category: { name: contains } } }] }, select: { id: true } }),
+  ]);
+  const titleIds = new Set(inTitle.map((r) => r.id));
+  const categoryIds = new Set(inCategory.map((r) => r.id));
+  const score = (r: LightRow) => (titleIds.has(r.id) ? 2 : categoryIds.has(r.id) ? 1 : 0);
+  return [...rows].sort((a, b) => score(b) - score(a));
+}
+
 /** Search/browse the shop: filters, sorting and pagination. */
 export async function getShopListings(query: ShopQuery = {}): Promise<ShopPage> {
   const pageSize = Math.min(Math.max(query.pageSize ?? 40, 1), 100);
   const where = await buildWhere(query);
   if (!where) return { items: [], total: 0, page: 1, pageSize, pageCount: 0 };
-  const rows = sortRows(await matchingRows(where), query.sort ?? "recommended");
+  const sort = query.sort ?? "recommended";
+  const term = query.q?.trim().slice(0, 100);
+  let rows = sortRows(await matchingRows(where), sort);
+  // A sort the shopper picked (price, newest, discount) wins over relevance
+  if (term && sort === "recommended") rows = await rankBySearch(rows, where, term);
   const pageCount = Math.ceil(rows.length / pageSize);
   const page = Math.min(Math.max(query.page ?? 1, 1), Math.max(pageCount, 1));
   const ids = rows.slice((page - 1) * pageSize, page * pageSize).map((r) => r.id);
@@ -325,6 +346,21 @@ export async function getPopular(limit: number): Promise<ShopListing[]> {
   const sold = new Map(sales.map((s) => [s.productId, s._sum.quantity ?? 0]));
   const ranked = sortRows(rows, "recommended").sort((a, b) => (sold.get(b.productId) ?? 0) - (sold.get(a.productId) ?? 0));
   return fetchListings(ranked.slice(0, limit).map((r) => r.id));
+}
+
+/**
+ * "Trending now": the products in prisma/catalog/trending.json, which ranks what shoppers search for most this
+ * month (market research, not our own sales). In rank order; SKUs the shop doesn't list yet are skipped.
+ */
+export async function getTrending(limit = trendingList.products.length): Promise<ShopListing[]> {
+  const skus = trendingList.products.map((t) => t.sku);
+  const rows = await db.storeProduct.findMany({
+    where: { ...(await listingScope()), product: { ...shopProductWhere, sku: { in: skus } } },
+    select: { id: true, product: { select: { sku: true } } },
+  });
+  const listingBySku = new Map<string, string>();
+  for (const r of rows) if (!listingBySku.has(r.product.sku)) listingBySku.set(r.product.sku, r.id);
+  return fetchListings(skus.flatMap((sku) => listingBySku.get(sku) ?? []).slice(0, limit));
 }
 
 /** Products from the same category, for "You may also like". */

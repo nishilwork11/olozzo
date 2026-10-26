@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useActionState, useState } from "react";
-import { AlertCircle, Factory, Loader2, ShoppingBag, Store } from "lucide-react";
+import { AlertCircle, Factory, ShoppingBag, Store } from "lucide-react";
+import { SunsetLoader } from "@/components/SunsetLoader";
 import { registerAction } from "@/app/actions/auth";
 import { EU_COUNTRIES } from "@/lib/eu";
 import { OPEN_STORE_ENABLED } from "@/lib/features";
@@ -19,6 +20,12 @@ const ROLE_OPTIONS: { id: RegisterRole; title: string; text: string; icon: typeo
 export function RegisterForm({ initialRole }: { initialRole: RegisterRole }) {
   const [state, action, pending] = useActionState(registerAction, undefined);
   const [role, setRole] = useState<RegisterRole>((state?.fields?.role as RegisterRole) || initialRole);
+  // Kept in state so a failed attempt (e.g. e-mail already in use) doesn't clear them: React resets the form after
+  // every action (the password is never sent back from the server). The password input is controlled; the
+  // checkboxes keep their tick through defaultChecked, which is what a form reset restores.
+  const [password, setPassword] = useState("");
+  const [terms, setTerms] = useState(false);
+  const [marketing, setMarketing] = useState(false);
   const f = state?.fields;
 
   return (
@@ -70,7 +77,17 @@ export function RegisterForm({ initialRole }: { initialRole: RegisterRole }) {
           <label htmlFor="password" className="label">
             Password
           </label>
-          <input id="password" name="password" type="password" minLength={8} required className="input" autoComplete="new-password" />
+          <input
+            id="password"
+            name="password"
+            type="password"
+            minLength={8}
+            required
+            className="input"
+            autoComplete="new-password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
           <p className="mt-1 text-xs text-ink-500">At least 8 characters.</p>
         </div>
 
@@ -113,7 +130,14 @@ export function RegisterForm({ initialRole }: { initialRole: RegisterRole }) {
 
       <div className="space-y-2 text-sm">
         <label className="flex items-start gap-2">
-          <input type="checkbox" name="terms" className="mt-0.5 h-4 w-4 rounded border-ink-300" required />
+          <input
+            type="checkbox"
+            name="terms"
+            className="mt-0.5 h-4 w-4 rounded border-ink-300"
+            required
+            defaultChecked={terms}
+            onChange={(e) => setTerms(e.target.checked)}
+          />
           <span className="text-ink-600">
             I agree to the{" "}
             <Link href="/legal/terms" className="font-medium text-ink-900 underline" target="_blank">
@@ -127,13 +151,19 @@ export function RegisterForm({ initialRole }: { initialRole: RegisterRole }) {
           </span>
         </label>
         <label className="flex items-start gap-2">
-          <input type="checkbox" name="marketing" className="mt-0.5 h-4 w-4 rounded border-ink-300" />
+          <input
+            type="checkbox"
+            name="marketing"
+            className="mt-0.5 h-4 w-4 rounded border-ink-300"
+            defaultChecked={marketing}
+            onChange={(e) => setMarketing(e.target.checked)}
+          />
           <span className="text-ink-600">Send me product news and tips (optional, unsubscribe any time).</span>
         </label>
       </div>
 
       <button type="submit" disabled={pending} className="btn btn-primary btn-lg w-full">
-        {pending && <Loader2 size={18} className="animate-spin" />}
+        {pending && <SunsetLoader size={18} tone="current" label={null} />}
         {role === "MERCHANT" ? "Create my store" : role === "SUPPLIER" ? "Apply as supplier" : "Create account"}
       </button>
     </form>

@@ -13,7 +13,7 @@ export type GameInfo = {
   /** One line for the hub card and the game page */
   tagline: string;
   icon: LucideIcon;
-  /** Tailwind gradient stops for the card artwork and icon tile (green brand family only) */
+  /** Tailwind gradient stops for the card artwork and icon tile (Sunset colours only) */
   gradient: string;
   howTo: string[];
   controls: { input: string; action: string }[];
@@ -25,7 +25,7 @@ export const GAMES: GameInfo[] = [
     name: "Memory Match",
     tagline: "Flip the cards and find all 8 pairs.",
     icon: Brain,
-    gradient: "from-brand-500 to-brand-700",
+    gradient: "from-plum-500 to-plum-700",
     howTo: [
       "Flip two cards per turn. If they show the same item, they stay face up.",
       "If they don't match, they turn back over — try to remember where they were.",
@@ -42,7 +42,7 @@ export const GAMES: GameInfo[] = [
     name: "2048",
     tagline: "Slide and merge the tiles to reach 2048.",
     icon: Grid2x2,
-    gradient: "from-teal-500 to-brand-700",
+    gradient: "from-coral-500 to-plum-700",
     howTo: [
       "Every move slides all tiles as far as they go in one direction.",
       "Two tiles with the same number merge into one — and their sum is added to your score.",
@@ -58,7 +58,7 @@ export const GAMES: GameInfo[] = [
     name: "Sliding Puzzle",
     tagline: "Put the tiles back in order from 1 to 15.",
     icon: Puzzle,
-    gradient: "from-lime-500 to-brand-600",
+    gradient: "from-sun-500 to-coral-700",
     howTo: [
       "Slide tiles into the empty space until they read 1 to 15, left to right, top to bottom.",
       "You can move a whole row or column at once by picking a tile in line with the gap.",
@@ -74,7 +74,7 @@ export const GAMES: GameInfo[] = [
     name: "Snake",
     tagline: "Eat the apples and grow — don't bite your tail.",
     icon: Worm,
-    gradient: "from-brand-600 to-teal-700",
+    gradient: "from-plum-600 to-coral-600",
     howTo: [
       "Steer the snake to the apple. Every apple makes it one longer and adds a point.",
       "The snake speeds up a little with every apple.",

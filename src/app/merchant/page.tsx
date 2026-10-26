@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { CheckCircle2, Circle, Euro, Package, Receipt, RotateCcw, ShoppingBag, TrendingUp } from "lucide-react";
 import { BarChart, Card, CardHeader, Flash, PageHeader, StatCard, StatusBadge } from "@/components/ui";
@@ -7,6 +8,8 @@ import { formatMoney } from "@/lib/money";
 import { paymentOptions } from "@/lib/payments";
 import { planFor } from "@/lib/plans";
 import { formatDate, lastDays } from "@/lib/utils";
+
+export const metadata: Metadata = { title: "Dashboard · Merchant" };
 
 export default async function MerchantHome({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

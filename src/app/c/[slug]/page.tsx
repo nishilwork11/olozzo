@@ -82,7 +82,7 @@ export default async function CategoryPage({ params, searchParams }: { params: R
           />
 
           <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1">
-            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-brand-600 text-white">
+            <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-brand-50 text-brand-700 ring-1 ring-inset ring-brand-100">
               <Icon size={20} aria-hidden="true" />
             </span>
             <h1 className="text-2xl font-bold tracking-tight text-ink-950 sm:text-3xl">{category.name}</h1>

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import type { Prisma } from "@prisma/client";
 import { Check, Clock, MapPin, Search } from "lucide-react";
@@ -10,6 +11,8 @@ import { formatMoney } from "@/lib/money";
 import { retailFromCost } from "@/lib/pricing";
 import { parseImages } from "@/lib/utils";
 import { importProduct } from "../actions";
+
+export const metadata: Metadata = { title: "Find products · Merchant" };
 
 export default async function CatalogPage({
   searchParams,

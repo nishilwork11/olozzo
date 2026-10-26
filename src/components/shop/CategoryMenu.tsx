@@ -182,7 +182,7 @@ export function CategoryMenu({ categories }: { categories: MenuCategory[] }) {
           requestAnimationFrame(() => itemRefs.current[index]?.focus());
         }}
         className={cn(
-          "inline-flex h-9 items-center gap-2 rounded-full bg-brand-600 pl-3.5 pr-3 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-700 focus-visible:ring-offset-2",
+          "inline-flex h-9 items-center gap-2 rounded-full bg-ink-900 pl-3.5 pr-3 text-sm font-semibold text-white shadow-sm transition hover:bg-ink-800 focus-visible:ring-offset-2",
           FOCUS_RING,
         )}
       >

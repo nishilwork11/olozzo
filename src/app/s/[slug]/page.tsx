@@ -63,7 +63,7 @@ export default async function StoreHome({
             // eslint-disable-next-line @next/next/no-img-element
             <img src={store.bannerUrl} alt="" className="absolute inset-0 h-full w-full object-cover" />
           ) : (
-            <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, var(--accent), #0f172a)" }} />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, var(--accent), #180F17)" }} />
           )}
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
           <div className="relative mx-auto max-w-7xl px-4 py-24 text-white sm:px-6 md:py-32">

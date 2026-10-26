@@ -507,5 +507,32 @@
     "shippingDaysMax": 5,
     "weightGrams": 2800,
     "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-021",
+    "title": "Bluetooth Key Finder Tag with Loud Ring, for Keys, Bags and Luggage",
+    "category": "electronics",
+    "supplier": "voltix",
+    "description": "A small tracker tag for the things you misplace most: tap it in the app and it rings so you can follow the sound.\n• 85 dB ring up to 60 m away; the app shows where the tag was last connected\n• Press the tag's button to ring a phone that is set to silent\n• Works with Android and iOS through the free companion app\n• Replaceable CR2032 battery lasting up to 12 months; key ring included",
+    "images": [
+      "https://images.unsplash.com/photo-1645163315215-5a0e6725161e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 550,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 200
+      },
+      {
+        "name": "White",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 1,
+    "shippingDaysMax": 4,
+    "weightGrams": 40,
+    "featured": false
   }
 ]

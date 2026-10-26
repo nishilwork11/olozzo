@@ -437,5 +437,29 @@
     "shippingDaysMax": 5,
     "weightGrams": 150,
     "featured": false
+  },
+  {
+    "sku": "OLZ-SPT-021",
+    "title": "Insulated Stainless Steel Water Bottle 750 ml, Leak-Proof",
+    "category": "fitness",
+    "supplier": "actief",
+    "description": "A double-wall vacuum bottle that keeps water cold all day at the gym, in the office or on a hike.\n• Keeps drinks cold for 24 hours or hot for 12 hours\n• 18/8 food-grade stainless steel; BPA-free lid with a leak-proof seal\n• Powder-coated, sweat-free outside that does not slip in the hand\n• Fits most car cup holders; wash the lid by hand",
+    "images": [
+      "https://images.unsplash.com/photo-1664714628878-9d2aa898b9e3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1598443053960-0e8608b282fd?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1598410924570-6e37b6c54fe6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2499,
+    "costPrice": 650,
+    "variants": [
+      { "name": "Silver", "stock": 140 },
+      { "name": "Lavender", "stock": 100 },
+      { "name": "Black", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 400,
+    "featured": false
   }
 ]

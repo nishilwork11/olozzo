@@ -7,6 +7,7 @@ export function ProductGrid({
   items,
   label,
   eager = 0,
+  ranked = false,
   className,
 }: {
   items: ShopListing[];
@@ -14,6 +15,8 @@ export function ProductGrid({
   label?: string;
   /** how many of the first cards load their image right away */
   eager?: number;
+  /** the items are in rank order: number the cards #1, #2… */
+  ranked?: boolean;
   className?: string;
 }) {
   return (
@@ -23,7 +26,7 @@ export function ProductGrid({
     >
       {items.map((listing, i) => (
         <li key={listing.id}>
-          <ProductCard listing={listing} eager={i < eager} />
+          <ProductCard listing={listing} eager={i < eager} rank={ranked ? i + 1 : undefined} />
         </li>
       ))}
     </ul>

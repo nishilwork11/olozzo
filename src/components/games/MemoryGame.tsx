@@ -159,7 +159,7 @@ export function MemoryGame() {
                 aria-label={item && faceUp ? `Card ${i + 1}: ${item.name}${matched ? ", matched" : ""}` : `Card ${i + 1}, face down`}
                 aria-disabled={!item || matched || !!result || undefined}
                 className={cn(
-                  "aspect-square rounded-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-400 focus-visible:ring-offset-2",
+                  "aspect-square rounded-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-plum-400 focus-visible:ring-offset-2",
                   styles.flipScene,
                   matched && styles.matched,
                 )}
@@ -170,11 +170,11 @@ export function MemoryGame() {
                     aria-hidden="true"
                     className={cn(
                       styles.face,
-                      "grid place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 shadow-sm ring-1 ring-inset ring-black/5",
+                      "grid place-items-center rounded-xl bg-gradient-to-br from-plum-500 to-plum-700 shadow-sm ring-1 ring-inset ring-black/5",
                     )}
                   >
                     <span className="relative h-[34%] w-[34%] rounded-full border-[3px] border-white/90 sm:border-4">
-                      <span className="absolute -right-1.5 -top-1.5 h-2 w-2 rounded-full bg-lime-300 sm:h-2.5 sm:w-2.5" />
+                      <span className="absolute -right-1.5 -top-1.5 h-2 w-2 rounded-full bg-sun-400 sm:h-2.5 sm:w-2.5" />
                     </span>
                   </span>
                   {/* Front */}
@@ -184,7 +184,7 @@ export function MemoryGame() {
                       styles.face,
                       styles.faceFront,
                       "grid place-items-center rounded-xl border-2 shadow-sm",
-                      matched ? "border-brand-400 bg-brand-50 text-brand-600" : "border-brand-200 bg-white text-brand-700",
+                      matched ? "border-plum-400 bg-plum-50 text-plum-600" : "border-plum-200 bg-white text-plum-700",
                     )}
                   >
                     {item && <item.Icon className="h-1/2 w-1/2" strokeWidth={1.75} />}
@@ -199,7 +199,7 @@ export function MemoryGame() {
           <Overlay
             title={
               <span className="inline-flex items-center gap-2">
-                <PartyPopper className="text-brand-600" size={28} aria-hidden="true" /> You did it!
+                <PartyPopper className="text-plum-600" size={28} aria-hidden="true" /> You did it!
               </span>
             }
             actions={

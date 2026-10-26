@@ -27,7 +27,7 @@ export function SectionHeader({
       <div className="flex min-w-0 flex-wrap items-center gap-x-3 gap-y-1.5">
         <h2 id={id} className="flex items-center gap-2 text-lg font-bold tracking-tight text-ink-950 sm:text-xl">
           {Icon && (
-            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-lg bg-brand-600 text-white">
+            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-lg bg-brand-50 text-brand-700 ring-1 ring-inset ring-brand-100">
               <Icon size={16} aria-hidden="true" />
             </span>
           )}

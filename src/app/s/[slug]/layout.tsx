@@ -10,6 +10,7 @@ import { getCurrentUser } from "@/lib/auth";
 import { HOUSE_STORE_SLUG } from "@/lib/catalog";
 import { formatMoney } from "@/lib/money";
 import { getStorefront } from "@/lib/store";
+import { UI } from "@/lib/theme";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
@@ -33,7 +34,8 @@ export default async function StoreLayout({ children, params }: { children: Reac
   if (store.slug === HOUSE_STORE_SLUG) {
     return (
       <CartProvider storeSlug={store.slug}>
-        <div style={{ "--accent": store.accentColor } as React.CSSProperties} className="flex min-h-screen flex-col">
+        {/* olozzo's own store follows the site theme, whatever accent is saved in its settings */}
+        <div style={{ "--accent": UI.action } as React.CSSProperties} className="flex min-h-screen flex-col">
           {previewBanner}
           <SiteHeader liveCart />
           <main className="flex-1">{children}</main>

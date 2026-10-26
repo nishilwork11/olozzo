@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
@@ -9,6 +10,8 @@ import { requireSupplier } from "@/lib/supplier";
 import { parseImages } from "@/lib/utils";
 import { updateProduct } from "../../actions";
 import { getCategoryGroups } from "../category-groups";
+
+export const metadata: Metadata = { title: "Edit product · Supplier" };
 
 export default async function EditSupplierProduct({
   params,

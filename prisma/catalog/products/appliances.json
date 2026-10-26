@@ -488,5 +488,61 @@
     "shippingDaysMax": 5,
     "weightGrams": 1100,
     "featured": false
+  },
+  {
+    "sku": "OLZ-APL-021",
+    "title": "HEPA Air Purifier for Rooms up to 40 m², Quiet Sleep Mode",
+    "category": "heating-cooling",
+    "supplier": "nordhaus",
+    "description": "A compact tower purifier that cleans the air in bedrooms, living rooms and home offices, quietly enough to leave on overnight.\n• Three-stage filter: pre-filter, H13 HEPA filter and activated carbon for dust, pollen, pet hair and cooking odours\n• Suitable for rooms up to 40 m²; 3 fan speeds plus an auto mode\n• Sleep mode at 24 dB with the display lights switched off\n• Filter-change reminder; replacement filters available separately; EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1765153155226-f617921051b3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1709745634912-2a79b938f3c2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 7999,
+    "compareAtPrice": 10999,
+    "costPrice": 3600,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 3200,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-APL-022",
+    "title": "Portable Blender 400 ml, USB-C Rechargeable, for Smoothies on the Go",
+    "category": "blenders",
+    "supplier": "nordhaus",
+    "description": "A cordless personal blender for smoothies, protein shakes and baby food, small enough for a gym bag or desk drawer.\n• 400 ml BPA-free bottle that doubles as a drinking cup with a carry loop\n• 6 stainless steel blades; blends frozen fruit and ice in about 30 seconds\n• USB-C rechargeable: around 15 blends per charge\n• Safety lock: runs only when the bottle is attached; rinse-clean in seconds",
+    "images": [
+      "https://images.unsplash.com/photo-1575499331636-6394e5ae7019?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1575499329690-f2df9ffff312?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1100,
+    "variants": [
+      {
+        "name": "Pink",
+        "stock": 120
+      },
+      {
+        "name": "Mint",
+        "stock": 90
+      },
+      {
+        "name": "Black",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
   }
 ]

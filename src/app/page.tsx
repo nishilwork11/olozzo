@@ -4,6 +4,7 @@ import {
   ArrowRight,
   BadgePercent,
   Compass,
+  Flame,
   Globe,
   MapPinned,
   PackageOpen,
@@ -19,7 +20,6 @@ import { PlatformLanding } from "@/components/marketing/PlatformLanding";
 import { SiteFooter } from "@/components/marketing/SiteFooter";
 import { SiteHeader } from "@/components/marketing/SiteHeader";
 import { categoryIcon } from "@/components/shop/CategoryIcon";
-import { CategoryStrip } from "@/components/shop/CategoryStrip";
 import { DealsCountdown } from "@/components/shop/DealsCountdown";
 import { Pagination } from "@/components/shop/Pagination";
 import { ProductGrid } from "@/components/shop/ProductGrid";
@@ -32,10 +32,12 @@ import {
   getNewArrivals,
   getPopular,
   getShopListings,
+  getTrending,
   nextDealsRefresh,
   type ShopListing,
 } from "@/lib/catalog";
 import { OPEN_STORE_ENABLED } from "@/lib/features";
+import { SUNSET } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
@@ -90,6 +92,7 @@ function Rail({
   linkLabel,
   items,
   extra,
+  ranked = false,
 }: {
   id: string;
   title: string;
@@ -98,6 +101,8 @@ function Rail({
   linkLabel?: string;
   items: ShopListing[];
   extra?: React.ReactNode;
+  /** the items are in rank order: number the cards #1, #2… */
+  ranked?: boolean;
 }) {
   if (items.length === 0) return null;
   return (
@@ -106,8 +111,8 @@ function Rail({
         {extra}
       </SectionHeader>
       <ProductRail label={title}>
-        {items.map((listing) => (
-          <ProductCard key={listing.id} listing={listing} sizes={RAIL_SIZES} />
+        {items.map((listing, i) => (
+          <ProductCard key={listing.id} listing={listing} sizes={RAIL_SIZES} rank={ranked ? i + 1 : undefined} />
         ))}
       </ProductRail>
     </Panel>
@@ -118,34 +123,43 @@ function Hero({ picks, hasDeals }: { picks: ShopListing[]; hasDeals: boolean }) 
   return (
     <section
       aria-labelledby="hero-title"
-      className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-brand-700 via-brand-700 to-emerald-900 text-white"
+      className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-sun-100 via-cream to-coral-100 text-ink-950 ring-1 ring-ink-200/70"
     >
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_85%_10%,rgba(167,243,208,0.28),transparent_45%),radial-gradient(circle_at_0%_100%,rgba(190,242,100,0.2),transparent_40%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_90%_0%,rgba(255,200,87,0.35),transparent_45%),radial-gradient(circle_at_0%_100%,rgba(244,123,88,0.16),transparent_45%)]"
       />
+      {/* The logo's sunset rings rising behind the content: smaller and softer on phones, large behind the deal cards on wide screens */}
+      <svg
+        aria-hidden="true"
+        viewBox="50 50 260 260"
+        className="pointer-events-none absolute -right-28 -top-24 h-[20rem] w-[20rem] opacity-50 sm:opacity-70 lg:-right-24 lg:-top-28 lg:h-[34rem] lg:w-[34rem] lg:opacity-100"
+      >
+        <circle cx="180" cy="180" r="106" fill="none" stroke={SUNSET.yellow} strokeWidth="34" strokeLinecap="round" strokeDasharray="420 246" transform="rotate(-31 180 180)" />
+        <circle cx="180" cy="180" r="75" fill="none" stroke={SUNSET.coral} strokeWidth="34" strokeLinecap="round" strokeDasharray="292 180" transform="rotate(76 180 180)" />
+      </svg>
       <div className={cn("relative grid items-center gap-8 p-5 sm:p-8 lg:p-10", picks.length === 3 && "lg:grid-cols-[1.1fr_1fr]")}>
         <div>
-          <p className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-brand-50 ring-1 ring-white/20">
-            <Sparkles size={14} aria-hidden="true" /> Delivering to all 27 EU countries
+          <p className="inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-xs font-semibold text-ink-700 ring-1 ring-ink-200">
+            <Sparkles size={14} className="text-sun-600" aria-hidden="true" /> Delivering to all 27 EU countries
           </p>
           <h2 id="hero-title" className="mt-3 max-w-xl text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl">
             Everyday finds, shipped from European warehouses
           </h2>
           <ul className={cn("mt-5 grid max-w-2xl grid-cols-2 gap-2 sm:grid-cols-4", picks.length === 3 && "lg:grid-cols-2")}>
             {BENEFITS.map((b) => (
-              <li key={b.title} className="flex items-start gap-2 rounded-xl bg-white/10 p-2.5 ring-1 ring-white/15">
-                <b.icon size={18} className="mt-0.5 shrink-0 text-lime-300" aria-hidden="true" />
+              <li key={b.title} className="flex items-start gap-2 rounded-xl bg-white/85 p-2.5 ring-1 ring-ink-200/70">
+                <b.icon size={18} className="mt-0.5 shrink-0 text-brand-600" aria-hidden="true" />
                 <span className="leading-tight">
                   <span className="block text-sm font-semibold">{b.title}</span>
-                  <span className="text-xs text-brand-50">{b.text}</span>
+                  <span className="text-xs text-ink-500">{b.text}</span>
                 </span>
               </li>
             ))}
           </ul>
           <Link
             href={hasDeals ? DEALS_HREF : "#explore"}
-            className="btn btn-lg mt-6 bg-white text-brand-800 hover:bg-brand-50 focus-visible:ring-white focus-visible:ring-offset-brand-700"
+            className="btn btn-primary btn-lg mt-6"
           >
             {hasDeals ? "Shop today's deals" : "Start exploring"} <ArrowRight size={18} aria-hidden="true" />
           </Link>
@@ -153,7 +167,7 @@ function Hero({ picks, hasDeals }: { picks: ShopListing[]; hasDeals: boolean }) 
         {picks.length === 3 && (
           <ul aria-label="A few of today's deals" className="hidden grid-cols-3 gap-3 lg:grid">
             {picks.map((listing) => (
-              <li key={listing.id} className="rounded-xl bg-white p-2 text-ink-900 shadow-lg">
+              <li key={listing.id} className="rounded-xl bg-white p-2 text-ink-900 shadow-md ring-1 ring-ink-200/60">
                 <ProductCard listing={listing} sizes="180px" eager />
               </li>
             ))}
@@ -177,7 +191,8 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
     .sort((a, b) => b.productCount - a.productCount)
     .slice(0, 6);
 
-  const [deals, popular, arrivals, explore, categoryRails] = await Promise.all([
+  const [trending, deals, popular, arrivals, explore, categoryRails] = await Promise.all([
+    getTrending(),
     getDeals(12),
     getPopular(12),
     getNewArrivals(12),
@@ -192,13 +207,17 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
       <main className="bg-ink-50">
         <h1 className="sr-only">olozzo: everyday products with fast delivery from EU warehouses</h1>
         <div className="mx-auto max-w-7xl space-y-3 px-3 py-3 sm:space-y-5 sm:px-6 sm:py-5">
-          {tree.length > 0 && (
-            <nav id="categories" aria-label="Shop by category" className="scroll-mt-32 rounded-2xl bg-white p-2 shadow-sm ring-1 ring-ink-200/70 sm:p-4">
-              <CategoryStrip categories={tree} label="Categories" />
-            </nav>
-          )}
-
           <Hero picks={heroPicks.length === 3 ? heroPicks : []} hasDeals={deals.length > 0} />
+
+          <Rail
+            id="trending"
+            title="Trending now"
+            icon={Flame}
+            href="/trending"
+            items={trending}
+            ranked
+            extra={<p className="text-sm text-ink-500">Top {trending.length} this month</p>}
+          />
 
           <Rail
             id="deals"

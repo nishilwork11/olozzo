@@ -520,5 +520,30 @@
     "shippingDaysMax": 5,
     "weightGrams": 450,
     "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-021",
+    "title": "Sunset Projection Lamp with 16 Colours, Remote and USB Power",
+    "category": "lamps",
+    "supplier": "nordhaus",
+    "description": "Projects a warm sunset glow onto your wall or ceiling, for cosy evenings, photos and video calls with atmosphere.\n• 16 colours including sunset orange, sunset red and rainbow\n• Head rotates 180° to aim the light at any wall or the ceiling\n• Remote control with brightness levels and a 1–2 h sleep timer\n• USB-powered LED that stays cool to the touch; 1.5 m cable included",
+    "images": [
+      "https://images.unsplash.com/photo-1637955020374-6f86a6b8b4e2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1618665276202-0b744599cf56?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1731006946988-6ad42ef2ef89?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2499,
+    "costPrice": 600,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
   }
 ]

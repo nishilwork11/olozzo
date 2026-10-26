@@ -1,5 +1,6 @@
-import { ShieldCheck, ShoppingBag } from "lucide-react";
-import { NavLink } from "@/components/client";
+import { LogOut, ShieldCheck, ShoppingBag } from "lucide-react";
+import { logoutAction } from "@/app/actions/auth";
+import { NavLink, SubmitButton } from "@/components/client";
 import { SiteFooter } from "@/components/marketing/SiteFooter";
 import { SiteHeader } from "@/components/marketing/SiteHeader";
 import { requireUser } from "@/lib/auth";
@@ -10,10 +11,19 @@ export default async function AccountLayout({ children }: { children: React.Reac
     <>
       <SiteHeader />
       <div className="mx-auto min-h-[60vh] max-w-5xl px-4 py-10 sm:px-6">
-        <h1 className="text-3xl font-bold tracking-tight">My account</h1>
-        <p className="mt-1 text-ink-500">
-          {user.name} · {user.email}
-        </p>
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div className="min-w-0">
+            <h1 className="text-3xl font-bold tracking-tight">My account</h1>
+            <p className="mt-1 break-words text-ink-500">
+              {user.name} · {user.email}
+            </p>
+          </div>
+          <form action={logoutAction}>
+            <SubmitButton className="btn btn-secondary btn-sm">
+              <LogOut size={15} aria-hidden="true" /> Sign out
+            </SubmitButton>
+          </form>
+        </div>
         <nav className="mt-6 flex gap-1 border-b border-ink-200">
           {[
             { href: "/account", label: "Orders", icon: ShoppingBag, exact: true },
