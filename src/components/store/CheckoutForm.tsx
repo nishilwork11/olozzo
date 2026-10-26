@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { AlertTriangle, Loader2, Lock, Tag, X } from "lucide-react";
+import { AlertTriangle, Lock, Tag, X } from "lucide-react";
+import { SunsetLoader } from "@/components/SunsetLoader";
 import { formatMoney } from "@/lib/money";
 import { cn } from "@/lib/utils";
 import { useCart } from "./CartProvider";
@@ -39,6 +40,8 @@ export function CheckoutForm({
   const [country, setCountry] = useState(defaultCountry);
   const [codeInput, setCodeInput] = useState("");
   const [appliedCode, setAppliedCode] = useState<string | null>(null);
+  // Kept apart from the quote: after a rejected code the cart is re-quoted without it, and that quote has no error
+  const [discountError, setDiscountError] = useState<string | null>(null);
   const [quote, setQuote] = useState<Quote | null>(null);
   const [quoting, setQuoting] = useState(false);
   const [provider, setProvider] = useState(paymentOptions[0]?.id ?? "");
@@ -87,13 +90,23 @@ export function CheckoutForm({
             }),
           );
         }
-        if (q.discountError) setAppliedCode(null);
+        if (q.discountError) {
+          setDiscountError(q.discountError);
+          setAppliedCode(null);
+        }
       })
       .catch(() => {})
       .finally(() => setQuoting(false));
     return () => ctrl.abort();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready, cartKey, country, appliedCode, storeSlug]);
+
+  function applyCode() {
+    const code = codeInput.trim();
+    if (!code) return;
+    setDiscountError(null);
+    setAppliedCode(code);
+  }
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -137,7 +150,12 @@ export function CheckoutForm({
     }
   }
 
-  if (!ready) return <div className="mt-8 h-96 animate-pulse rounded-2xl bg-ink-50" />;
+  if (!ready)
+    return (
+      <div className="mt-8 grid h-96 place-items-center rounded-2xl bg-ink-50">
+        <SunsetLoader size={56} label="Loading checkout" />
+      </div>
+    );
   if (items.length === 0) {
     return (
       <div className="mt-8 rounded-2xl border border-dashed border-ink-300 py-16 text-center">
@@ -242,7 +260,7 @@ export function CheckoutForm({
         )}
 
         <button type="submit" disabled={submitting || quoting || !provider || !quote || quote.lines.length === 0} className="btn btn-accent btn-lg w-full">
-          {submitting ? <Loader2 size={18} className="animate-spin" /> : <Lock size={16} />}
+          {submitting ? <SunsetLoader size={18} tone="current" label={null} /> : <Lock size={16} />}
           Buy now · {quote ? formatMoney(quote.total) : "…"}
         </button>
         <p className="text-center text-xs text-ink-500">Order with obligation to pay. You will be redirected to complete payment securely.</p>
@@ -281,22 +299,29 @@ export function CheckoutForm({
               <Tag size={15} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-ink-400" />
               <input
                 value={codeInput}
-                onChange={(e) => setCodeInput(e.target.value.toUpperCase())}
+                onChange={(e) => {
+                  setCodeInput(e.target.value.toUpperCase());
+                  setDiscountError(null);
+                }}
                 placeholder="Discount code"
                 className="input pl-8 uppercase"
                 onKeyDown={(e) => {
                   if (e.key === "Enter") {
                     e.preventDefault();
-                    if (codeInput.trim()) setAppliedCode(codeInput.trim());
+                    applyCode();
                   }
                 }}
               />
             </div>
-            <button type="button" className="btn btn-secondary" onClick={() => codeInput.trim() && setAppliedCode(codeInput.trim())}>
+            <button type="button" className="btn btn-secondary" onClick={applyCode}>
               Apply
             </button>
           </div>
-          {quote?.discountError && <p className="mt-2 text-xs text-red-600">{quote.discountError}</p>}
+          {discountError && (
+            <p role="alert" className="mt-2 text-xs text-red-600">
+              {discountError}
+            </p>
+          )}
 
           <dl className={cn("mt-5 space-y-2 text-sm transition", quoting && "opacity-50")}>
             <div className="flex justify-between">

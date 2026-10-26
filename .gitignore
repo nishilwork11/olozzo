@@ -15,5 +15,8 @@ prisma/*.db-journal
 .DS_Store
 npm-debug.log*
 
+# screenshots and logs from browser testing (Playwright MCP)
+.playwright-mcp/
+
 .vercel
 .env*

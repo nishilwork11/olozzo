@@ -38,7 +38,7 @@ export function DealsCountdown({ until, className }: { until: string; className?
 
   return (
     <p
-      className={cn("inline-flex items-center gap-1.5 rounded-full bg-ink-900 px-2.5 py-1 text-xs font-semibold text-white", className)}
+      className={cn("inline-flex items-center gap-1.5 rounded-full bg-sun-400 px-2.5 py-1 text-xs font-semibold text-ink-950", className)}
       title="A new selection of discounted products every day at 00:00 UTC"
     >
       <Clock size={13} aria-hidden="true" />

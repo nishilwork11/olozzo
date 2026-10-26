@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
@@ -10,6 +11,8 @@ import { centsToInput, formatMoney } from "@/lib/money";
 import { variantRetailPrice } from "@/lib/pricing";
 import { parseImages } from "@/lib/utils";
 import { updateStoreProduct } from "../../actions";
+
+export const metadata: Metadata = { title: "Edit product · Merchant" };
 
 export default async function EditStoreProduct({
   params,

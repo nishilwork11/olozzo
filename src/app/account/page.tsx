@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ChevronRight, ShoppingBag } from "lucide-react";
 import { Card, EmptyState, ProductThumb, StatusBadge } from "@/components/ui";
@@ -6,6 +7,8 @@ import { db } from "@/lib/db";
 import { OPEN_STORE_ENABLED } from "@/lib/features";
 import { formatMoney } from "@/lib/money";
 import { formatDate } from "@/lib/utils";
+
+export const metadata: Metadata = { title: "My orders" };
 
 export default async function AccountOrders() {
   const user = await requireUser();

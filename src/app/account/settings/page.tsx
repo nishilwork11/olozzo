@@ -1,9 +1,12 @@
+import type { Metadata } from "next";
 import { Download } from "lucide-react";
 import { SubmitButton } from "@/components/client";
 import { Card, Field, Flash } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { changePassword, deleteAccount, updateProfile } from "../actions";
+
+export const metadata: Metadata = { title: "Profile & privacy" };
 
 export default async function AccountSettings({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

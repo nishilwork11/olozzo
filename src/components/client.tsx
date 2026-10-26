@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useFormStatus } from "react-dom";
-import { Loader2 } from "lucide-react";
+import { SunsetLoader } from "@/components/SunsetLoader";
 import { cn } from "@/lib/utils";
 
 export function SubmitButton({
@@ -36,7 +36,7 @@ export function SubmitButton({
         if (confirmText && !window.confirm(confirmText)) e.preventDefault();
       }}
     >
-      {pending && <Loader2 size={16} className="animate-spin" />}
+      {pending && <SunsetLoader size={18} tone="current" label={null} />}
       {pending && pendingText ? pendingText : children}
     </button>
   );

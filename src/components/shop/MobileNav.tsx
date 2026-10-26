@@ -4,7 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { BadgePercent, ChevronDown, ChevronRight, CircleHelp, Gamepad2, Menu, Package, ShoppingCart, User, X } from "lucide-react";
+import { BadgePercent, ChevronDown, ChevronRight, CircleHelp, Flame, Gamepad2, LogOut, Menu, Package, ShoppingCart, User, X } from "lucide-react";
+import { logoutAction } from "@/app/actions/auth";
 import { Logo } from "@/components/ui";
 import { cn } from "@/lib/utils";
 import type { MenuCategory } from "./CategoryMenu";
@@ -209,6 +210,11 @@ export function MobileNav({ categories, account, cartHref, dealsHref }: MobileNa
                   </Link>
                 )}
               </div>
+              <form action={logoutAction} className="mt-2">
+                <button type="submit" className="btn btn-ghost btn-sm w-full">
+                  <LogOut size={15} aria-hidden="true" /> Sign out
+                </button>
+              </form>
             </div>
           ) : (
             <div className="mx-4 grid grid-cols-2 gap-2">
@@ -224,6 +230,7 @@ export function MobileNav({ categories, account, cartHref, dealsHref }: MobileNa
           <ul className="mt-4 border-y border-ink-100 py-1">
             {[
               { href: dealsHref, label: "Deals", icon: BadgePercent },
+              { href: "/trending", label: "Trending now", icon: Flame },
               { href: "/games", label: "Games", icon: Gamepad2 },
               { href: cartHref, label: "Cart", icon: ShoppingCart },
               { href: "/#faq", label: "Help & FAQ", icon: CircleHelp },

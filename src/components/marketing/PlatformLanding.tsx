@@ -71,7 +71,7 @@ export async function PlatformLanding() {
       <main>
         {/* Hero */}
         <section className="relative overflow-hidden">
-          <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,rgba(16,185,129,0.14),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(163,230,53,0.14),transparent_50%)]" />
+          <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,rgba(244,123,88,0.14),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(255,200,87,0.14),transparent_50%)]" />
           <div className="mx-auto grid max-w-7xl items-center gap-14 px-4 pb-20 pt-16 sm:px-6 lg:grid-cols-2 lg:pt-24">
             <div>
               <span className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-800">
@@ -80,7 +80,7 @@ export async function PlatformLanding() {
               <h1 className="mt-6 text-5xl font-extrabold leading-[1.05] tracking-tight text-ink-950 sm:text-6xl">
                 Start your online store.
                 <br />
-                <span className="bg-gradient-to-r from-brand-600 to-lime-500 bg-clip-text text-transparent">Skip the inventory.</span>
+                <span className="bg-gradient-to-r from-brand-600 to-coral-500 bg-clip-text text-transparent">Skip the inventory.</span>
               </h1>
               <p className="mt-6 max-w-xl text-lg text-ink-600">
                 olozzo gives you a beautiful storefront, a marketplace of verified EU suppliers and automated order
@@ -103,7 +103,7 @@ export async function PlatformLanding() {
                 <div className="flex items-center gap-1.5 border-b border-ink-100 bg-ink-50 px-4 py-2.5">
                   <span className="h-2.5 w-2.5 rounded-full bg-red-300" />
                   <span className="h-2.5 w-2.5 rounded-full bg-amber-300" />
-                  <span className="h-2.5 w-2.5 rounded-full bg-emerald-300" />
+                  <span className="h-2.5 w-2.5 rounded-full bg-sun-400" />
                   <span className="ml-3 rounded bg-white px-2 py-0.5 font-mono text-[11px] text-ink-500">urban-nest.olozzo.com</span>
                 </div>
                 <div className="grid grid-cols-2 gap-3 p-4">

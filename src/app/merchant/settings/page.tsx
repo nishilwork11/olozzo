@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Check, CircleCheck, CircleDashed } from "lucide-react";
 import { SubmitButton } from "@/components/client";
 import { Card, CardHeader, Field, Flash, PageHeader } from "@/components/ui";
@@ -9,6 +10,8 @@ import { mollieEnabled } from "@/lib/payments/mollie";
 import { stripeEnabled } from "@/lib/payments/stripe";
 import { PLANS } from "@/lib/plans";
 import { changePlan, updateStoreSettings } from "../actions";
+
+export const metadata: Metadata = { title: "Store settings · Merchant" };
 
 export default async function StoreSettings({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

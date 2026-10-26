@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Search } from "lucide-react";
 import { AutoSubmitSelect, SubmitButton } from "@/components/client";
 import { Card, Flash, PageHeader, StatusBadge } from "@/components/ui";
@@ -6,6 +7,8 @@ import { db } from "@/lib/db";
 import { ROLE_LABELS, ROLES } from "@/lib/rbac";
 import { formatDate } from "@/lib/utils";
 import { setUserStatus, updateUserRole } from "../actions";
+
+export const metadata: Metadata = { title: "Users · Admin" };
 
 export default async function AdminUsers({ searchParams }: { searchParams: Promise<{ q?: string; role?: string; ok?: string; error?: string }> }) {
   const { q, role, ...flash } = await searchParams;

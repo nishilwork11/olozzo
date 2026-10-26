@@ -1,7 +1,8 @@
 "use client";
 
 import { useActionState } from "react";
-import { AlertCircle, Loader2 } from "lucide-react";
+import { AlertCircle } from "lucide-react";
+import { SunsetLoader } from "@/components/SunsetLoader";
 import { loginAction } from "@/app/actions/auth";
 
 export function LoginForm({ next }: { next: string }) {
@@ -27,7 +28,7 @@ export function LoginForm({ next }: { next: string }) {
         <input id="password" name="password" type="password" autoComplete="current-password" required className="input" />
       </div>
       <button type="submit" disabled={pending} className="btn btn-dark btn-lg w-full">
-        {pending && <Loader2 size={18} className="animate-spin" />} Sign in
+        {pending && <SunsetLoader size={18} tone="current" label={null} />} Sign in
       </button>
     </form>
   );

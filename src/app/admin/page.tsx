@@ -1,9 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Euro, Factory, Receipt, Store, TrendingUp, Users } from "lucide-react";
 import { BarChart, Card, CardHeader, Flash, PageHeader, StatCard, StatusBadge } from "@/components/ui";
 import { db } from "@/lib/db";
 import { formatMoney } from "@/lib/money";
 import { formatDate, lastDays } from "@/lib/utils";
+
+export const metadata: Metadata = { title: "Overview · Admin" };
 
 export default async function AdminOverview({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

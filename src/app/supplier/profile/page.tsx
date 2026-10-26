@@ -1,9 +1,12 @@
+import type { Metadata } from "next";
 import { SubmitButton } from "@/components/client";
 import { Card, Field, Flash, PageHeader, StatusBadge } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { EU_COUNTRIES } from "@/lib/eu";
 import { saveProfile } from "../actions";
+
+export const metadata: Metadata = { title: "Company profile · Supplier" };
 
 export default async function SupplierProfile({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

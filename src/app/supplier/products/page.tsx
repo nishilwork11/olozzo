@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Boxes, FileUp, Pencil, Plus, Trash2 } from "lucide-react";
 import { SubmitButton } from "@/components/client";
@@ -7,6 +8,8 @@ import { formatMoney } from "@/lib/money";
 import { requireSupplier } from "@/lib/supplier";
 import { parseImages } from "@/lib/utils";
 import { deleteSupplierProduct, toggleSupplierProduct } from "../actions";
+
+export const metadata: Metadata = { title: "Wholesale catalog · Supplier" };
 
 export default async function SupplierProducts({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Search } from "lucide-react";
 import { SubmitButton } from "@/components/client";
 import { Card, Flash, PageHeader, ProductThumb, StatusBadge } from "@/components/ui";
@@ -5,6 +6,8 @@ import { db } from "@/lib/db";
 import { formatMoney } from "@/lib/money";
 import { parseImages } from "@/lib/utils";
 import { toggleProductActive } from "../actions";
+
+export const metadata: Metadata = { title: "Product moderation · Admin" };
 
 export default async function AdminProducts({ searchParams }: { searchParams: Promise<{ q?: string; ok?: string; error?: string }> }) {
   const { q, ...flash } = await searchParams;

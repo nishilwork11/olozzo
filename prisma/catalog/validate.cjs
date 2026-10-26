@@ -11,6 +11,9 @@ const args = process.argv.slice(2);
 const checkImages = args.includes("--check-images");
 const tree = JSON.parse(fs.readFileSync(path.join(DIR, "categories.json"), "utf8"));
 const suppliers = new Set(JSON.parse(fs.readFileSync(path.join(DIR, "suppliers.json"), "utf8")).map((s) => s.key));
+// trending.json: the ranked "Trending now" products. The seed imports them even past the 20-per-file limit.
+const trending = JSON.parse(fs.readFileSync(path.join(DIR, "trending.json"), "utf8")).products.map((t) => t.sku);
+const trendingSkus = new Set(trending);
 const topBySlug = new Map(tree.map((t) => [t.slug, t]));
 
 const IMAGE_RE = /^https:\/\/images\.unsplash\.com\/photo-\d+-[0-9a-f]+\?w=900&q=80&auto=format&fit=crop$/;
@@ -38,7 +41,9 @@ for (const file of targets) {
   let products;
   try { products = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { errors.push(`${rel}: invalid JSON (${e.message})`); continue; }
   if (!Array.isArray(products)) { errors.push(`${rel}: must be a JSON array`); continue; }
-  if (products.length !== 20) warnings.push(`${rel}: ${products.length} products (expected 20)`);
+  if (products.length < 20) warnings.push(`${rel}: ${products.length} products (expected 20)`);
+  const skipped = products.slice(20).filter((p) => !trendingSkus.has(p && p.sku)).length;
+  if (skipped) warnings.push(`${rel}: ${skipped} product(s) after the first 20 are not in trending.json, so the seed skips them by default`);
   const usedCats = new Set();
   products.forEach((p, i) => {
     const at = `${rel}[${i}] ${p && p.sku ? p.sku : ""}`.trim();
@@ -83,6 +88,11 @@ for (const file of targets) {
   const subs = top.children.length;
   if (usedCats.size < Math.min(subs, 8)) warnings.push(`${rel}: products cover only ${usedCats.size} of ${subs} subcategories`);
 }
+
+if (trendingSkus.size !== trending.length) errors.push("trending.json: a SKU is listed more than once");
+if (trending.length > 20) errors.push(`trending.json: ${trending.length} products (at most 20)`);
+// SKUs are only all known when every product file was checked
+if (!files.length) for (const sku of trending) if (!skus.has(sku)) errors.push(`trending.json: unknown sku ${sku}`);
 
 async function headAll(urls) {
   const bad = [];

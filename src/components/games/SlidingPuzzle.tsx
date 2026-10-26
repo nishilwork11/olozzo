@@ -154,14 +154,14 @@ export function SlidingPuzzle() {
           aria-label="Sliding puzzle board"
           className={cn(
             styles.board,
-            "select-none rounded-2xl bg-brand-700 shadow-inner focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-300",
+            "select-none rounded-2xl bg-plum-700 shadow-inner focus:outline-none focus-visible:ring-4 focus-visible:ring-plum-300",
           )}
         >
           <div aria-hidden="true" className={styles.rows}>
             {[0, 1, 2, 3].map((r) => (
               <div key={r} className={styles.row}>
                 {[0, 1, 2, 3].map((c) => (
-                  <div key={c} className="aspect-square rounded-lg bg-brand-800/50 sm:rounded-xl" />
+                  <div key={c} className="aspect-square rounded-lg bg-plum-800/50 sm:rounded-xl" />
                 ))}
               </div>
             ))}
@@ -183,10 +183,10 @@ export function SlidingPuzzle() {
                   className={cn(
                     styles.tile,
                     styles.puzzleTile,
-                    "grid place-items-center rounded-lg text-2xl font-extrabold tabular-nums shadow-[inset_0_-4px_0_rgba(0,0,0,0.12)] focus-visible:z-10 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-lime-300 sm:rounded-xl sm:text-3xl",
-                    inPlace ? "bg-lime-200 text-brand-900" : "bg-white text-brand-800",
+                    "grid place-items-center rounded-lg text-2xl font-extrabold tabular-nums shadow-[inset_0_-4px_0_rgba(0,0,0,0.12)] focus-visible:z-10 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-sun-400 sm:rounded-xl sm:text-3xl",
+                    inPlace ? "bg-sun-200 text-plum-900" : "bg-white text-plum-800",
                     // Hover only where it exists, so a tapped tile doesn't stay highlighted on touch screens
-                    dir ? cn("cursor-pointer", inPlace ? "[@media(hover:hover)]:hover:bg-lime-100" : "[@media(hover:hover)]:hover:bg-brand-50") : "cursor-default",
+                    dir ? cn("cursor-pointer", inPlace ? "[@media(hover:hover)]:hover:bg-sun-100" : "[@media(hover:hover)]:hover:bg-plum-50") : "cursor-default",
                   )}
                 >
                   {n}
@@ -200,7 +200,7 @@ export function SlidingPuzzle() {
           <Overlay
             title={
               <span className="inline-flex items-center gap-2">
-                <PartyPopper className="text-brand-600" size={28} aria-hidden="true" /> Solved!
+                <PartyPopper className="text-plum-600" size={28} aria-hidden="true" /> Solved!
               </span>
             }
             actions={

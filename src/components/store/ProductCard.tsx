@@ -39,11 +39,13 @@ export type ProductCardProps = ({ listing: ShopListing } | (LegacyProps & { list
   sizes?: string;
   /** Load the image right away (only for cards at the top of the page) */
   eager?: boolean;
+  /** Position in a ranked list such as "Trending now", shown as a #1, #2… badge */
+  rank?: number;
   className?: string;
 };
 
 export function ProductCard(props: ProductCardProps) {
-  const { sizes = GRID_SIZES, eager = false, className } = props;
+  const { sizes = GRID_SIZES, eager = false, rank, className } = props;
   const listing = props.listing;
   const card = listing
     ? {
@@ -102,9 +104,15 @@ export function ProductCard(props: ProductCardProps) {
           </div>
         )}
         {discount > 0 && !card.soldOut && (
-          <span className="absolute left-1.5 top-1.5 rounded-md bg-gradient-to-r from-red-600 to-orange-700 px-1.5 py-0.5 text-xs font-bold leading-4 text-white shadow-sm">
+          <span className="absolute left-1.5 top-1.5 rounded-md bg-sun-400 px-1.5 py-0.5 text-xs font-bold leading-4 text-ink-950 shadow-sm">
             <span aria-hidden="true">-{discount}%</span>
             <span className="sr-only">{discount}% off</span>
+          </span>
+        )}
+        {rank != null && (
+          <span className="absolute right-1.5 top-1.5 rounded-md bg-plum-600 px-1.5 py-0.5 text-xs font-bold leading-4 text-white shadow-sm">
+            <span aria-hidden="true">#{rank}</span>
+            <span className="sr-only">Trending number {rank}</span>
           </span>
         )}
         {card.soldOut && (

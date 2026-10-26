@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
@@ -9,6 +10,8 @@ import { requireMerchantStore } from "@/lib/merchant";
 import { formatMoney } from "@/lib/money";
 import { formatDateTime } from "@/lib/utils";
 import { cancelUnpaidOrder, refundOrder, resolveReturn } from "../../actions";
+
+export const metadata: Metadata = { title: "Order details · Merchant" };
 
 export default async function MerchantOrderDetail({
   params,

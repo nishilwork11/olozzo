@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { ProductForm } from "@/components/supplier/ProductForm";
@@ -5,6 +6,8 @@ import { PageHeader } from "@/components/ui";
 import { requireSupplier } from "@/lib/supplier";
 import { createProduct } from "../../actions";
 import { getCategoryGroups } from "../category-groups";
+
+export const metadata: Metadata = { title: "Add product · Supplier" };
 
 export default async function NewSupplierProduct() {
   await requireSupplier();

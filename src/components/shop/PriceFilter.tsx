@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 export function chipClass(active: boolean): string {
   return cn(
     "inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-3 py-1.5 text-sm transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-1",
-    active ? "border-brand-700 bg-brand-700 font-medium text-white" : "border-ink-200 bg-white text-ink-700 hover:border-ink-400 hover:text-ink-950",
+    active ? "border-ink-900 bg-ink-900 font-medium text-white" : "border-ink-200 bg-white text-ink-700 hover:border-ink-400 hover:text-ink-950",
   );
 }
 
