@@ -5,6 +5,7 @@ import { useActionState, useState } from "react";
 import { AlertCircle, Factory, Loader2, ShoppingBag, Store } from "lucide-react";
 import { registerAction } from "@/app/actions/auth";
 import { EU_COUNTRIES } from "@/lib/eu";
+import { OPEN_STORE_ENABLED } from "@/lib/features";
 import { cn } from "@/lib/utils";
 
 type RegisterRole = "MERCHANT" | "SUPPLIER" | "CUSTOMER";
@@ -28,25 +29,29 @@ export function RegisterForm({ initialRole }: { initialRole: RegisterRole }) {
         </div>
       )}
 
-      <fieldset>
-        <legend className="label">I want to…</legend>
-        <div className="grid grid-cols-3 gap-2">
-          {ROLE_OPTIONS.map((o) => (
-            <label
-              key={o.id}
-              className={cn(
-                "cursor-pointer rounded-xl border p-3 text-center transition",
-                role === o.id ? "border-brand-600 bg-brand-50 ring-1 ring-brand-600" : "border-ink-200 hover:border-ink-300",
-              )}
-            >
-              <input type="radio" name="role" value={o.id} checked={role === o.id} onChange={() => setRole(o.id)} className="sr-only" />
-              <o.icon className={cn("mx-auto", role === o.id ? "text-brand-700" : "text-ink-400")} size={22} />
-              <span className="mt-1 block text-sm font-semibold">{o.title}</span>
-              <span className="block text-[11px] leading-tight text-ink-500">{o.text}</span>
-            </label>
-          ))}
-        </div>
-      </fieldset>
+      {OPEN_STORE_ENABLED ? (
+        <fieldset>
+          <legend className="label">I want to…</legend>
+          <div className="grid grid-cols-3 gap-2">
+            {ROLE_OPTIONS.map((o) => (
+              <label
+                key={o.id}
+                className={cn(
+                  "cursor-pointer rounded-xl border p-3 text-center transition",
+                  role === o.id ? "border-brand-600 bg-brand-50 ring-1 ring-brand-600" : "border-ink-200 hover:border-ink-300",
+                )}
+              >
+                <input type="radio" name="role" value={o.id} checked={role === o.id} onChange={() => setRole(o.id)} className="sr-only" />
+                <o.icon className={cn("mx-auto", role === o.id ? "text-brand-700" : "text-ink-400")} size={22} />
+                <span className="mt-1 block text-sm font-semibold">{o.title}</span>
+                <span className="block text-[11px] leading-tight text-ink-500">{o.text}</span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
+      ) : (
+        <input type="hidden" name="role" value="CUSTOMER" />
+      )}
 
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="sm:col-span-2">
@@ -57,7 +62,7 @@ export function RegisterForm({ initialRole }: { initialRole: RegisterRole }) {
         </div>
         <div className="sm:col-span-2">
           <label htmlFor="email" className="label">
-            Work email
+            {OPEN_STORE_ENABLED ? "Work email" : "Email"}
           </label>
           <input id="email" name="email" type="email" required className="input" defaultValue={f?.email} autoComplete="email" />
         </div>

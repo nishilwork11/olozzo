@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Logo } from "@/components/ui";
+import { OPEN_STORE_ENABLED } from "@/lib/features";
 
-const COLUMNS = [
+const PLATFORM_COLUMNS = [
   {
     title: "Platform",
     links: [
@@ -19,6 +20,21 @@ const COLUMNS = [
       { href: "/login", label: "Supplier login" },
     ],
   },
+];
+
+const SHOP_COLUMNS = [
+  {
+    title: "Shop",
+    links: [
+      { href: "/#products", label: "All products" },
+      { href: "/account", label: "My orders" },
+      { href: "/register", label: "Create account" },
+    ],
+  },
+];
+
+const COLUMNS = [
+  ...(OPEN_STORE_ENABLED ? PLATFORM_COLUMNS : SHOP_COLUMNS),
   {
     title: "Legal",
     links: [
@@ -34,12 +50,13 @@ const COLUMNS = [
 export function SiteFooter() {
   return (
     <footer className="border-t border-ink-200 bg-ink-50">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-5">
+      <div className={`mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 ${OPEN_STORE_ENABLED ? "md:grid-cols-5" : "md:grid-cols-4"}`}>
         <div className="md:col-span-2">
           <Logo />
           <p className="mt-4 max-w-xs text-sm text-ink-500">
-            The dropshipping commerce platform built for Europe. Launch, sell and scale across all 27 EU markets
-            without holding inventory.
+            {OPEN_STORE_ENABLED
+              ? "The dropshipping commerce platform built for Europe. Launch, sell and scale across all 27 EU markets without holding inventory."
+              : "Products for every day, shipped from European warehouses to all 27 EU countries."}
           </p>
           <p className="mt-4 text-xs text-ink-400">Prices in EUR incl. VAT · GDPR compliant · EU data hosting</p>
         </div>

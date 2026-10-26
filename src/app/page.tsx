@@ -1,70 +1,97 @@
 import Link from "next/link";
 import {
   ArrowRight,
-  BadgeCheck,
-  Boxes,
-  Check,
   CreditCard,
   Globe,
-  Package,
+  Lock,
   Percent,
   Receipt,
   RotateCcw,
+  Search,
   ShieldCheck,
+  ShoppingBag,
   Sparkles,
-  Store,
   TrendingUp,
   Truck,
-  Users,
-  Zap,
 } from "lucide-react";
+import { PlatformLanding } from "@/components/marketing/PlatformLanding";
 import { SiteFooter } from "@/components/marketing/SiteFooter";
 import { SiteHeader } from "@/components/marketing/SiteHeader";
+import { ProductCard } from "@/components/store/ProductCard";
+import { getCurrentUser } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { OPEN_STORE_ENABLED } from "@/lib/features";
 import { formatMoney } from "@/lib/money";
-import { PLANS } from "@/lib/plans";
-import { parseImages } from "@/lib/utils";
+import { variantRetailPrice } from "@/lib/pricing";
+import { cn, parseImages } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
 
 const STEPS = [
-  { icon: Store, title: "Launch your store", text: "Pick a name and brand colour. Your storefront is live in under a minute — no code, no theme hunting." },
-  { icon: Boxes, title: "Import products", text: "Browse thousands of products from verified EU suppliers. One click imports photos, variants and pricing." },
-  { icon: CreditCard, title: "Sell & get paid", text: "Customers pay with cards, SEPA, iDEAL, Bancontact or Klarna. VAT is calculated per country automatically." },
-  { icon: Truck, title: "Supplier ships it", text: "Paid orders are routed to the right supplier, who ships straight to your customer with tracking." },
+  { icon: Search, title: "Find what you like", text: "Browse by category or see the whole range at once. Every price already includes VAT." },
+  { icon: CreditCard, title: "Pay securely", text: "Check out as a guest or with your account, by card, SEPA, iDEAL, Bancontact or Klarna." },
+  { icon: Truck, title: "We ship it to you", text: "Your order leaves a European warehouse with tracking and usually arrives in 2–6 business days." },
+  { icon: RotateCcw, title: "Return within 14 days", text: "Changed your mind? Request a return from your account within 14 days of delivery." },
 ];
 
 const FEATURES = [
-  { icon: Boxes, title: "Supplier marketplace", text: "Curated EU wholesalers with real stock levels, shipping times and ships-from country on every product." },
-  { icon: Zap, title: "Automatic order routing", text: "Multi-supplier orders are split and forwarded instantly — no copy-pasting addresses into supplier portals." },
-  { icon: Receipt, title: "EU VAT & OSS ready", text: "Destination-country VAT for all 27 member states, VAT-inclusive pricing and clear invoices." },
-  { icon: CreditCard, title: "Stripe & Mollie built in", text: "Accept every popular European payment method with refunds handled from your dashboard." },
-  { icon: ShieldCheck, title: "Role-based access", text: "Admins, merchants, suppliers and customers each get their own secure workspace and permissions." },
-  { icon: TrendingUp, title: "Profit analytics", text: "See revenue, supplier cost, fees and true profit per order — not just top-line sales." },
-  { icon: Percent, title: "Discount codes", text: "Percentage or fixed-amount codes with minimum spend, usage limits and expiry dates." },
-  { icon: RotateCcw, title: "14-day returns flow", text: "Customers request returns online; you approve and refund in one click — compliant with EU withdrawal rights." },
-  { icon: Globe, title: "Your own subdomain", text: "Every store gets its own address like yourbrand.olozzo.com, ready for a custom domain on Pro." },
+  { icon: Receipt, title: "VAT included", text: "Prices include VAT, and the right rate for your country is applied at checkout. No surprises at the end." },
+  { icon: Globe, title: "No customs fees", text: "Everything ships from inside the EU, so there is nothing extra to pay when your parcel arrives." },
+  { icon: Truck, title: "Tracked delivery", text: "Every parcel gets a tracking number that you can follow from your account." },
+  { icon: ShieldCheck, title: "Secure payments", text: "Payments are handled by Stripe and Mollie. Your card details never touch our servers." },
+  { icon: RotateCcw, title: "14-day returns", text: "You have 14 days after delivery to change your mind, as EU consumer law guarantees." },
+  { icon: Lock, title: "Your data stays in the EU", text: "GDPR compliant, with your personal data hosted inside the European Union." },
 ];
 
 const FAQ = [
-  { q: "Do I need to buy inventory?", a: "No. You only pay the supplier's wholesale price after your customer has paid you. Suppliers ship directly to the customer." },
-  { q: "Which countries can I sell to?", a: "All 27 EU member states out of the box, with the correct VAT rate applied automatically for each destination country." },
-  { q: "How do I get paid?", a: "Connect Stripe and/or Mollie. Payments land in your own account; supplier costs and the olozzo transaction fee are shown per order." },
-  { q: "How fast is shipping?", a: "Our suppliers hold stock in EU warehouses, so most products arrive in 2–6 business days — no customs fees for your customers." },
-  { q: "Can I become a supplier?", a: "Yes. Apply as a supplier, list your wholesale catalog, and once approved thousands of merchants can import and sell your products." },
+  { q: "How long does delivery take?", a: "Most orders arrive in 2–6 business days. Products ship from warehouses inside the EU, so there are no customs fees." },
+  { q: "Which countries do you deliver to?", a: "All 27 EU member states. The VAT rate of your country is applied automatically at checkout." },
+  { q: "Do I need an account to order?", a: "No, you can check out as a guest. With an account your details are filled in at checkout and all your orders and tracking are in one place." },
+  { q: "How can I pay?", a: "By credit or debit card, SEPA, iDEAL, Bancontact or Klarna. Payments are processed securely by Stripe and Mollie." },
+  { q: "Why did my order arrive in more than one parcel?", a: "If your order includes products from different warehouses, each warehouse ships its part separately with its own tracking number." },
+  { q: "Can I return a product?", a: "Yes. You have 14 days after delivery to withdraw from your purchase. Request the return from your account and you are refunded once it is approved." },
 ];
 
-export default async function HomePage() {
-  const [trending, stats] = await Promise.all([
+export default async function HomePage({ searchParams }: { searchParams: Promise<{ category?: string }> }) {
+  if (OPEN_STORE_ENABLED) return <PlatformLanding />;
+
+  const { category } = await searchParams;
+  const [listings, user] = await Promise.all([
     db.storeProduct.findMany({
-      where: { active: true, featured: true, store: { published: true }, product: { active: true } },
-      include: { product: true, store: true },
-      take: 8,
-      orderBy: { createdAt: "asc" },
+      where: { active: true, store: { published: true }, product: { active: true, supplier: { status: "APPROVED" } } },
+      include: { store: { select: { slug: true } }, product: { include: { category: true, variants: { where: { position: { lt: 999 } } } } } },
+      orderBy: [{ featured: "desc" }, { createdAt: "asc" }],
     }),
-    Promise.all([db.store.count({ where: { published: true } }), db.supplier.count({ where: { status: "APPROVED" } }), db.product.count({ where: { active: true } })]),
+    getCurrentUser(),
   ]);
-  const [storeCount, supplierCount, productCount] = stats;
+
+  // Several stores can list the same supplier product — show each product once
+  const seen = new Set<string>();
+  const products = listings.filter((sp) => {
+    if (seen.has(sp.productId)) return false;
+    seen.add(sp.productId);
+    return true;
+  });
+
+  // Category tiles use the first (most featured) product of each category as their picture
+  const byCategory = new Map<string, { slug: string; name: string; image?: string; count: number }>();
+  for (const sp of products) {
+    const c = sp.product.category;
+    if (!c) continue;
+    const entry = byCategory.get(c.slug) ?? { slug: c.slug, name: c.name, image: parseImages(sp.product.images)[0], count: 0 };
+    entry.count++;
+    byCategory.set(c.slug, entry);
+  }
+  const categories = [...byCategory.values()].sort((a, b) => a.name.localeCompare(b.name));
+  const activeCategory = category ? byCategory.get(category) : undefined;
+  const shown = category ? products.filter((sp) => sp.product.category?.slug === category) : products;
+  const maxDiscount = Math.max(
+    0,
+    ...products.filter((sp) => sp.compareAtPrice && sp.compareAtPrice > sp.price).map((sp) => Math.round((1 - sp.price / sp.compareAtPrice!) * 100)),
+  );
+
+  const chip = (active: boolean) =>
+    cn("rounded-full border px-3.5 py-1.5 text-sm transition", active ? "border-ink-900 bg-ink-900 text-white" : "border-ink-200 bg-white hover:border-ink-400");
 
   return (
     <>
@@ -76,79 +103,86 @@ export default async function HomePage() {
           <div className="mx-auto grid max-w-7xl items-center gap-14 px-4 pb-20 pt-16 sm:px-6 lg:grid-cols-2 lg:pt-24">
             <div>
               <span className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-800">
-                <Sparkles size={14} /> The dropshipping platform made for Europe
+                <Sparkles size={14} /> Shipped from European warehouses
               </span>
               <h1 className="mt-6 text-5xl font-extrabold leading-[1.05] tracking-tight text-ink-950 sm:text-6xl">
-                Start your online store.
+                Great products.
                 <br />
-                <span className="bg-gradient-to-r from-brand-600 to-lime-500 bg-clip-text text-transparent">Skip the inventory.</span>
+                <span className="bg-gradient-to-r from-brand-600 to-lime-500 bg-clip-text text-transparent">Fast EU delivery.</span>
               </h1>
               <p className="mt-6 max-w-xl text-lg text-ink-600">
-                olozzo gives you a beautiful storefront, a marketplace of verified EU suppliers and automated order
-                fulfilment — so you can sell to all 27 EU countries without ever touching a parcel.
+                Hand-picked products shipped from EU warehouses to all 27 EU countries. No customs fees, secure checkout and
+                14 days to change your mind.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <Link href="/register" className="btn btn-primary btn-lg">
-                  Start 14-day free trial <ArrowRight size={18} />
-                </Link>
-                <Link href="/explore" className="btn btn-secondary btn-lg">
-                  See live stores
-                </Link>
+                <a href="#products" className="btn btn-primary btn-lg">
+                  Shop all products <ArrowRight size={18} />
+                </a>
+                <a href="#categories" className="btn btn-secondary btn-lg">
+                  Browse categories
+                </a>
               </div>
-              <p className="mt-4 text-sm text-ink-500">No credit card required · Cancel any time</p>
+              <p className="mt-4 text-sm text-ink-500">Prices include VAT · Pay by card, SEPA, iDEAL or Klarna</p>
             </div>
 
-            {/* Hero visual */}
+            {/* Hero visual: the four most featured products */}
             <div className="relative mx-auto w-full max-w-lg">
               <div className="card overflow-hidden">
-                <div className="flex items-center gap-1.5 border-b border-ink-100 bg-ink-50 px-4 py-2.5">
-                  <span className="h-2.5 w-2.5 rounded-full bg-red-300" />
-                  <span className="h-2.5 w-2.5 rounded-full bg-amber-300" />
-                  <span className="h-2.5 w-2.5 rounded-full bg-emerald-300" />
-                  <span className="ml-3 rounded bg-white px-2 py-0.5 font-mono text-[11px] text-ink-500">urban-nest.olozzo.com</span>
+                <div className="flex items-center gap-1.5 border-b border-ink-100 bg-ink-50 px-4 py-2.5 text-xs font-semibold text-ink-700">
+                  <TrendingUp size={14} className="text-brand-600" /> Trending now
                 </div>
                 <div className="grid grid-cols-2 gap-3 p-4">
-                  {trending.slice(0, 4).map((sp) => (
-                    <div key={sp.id} className="overflow-hidden rounded-xl border border-ink-100">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={parseImages(sp.product.images)[0]} alt={sp.title} className="aspect-square w-full object-cover" />
+                  {products.slice(0, 4).map((sp) => (
+                    <Link key={sp.id} href={`/s/${sp.store.slug}/products/${sp.slug}`} className="group overflow-hidden rounded-xl border border-ink-100">
+                      <div className="overflow-hidden">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={parseImages(sp.product.images)[0]}
+                          alt={sp.title}
+                          className="aspect-square w-full object-cover transition duration-300 group-hover:scale-105"
+                        />
+                      </div>
                       <div className="p-2.5">
                         <p className="truncate text-xs font-medium">{sp.title}</p>
                         <p className="text-xs font-bold">{formatMoney(sp.price)}</p>
                       </div>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </div>
-              <div className="card absolute -left-8 bottom-10 hidden w-64 p-4 shadow-xl sm:block">
+              <div className="card absolute -left-8 bottom-24 hidden w-64 p-4 shadow-xl sm:block">
                 <div className="flex items-center gap-3">
                   <span className="grid h-9 w-9 place-items-center rounded-full bg-brand-100 text-brand-700">
-                    <Package size={18} />
+                    <Truck size={18} />
                   </span>
                   <div className="text-xs">
-                    <p className="font-semibold text-ink-900">New order · Amsterdam</p>
-                    <p className="text-ink-500">€89.99 · profit €38.42</p>
+                    <p className="font-semibold text-ink-900">Delivered in 2–6 days</p>
+                    <p className="text-ink-500">Tracked, from an EU warehouse</p>
                   </div>
                 </div>
                 <p className="mt-3 rounded-lg bg-ink-50 px-2.5 py-1.5 text-[11px] text-ink-600">
-                  → Routed to <b>Berlin Gadget Wholesale</b>
+                  No customs fees anywhere in the <b>EU</b>
                 </p>
               </div>
-              <div className="card absolute -right-6 -top-6 hidden p-3 shadow-xl sm:block">
-                <p className="text-[11px] text-ink-500">Today&apos;s revenue</p>
-                <p className="text-lg font-bold">€2,481.60</p>
-                <p className="text-[11px] font-medium text-emerald-600">▲ 18% vs yesterday</p>
-              </div>
+              {maxDiscount > 0 && (
+                <div className="card absolute -right-6 -top-6 hidden p-3 shadow-xl sm:block">
+                  <p className="flex items-center gap-1 text-[11px] text-ink-500">
+                    <Percent size={12} /> On sale now
+                  </p>
+                  <p className="text-lg font-bold">Up to {maxDiscount}% off</p>
+                  <p className="text-[11px] font-medium text-emerald-600">On selected products</p>
+                </div>
+              )}
             </div>
           </div>
 
           <div className="border-y border-ink-200 bg-white">
             <dl className="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-4 py-8 text-center sm:px-6 md:grid-cols-4">
               {[
-                ["27", "EU countries served"],
+                ["27", "EU countries we deliver to"],
                 ["2–6 days", "Average delivery time"],
-                [`${productCount}+`, `Products from ${supplierCount} verified suppliers`],
-                [`${storeCount}`, "Stores live on olozzo"],
+                [`${products.length}`, `Products in ${categories.length} categories`],
+                ["14 days", "To change your mind"],
               ].map(([v, l]) => (
                 <div key={l}>
                   <dt className="text-3xl font-extrabold tracking-tight text-ink-900">{v}</dt>
@@ -159,11 +193,89 @@ export default async function HomePage() {
           </div>
         </section>
 
+        {/* Categories */}
+        {categories.length > 0 && (
+          <section id="categories" className="mx-auto max-w-7xl scroll-mt-20 px-4 py-24 sm:px-6">
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="text-sm font-semibold uppercase tracking-widest text-brand-700">Categories</p>
+              <h2 className="mt-3 text-4xl font-bold tracking-tight">Shop by category</h2>
+            </div>
+            <div className="mt-14 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6">
+              {categories.map((c) => (
+                <Link key={c.slug} href={`/?category=${c.slug}#products`} className="group card overflow-hidden">
+                  <div className="overflow-hidden bg-ink-100">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    {c.image && <img src={c.image} alt="" loading="lazy" className="aspect-square w-full object-cover transition duration-300 group-hover:scale-105" />}
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-semibold group-hover:underline">{c.name}</h3>
+                    <p className="text-sm text-ink-500">
+                      {c.count} {c.count === 1 ? "product" : "products"}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Products */}
+        <section id="products" className="scroll-mt-16 border-y border-ink-200 bg-ink-50">
+          <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6">
+            <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-widest text-brand-700">Our products</p>
+                <h2 className="mt-3 text-3xl font-bold tracking-tight">
+                  {activeCategory?.name ?? "All products"}
+                  <span className="ml-2 text-base font-normal text-ink-400">({shown.length})</span>
+                </h2>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <Link href="/#products" className={chip(!category)}>
+                  All
+                </Link>
+                {categories.map((c) => (
+                  <Link key={c.slug} href={`/?category=${c.slug}#products`} className={chip(category === c.slug)}>
+                    {c.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {shown.length === 0 ? (
+              <div className="mt-10 rounded-2xl border border-dashed border-ink-300 bg-white py-16 text-center text-ink-500">
+                There are no products in this category yet.{" "}
+                <Link href="/#products" className="font-semibold text-brand-700 hover:underline">
+                  Show all products
+                </Link>
+              </div>
+            ) : (
+              <div className="mt-10 grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
+                {shown.map((sp) => {
+                  const prices = sp.product.variants.map((v) => variantRetailPrice(sp.price, sp.product.costPrice, v.costPrice));
+                  return (
+                    <ProductCard
+                      key={sp.id}
+                      href={`/s/${sp.store.slug}/products/${sp.slug}`}
+                      title={sp.title}
+                      image={parseImages(sp.product.images)[0]}
+                      price={prices.length ? Math.min(...prices) : sp.price}
+                      compareAtPrice={sp.compareAtPrice}
+                      hasVariants={new Set(prices).size > 1}
+                      soldOut={sp.product.variants.every((v) => v.stock <= 0)}
+                    />
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        </section>
+
         {/* How it works */}
         <section id="how-it-works" className="mx-auto max-w-7xl scroll-mt-20 px-4 py-24 sm:px-6">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-semibold uppercase tracking-widest text-brand-700">How it works</p>
-            <h2 className="mt-3 text-4xl font-bold tracking-tight">From idea to first sale in an afternoon</h2>
+            <h2 className="mt-3 text-4xl font-bold tracking-tight">From your basket to your door</h2>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-4">
             {STEPS.map((s, i) => (
@@ -179,12 +291,12 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* Features */}
-        <section id="features" className="scroll-mt-20 bg-ink-950 py-24 text-white">
+        {/* Why olozzo */}
+        <section className="bg-ink-950 py-24 text-white">
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
             <div className="max-w-2xl">
-              <p className="text-sm font-semibold uppercase tracking-widest text-brand-400">Everything included</p>
-              <h2 className="mt-3 text-4xl font-bold tracking-tight">All the tools of a commerce platform. Built around dropshipping.</h2>
+              <p className="text-sm font-semibold uppercase tracking-widest text-brand-400">Why olozzo</p>
+              <h2 className="mt-3 text-4xl font-bold tracking-tight">Shopping across Europe, without the surprises.</h2>
             </div>
             <div className="mt-14 grid gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 md:grid-cols-3">
               {FEATURES.map((f) => (
@@ -198,119 +310,8 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* Trending */}
-        {trending.length > 0 && (
-          <section className="mx-auto max-w-7xl px-4 py-24 sm:px-6">
-            <div className="flex items-end justify-between">
-              <div>
-                <p className="text-sm font-semibold uppercase tracking-widest text-brand-700">Live on olozzo</p>
-                <h2 className="mt-3 text-3xl font-bold tracking-tight">Trending in our merchants&apos; stores</h2>
-              </div>
-              <Link href="/explore" className="hidden text-sm font-semibold text-brand-700 hover:underline sm:block">
-                Explore all stores →
-              </Link>
-            </div>
-            <div className="mt-10 grid grid-cols-2 gap-5 md:grid-cols-4">
-              {trending.map((sp) => (
-                <Link key={sp.id} href={`/s/${sp.store.slug}/products/${sp.slug}`} className="group">
-                  <div className="overflow-hidden rounded-2xl bg-ink-100">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={parseImages(sp.product.images)[0]}
-                      alt={sp.title}
-                      className="aspect-square w-full object-cover transition duration-300 group-hover:scale-105"
-                    />
-                  </div>
-                  <p className="mt-3 text-xs text-ink-500">{sp.store.name}</p>
-                  <p className="font-medium leading-snug">{sp.title}</p>
-                  <p className="mt-1 font-semibold">{formatMoney(sp.price)}</p>
-                </Link>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Suppliers */}
-        <section id="suppliers" className="scroll-mt-20 border-y border-ink-200 bg-ink-50">
-          <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-24 sm:px-6 lg:grid-cols-2">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-widest text-brand-700">For suppliers & wholesalers</p>
-              <h2 className="mt-3 text-4xl font-bold tracking-tight">Put your catalog in front of thousands of European sellers</h2>
-              <p className="mt-5 text-lg text-ink-600">
-                List your products once. Merchants import them into their stores and you receive ready-to-ship orders with
-                the customer&apos;s address — paid, routed and tracked through olozzo.
-              </p>
-              <ul className="mt-8 space-y-3">
-                {["Zero listing fees — you set the wholesale price", "Orders arrive pre-paid with full shipping details", "Bulk CSV upload and stock management", "Blind shipping: parcels go out under the merchant's brand"].map((t) => (
-                  <li key={t} className="flex items-center gap-3 text-ink-700">
-                    <BadgeCheck className="shrink-0 text-brand-600" size={20} /> {t}
-                  </li>
-                ))}
-              </ul>
-              <Link href="/register?role=supplier" className="btn btn-dark btn-lg mt-8">
-                Apply as a supplier <ArrowRight size={18} />
-              </Link>
-            </div>
-            <div className="card p-6">
-              <p className="text-sm font-semibold text-ink-500">Fulfilment queue</p>
-              <div className="mt-4 space-y-3">
-                {[
-                  { n: "OLZ-7K2M9QXA", c: "Lyon, FR", s: "Ship now", tone: "bg-amber-50 text-amber-700" },
-                  { n: "OLZ-P4T8WN2C", c: "Madrid, ES", s: "Shipped · DHL", tone: "bg-indigo-50 text-indigo-700" },
-                  { n: "OLZ-B3HZ6RLE", c: "Dublin, IE", s: "Delivered", tone: "bg-emerald-50 text-emerald-700" },
-                ].map((o) => (
-                  <div key={o.n} className="flex items-center justify-between rounded-xl border border-ink-100 px-4 py-3">
-                    <div>
-                      <p className="font-mono text-sm font-semibold">{o.n}</p>
-                      <p className="text-xs text-ink-500">{o.c}</p>
-                    </div>
-                    <span className={`rounded-full px-2.5 py-1 text-xs font-medium ${o.tone}`}>{o.s}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Pricing */}
-        <section id="pricing" className="mx-auto max-w-7xl scroll-mt-20 px-4 py-24 sm:px-6">
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-widest text-brand-700">Pricing</p>
-            <h2 className="mt-3 text-4xl font-bold tracking-tight">Simple plans. Pay as you grow.</h2>
-            <p className="mt-4 text-ink-500">All prices in EUR excl. VAT. 14-day free trial on every plan.</p>
-          </div>
-          <div className="mt-14 grid gap-6 md:grid-cols-3">
-            {Object.values(PLANS).map((plan) => {
-              const highlight = plan.id === "GROWTH";
-              return (
-                <div key={plan.id} className={`card relative p-8 ${highlight ? "border-brand-600 ring-2 ring-brand-600" : ""}`}>
-                  {highlight && (
-                    <span className="absolute -top-3 left-8 rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold text-white">Most popular</span>
-                  )}
-                  <h3 className="text-lg font-semibold">{plan.name}</h3>
-                  <p className="text-sm text-ink-500">{plan.blurb}</p>
-                  <p className="mt-6">
-                    <span className="text-4xl font-extrabold">{formatMoney(plan.monthly).replace(".00", "")}</span>
-                    <span className="text-ink-500">/month</span>
-                  </p>
-                  <ul className="mt-6 space-y-3 text-sm">
-                    {plan.features.map((f) => (
-                      <li key={f} className="flex items-start gap-2">
-                        <Check size={16} className="mt-0.5 shrink-0 text-brand-600" /> {f}
-                      </li>
-                    ))}
-                  </ul>
-                  <Link href="/register" className={`btn btn-lg mt-8 w-full ${highlight ? "btn-primary" : "btn-secondary"}`}>
-                    Start free trial
-                  </Link>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-
         {/* FAQ */}
-        <section className="border-t border-ink-200 bg-ink-50">
+        <section id="faq" className="scroll-mt-16 border-b border-ink-200 bg-ink-50">
           <div className="mx-auto max-w-3xl px-4 py-24 sm:px-6">
             <h2 className="text-center text-3xl font-bold tracking-tight">Frequently asked questions</h2>
             <div className="mt-10 divide-y divide-ink-200 rounded-2xl border border-ink-200 bg-white">
@@ -332,11 +333,13 @@ export default async function HomePage() {
           <div className="relative overflow-hidden rounded-3xl bg-brand-600 px-8 py-16 text-center text-white">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.2),transparent_40%)]" />
             <div className="relative">
-              <Users className="mx-auto" size={32} />
-              <h2 className="mt-4 text-4xl font-bold tracking-tight">Your European store is one click away</h2>
-              <p className="mx-auto mt-4 max-w-xl text-brand-50">Join merchants and suppliers building the next generation of European brands.</p>
-              <Link href="/register" className="btn btn-lg mt-8 bg-white text-brand-700 hover:bg-brand-50">
-                Create your store <ArrowRight size={18} />
+              <ShoppingBag className="mx-auto" size={32} />
+              <h2 className="mt-4 text-4xl font-bold tracking-tight">Track every order in one place</h2>
+              <p className="mx-auto mt-4 max-w-xl text-brand-50">
+                Follow your deliveries, see your order history and request returns from your olozzo account.
+              </p>
+              <Link href={user ? "/account" : "/register"} className="btn btn-lg mt-8 bg-white text-brand-700 hover:bg-brand-50">
+                {user ? "View my orders" : "Create a free account"} <ArrowRight size={18} />
               </Link>
             </div>
           </div>
