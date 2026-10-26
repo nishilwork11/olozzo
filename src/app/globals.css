@@ -7,7 +7,10 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-white text-ink-900 antialiased;
+    @apply bg-cream text-ink-900 antialiased;
+  }
+  ::selection {
+    @apply bg-sun-200 text-ink-950;
   }
 }
 
@@ -37,7 +40,7 @@
     @apply border border-red-200 bg-white text-red-600 hover:bg-red-50;
   }
   .btn-accent {
-    background-color: var(--accent, #059669);
+    background-color: var(--accent, theme("colors.brand.600"));
     @apply text-white shadow-sm hover:brightness-95;
   }
   .input {
@@ -62,6 +65,40 @@
     @apply border-b-0;
   }
   .text-accent {
-    color: var(--accent, #059669);
+    color: var(--accent, theme("colors.brand.600"));
+  }
+
+  /* Sunset loader (src/components/SunsetLoader.tsx): the outer ring turns, the inner ring turns the other
+     way and the centre pulses. The SVG's user units are used as the rotation centre. */
+  .sunset-loader-outer {
+    transform-origin: 180px 180px;
+    animation: sunset-spin 2.8s linear infinite;
+  }
+  .sunset-loader-inner {
+    transform-origin: 180px 180px;
+    animation: sunset-spin 2s linear infinite reverse;
+  }
+  .sunset-loader-core {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: sunset-pulse 1.2s ease-in-out infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .sunset-loader-outer,
+    .sunset-loader-inner,
+    .sunset-loader-core {
+      animation: none;
+    }
+  }
+}
+
+@keyframes sunset-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes sunset-pulse {
+  50% {
+    transform: scale(1.16);
   }
 }

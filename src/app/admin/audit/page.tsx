@@ -1,6 +1,9 @@
+import type { Metadata } from "next";
 import { Card, PageHeader } from "@/components/ui";
 import { db } from "@/lib/db";
 import { formatDateTime } from "@/lib/utils";
+
+export const metadata: Metadata = { title: "Audit log · Admin" };
 
 export default async function AdminAudit() {
   const logs = await db.auditLog.findMany({ include: { user: true }, orderBy: { createdAt: "desc" }, take: 300 });

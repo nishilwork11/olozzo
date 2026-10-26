@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { CornerDownRight, ExternalLink, Lock, Pencil, Plus, Trash2, TriangleAlert } from "lucide-react";
 import { SubmitButton } from "@/components/client";
@@ -18,6 +19,8 @@ type Row = {
   _count: { products: number; children: number };
 };
 type TreeRow = { row: Row; depth: number; parent: Row | null; total: number };
+
+export const metadata: Metadata = { title: "Categories · Admin" };
 
 export default async function AdminCategories({
   searchParams,

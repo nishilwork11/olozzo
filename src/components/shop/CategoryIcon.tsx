@@ -1,6 +1,8 @@
 import type { LucideIcon, LucideProps } from "lucide-react";
 import {
   Baby,
+  BatteryCharging,
+  BookOpen,
   Car,
   Cpu,
   Dumbbell,
@@ -13,6 +15,7 @@ import {
   Heart,
   HeartPulse,
   House,
+  Joystick,
   Laptop,
   Lightbulb,
   Luggage,
@@ -29,6 +32,7 @@ import {
   Smartphone,
   Smile,
   Sparkles,
+  Sun,
   Tag,
   Wrench,
 } from "lucide-react";
@@ -37,6 +41,8 @@ import {
 // A Map, so a stray name such as "constructor" can never resolve to something that is not an icon.
 const ICONS = new Map<string, LucideIcon>([
   ["Baby", Baby],
+  ["BatteryCharging", BatteryCharging],
+  ["BookOpen", BookOpen],
   ["Car", Car],
   ["Cpu", Cpu],
   ["Dumbbell", Dumbbell],
@@ -50,6 +56,7 @@ const ICONS = new Map<string, LucideIcon>([
   ["HeartPulse", HeartPulse],
   ["Home", House],
   ["House", House],
+  ["Joystick", Joystick],
   ["Laptop", Laptop],
   ["Lightbulb", Lightbulb],
   ["Luggage", Luggage],
@@ -66,6 +73,7 @@ const ICONS = new Map<string, LucideIcon>([
   ["Smartphone", Smartphone],
   ["Smile", Smile],
   ["Sparkles", Sparkles],
+  ["Sun", Sun],
   ["Wrench", Wrench],
 ]);
 

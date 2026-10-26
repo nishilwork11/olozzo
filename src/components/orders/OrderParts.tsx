@@ -113,14 +113,14 @@ export function OrderTimeline({ order }: { order: Order }) {
         return (
           <li key={s.key} className="flex flex-col items-center text-center">
             <div className="flex w-full items-center">
-              <div className={cn("h-0.5 flex-1", i === 0 ? "bg-transparent" : i < reached ? "bg-[var(--accent,#059669)]" : "bg-ink-200")} />
+              <div className={cn("h-0.5 flex-1", i === 0 ? "bg-transparent" : i < reached ? "bg-[var(--accent,#C8462A)]" : "bg-ink-200")} />
               <span
                 className={cn("grid h-8 w-8 shrink-0 place-items-center rounded-full text-white", done ? "" : "bg-ink-200 text-ink-500")}
-                style={done ? { background: "var(--accent, #059669)" } : undefined}
+                style={done ? { background: "var(--accent, #C8462A)" } : undefined}
               >
                 {done ? <Check size={16} /> : i + 1}
               </span>
-              <div className={cn("h-0.5 flex-1", i === STEPS.length - 1 ? "bg-transparent" : i < reached - 1 ? "bg-[var(--accent,#059669)]" : "bg-ink-200")} />
+              <div className={cn("h-0.5 flex-1", i === STEPS.length - 1 ? "bg-transparent" : i < reached - 1 ? "bg-[var(--accent,#C8462A)]" : "bg-ink-200")} />
             </div>
             <span className={cn("mt-2 text-xs", done ? "font-medium text-ink-900" : "text-ink-400")}>{s.label}</span>
           </li>

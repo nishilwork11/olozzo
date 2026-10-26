@@ -40,14 +40,14 @@ export async function PromoBar() {
     { icon: Lock, text: "Secure payment" },
   ];
   return (
-    <div className="bg-brand-700 text-white">
+    <div className="bg-ink-900 text-ink-50">
       <ul
         aria-label="Shopping with olozzo"
         className="mx-auto flex h-8 max-w-7xl items-center justify-center gap-x-5 overflow-hidden px-4 text-xs font-medium sm:gap-x-8 sm:px-6"
       >
         {items.map((item, i) => (
           <li key={item.text} className={cn("shrink-0 items-center gap-1.5 whitespace-nowrap", SHOW_FROM[i] ?? "hidden lg:flex")}>
-            <item.icon size={14} className="text-brand-200" aria-hidden="true" />
+            <item.icon size={14} className="text-sun-400" aria-hidden="true" />
             {item.text}
           </li>
         ))}

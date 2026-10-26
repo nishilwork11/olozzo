@@ -30,7 +30,7 @@ export function SearchForm({ defaultValue = "", className, onSubmitted }: Search
         maxLength={100}
         autoComplete="off"
         enterKeyHint="search"
-        className="h-11 w-full min-w-0 rounded-full border-2 border-brand-600 bg-white pl-4 pr-14 text-base text-ink-900 placeholder:text-ink-400 focus:outline-none focus:ring-4 focus:ring-brand-500/20 sm:pr-28 sm:text-sm"
+        className="h-11 w-full min-w-0 rounded-full border border-ink-300 bg-white pl-4 pr-14 text-base text-ink-900 placeholder:text-ink-400 hover:border-ink-400 focus:border-brand-600 focus:outline-none focus:ring-4 focus:ring-brand-500/15 sm:pr-28 sm:text-sm"
       />
       <button
         type="submit"

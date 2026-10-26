@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
@@ -11,6 +12,8 @@ import { formatDate, formatDateTime } from "@/lib/utils";
 import { requestReturn } from "../../actions";
 
 const REASONS = ["Changed my mind", "Wrong size or fit", "Item not as described", "Arrived damaged or defective", "Received the wrong item", "Other"];
+
+export const metadata: Metadata = { title: "Order details" };
 
 export default async function AccountOrderDetail({
   params,

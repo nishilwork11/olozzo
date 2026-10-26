@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Suspense } from "react";
-import { BadgePercent, Gamepad2, LayoutGrid, Package, User, type LucideIcon } from "lucide-react";
+import { BadgePercent, Flame, Gamepad2, LayoutGrid, LogOut, Package, User, type LucideIcon } from "lucide-react";
+import { logoutAction } from "@/app/actions/auth";
 import { CartLink, LiveCartLink } from "@/components/shop/CartLink";
 import { CategoryMenu, ScrollRow, type MenuCategory } from "@/components/shop/CategoryMenu";
 import { MobileCategoriesButton, MobileNav } from "@/components/shop/MobileNav";
@@ -61,9 +62,11 @@ function HeaderLink({ href, icon: Icon, label, className }: { href: string; icon
 
 // Colour and weight are set per chip (never overridden), so no two utilities of a kind compete
 const chipBase = cn("inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-1.5 text-sm transition", FOCUS_RING);
-const chip = cn(chipBase, "font-medium text-ink-700 hover:bg-brand-50 hover:text-brand-800");
-const dealsChip = cn(chipBase, "font-semibold text-brand-700 hover:bg-brand-50 hover:text-brand-800");
-const allCategoriesChip = cn(chipBase, "bg-brand-600 font-semibold text-white hover:bg-brand-700");
+const chip = cn(chipBase, "font-medium text-ink-700 hover:bg-ink-100 hover:text-ink-950");
+// Yellow marks deals across the shop (discount tags, the countdown), so Deals is the yellow chip
+const dealsChip = cn(chipBase, "bg-sun-100 font-semibold text-ink-900 hover:bg-sun-200");
+const trendingChip = cn(chipBase, "font-semibold text-ink-900 hover:bg-ink-100");
+const allCategoriesChip = cn(chipBase, "bg-ink-900 font-semibold text-white hover:bg-ink-800");
 
 /**
  * Shop header (Temu/DHgate style): benefits bar, logo + search + account/cart, and a category row with
@@ -96,6 +99,10 @@ export async function SiteHeader({ liveCart = false }: { liveCart?: boolean } = 
         <BadgePercent size={16} aria-hidden="true" />
         Deals
       </Link>
+      <Link href="/trending" className={trendingChip}>
+        <Flame size={16} className="text-coral-500" aria-hidden="true" />
+        Trending
+      </Link>
       {quick.map((c) => (
         <Link key={c.slug} href={`/c/${c.slug}`} className={chip}>
           {c.name}
@@ -120,6 +127,19 @@ export async function SiteHeader({ liveCart = false }: { liveCart?: boolean } = 
             <HeaderLink href="/games" icon={Gamepad2} label="Games" />
             {account?.ordersHref && <HeaderLink href={account.ordersHref} icon={Package} label="Orders" className="hidden md:flex" />}
             <HeaderLink href={account ? account.href : "/login"} icon={User} label={account ? account.label : "Sign in"} />
+            {/* Phones sign out from the menu, where the account links are */}
+            {account && (
+              <form action={logoutAction} className="hidden md:block">
+                <button
+                  type="submit"
+                  title="Sign out"
+                  className={cn("flex items-center rounded-full p-2 text-ink-700 transition hover:bg-ink-100 hover:text-ink-900", FOCUS_RING)}
+                >
+                  <LogOut size={22} aria-hidden="true" />
+                  <span className="sr-only">Sign out</span>
+                </button>
+              </form>
+            )}
             {liveCart ? <LiveCartLink /> : <CartLink storeSlug={HOUSE_STORE_SLUG} />}
           </nav>
         </div>

@@ -1,0 +1,480 @@
+[
+  {
+    "sku": "OLZ-SOL-001",
+    "title": "Foldable Solar Panel 100 W with USB-C, USB-A and DC Output",
+    "category": "solar-panels",
+    "supplier": "actief",
+    "description": "A folding solar panel for camping, festivals and garden sheds that charges phones directly or feeds a power station.\n• 100 W monocrystalline cells with up to 23% efficiency\n• Outputs: USB-C (45 W), USB-A (18 W) and DC (18 V) for power stations\n• Folds into a 4.5 kg briefcase with a carry handle\n• Kickstands and corner eyelets to set it up on the ground or tie it down",
+    "images": [
+      "https://images.unsplash.com/photo-1662601619454-6fdb2afcf24a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1662340701470-fb6aba0ca47c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 13999,
+    "compareAtPrice": 17999,
+    "costPrice": 6500,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 4500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-002",
+    "title": "Foldable Solar Panel 200 W for Portable Power Stations",
+    "category": "solar-panels",
+    "supplier": "actief",
+    "description": "A larger folding panel that recharges a mid-size power station in an afternoon of sun.\n• 200 W monocrystalline cells with an ETFE coating that resists scratches\n• MC4 output plus adapters for the most common power station inputs\n• IP67 junction box; splash-proof for camping in changing weather\n• Folds to 60 × 53 cm and weighs 8 kg",
+    "images": [
+      "https://images.unsplash.com/photo-1650865940168-074387fb7d46?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1650866155994-3bd730b5daf9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 23999,
+    "compareAtPrice": 29999,
+    "costPrice": 11500,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 8000,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-SOL-003",
+    "title": "Flexible Solar Panel 100 W for Campers, Boats and Curved Roofs",
+    "category": "solar-panels",
+    "supplier": "werkbank",
+    "description": "A thin, light panel that bends to fit the curved roof of a camper van, boat or caravan.\n• Bends up to 240° and is only 2.5 mm thick\n• 100 W monocrystalline cells; 2.2 kg\n• Pre-drilled eyelets; can also be glued with a suitable adhesive\n• 1 m cable with MC4 connectors",
+    "images": [
+      "https://images.unsplash.com/photo-1676337167786-cc84a686d687?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1676337167685-4a63c318bb68?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 11999,
+    "compareAtPrice": 14999,
+    "costPrice": 5500,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 2200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-004",
+    "title": "Balcony Solar Kit 800 W with 2 Panels and Micro-Inverter",
+    "category": "solar-panels",
+    "supplier": "werkbank",
+    "description": "A plug-in solar system for a balcony, terrace or garden that feeds power straight into your home's sockets.\n• Two 400 W glass-glass panels and an 800 VA micro-inverter with Wi-Fi app\n• Connects to an outdoor socket with the included 5 m cable\n• The app shows what you produce each day, month and year\n• Rules differ by country: in Germany, register the system in the Marktstammdatenregister. Check your local rules and landlord before installing",
+    "images": [
+      "https://images.unsplash.com/photo-1762958266463-6af778b56beb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1762958266615-949dc88dcb37?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1762958266438-5fbfffde5234?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 49900,
+    "compareAtPrice": 59900,
+    "costPrice": 26000,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 5,
+    "shippingDaysMax": 10,
+    "weightGrams": 44000,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-SOL-005",
+    "title": "Portable Power Station 300 W, 288 Wh, with AC, USB-C and Car Outlets",
+    "category": "power-stations",
+    "supplier": "werkbank",
+    "description": "A compact battery with sockets for camping trips, garden work and short power cuts at home.\n• 288 Wh capacity; 300 W pure sine wave AC socket (600 W peak)\n• 60 W USB-C, 2 USB-A and a 12 V car outlet\n• Recharge from a wall socket, car or a solar panel up to 100 W\n• 3.8 kg with a fold-down handle",
+    "images": [
+      "https://images.unsplash.com/photo-1678775883148-6642c67015f5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 22999,
+    "compareAtPrice": 27999,
+    "costPrice": 11000,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 3800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-006",
+    "title": "Portable Power Station 600 W, 512 Wh LiFePO4, with Fast Charging",
+    "category": "power-stations",
+    "supplier": "werkbank",
+    "description": "Enough power for a weekend of camping: lights, a fridge, laptops and phones.\n• 512 Wh LiFePO4 battery rated for 3,000 charge cycles\n• 2 AC sockets with 600 W pure sine wave (1,200 W peak)\n• Charges from 0 to 80% in about 1 hour from the wall\n• Solar input up to 200 W; 6.4 kg",
+    "images": [
+      "https://images.unsplash.com/photo-1678775882094-2db7c5d8718f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 39999,
+    "compareAtPrice": 49999,
+    "costPrice": 19000,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 6400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-007",
+    "title": "Portable Power Station 1000 W, 1024 Wh LiFePO4, with Wheels",
+    "category": "power-stations",
+    "supplier": "werkbank",
+    "description": "Backup power for the fridge, router and lights during a power cut, or a full off-grid weekend in a camper.\n• 1,024 Wh LiFePO4 battery rated for 3,500 charge cycles\n• 4 AC sockets with 1,000 W pure sine wave (2,000 W peak)\n• Switches to battery in under 20 ms when the mains fails\n• Solar input up to 400 W; telescopic handle and wheels",
+    "images": [
+      "https://images.unsplash.com/photo-1681263810102-ee12f623a5f3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1678775882799-2fba7042e7da?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 69999,
+    "compareAtPrice": 89999,
+    "costPrice": 34000,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 12500,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-SOL-008",
+    "title": "Solar Power Bank 20,000 mAh with LED Flashlight, IP65",
+    "category": "solar-chargers",
+    "supplier": "actief",
+    "description": "A rugged power bank for hiking and camping that tops itself up a little in the sun.\n• 20,000 mAh: charges most phones 4 to 5 times\n• USB-C in and out (18 W) plus 2 USB-A ports\n• Built-in solar panel for emergency top-ups; charges fully from USB-C\n• IP65 dust- and splash-proof with a bright LED torch",
+    "images": [
+      "https://images.unsplash.com/photo-1739268984311-b478fccf256e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1000,
+    "variants": [
+      {
+        "name": "Orange",
+        "stock": 150
+      },
+      {
+        "name": "Black",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-009",
+    "title": "Foldable Solar Phone Charger 21 W with 2 USB Ports",
+    "category": "solar-chargers",
+    "supplier": "actief",
+    "description": "Hang it on your backpack or tent and charge your phone straight from the sun.\n• 21 W from three foldable panels\n• 2 USB-A ports with automatic restart after clouds pass\n• Folds to the size of a paperback; 600 g\n• Weather-resistant canvas with hanging eyelets",
+    "images": [
+      "https://images.unsplash.com/photo-1662601653123-23023131511a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1662601652706-45b34275efd7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": 5999,
+    "costPrice": 1800,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-010",
+    "title": "30 W Solar Battery Charger Kit, 12 V, for Sheds, Allotments and Gates",
+    "category": "solar-chargers",
+    "supplier": "werkbank",
+    "description": "A small off-grid kit to keep a 12 V battery charged for shed lights, an electric gate or a pond pump.\n• 30 W monocrystalline panel with an aluminium frame\n• 10 A PWM charge controller with 2 USB ports\n• Battery clamps and a 5 m cable included\n• Corner brackets for a wall, roof or post (battery not included)",
+    "images": [
+      "https://images.unsplash.com/photo-1621495995068-18144056a287?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1689561799161-7d5852ee10a5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": 7499,
+    "costPrice": 2500,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 3400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-011",
+    "title": "10 W Solar Trickle Charger for 12 V Car and Boat Batteries",
+    "category": "solar-chargers",
+    "supplier": "werkbank",
+    "description": "Keeps the battery of a car, motorbike, boat or caravan topped up while it stands unused.\n• 10 W panel with a built-in charge controller to prevent overcharging\n• Connect with battery clamps or the 12 V socket plug, both included\n• Suction cups for the windscreen or screws for a roof\n• Waterproof panel with a 3 m cable",
+    "images": [
+      "https://images.unsplash.com/photo-1662078907405-73fff6faacd3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4499,
+    "costPrice": 1300,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-012",
+    "title": "Pure Sine Wave Inverter 1000 W, 12 V to 230 V, with USB-C",
+    "category": "inverters",
+    "supplier": "werkbank",
+    "description": "Turns a 12 V battery into household 230 V power for a camper van, boat or off-grid cabin.\n• 1,000 W continuous pure sine wave output (2,000 W peak)\n• 2 EU sockets, 30 W USB-C and a USB-A port\n• Protection against low battery, overload, overheating and short circuits\n• Battery cables and a wired remote switch included",
+    "images": [
+      "https://images.unsplash.com/photo-1680050957267-083780de20c1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 12999,
+    "compareAtPrice": 15999,
+    "costPrice": 6000,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 2600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-013",
+    "title": "MPPT Solar Charge Controller 30 A, 12/24 V, with LCD",
+    "category": "inverters",
+    "supplier": "werkbank",
+    "description": "Gets more charge from your solar panels into your battery than a basic controller, especially on cloudy days.\n• MPPT tracking for up to 30% more energy than PWM controllers\n• Works with 12 V and 24 V systems; up to 100 V solar input\n• Supports lead-acid, AGM, gel and lithium (LiFePO4) batteries\n• LCD shows voltage, current and today's yield",
+    "images": [
+      "https://images.unsplash.com/photo-1662601619308-3cd3038944b4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 6999,
+    "compareAtPrice": 8999,
+    "costPrice": 3000,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-014",
+    "title": "PWM Solar Charge Controller 20 A with Dual USB",
+    "category": "inverters",
+    "supplier": "werkbank",
+    "description": "A simple, reliable charge controller for small solar setups on sheds, allotments and campers.\n• 20 A for 12 V or 24 V systems (detects automatically)\n• 2 USB ports to charge phones straight from the battery\n• Protection against overcharging, deep discharge and reverse polarity\n• Display shows battery level and charging status",
+    "images": [
+      "https://images.unsplash.com/photo-1662601618909-bd57ed3639ac?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 700,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-015",
+    "title": "Adjustable Solar Panel Tilt Mount, Set of 4 Brackets",
+    "category": "solar-mounting",
+    "supplier": "werkbank",
+    "description": "Angles your panels towards the sun on a flat roof, terrace or garden for a better yield.\n• Tilt adjustable from 15° to 30°\n• Anodised aluminium with stainless steel bolts; will not rust\n• Fits panels up to 1,200 mm wide\n• Includes all bolts and an assembly guide",
+    "images": [
+      "https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1661930941624-f4b43e3079f1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 4999,
+    "costPrice": 1500,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 3200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-016",
+    "title": "Balcony Railing Mount for Solar Panels, Stainless Steel, Set of 2",
+    "category": "solar-mounting",
+    "supplier": "werkbank",
+    "description": "Hangs a solar panel safely on the outside of a balcony railing, without drilling into the wall.\n• Fits round and square railings from 20 to 60 mm\n• Adjustable tilt from 0° to 30°\n• Stainless steel with rubber pads to protect the railing\n• Holds one panel up to 25 kg per set",
+    "images": [
+      "https://images.unsplash.com/photo-1762958266408-5a8278e26506?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": 7499,
+    "costPrice": 2400,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 4200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-017",
+    "title": "Solar Extension Cable 6 mm² with MC4 Connectors, Red and Black Pair",
+    "category": "solar-mounting",
+    "supplier": "werkbank",
+    "description": "Extends the cable between your solar panels and the charge controller or inverter.\n• 6 mm² tinned copper for low losses over longer runs\n• UV-resistant, double-insulated solar cable\n• Pre-fitted MC4 connectors, IP67 when connected\n• One red and one black cable in each pack",
+    "images": [
+      "https://images.unsplash.com/photo-1687038520579-8d8f24721267?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1100,
+    "variants": [
+      {
+        "name": "5 m",
+        "stock": 80
+      },
+      {
+        "name": "10 m",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-018",
+    "title": "AA Rechargeable Batteries 2800 mAh NiMH, 8 Pack, Pre-Charged",
+    "category": "rechargeable-batteries",
+    "supplier": "werkbank",
+    "description": "Replace hundreds of throwaway batteries in remotes, toys, game controllers and torches.\n• 2,800 mAh high capacity for power-hungry devices\n• Pre-charged and ready to use out of the pack\n• Low self-discharge: keeps 80% of its charge after a year\n• Recharge up to 500 times in any NiMH charger",
+    "images": [
+      "https://images.unsplash.com/photo-1619641805634-b867f535071c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2499,
+    "costPrice": 700,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-019",
+    "title": "AAA Rechargeable Batteries 1100 mAh NiMH, 8 Pack",
+    "category": "rechargeable-batteries",
+    "supplier": "werkbank",
+    "description": "Rechargeable AAA cells for remotes, wireless mice, keyboards and small torches.\n• 1,100 mAh capacity\n• Pre-charged and ready to use\n• Low self-discharge for devices you use only now and then\n• Recharge up to 500 times in any NiMH charger",
+    "images": [
+      "https://images.unsplash.com/photo-1722289016701-7661d52f38c5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": 1999,
+    "costPrice": 550,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SOL-020",
+    "title": "LiFePO4 Battery 12 V 100 Ah with Built-In BMS, for Campers and Solar",
+    "category": "rechargeable-batteries",
+    "supplier": "werkbank",
+    "description": "A deep-cycle lithium battery for camper vans, boats and solar systems, at about half the weight of lead-acid.\n• 1,280 Wh capacity; rated for over 4,000 cycles\n• Built-in battery management protects against overcharge, deep discharge and short circuits\n• 11 kg; can be mounted upright or on its side\n• Connect up to 4 in parallel for more capacity",
+    "images": [
+      "https://images.unsplash.com/photo-1581244249923-172ef5029576?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1592318348310-f31b61a931c8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 29999,
+    "compareAtPrice": 37999,
+    "costPrice": 15000,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 11000,
+    "featured": false
+  }
+]

@@ -217,19 +217,19 @@ export function SnakeGame() {
           aria-label={`Snake board, ${CELLS} by ${CELLS} squares. The snake is ${game.snake.length} squares long.`}
           className={cn(
             styles.snakeBoard,
-            "relative aspect-square w-full select-none overflow-hidden rounded-2xl ring-1 ring-inset ring-brand-200",
+            "relative aspect-square w-full select-none overflow-hidden rounded-2xl ring-1 ring-inset ring-plum-200",
             status === "running" && "touch-none",
           )}
         >
           <div className="absolute grid place-items-center" style={cellStyle(game.food)}>
-            <Apple className={cn("h-[82%] w-[82%] fill-lime-300 text-lime-700", styles.foodBob)} strokeWidth={2.25} />
+            <Apple className={cn("h-[82%] w-[82%] fill-coral-400 text-coral-700", styles.foodBob)} strokeWidth={2.25} />
           </div>
           {game.snake.map((p, i) => (
             <div key={i} className="absolute p-px sm:p-[1.5px]" style={cellStyle(p)}>
               <div
                 className={cn(
                   "relative h-full w-full",
-                  i === 0 ? "z-10 rounded-[38%] bg-brand-700 shadow-sm" : cn("rounded-[30%]", i % 2 ? "bg-brand-500" : "bg-brand-600"),
+                  i === 0 ? "z-10 rounded-[38%] bg-plum-700 shadow-sm" : cn("rounded-[30%]", i % 2 ? "bg-plum-500" : "bg-plum-600"),
                 )}
               >
                 {i === 0 &&
@@ -308,7 +308,7 @@ export function SnakeGame() {
                 if (e.detail === 0) steer(dir); // keyboard activation; taps are handled on pointer down
               }}
               className={cn(
-                "grid aspect-square touch-manipulation place-items-center rounded-2xl bg-brand-600 text-white shadow-[inset_0_-4px_0_rgba(0,0,0,0.15)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-300 active:bg-brand-700 disabled:opacity-50",
+                "grid aspect-square touch-manipulation place-items-center rounded-2xl bg-plum-600 text-white shadow-[inset_0_-4px_0_rgba(0,0,0,0.15)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-plum-300 active:bg-plum-700 disabled:opacity-50",
                 area,
               )}
             >
@@ -320,7 +320,7 @@ export function SnakeGame() {
             aria-label={status === "paused" ? "Resume" : "Pause"}
             onClick={status === "paused" ? resume : pause}
             disabled={status === "idle" || status === "over"}
-            className="col-start-2 row-start-2 grid aspect-square touch-manipulation place-items-center rounded-full bg-brand-50 text-brand-700 ring-1 ring-inset ring-brand-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-300 disabled:opacity-50"
+            className="col-start-2 row-start-2 grid aspect-square touch-manipulation place-items-center rounded-full bg-plum-50 text-plum-700 ring-1 ring-inset ring-plum-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-plum-300 disabled:opacity-50"
           >
             {status === "paused" ? <Play size={20} aria-hidden="true" /> : <Pause size={20} aria-hidden="true" />}
           </button>

@@ -94,7 +94,7 @@ export function Pagination({
                 href={href(p)}
                 aria-label={`Page ${p}`}
                 aria-current={p === page ? "page" : undefined}
-                className={cn(itemClass, "flex", p === page ? "bg-brand-700 text-white" : "text-ink-700 hover:bg-ink-100")}
+                className={cn(itemClass, "flex", p === page ? "bg-ink-900 text-white" : "text-ink-700 hover:bg-ink-100")}
               >
                 {p}
               </Link>

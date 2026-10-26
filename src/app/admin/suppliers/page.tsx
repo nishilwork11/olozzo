@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Factory } from "lucide-react";
 import { SubmitButton } from "@/components/client";
 import { Card, EmptyState, Flash, PageHeader, StatusBadge } from "@/components/ui";
@@ -5,6 +6,8 @@ import { db } from "@/lib/db";
 import { countryName } from "@/lib/eu";
 import { formatDate } from "@/lib/utils";
 import { setSupplierStatus } from "../actions";
+
+export const metadata: Metadata = { title: "Suppliers · Admin" };
 
 export default async function AdminSuppliers({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

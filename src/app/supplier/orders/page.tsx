@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ExternalLink, PackageOpen } from "lucide-react";
 import { SubmitButton } from "@/components/client";
@@ -16,6 +17,8 @@ const TABS = [
   { key: "DELIVERED", label: "Delivered", statuses: ["DELIVERED"] },
   { key: "CANCELLED", label: "Cancelled", statuses: ["CANCELLED"] },
 ];
+
+export const metadata: Metadata = { title: "Fulfilment queue · Supplier" };
 
 export default async function SupplierOrders({ searchParams }: { searchParams: Promise<{ status?: string; ok?: string; error?: string }> }) {
   const { status, ...flash } = await searchParams;

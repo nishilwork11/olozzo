@@ -6,7 +6,7 @@ export default function GamesLayout({ children }: { children: React.ReactNode })
   return (
     <>
       <SiteHeader />
-      <main className="bg-gradient-to-b from-brand-50/70 via-white to-white">{children}</main>
+      <main className="bg-gradient-to-b from-plum-50/70 via-white to-white">{children}</main>
       <SiteFooter />
     </>
   );

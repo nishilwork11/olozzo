@@ -50,7 +50,11 @@ export async function POST(req: NextRequest) {
   const order = await createOrderFromQuote(store, quote, shipping, provider, user?.id ?? null);
   await audit(user?.id ?? null, "order.created", "Order", order.id, `${order.number} · ${store.name} · ${provider}`);
 
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || req.nextUrl.origin;
+  // Where payment sends the shopper back. Locally that is this dev server, whatever port it runs on (a fixed
+  // NEXT_PUBLIC_APP_URL breaks as soon as the port changes); in production the configured public URL, because
+  // behind a proxy the request's own origin can be an internal address.
+  const baseUrl =
+    process.env.NODE_ENV === "development" ? req.nextUrl.origin : process.env.NEXT_PUBLIC_APP_URL || req.nextUrl.origin;
   try {
     const url = await startPayment(order, store, provider, baseUrl, quote.lines.reduce((s, l) => s + l.quantity, 0));
     return NextResponse.json({ url, orderId: order.id });

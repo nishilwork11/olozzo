@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
@@ -5,6 +6,8 @@ import { AddressBlock, OrderItemsList, OrderTimeline, OrderTotals, ShipmentList 
 import { Card, CardHeader, PageHeader, StatusBadge } from "@/components/ui";
 import { db } from "@/lib/db";
 import { formatDateTime } from "@/lib/utils";
+
+export const metadata: Metadata = { title: "Order details · Admin" };
 
 export default async function AdminOrderDetail({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;

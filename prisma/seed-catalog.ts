@@ -159,8 +159,16 @@ function validateCatalog() {
   if (warnings.length > 8) console.log(`  … and ${warnings.length - 8} more warnings (node prisma/catalog/validate.cjs lists them all)`);
 }
 
+/** SKUs listed in trending.json. They are imported even past the per-category limit: the homepage features them. */
+function readTrendingSkus(): Set<string> {
+  const file = path.join(CATALOG_DIR, "trending.json");
+  if (!existsSync(file)) return new Set();
+  return new Set(readJson<{ products: { sku: string }[] }>(file).products.map((t) => t.sku));
+}
+
 function readProductFiles(tree: CategoryJson[]): ProductFile[] {
   if (!existsSync(PRODUCTS_DIR)) return [];
+  const trending = readTrendingSkus();
   const order = new Map(tree.map((t, i) => [t.slug, i]));
   return readdirSync(PRODUCTS_DIR)
     .filter((f) => f.endsWith(".json"))
@@ -168,7 +176,7 @@ function readProductFiles(tree: CategoryJson[]): ProductFile[] {
     .sort((a, b) => (order.get(a) ?? Infinity) - (order.get(b) ?? Infinity) || a.localeCompare(b))
     .map((slug) => {
       const all = readJson<ProductJson[]>(path.join(PRODUCTS_DIR, `${slug}.json`));
-      const products = all.slice(0, perCategory);
+      const products = all.filter((p, i) => i < perCategory || trending.has(p.sku));
       return { slug, name: tree.find((t) => t.slug === slug)?.name ?? slug, products, notImported: all.length - products.length };
     });
 }

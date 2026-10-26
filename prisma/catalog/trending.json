@@ -1,0 +1,32 @@
+{
+  "updated": "2026-10-26",
+  "note": "The 20 products shown under \"Trending now\" (homepage and /trending), in rank order. Ranked by monthly search volume and growth in the sources below, favouring items with a rise going into the holiday season. The sources give global or US figures (none is Europe-specific), so this is not yet a European ranking. Food, supplements and branded goods were left out. Review once a month.",
+  "sources": [
+    "https://www.hostinger.com/tutorials/trending-products/",
+    "https://www.godaddy.com/resources/mindset/trending-products-to-sell-online",
+    "https://www.sellthetrend.com/blog/winning-products",
+    "https://www.doba.com/blog/dropshipping-platforms/temu-dropshipping/hot-temu-picks-10-top-sellers-for-temu-dropshipping-39706"
+  ],
+  "products": [
+    { "sku": "OLZ-ELE-007", "trend": "Smartwatches", "evidence": "~1.4M monthly searches, holiday spikes (Hostinger)" },
+    { "sku": "OLZ-ELE-015", "trend": "Power banks", "evidence": "~653k monthly searches, holiday spikes (Hostinger); on GoDaddy's 2026 list" },
+    { "sku": "OLZ-MCL-014", "trend": "Cargo pants", "evidence": "~657k monthly searches with recent spikes (Hostinger)" },
+    { "sku": "OLZ-SPT-021", "trend": "Reusable water bottles", "evidence": "~537k monthly searches, steadily rising (Hostinger)" },
+    { "sku": "OLZ-APL-021", "trend": "Air purifiers", "evidence": "~485k monthly searches, higher intent in 2026 (Hostinger); on GoDaddy's list" },
+    { "sku": "OLZ-BEA-021", "trend": "Massage guns", "evidence": "~350k monthly searches, peaks in December and January (Hostinger)" },
+    { "sku": "OLZ-BEA-010", "trend": "Press-on nails", "evidence": "~257k monthly searches, risen markedly (Hostinger)" },
+    { "sku": "OLZ-HOM-020", "trend": "Candles", "evidence": "~210k monthly searches, holiday spikes (Hostinger)" },
+    { "sku": "OLZ-LGT-001", "trend": "LED strip lights", "evidence": "~180k monthly searches, strong rise around year-end (Hostinger)" },
+    { "sku": "OLZ-CMP-005", "trend": "Laptop stands", "evidence": "~180k monthly searches (Hostinger)" },
+    { "sku": "OLZ-BEA-022", "trend": "Pimple patches", "evidence": "~175k monthly searches, steady growth (Hostinger)" },
+    { "sku": "OLZ-ELE-021", "trend": "Bluetooth trackers", "evidence": "~120k monthly searches, spike in 2026 (Hostinger)" },
+    { "sku": "OLZ-BAG-021", "trend": "Neck pillows", "evidence": "~104k monthly searches, up in 2026 (Hostinger)" },
+    { "sku": "OLZ-PET-016", "trend": "Dog harnesses", "evidence": "~95k monthly searches (Hostinger)" },
+    { "sku": "OLZ-WCL-012", "trend": "Wide-leg pants", "evidence": "~82k monthly searches, reaching new peaks (Hostinger)" },
+    { "sku": "OLZ-BEA-023", "trend": "Vitamin C serum", "evidence": "~74k monthly searches, +52% year on year (GoDaddy)" },
+    { "sku": "OLZ-ELE-001", "trend": "Bluetooth earbuds", "evidence": "~60k monthly searches, +50% year on year (GoDaddy)" },
+    { "sku": "OLZ-APL-022", "trend": "Portable blenders", "evidence": "~53k monthly searches, spike in 2026 (Hostinger)" },
+    { "sku": "OLZ-BEA-024", "trend": "Scalp massagers", "evidence": "~33k monthly searches, +3710% year on year (GoDaddy)" },
+    { "sku": "OLZ-LGT-021", "trend": "Sunset projection lamps", "evidence": "Named among Temu's top sellers (Doba, 2026)" }
+  ]
+}

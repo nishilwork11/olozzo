@@ -1,7 +1,10 @@
+import type { Metadata } from "next";
 import { Check, Minus } from "lucide-react";
 import { Card, PageHeader } from "@/components/ui";
 import { db } from "@/lib/db";
 import { PERMISSIONS, PROTECTED_AREAS, ROLE_LABELS, ROLE_PERMISSIONS, ROLES, type Permission } from "@/lib/rbac";
+
+export const metadata: Metadata = { title: "Roles & access · Admin" };
 
 export default async function AdminRoles() {
   const counts = await db.user.groupBy({ by: ["role"], _count: true });

@@ -22,33 +22,33 @@ export default function GamesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-brand-800 via-brand-700 to-brand-600 text-white">
+      <section className="relative overflow-hidden bg-gradient-to-br from-sun-100 via-cream to-coral-100 text-ink-950">
         <div aria-hidden="true" className="pointer-events-none absolute inset-0">
-          <span className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-lime-300/20 blur-2xl" />
-          <span className="absolute -bottom-32 left-1/3 h-72 w-72 rounded-full bg-teal-300/20 blur-2xl" />
+          <span className="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-sun-300/40 blur-2xl" />
+          <span className="absolute -bottom-32 left-1/3 h-72 w-72 rounded-full bg-coral-200/50 blur-2xl" />
         </div>
 
         <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 py-8 sm:px-6 sm:py-16 lg:grid-cols-[minmax(0,1fr)_auto] lg:py-20">
           <div>
-            <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-xs font-bold uppercase tracking-wider ring-1 ring-inset ring-white/25">
-              <Gamepad2 size={14} aria-hidden="true" /> olozzo games
+            <span className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-1 text-xs font-bold uppercase tracking-wider text-ink-800 ring-1 ring-inset ring-ink-200">
+              <Gamepad2 size={14} className="text-coral-600" aria-hidden="true" /> olozzo games
             </span>
             <h1 className="mt-4 max-w-2xl text-[2rem] font-extrabold leading-[1.05] tracking-tight sm:mt-5 sm:text-5xl lg:text-6xl">
-              Take a break — free games, <span className="text-lime-300">just for fun</span>
+              Take a break — free games, <span className="text-coral-600">just for fun</span>
             </h1>
-            <p className="mt-3 max-w-xl text-[15px] font-medium text-white sm:mt-5 sm:text-lg">
+            <p className="mt-3 max-w-xl text-[15px] font-medium text-ink-700 sm:mt-5 sm:text-lg">
               Four quick mini games you can play right here. Beat your own best score, then get back to shopping whenever you like.
             </p>
             <ul className="mt-5 flex flex-wrap gap-2 sm:mt-6" aria-label="Good to know">
               {PROMISES.map(({ icon: Icon, label }) => (
-                <li key={label} className="inline-flex items-center gap-1.5 rounded-full bg-white px-2.5 py-1 text-xs font-semibold text-brand-800 shadow-sm sm:px-3 sm:py-1.5 sm:text-sm">
+                <li key={label} className="inline-flex items-center gap-1.5 rounded-full bg-white px-2.5 py-1 text-xs font-semibold text-ink-800 shadow-sm ring-1 ring-ink-200 sm:px-3 sm:py-1.5 sm:text-sm">
                   <Icon size={15} aria-hidden="true" /> {label}
                 </li>
               ))}
             </ul>
             <a
               href="#games"
-              className="btn btn-lg mt-8 hidden bg-lime-300 text-brand-950 shadow-sm hover:bg-lime-200 focus-visible:ring-white focus-visible:ring-offset-brand-700 sm:inline-flex"
+              className="btn btn-primary btn-lg mt-8 hidden sm:inline-flex"
             >
               Pick a game <ArrowDown size={18} aria-hidden="true" />
             </a>
@@ -62,7 +62,7 @@ export default function GamesPage() {
                 <span
                   key={g.slug}
                   className={cn(
-                    "grid h-32 w-32 place-items-center rounded-3xl bg-white text-brand-700 shadow-xl shadow-brand-900/20",
+                    "grid h-32 w-32 place-items-center rounded-3xl bg-white text-plum-700 shadow-xl shadow-ink-900/10",
                     ["-rotate-6", "rotate-3 translate-y-4", "rotate-6 -translate-y-2", "-rotate-3 translate-y-2"][i],
                   )}
                 >
@@ -107,7 +107,7 @@ export default function GamesPage() {
                 </div>
                 <div className="flex flex-1 flex-col p-3 sm:p-5">
                   <h3 className="flex items-center gap-2 text-base font-extrabold leading-tight text-ink-900 sm:text-lg">
-                    <span className="hidden h-8 w-8 shrink-0 place-items-center rounded-lg bg-brand-50 text-brand-700 sm:grid">
+                    <span className="hidden h-8 w-8 shrink-0 place-items-center rounded-lg bg-plum-50 text-plum-700 sm:grid">
                       <Icon size={18} aria-hidden="true" />
                     </span>
                     {g.name}
@@ -127,13 +127,13 @@ export default function GamesPage() {
         </ul>
 
         {/* No prizes, clearly */}
-        <div className="mt-12 grid gap-4 rounded-3xl border border-brand-200 bg-brand-50 p-6 sm:grid-cols-[auto_1fr] sm:items-center sm:p-8">
-          <span className="grid h-12 w-12 place-items-center rounded-2xl bg-white text-brand-700 shadow-sm">
+        <div className="mt-12 grid gap-4 rounded-3xl border border-plum-200 bg-plum-50 p-6 sm:grid-cols-[auto_1fr] sm:items-center sm:p-8">
+          <span className="grid h-12 w-12 place-items-center rounded-2xl bg-white text-plum-700 shadow-sm">
             <ShieldCheck size={24} aria-hidden="true" />
           </span>
           <div>
-            <h2 className="text-lg font-extrabold text-brand-950">Just for fun — really</h2>
-            <p className="mt-1 text-sm leading-relaxed text-brand-900">
+            <h2 className="text-lg font-extrabold text-plum-950">Just for fun — really</h2>
+            <p className="mt-1 text-sm leading-relaxed text-plum-900">
               These games have no prizes, coupons, discounts or rewards, and playing never changes prices or orders. There is nothing to
               sign up for: your best scores are saved only in this browser, and clearing your browser data removes them.
             </p>

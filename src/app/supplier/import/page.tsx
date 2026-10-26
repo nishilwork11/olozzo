@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { FileUp } from "lucide-react";
 import { SubmitButton } from "@/components/client";
 import { Card, CardHeader, Flash, PageHeader } from "@/components/ui";
@@ -8,6 +9,8 @@ import { importCsv } from "../actions";
 const SAMPLE = `title,description,category,sku,cost,rrp,shipping,stock,days_min,days_max,variants,image
 "Bamboo Cutting Board Set","Set of 3 organic bamboo boards with juice groove. FSC certified.",Home & Living,BAMB-3,8.50,34.99,3.90,250,2,4,,https://example.com/board.jpg
 "Linen Summer Shirt","Breathable 100% European linen shirt, relaxed fit.",Fashion,LIN-SH,14.00,54.99,3.50,120,3,6,S|M|L|XL,https://example.com/shirt-1.jpg|https://example.com/shirt-2.jpg`;
+
+export const metadata: Metadata = { title: "CSV import · Supplier" };
 
 export default async function SupplierImport({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

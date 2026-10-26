@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { AlertTriangle, Boxes, Euro, PackageCheck, Truck } from "lucide-react";
 import { BarChart, Card, CardHeader, Flash, PageHeader, StatCard, StatusBadge } from "@/components/ui";
@@ -6,6 +7,8 @@ import { countryName } from "@/lib/eu";
 import { formatMoney } from "@/lib/money";
 import { requireSupplier } from "@/lib/supplier";
 import { formatDate, lastDays } from "@/lib/utils";
+
+export const metadata: Metadata = { title: "Dashboard · Supplier" };
 
 export default async function SupplierHome({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

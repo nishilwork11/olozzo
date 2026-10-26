@@ -560,5 +560,114 @@
     "shippingDaysMax": 5,
     "weightGrams": 900,
     "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-021",
+    "title": "Massage Gun with 6 Heads and 5 Speeds, Quiet Deep Tissue Massager",
+    "category": "massage",
+    "supplier": "bella-cura",
+    "description": "A handheld percussion massager to help tired muscles relax after training, a long day at a desk or a long drive.\n• 5 speeds from 1,800 to 3,200 percussions per minute\n• 6 interchangeable heads for large muscles, shoulders, feet and the back\n• Quiet brushless motor; up to 6 hours of use per charge; USB-C\n• Lightweight 650 g body with a non-slip grip; storage case included",
+    "images": [
+      "https://images.unsplash.com/photo-1755255020813-1cdb6a4bd9b0?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1755255020807-9b5f5f789870?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1772122028843-9139d23af4fb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 7999,
+    "costPrice": 2200,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 110
+      },
+      {
+        "name": "Forest Green",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 1,
+    "shippingDaysMax": 4,
+    "weightGrams": 900,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-BEA-022",
+    "title": "Hydrocolloid Pimple Patches, 72 Invisible Dots in 3 Sizes",
+    "category": "skincare",
+    "supplier": "bella-cura",
+    "description": "Thin, clear hydrocolloid patches that cover blemishes overnight or under make-up, so you are not tempted to touch them.\n• 72 patches in 3 sizes (8, 10 and 12 mm) for single spots or small clusters\n• Hydrocolloid absorbs fluid and keeps the spot protected from dirt\n• Nearly invisible on the skin; fragrance-free and vegan\n• Peel, press and leave on for at least 6 hours",
+    "images": [
+      "https://images.unsplash.com/photo-1664006384974-9a0540ee86f3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1677808344022-69de54690c34?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": 1199,
+    "costPrice": 250,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 300
+      }
+    ],
+    "shippingDaysMin": 1,
+    "shippingDaysMax": 4,
+    "weightGrams": 30,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-023",
+    "title": "Vitamin C Serum 30 ml with Hyaluronic Acid and Vitamin E",
+    "category": "skincare",
+    "supplier": "bella-cura",
+    "description": "A lightweight daily serum for a brighter, more even-looking complexion, layered under moisturiser and sunscreen.\n• 15% vitamin C (ascorbyl glucoside) with vitamin E and ferulic acid\n• Hyaluronic acid for a plumper, hydrated feel\n• Absorbs quickly without a sticky finish; fragrance-free and vegan\n• Amber glass dropper bottle; made in the EU under Regulation (EC) 1223/2009",
+    "images": [
+      "https://images.unsplash.com/photo-1638609269435-1b4421f8585c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1723951174326-2a97221d3b7f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2199,
+    "costPrice": 450,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 220
+      }
+    ],
+    "shippingDaysMin": 1,
+    "shippingDaysMax": 4,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BEA-024",
+    "title": "Silicone Scalp Massager Shampoo Brush for Wet and Dry Hair",
+    "category": "hair-care",
+    "supplier": "bella-cura",
+    "description": "A soft silicone brush that works shampoo into the scalp and lifts away product build-up, with a pleasant massaging feel.\n• Flexible silicone bristles that are gentle on the scalp and do not pull hair\n• Use in the shower with shampoo or on dry hair for a quick scalp massage\n• Ergonomic handle that fits the palm and does not slip when wet\n• Easy to rinse and quick to dry; suitable for all hair types",
+    "images": [
+      "https://images.unsplash.com/photo-1669281392847-fd8ba5a1f423?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1767953829433-1e405b6889de?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": 999,
+    "costPrice": 180,
+    "variants": [
+      {
+        "name": "Blue",
+        "stock": 150
+      },
+      {
+        "name": "Green",
+        "stock": 150
+      },
+      {
+        "name": "Coral",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 1,
+    "shippingDaysMax": 4,
+    "weightGrams": 80,
+    "featured": false
   }
 ]

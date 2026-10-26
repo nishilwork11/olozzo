@@ -208,19 +208,21 @@ export async function createDiscount(form: FormData) {
 }
 
 export async function toggleDiscount(id: string) {
-  const { store } = await merchantStoreFor("discounts:manage");
+  const { user, store } = await merchantStoreFor("discounts:manage");
   const d = await db.discountCode.findFirst({ where: { id, storeId: store.id } });
   if (!d) throw new Error("Not found");
   await db.discountCode.update({ where: { id }, data: { active: !d.active } });
+  await audit(user.id, d.active ? "discount.disabled" : "discount.enabled", "DiscountCode", id, d.code);
   revalidatePath("/merchant/discounts");
   redirect(withFlash("/merchant/discounts", "ok", `${d.code} ${d.active ? "disabled" : "enabled"}.`));
 }
 
 export async function deleteDiscount(id: string) {
-  const { store } = await merchantStoreFor("discounts:manage");
+  const { user, store } = await merchantStoreFor("discounts:manage");
   const d = await db.discountCode.findFirst({ where: { id, storeId: store.id } });
   if (!d) throw new Error("Not found");
   await db.discountCode.delete({ where: { id } });
+  await audit(user.id, "discount.deleted", "DiscountCode", id, d.code);
   revalidatePath("/merchant/discounts");
   redirect(withFlash("/merchant/discounts", "ok", `${d.code} deleted.`));
 }

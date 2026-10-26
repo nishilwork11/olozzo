@@ -11,8 +11,8 @@ export function Stats({ children, className }: { children: React.ReactNode; clas
 
 export function Stat({ label, value, hint }: { label: string; value: React.ReactNode; hint?: React.ReactNode }) {
   return (
-    <div className="flex min-w-0 flex-col justify-center rounded-xl bg-brand-50 px-1.5 py-2 text-center ring-1 ring-inset ring-brand-100 sm:px-3">
-      <dt className="text-[11px] font-bold uppercase tracking-wide text-brand-700">{label}</dt>
+    <div className="flex min-w-0 flex-col justify-center rounded-xl bg-plum-50 px-1.5 py-2 text-center ring-1 ring-inset ring-plum-100 sm:px-3">
+      <dt className="text-[11px] font-bold uppercase tracking-wide text-plum-700">{label}</dt>
       <dd className="relative mt-0.5 whitespace-nowrap text-lg font-extrabold leading-tight tabular-nums text-ink-900 sm:text-xl">{value}</dd>
       {hint && <dd className="truncate text-[11px] font-medium tabular-nums text-ink-500">{hint}</dd>}
     </div>
@@ -62,13 +62,13 @@ export function Overlay({
       <div
         className={cn(
           "w-full max-w-[19rem] rounded-2xl px-4 py-5 shadow-xl ring-1 sm:px-6",
-          tone === "brand" ? "bg-brand-700 text-white ring-white/10" : "bg-white text-ink-900 ring-ink-900/5",
+          tone === "brand" ? "bg-plum-700 text-white ring-white/10" : "bg-white text-ink-900 ring-ink-900/5",
         )}
       >
         <p id={titleId} className="text-2xl font-extrabold tracking-tight sm:text-3xl">
           {title}
         </p>
-        {children && <div className={cn("mt-2 text-sm", tone === "brand" ? "text-brand-50" : "text-ink-600")}>{children}</div>}
+        {children && <div className={cn("mt-2 text-sm", tone === "brand" ? "text-plum-50" : "text-ink-600")}>{children}</div>}
         <div className="mt-4 grid gap-2 [&>*]:w-full">{actions}</div>
       </div>
     </div>
@@ -77,7 +77,7 @@ export function Overlay({
 
 export function NewBestBadge() {
   return (
-    <span className="mt-3 inline-flex items-center rounded-full bg-lime-300 px-3 py-1 text-xs font-extrabold uppercase tracking-wide text-lime-950">
+    <span className="mt-3 inline-flex items-center rounded-full bg-sun-400 px-3 py-1 text-xs font-extrabold uppercase tracking-wide text-ink-950">
       New personal best
     </span>
   );

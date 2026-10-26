@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Percent, Trash2 } from "lucide-react";
 import { SubmitButton } from "@/components/client";
 import { Card, EmptyState, Field, Flash, PageHeader, StatusBadge } from "@/components/ui";
@@ -6,6 +7,8 @@ import { requireMerchantStore } from "@/lib/merchant";
 import { formatMoney } from "@/lib/money";
 import { formatDate } from "@/lib/utils";
 import { createDiscount, deleteDiscount, toggleDiscount } from "../actions";
+
+export const metadata: Metadata = { title: "Discount codes · Merchant" };
 
 export default async function DiscountsPage({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

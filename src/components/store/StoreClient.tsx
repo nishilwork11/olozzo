@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Check, Minus, Plus, ShoppingBag, ShoppingCart, Trash2 } from "lucide-react";
+import { SunsetLoader } from "@/components/SunsetLoader";
 import { formatMoney } from "@/lib/money";
 import { cn } from "@/lib/utils";
 import { useCart } from "./CartProvider";
@@ -63,7 +64,7 @@ export function ProductPurchase({
         {compare && compare > (variant?.price ?? 0) && (
           <>
             <span className="text-lg text-ink-400 line-through">{formatMoney(compare)}</span>
-            <span className="rounded-full bg-red-50 px-2 py-0.5 text-xs font-semibold text-red-600">
+            <span className="rounded-full bg-sun-200 px-2 py-0.5 text-xs font-semibold text-ink-900">
               Save {Math.round((1 - (variant?.price ?? 0) / compare) * 100)}%
             </span>
           </>
@@ -165,7 +166,12 @@ export function Gallery({ images, title }: { images: string[]; title: string }) 
 export function CartView({ freeShippingOver, shippingRate }: { freeShippingOver: number | null; shippingRate: number }) {
   const { items, ready, subtotal, setQuantity, remove, storeSlug } = useCart();
 
-  if (!ready) return <div className="h-64 animate-pulse rounded-2xl bg-ink-50" />;
+  if (!ready)
+    return (
+      <div className="grid h-64 place-items-center rounded-2xl bg-ink-50">
+        <SunsetLoader size={56} label="Loading your cart" />
+      </div>
+    );
   if (items.length === 0) {
     return (
       <div className="rounded-2xl border border-dashed border-ink-300 py-20 text-center">

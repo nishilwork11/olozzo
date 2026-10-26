@@ -631,5 +631,37 @@
     "shippingDaysMax": 5,
     "weightGrams": 120,
     "featured": false
+  },
+  {
+    "sku": "OLZ-BAG-021",
+    "title": "Memory Foam Travel Neck Pillow with Washable Cover and Carry Bag",
+    "category": "travel-accessories",
+    "supplier": "oro-luce",
+    "description": "A supportive neck pillow for flights, trains and long car journeys that keeps your head from dropping while you sleep.\n• Slow-rebound memory foam that holds its shape night after night\n• Adjustable front clasp for a snug fit around the neck\n• Breathable velour cover that zips off and is machine washable at 30 °C\n• Packs into a small bag that clips onto hand luggage",
+    "images": [
+      "https://images.unsplash.com/photo-1676131161011-48ec63704918?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1614805135215-b88ceb58152a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 700,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 120
+      },
+      {
+        "name": "Grey",
+        "stock": 100
+      },
+      {
+        "name": "Navy",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 350,
+    "featured": false
   }
 ]

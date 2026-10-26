@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Boxes, Pencil, Star, Trash2 } from "lucide-react";
 import { SubmitButton } from "@/components/client";
@@ -9,6 +10,8 @@ import { vatRateFor } from "@/lib/eu";
 import { marginRate } from "@/lib/pricing";
 import { parseImages } from "@/lib/utils";
 import { removeStoreProduct, toggleStoreProduct } from "../actions";
+
+export const metadata: Metadata = { title: "My products · Merchant" };
 
 export default async function MerchantProducts({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
   const flash = await searchParams;

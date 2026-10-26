@@ -1,6 +1,9 @@
+import type { Metadata } from "next";
 import { OrderStatusTabs, OrdersTable } from "@/components/orders/OrdersTable";
 import { PageHeader } from "@/components/ui";
 import { db } from "@/lib/db";
+
+export const metadata: Metadata = { title: "Orders · Admin" };
 
 export default async function AdminOrders({ searchParams }: { searchParams: Promise<{ status?: string }> }) {
   const { status } = await searchParams;

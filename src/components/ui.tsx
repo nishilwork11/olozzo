@@ -1,16 +1,35 @@
 import type { LucideIcon } from "lucide-react";
 import { AlertCircle, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
+import { SUNSET } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 
+/**
+ * The Sunset logo: the ringed mark is the first "o" of olozzo, followed by "lozzo" in the rounded logo face.
+ * `light` is for dark backgrounds (the purple parts turn cream).
+ */
 export function Logo({ className, light = false }: { className?: string; light?: boolean }) {
+  const ink = light ? SUNSET.cream : SUNSET.purple;
   return (
-    <Link href="/" className={cn("flex items-center gap-2", className)} aria-label="olozzo home">
-      <span className="relative grid h-8 w-8 place-items-center rounded-xl bg-brand-600 shadow-sm">
-        <span className="h-3.5 w-3.5 rounded-full border-[3px] border-white" />
-        <span className="absolute right-1.5 top-1.5 h-1.5 w-1.5 rounded-full bg-lime-300" />
-      </span>
-      <span className={cn("text-xl font-extrabold tracking-tight", light ? "text-white" : "text-ink-900")}>olozzo</span>
+    <Link
+      href="/"
+      aria-label="olozzo home"
+      className={cn(
+        "inline-flex items-center rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2",
+        className,
+      )}
+    >
+      {/* Cropped to the artwork; overflow stays visible in case the fallback font runs a little wider */}
+      <svg viewBox="66 84 628 223" className="h-9 w-auto overflow-visible" aria-hidden="true" focusable="false">
+        <circle cx="193" cy="180" r="106" fill="none" stroke={SUNSET.yellow} strokeWidth="34" strokeLinecap="round" strokeDasharray="420 246" transform="rotate(-31 193 180)" />
+        <circle cx="193" cy="180" r="75" fill="none" stroke={SUNSET.coral} strokeWidth="34" strokeLinecap="round" strokeDasharray="292 180" transform="rotate(76 193 180)" />
+        <circle cx="193" cy="180" r="31" fill={ink} />
+        <text x="327" y="234" fill={ink} fontSize="166" fontWeight="800" letterSpacing="-10" className="font-logo">
+          lo<tspan fill={SUNSET.coral}>z</tspan>
+          <tspan fill={SUNSET.yellow}>z</tspan>
+          <tspan>o</tspan>
+        </text>
+      </svg>
     </Link>
   );
 }
