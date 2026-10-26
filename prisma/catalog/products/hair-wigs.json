@@ -1,0 +1,622 @@
+[
+  {
+    "sku": "OLZ-HAI-001",
+    "title": "Glueless Human Hair Body Wave Wig, 20 Inch, 180% Density",
+    "category": "human-hair-wigs",
+    "supplier": "bella-cura",
+    "description": "A soft, bouncy body wave wig made from 100% human hair that can be curled, straightened and washed like your own. The glueless cap with an adjustable strap goes on in minutes.\n• Hair: 100% human hair, 180% density, length 20 inches (51 cm)\n• Cap: medium size 54–58 cm with adjustable strap and 4 combs\n• Heat-styling safe up to 180 °C; can be dyed darker\n• Arrives in a gift box with a wig cap",
+    "images": [
+      "https://images.unsplash.com/photo-1784812222534-325e3423425c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1785456283212-338f5bc44d50?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 9999,
+    "compareAtPrice": 14999,
+    "costPrice": 4999,
+    "variants": [
+      {
+        "name": "Natural Black",
+        "stock": 40
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 30
+      },
+      {
+        "name": "Brown with Blonde Highlights",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 420,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-HAI-002",
+    "title": "Human Hair Curly Wig with Middle Part, 18 Inch",
+    "category": "human-hair-wigs",
+    "supplier": "bella-cura",
+    "description": "Defined, springy curls with natural movement for a full, voluminous look. The breathable cap and pre-cut middle part make it easy to wear every day.\n• Hair: 100% human hair, 150% density, length 18 inches (46 cm)\n• Cap: medium size 54–58 cm with adjustable strap\n• Refresh the curls with water and a leave-in conditioner\n• Heat-styling safe up to 180 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1783512785019-8bcb76a68d5a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1611590027211-b954fd027b51?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 8999,
+    "compareAtPrice": null,
+    "costPrice": 4299,
+    "variants": [
+      {
+        "name": "Natural Black",
+        "stock": 35
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-003",
+    "title": "Straight Human Hair Bob Wig, 12 Inch, Blunt Cut",
+    "category": "human-hair-wigs",
+    "supplier": "bella-cura",
+    "description": "A sleek chin-to-shoulder bob with a crisp blunt cut that is easy to style. Lightweight and comfortable for all-day wear.\n• Hair: 100% human hair, 150% density, length 12 inches (30 cm)\n• Cap: medium size 54–58 cm with adjustable strap and side combs\n• Heat-styling safe up to 180 °C; can be dyed darker\n• Wig weight approx. 150 g",
+    "images": [
+      "https://images.unsplash.com/photo-1779350676620-fde279b1d023?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": 8999,
+    "costPrice": 2799,
+    "variants": [
+      {
+        "name": "Natural Black",
+        "stock": 45
+      },
+      {
+        "name": "Chestnut Brown",
+        "stock": 35
+      },
+      {
+        "name": "Burgundy",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-004",
+    "title": "Afro Kinky Curly Human Hair Wig, 14 Inch",
+    "category": "human-hair-wigs",
+    "supplier": "bella-cura",
+    "description": "A full, rounded afro wig with tight kinky curls for bold, natural-looking volume. The glueless cap is breathable and secure.\n• Hair: 100% human hair, 200% density, stretched length 14 inches (36 cm)\n• Cap: medium size 54–58 cm with adjustable strap\n• Shape with an afro pick and refresh with a light water spray\n• Can be dyed darker or colour-toned",
+    "images": [
+      "https://images.unsplash.com/photo-1632765854612-9b02b6ec2b15?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1707162740878-087394a935c7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 7999,
+    "compareAtPrice": 10999,
+    "costPrice": 3899,
+    "variants": [
+      {
+        "name": "Natural Black",
+        "stock": 35
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-005",
+    "title": "Shoulder-Length Synthetic Bob Wig with Fringe, Heat-Resistant",
+    "category": "synthetic-wigs",
+    "supplier": "bella-cura",
+    "description": "A ready-to-wear bob with a soft fringe in bold and natural colours, ideal for parties, costumes or a quick style change. Pre-styled straight out of the box.\n• Fibre: heat-resistant synthetic, styling safe up to 150 °C\n• Length: approx. 35 cm from the crown\n• Cap: average size 54–58 cm, breathable rose-net with adjustable straps\n• Includes a wig cap",
+    "images": [
+      "https://images.unsplash.com/photo-1787220674717-5f44f30d1ae1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1754327544411-c139d3bb5d80?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2299,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Blonde",
+        "stock": 80
+      },
+      {
+        "name": "Platinum",
+        "stock": 60
+      },
+      {
+        "name": "Pink",
+        "stock": 70
+      },
+      {
+        "name": "Copper Red",
+        "stock": 50
+      },
+      {
+        "name": "Black",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 220,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-HAI-006",
+    "title": "Blue Cosplay Wig, Heat-Resistant Synthetic Fibre",
+    "category": "synthetic-wigs",
+    "supplier": "bella-cura",
+    "description": "A vivid, layered cosplay wig that holds its colour and shape through long convention days. Easy to trim and style to match your character.\n• Fibre: matte heat-resistant synthetic, styling safe up to 150 °C\n• Length: approx. 40 cm, layered cut with side-swept fringe\n• Cap: average size 54–58 cm with adjustable straps\n• Includes a wig cap and storage net",
+    "images": [
+      "https://images.unsplash.com/photo-1559564071-dfa53d83b513?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "Electric Blue",
+        "stock": 60
+      },
+      {
+        "name": "Pastel Blue",
+        "stock": 50
+      },
+      {
+        "name": "Silver",
+        "stock": 45
+      },
+      {
+        "name": "Lilac",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 240,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-007",
+    "title": "Long Wavy Pink Synthetic Wig, 26 Inch",
+    "category": "synthetic-wigs",
+    "supplier": "bella-cura",
+    "description": "Long, flowing waves in soft candy pink for festivals, photo shoots and themed parties. The fibre has a natural low-shine finish.\n• Fibre: heat-resistant synthetic, styling safe up to 150 °C\n• Length: 26 inches (66 cm)\n• Cap: average size 54–58 cm with adjustable straps\n• Brush gently with a wide-tooth comb to keep the waves defined",
+    "images": [
+      "https://images.unsplash.com/photo-1632984814154-6e07a671ae58?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "Candy Pink",
+        "stock": 80
+      },
+      {
+        "name": "Rose Gold",
+        "stock": 50
+      },
+      {
+        "name": "Pastel Ombre",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-008",
+    "title": "Long Straight Synthetic Wig with Bangs, 24 Inch",
+    "category": "synthetic-wigs",
+    "supplier": "bella-cura",
+    "description": "A silky, everyday straight wig with face-framing bangs that is ready to wear straight from the pack. A budget-friendly way to try a new look.\n• Fibre: heat-resistant synthetic, styling safe up to 150 °C\n• Length: 24 inches (61 cm)\n• Cap: average size 54–58 cm, breathable with adjustable straps\n• Includes a wig cap",
+    "images": [
+      "https://images.unsplash.com/photo-1634315775834-3e1ac73de6b6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1654470800030-1f44b4793a37?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 100
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 80
+      },
+      {
+        "name": "Honey Blonde",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 280,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-009",
+    "title": "13×4 Lace Front Human Hair Wig, Straight, 22 Inch",
+    "category": "lace-front-wigs",
+    "supplier": "bella-cura",
+    "description": "A sleek straight wig with a 13 × 4 inch transparent lace front for a natural-looking hairline and flexible parting. Pre-plucked with baby hairs for a soft finish.\n• Hair: 100% human hair, 180% density, length 22 inches (56 cm)\n• Lace: 13 × 4 inch transparent lace, pre-plucked hairline with baby hair\n• Cap: medium size 54–58 cm with adjustable strap and 4 combs\n• Heat-styling safe up to 180 °C; can be dyed darker",
+    "images": [
+      "https://images.unsplash.com/photo-1737085726745-0e408ab9fc8c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1668505543198-4fb0b42808bc?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 11999,
+    "compareAtPrice": 16999,
+    "costPrice": 5999,
+    "variants": [
+      {
+        "name": "Natural Black",
+        "stock": 30
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 430,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-010",
+    "title": "Blonde Lace Front Wig, Long Body Wave, Synthetic",
+    "category": "lace-front-wigs",
+    "supplier": "bella-cura",
+    "description": "Glamorous long waves in a sun-kissed blonde with darker roots, finished with a soft lace front hairline. A heat-friendly synthetic that holds its wave pattern.\n• Fibre: heat-resistant synthetic, styling safe up to 150 °C\n• Length: 26 inches (66 cm)\n• Lace: 13 × 4 inch lace front with free parting area\n• Cap: average size 54–58 cm with adjustable straps",
+    "images": [
+      "https://images.unsplash.com/photo-1775159878152-4dfd9f184ef3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1785456390070-9960e3997066?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4999,
+    "costPrice": 1449,
+    "variants": [
+      {
+        "name": "Honey Blonde with Dark Roots",
+        "stock": 60
+      },
+      {
+        "name": "Platinum Blonde",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 320,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-011",
+    "title": "Copper Red Lace Front Wig with Layered Waves, 20 Inch",
+    "category": "lace-front-wigs",
+    "supplier": "bella-cura",
+    "description": "A rich copper red with soft layered waves that frame the face. The lace front blends in for a natural-looking hairline.\n• Fibre: heat-resistant synthetic, styling safe up to 150 °C\n• Length: 20 inches (51 cm)\n• Lace: 13 × 4 inch lace front with free parting\n• Cap: average size 54–58 cm with adjustable straps",
+    "images": [
+      "https://images.unsplash.com/photo-1586266195531-76cfa365cb43?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1199,
+    "variants": [
+      {
+        "name": "Copper Red",
+        "stock": 60
+      },
+      {
+        "name": "Auburn",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-012",
+    "title": "Brown Lace Front Wig with Curtain Bangs, 20 Inch",
+    "category": "lace-front-wigs",
+    "supplier": "bella-cura",
+    "description": "Soft chocolate-brown hair with on-trend curtain bangs and ends that curve gently inward. A natural-looking everyday style with a 13 × 4 lace front.\n• Fibre: heat-resistant synthetic, styling safe up to 150 °C\n• Length: 20 inches (51 cm)\n• Lace: 13 × 4 inch lace front with a pre-styled side part\n• Cap: average size 54–58 cm with adjustable straps and combs",
+    "images": [
+      "https://images.unsplash.com/photo-1788648010911-c181f6a225f5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1758315949140-1972ace0644e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3299,
+    "compareAtPrice": 4499,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "Chocolate Brown",
+        "stock": 70
+      },
+      {
+        "name": "Ash Brown",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 310,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-013",
+    "title": "Tape-In Human Hair Extensions, 20 Pieces, 50 g",
+    "category": "hair-extensions",
+    "supplier": "bella-cura",
+    "description": "Seamless tape-in extensions that lie flat against the head to add length and volume. Each piece can be removed and re-taped for repeated use.\n• 100% human hair, 20 pieces × 2.5 g (50 g in total)\n• Length: 18 inches (46 cm); weft width 4 cm\n• Strong double-sided tape, reusable with replacement tapes\n• Professional fitting recommended",
+    "images": [
+      "https://images.unsplash.com/photo-1785456439444-5132a64f0dd7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1785456463151-623876d5b7af?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2399,
+    "variants": [
+      {
+        "name": "Natural Black",
+        "stock": 40
+      },
+      {
+        "name": "Medium Brown",
+        "stock": 40
+      },
+      {
+        "name": "Ash Blonde",
+        "stock": 35
+      },
+      {
+        "name": "Platinum Blonde",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-014",
+    "title": "Halo Hair Extension with Invisible Wire, 20 Inch",
+    "category": "hair-extensions",
+    "supplier": "bella-cura",
+    "description": "A one-piece halo extension that sits on an invisible, adjustable wire, with no glue or tape needed. Slip it on in under a minute for instant length and volume.\n• Fibre: heat-resistant synthetic, styling safe up to 150 °C\n• Length: 20 inches (51 cm); weight approx. 110 g\n• Adjustable clear wire plus 4 small security clips\n• Brush gently and air-dry after washing",
+    "images": [
+      "https://images.unsplash.com/photo-1560869713-bf165a9cfac1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "Golden Blonde",
+        "stock": 60
+      },
+      {
+        "name": "Ash Blonde",
+        "stock": 50
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 70
+      },
+      {
+        "name": "Black",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-015",
+    "title": "Straight Human Hair Weft Bundle, 20 Inch, 100 g",
+    "category": "hair-extensions",
+    "supplier": "bella-cura",
+    "description": "A full bundle of machine-sewn weft hair for weaves and custom wig making. Soft, tangle-resistant strands with a natural lustre.\n• 100% human hair, 1 bundle of approx. 100 g\n• Length: 20 inches (51 cm)\n• Can be dyed darker, or lightened by a professional\n• 3 bundles are recommended for a full head",
+    "images": [
+      "https://images.unsplash.com/photo-1560264641-1b5191cc63e2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1618566909269-a09202832ac6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5499,
+    "costPrice": 1899,
+    "variants": [
+      {
+        "name": "Natural Black",
+        "stock": 60
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-016",
+    "title": "Wrap-Around Clip-In Ponytail Extension, 22 Inch",
+    "category": "clip-ins",
+    "supplier": "bella-cura",
+    "description": "A long, sleek ponytail that wraps around your own hair to hide the base, then secures with a comb and a hidden clip. Ready to wear in under a minute.\n• Fibre: heat-resistant synthetic, styling safe up to 150 °C\n• Length: 22 inches (56 cm); weight approx. 120 g\n• Wrap strip with built-in comb and snap clip\n• Wear it straight or curl it for extra volume",
+    "images": [
+      "https://images.unsplash.com/photo-1772442164216-5df411dadc81?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1701559459709-423baf04e60f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1999,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 100
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 90
+      },
+      {
+        "name": "Chestnut",
+        "stock": 60
+      },
+      {
+        "name": "Honey Blonde",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-017",
+    "title": "Messy Bun Hair Piece with Elastic Scrunchie Base",
+    "category": "clip-ins",
+    "supplier": "bella-cura",
+    "description": "An instant tousled updo: wrap the elastic band around a ponytail and the curly bun does the rest. Handy for busy mornings, weddings and evenings out.\n• Fibre: synthetic, approx. 40 g\n• Elastic scrunchie base fits most ponytails\n• Bun diameter approx. 12 cm\n• Shake out and reshape with your fingers after wearing",
+    "images": [
+      "https://images.unsplash.com/photo-1651024074162-9b0f2dfc85f1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": null,
+    "costPrice": 259,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 100
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 90
+      },
+      {
+        "name": "Medium Brown",
+        "stock": 80
+      },
+      {
+        "name": "Blonde",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 70,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-018",
+    "title": "Coloured Clip-In Hair Streaks, 10 Pieces",
+    "category": "clip-ins",
+    "supplier": "bella-cura",
+    "description": "Add a flash of colour without dye: snap these streaks into your hair for festivals, parties or a fun everyday look, and remove them in seconds.\n• 10 pieces, each 3 cm wide and 55 cm long\n• Heat-resistant synthetic fibre\n• Metal snap clip with silicone grip on each piece\n• Mixed colours in every pack",
+    "images": [
+      "https://images.unsplash.com/photo-1790180686058-81196d486bee?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 699,
+    "costPrice": 189,
+    "variants": [
+      {
+        "name": "Rainbow Mix",
+        "stock": 150
+      },
+      {
+        "name": "Pastel Mix",
+        "stock": 100
+      },
+      {
+        "name": "Pink Mix",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-019",
+    "title": "Mannequin Head for Wigs with Table Clamp Stand",
+    "category": "wig-accessories",
+    "supplier": "bella-cura",
+    "description": "A foam training head with an adjustable clamp stand for styling, drying and storing wigs. The pin-friendly surface holds T-pins securely.\n• Head circumference 54 cm, height 30 cm\n• Metal clamp stand fits table edges up to 5 cm thick\n• Includes 30 T-pins\n• Lightweight foam with a smooth, wipe-clean finish",
+    "images": [
+      "https://images.unsplash.com/photo-1542702937-506268e68902?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1770321118667-f53114e87c65?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HAI-020",
+    "title": "Wide-Tooth Detangling Comb for Wigs and Curly Hair",
+    "category": "wig-accessories",
+    "supplier": "bella-cura",
+    "description": "A smooth, seamless wide-tooth comb that works gently through wigs, extensions and curls without snagging. An easy way to keep hairpieces tidy.\n• Material: heat-resistant ABS plastic with seamless teeth\n• Length 21 cm, tooth spacing 6 mm\n• Suitable for wet and dry hair\n• Hanging hole for easy storage",
+    "images": [
+      "https://images.unsplash.com/photo-1592372554345-22ced975691d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 399,
+    "compareAtPrice": null,
+    "costPrice": 149,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 150
+      },
+      {
+        "name": "Black",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 40,
+    "featured": false
+  }
+]

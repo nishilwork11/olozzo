@@ -1,0 +1,507 @@
+[
+  {
+    "sku": "OLZ-WCV-001",
+    "title": "Plus Size Wrap Midi Dress with Short Sleeves and Tie Waist",
+    "category": "curve-dresses",
+    "supplier": "moda-lusa",
+    "description": "A flattering wrap dress cut for curves, with a crossover V-neck and a tie waist you can adjust for a comfortable fit.\n• Material: 95% polyester, 5% elastane soft jersey with gentle stretch\n• Short sleeves and a flowing midi-length skirt\n• Self-tie waist with an inner popper to keep the neckline in place\n• Length approx. 118 cm in size 2XL\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1657550853452-f13aa437f6c9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1657549091422-3b748b8f72b2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3799,
+    "costPrice": 1259,
+    "variants": [
+      { "name": "XL", "stock": 70 },
+      { "name": "2XL", "stock": 85 },
+      { "name": "3XL", "stock": 75 },
+      { "name": "4XL", "stock": 50 },
+      { "name": "5XL", "stock": 30 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 340,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-WCV-002",
+    "title": "Plus Size Satin Slip Dress with Adjustable Straps",
+    "category": "curve-dresses",
+    "supplier": "moda-lusa",
+    "description": "A smooth satin slip dress with a soft sheen and a bias-cut drape, easy to wear alone for evenings out or layered over a tee by day.\n• Material: 100% polyester satin\n• V-neckline with adjustable spaghetti straps\n• Midi length, approx. 115 cm in size 2XL\n• Colours: red and black\n• Hand wash cold, iron on low heat",
+    "images": [
+      "https://images.unsplash.com/photo-1582745140877-0480c22d91ee?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Red / XL", "stock": 45 },
+      { "name": "Red / 2XL", "stock": 60 },
+      { "name": "Red / 3XL", "stock": 40 },
+      { "name": "Black / XL", "stock": 50 },
+      { "name": "Black / 2XL", "stock": 65 },
+      { "name": "Black / 3XL", "stock": 45 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-003",
+    "title": "Plus Size Sleeveless Linen Blend Midi Dress",
+    "category": "curve-dresses",
+    "supplier": "moda-lusa",
+    "description": "A relaxed sleeveless dress in a breathable linen blend that keeps you cool on summer days, with a gentle A-line shape that skims the body.\n• Material: 55% linen, 45% viscose\n• Round neckline and wide shoulder straps\n• Two side pockets\n• Length approx. 112 cm in size 2XL\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1631234349102-7336151b42d6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631234326507-9ca97926a39f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1319,
+    "variants": [
+      { "name": "XL", "stock": 55 },
+      { "name": "2XL", "stock": 70 },
+      { "name": "3XL", "stock": 60 },
+      { "name": "4XL", "stock": 40 },
+      { "name": "5XL", "stock": 25 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 330,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-004",
+    "title": "Plus Size Long Sleeve Jersey Midi Dress",
+    "category": "curve-dresses",
+    "supplier": "moda-lusa",
+    "description": "An easy, everyday jersey dress with long sleeves and a straight midi skirt, comfortable enough for the office and smart enough for dinner.\n• Material: 92% viscose, 8% elastane soft stretch jersey\n• Round neckline and long fitted sleeves\n• Length approx. 120 cm in size 2XL\n• Machine wash at 30°C, dry flat",
+    "images": [
+      "https://images.unsplash.com/photo-1619799130797-eac818972fb3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1620216541662-b0dc6c0a46cf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": 2999,
+    "costPrice": 989,
+    "variants": [
+      { "name": "Black / XL", "stock": 60 },
+      { "name": "Black / 2XL", "stock": 80 },
+      { "name": "Black / 3XL", "stock": 65 },
+      { "name": "Black / 4XL", "stock": 40 },
+      { "name": "Navy / XL", "stock": 35 },
+      { "name": "Navy / 2XL", "stock": 45 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-005",
+    "title": "Plus Size Floral Print Short Sleeve Button-Up Shirt",
+    "category": "curve-tops",
+    "supplier": "moda-lusa",
+    "description": "A lightweight button-up shirt in a fresh floral print, cut with extra room through the bust and hips for a relaxed, comfortable fit.\n• Material: 100% viscose, soft and breathable\n• Camp collar and full button front\n• Short sleeves and a straight hem to wear loose, knotted or tucked\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1628614527907-c7b6872007b4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 879,
+    "variants": [
+      { "name": "XL", "stock": 60 },
+      { "name": "2XL", "stock": 75 },
+      { "name": "3XL", "stock": 60 },
+      { "name": "4XL", "stock": 40 },
+      { "name": "5XL", "stock": 25 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 190,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-006",
+    "title": "Plus Size Floral Long Sleeve Blouse with Button Cuffs",
+    "category": "curve-tops",
+    "supplier": "moda-lusa",
+    "description": "A soft, flowing blouse with an all-over floral print that pairs easily with jeans or tailored trousers.\n• Material: 100% polyester crepe\n• V-neckline with a short button placket\n• Long sleeves with buttoned cuffs\n• Relaxed fit with a curved hem, approx. 74 cm long in size 2XL\n• Machine wash cold",
+    "images": [
+      "https://images.unsplash.com/photo-1603074344405-0bd0a7ed1529?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2199,
+    "compareAtPrice": 2899,
+    "costPrice": 949,
+    "variants": [
+      { "name": "XL", "stock": 50 },
+      { "name": "2XL", "stock": 70 },
+      { "name": "3XL", "stock": 55 },
+      { "name": "4XL", "stock": 35 },
+      { "name": "5XL", "stock": 20 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-007",
+    "title": "Plus Size Halter Neck Ribbed Knit Top",
+    "category": "curve-tops",
+    "supplier": "moda-lusa",
+    "description": "A fitted halter neck top in stretchy rib knit that layers under jackets or works on its own with high-waist jeans.\n• Material: 95% cotton, 5% elastane rib knit\n• Halter neckline with a tie at the back of the neck\n• Cropped length, approx. 45 cm in size 2XL\n• Colours: light yellow, white and black\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1786517813239-c6572e9e1eb4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 659,
+    "variants": [
+      { "name": "Light Yellow / XL", "stock": 40 },
+      { "name": "Light Yellow / 2XL", "stock": 45 },
+      { "name": "White / XL", "stock": 55 },
+      { "name": "White / 2XL", "stock": 60 },
+      { "name": "Black / 2XL", "stock": 65 },
+      { "name": "Black / 3XL", "stock": 45 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-008",
+    "title": "Plus Size Open Front Knit Cardigan with Pockets",
+    "category": "curve-tops",
+    "supplier": "moda-lusa",
+    "description": "A soft, longline open front cardigan that adds an easy layer over tees and dresses all year round.\n• Material: 50% viscose, 28% polyester, 22% nylon fine knit\n• Open front with no fastening and two patch pockets\n• Long sleeves with ribbed cuffs\n• Length approx. 80 cm in size 2XL\n• Hand wash cold, dry flat",
+    "images": [
+      "https://images.unsplash.com/photo-1607102973564-423cab57c404?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Blue / XL", "stock": 45 },
+      { "name": "Blue / 2XL", "stock": 60 },
+      { "name": "Blue / 3XL", "stock": 45 },
+      { "name": "Grey / XL", "stock": 50 },
+      { "name": "Grey / 2XL", "stock": 65 },
+      { "name": "Grey / 3XL", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-009",
+    "title": "Plus Size High Waist Skinny Jeans with Stretch",
+    "category": "curve-bottoms",
+    "supplier": "moda-lusa",
+    "description": "Super-stretch skinny jeans with a high, contoured waistband that holds comfortably without digging in.\n• Material: 72% cotton, 26% polyester, 2% elastane\n• High rise with zip fly and button fastening\n• Five-pocket design in a mid-blue wash\n• Inside leg approx. 76 cm\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1620216464663-29984da34a12?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1619799131019-172979a4c266?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3199,
+    "compareAtPrice": 4299,
+    "costPrice": 1399,
+    "variants": [
+      { "name": "EU 44", "stock": 55 },
+      { "name": "EU 46", "stock": 75 },
+      { "name": "EU 48", "stock": 80 },
+      { "name": "EU 50", "stock": 65 },
+      { "name": "EU 52", "stock": 45 },
+      { "name": "EU 54", "stock": 30 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-010",
+    "title": "Plus Size Straight Leg Jeans with Comfort Waist",
+    "category": "curve-bottoms",
+    "supplier": "moda-lusa",
+    "description": "Relaxed straight leg jeans with a soft stretch waistband panel for all-day comfort and an easy, classic look.\n• Material: 95% cotton, 5% elastane\n• Mid-high rise with zip fly and button fastening\n• Five-pocket design in a light-blue wash\n• Inside leg approx. 78 cm\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1592240819995-fa7cb5eb17be?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1614943863726-6de531c01ae8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3299,
+    "compareAtPrice": null,
+    "costPrice": 1449,
+    "variants": [
+      { "name": "EU 44", "stock": 45 },
+      { "name": "EU 46", "stock": 65 },
+      { "name": "EU 48", "stock": 70 },
+      { "name": "EU 50", "stock": 55 },
+      { "name": "EU 52", "stock": 40 },
+      { "name": "EU 54", "stock": 25 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 640,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-011",
+    "title": "Plus Size Pull-On Stretch Trousers with Elastic Waist",
+    "category": "curve-bottoms",
+    "supplier": "moda-lusa",
+    "description": "Smart slim trousers with a fully elasticated waist and four-way stretch, so they look tailored but feel as easy as leggings.\n• Material: 70% viscose, 25% nylon, 5% elastane ponte\n• Pull-on design with a wide elastic waistband\n• Slim straight leg, ankle length\n• Colours: black and navy\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1612386012327-ccbc34a73d51?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1588898987913-36db6d0dc475?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3199,
+    "costPrice": 1079,
+    "variants": [
+      { "name": "Black / XL", "stock": 70 },
+      { "name": "Black / 2XL", "stock": 90 },
+      { "name": "Black / 3XL", "stock": 75 },
+      { "name": "Black / 4XL", "stock": 50 },
+      { "name": "Navy / XL", "stock": 40 },
+      { "name": "Navy / 2XL", "stock": 50 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-012",
+    "title": "Plus Size Linen Blend Wide Leg Trousers",
+    "category": "curve-bottoms",
+    "supplier": "moda-lusa",
+    "description": "Breezy wide leg trousers in a linen blend with a comfortable half-elastic waist, made for warm weather and holidays.\n• Material: 55% linen, 45% cotton\n• Flat front waistband with elastic at the back, plus side pockets\n• Full length, approx. 104 cm outer leg in size 2XL\n• Colours: pink and red\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1789110853487-b886411f11cb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789110854331-6d3cabfef781?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2699,
+    "compareAtPrice": null,
+    "costPrice": 1179,
+    "variants": [
+      { "name": "Pink / XL", "stock": 40 },
+      { "name": "Pink / 2XL", "stock": 55 },
+      { "name": "Pink / 3XL", "stock": 40 },
+      { "name": "Red / XL", "stock": 35 },
+      { "name": "Red / 2XL", "stock": 50 },
+      { "name": "Red / 3XL", "stock": 35 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 340,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-013",
+    "title": "Plus Size Longline Wool Blend Coat with Notch Collar",
+    "category": "curve-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A tailored longline coat in a warm wool blend that layers easily over knits and dresses on cold days.\n• Shell: 50% wool, 50% polyester; lining: 100% polyester\n• Notch collar and single-breasted two-button front\n• Two side welt pockets\n• Length approx. 105 cm in size 2XL\n• Dry clean only",
+    "images": [
+      "https://images.unsplash.com/photo-1760372698325-b6b0528b21f1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": 7999,
+    "costPrice": 2699,
+    "variants": [
+      { "name": "Grey / XL", "stock": 30 },
+      { "name": "Grey / 2XL", "stock": 40 },
+      { "name": "Grey / 3XL", "stock": 35 },
+      { "name": "Grey / 4XL", "stock": 20 },
+      { "name": "Camel / XL", "stock": 25 },
+      { "name": "Camel / 2XL", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 1400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-014",
+    "title": "Plus Size Classic Denim Jacket with Chest Pockets",
+    "category": "curve-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A wear-with-everything denim jacket with a slightly relaxed cut through the body and arms for easy layering.\n• Material: 98% cotton, 2% elastane denim, mid-blue wash\n• Button front, point collar and buttoned cuffs\n• Two chest flap pockets and two side pockets\n• Length approx. 62 cm in size 2XL\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1571445556382-453d9e858ea9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1546961342-ea5f71b193f3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": null,
+    "costPrice": 1549,
+    "variants": [
+      { "name": "XL", "stock": 45 },
+      { "name": "2XL", "stock": 60 },
+      { "name": "3XL", "stock": 50 },
+      { "name": "4XL", "stock": 35 },
+      { "name": "5XL", "stock": 20 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 750,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-015",
+    "title": "Plus Size Quilted Puffer Jacket with Hood",
+    "category": "curve-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A warm, lightweight puffer jacket with a padded hood and synthetic fill, made for chilly autumn and winter days.\n• Shell and lining: 100% polyester; padding: polyester fibre fill\n• Fixed hood, stand collar and two zip pockets\n• Elasticated cuffs to keep out the cold\n• Hip length, approx. 72 cm in size 2XL\n• Colours: pink and black",
+    "images": [
+      "https://images.unsplash.com/photo-1786282653836-45be0b96eca7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1790342053646-5aaa3d31a898?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6499,
+    "costPrice": 2199,
+    "variants": [
+      { "name": "Pink / XL", "stock": 35 },
+      { "name": "Pink / 2XL", "stock": 45 },
+      { "name": "Pink / 3XL", "stock": 35 },
+      { "name": "Black / XL", "stock": 50 },
+      { "name": "Black / 2XL", "stock": 65 },
+      { "name": "Black / 3XL", "stock": 50 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-WCV-016",
+    "title": "Plus Size Ruched One-Piece Swimsuit with Wide Straps",
+    "category": "curve-swimwear",
+    "supplier": "moda-lusa",
+    "description": "A classic one-piece swimsuit with soft ruching across the front and wide straps for comfortable coverage at the pool or beach.\n• Material: 80% polyamide, 20% elastane, chlorine-resistant and fully lined\n• Removable soft cups and a scoop back\n• Moderate leg cut\n• Rinse in cool water after swimming; hand wash",
+    "images": [
+      "https://images.unsplash.com/photo-1567967787817-06d49218e7f1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1567973776707-f479f84326fd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1299,
+    "variants": [
+      { "name": "XL", "stock": 45 },
+      { "name": "2XL", "stock": 60 },
+      { "name": "3XL", "stock": 55 },
+      { "name": "4XL", "stock": 35 },
+      { "name": "5XL", "stock": 20 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-017",
+    "title": "Plus Size High Waist Bikini Set with Underwire Top",
+    "category": "curve-swimwear",
+    "supplier": "moda-lusa",
+    "description": "A supportive two-piece bikini with an underwired top and high-waist bottoms for full coverage and a retro look.\n• Material: 82% polyamide, 18% elastane, fully lined\n• Top: underwire cups, adjustable straps and hook fastening at the back\n• Bottoms: high waist with full coverage\n• Colours: black and blue\n• Set includes top and bottoms",
+    "images": [
+      "https://images.unsplash.com/photo-1567970849278-2479e498aab5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1567967786335-301c3f58f856?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Black / XL", "stock": 45 },
+      { "name": "Black / 2XL", "stock": 55 },
+      { "name": "Black / 3XL", "stock": 40 },
+      { "name": "Blue / XL", "stock": 35 },
+      { "name": "Blue / 2XL", "stock": 45 },
+      { "name": "Blue / 3XL", "stock": 30 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 170,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-018",
+    "title": "Plus Size Lace Bralette and Brief Set",
+    "category": "curve-lingerie",
+    "supplier": "moda-lusa",
+    "description": "A soft, wire-free lace bralette with matching briefs, comfortable enough for every day with a delicate look.\n• Material: 90% nylon, 10% elastane lace with a cotton gusset\n• Bralette: wire-free, lightly lined, with adjustable straps\n• Briefs: mid-rise with full back coverage\n• Set includes bralette and briefs\n• Hand wash cold",
+    "images": [
+      "https://images.unsplash.com/photo-1600578817577-a07ed4ad3470?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2399,
+    "costPrice": 759,
+    "variants": [
+      { "name": "Black / XL", "stock": 60 },
+      { "name": "Black / 2XL", "stock": 75 },
+      { "name": "Black / 3XL", "stock": 60 },
+      { "name": "Black / 4XL", "stock": 40 },
+      { "name": "Wine / XL", "stock": 35 },
+      { "name": "Wine / 2XL", "stock": 45 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-019",
+    "title": "Plus Size Ribbed Knit Lounge Set, Top and Wide Leg Pants",
+    "category": "curve-lingerie",
+    "supplier": "moda-lusa",
+    "description": "A matching two-piece lounge set in soft rib knit for relaxing at home, travel days or quick errands.\n• Material: 95% polyester, 5% elastane rib knit\n• Long sleeve top with a round neck\n• Wide leg pants with elastic waist and drawstring\n• Set includes top and pants\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1759229874709-a8d0de083b91?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3799,
+    "costPrice": 1299,
+    "variants": [
+      { "name": "Beige / XL", "stock": 45 },
+      { "name": "Beige / 2XL", "stock": 60 },
+      { "name": "Beige / 3XL", "stock": 45 },
+      { "name": "Grey / XL", "stock": 40 },
+      { "name": "Grey / 2XL", "stock": 55 },
+      { "name": "Grey / 3XL", "stock": 40 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCV-020",
+    "title": "Plus Size Long Sleeve Button-Up Pajama Set",
+    "category": "curve-lingerie",
+    "supplier": "moda-lusa",
+    "description": "Classic two-piece pajamas with a button-up shirt and relaxed trousers in soft, stretchy jersey for a comfortable night's sleep.\n• Material: 95% viscose, 5% elastane jersey\n• Notch collar shirt with a chest pocket and contrast piping\n• Trousers with an elastic waist and straight legs\n• Set includes shirt and trousers\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1759229874681-39fb36b01e32?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": null,
+    "costPrice": 999,
+    "variants": [
+      { "name": "Lilac / XL", "stock": 45 },
+      { "name": "Lilac / 2XL", "stock": 60 },
+      { "name": "Lilac / 3XL", "stock": 50 },
+      { "name": "Lilac / 4XL", "stock": 30 },
+      { "name": "Navy / 2XL", "stock": 45 },
+      { "name": "Navy / 3XL", "stock": 35 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  }
+]

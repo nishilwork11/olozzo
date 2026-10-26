@@ -1,0 +1,517 @@
+[
+  {
+    "sku": "OLZ-MCL-001",
+    "title": "Men's Basic Crew Neck Cotton T-Shirt, Pack of 3",
+    "category": "mens-tshirts",
+    "supplier": "moda-lusa",
+    "description": "Three everyday essentials in one pack: soft cotton crew neck tees with a regular fit that work on their own or under shirts and jackets.\n• Material: 100% cotton jersey, 160 g/m²\n• Ribbed crew neck with taped shoulder seams\n• Pack of 3: white, black and grey\n• Pre-shrunk; machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2699,
+    "costPrice": 859,
+    "variants": [
+      { "name": "S", "stock": 90 },
+      { "name": "M", "stock": 160 },
+      { "name": "L", "stock": 170 },
+      { "name": "XL", "stock": 120 },
+      { "name": "XXL", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 520,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-MCL-002",
+    "title": "Men's Heavyweight Relaxed Fit T-Shirt",
+    "category": "mens-tshirts",
+    "supplier": "moda-lusa",
+    "description": "A thick, durable tee with a boxy relaxed fit and slightly dropped shoulders for a modern casual look.\n• Material: 100% cotton, heavyweight 240 g/m² jersey\n• Wide ribbed crew neck that keeps its shape\n• Relaxed body with longer sleeves\n• Colours: yellow, green and black\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1605949405965-d49ada3f9189?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 569,
+    "variants": [
+      { "name": "Yellow / M", "stock": 50 },
+      { "name": "Yellow / L", "stock": 55 },
+      { "name": "Green / M", "stock": 60 },
+      { "name": "Green / L", "stock": 65 },
+      { "name": "Black / M", "stock": 90 },
+      { "name": "Black / L", "stock": 95 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-003",
+    "title": "Men's Slim Fit Stretch Cotton T-Shirt",
+    "category": "mens-tshirts",
+    "supplier": "moda-lusa",
+    "description": "A close-fitting tee with a touch of stretch that keeps its shape wash after wash, for a clean look under a jacket or on its own.\n• Material: 95% cotton, 5% elastane jersey\n• Crew neckline with a narrow rib\n• Slim fit through the chest and arms\n• Colours: white, black and light green\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1759572095384-1a7e646d0d4f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1299,
+    "costPrice": 429,
+    "variants": [
+      { "name": "White / S", "stock": 70 },
+      { "name": "White / M", "stock": 110 },
+      { "name": "White / L", "stock": 90 },
+      { "name": "Black / M", "stock": 100 },
+      { "name": "Black / L", "stock": 85 },
+      { "name": "Light Green / M", "stock": 45 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 170,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-004",
+    "title": "Men's Long Sleeve Oxford Button-Down Shirt",
+    "category": "mens-shirts",
+    "supplier": "moda-lusa",
+    "description": "A versatile Oxford shirt with a soft, textured weave and a button-down collar, smart enough for work and relaxed enough for weekends.\n• Material: 100% cotton Oxford cloth\n• Button-down collar, chest pocket and buttoned cuffs\n• Regular fit with a curved hem\n• Colours: grey and light blue\n• Machine wash at 40°C, iron on medium heat",
+    "images": [
+      "https://images.unsplash.com/photo-1598032895397-b9472444bf93?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1770058428099-f2d64ab34006?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Grey / M", "stock": 55 },
+      { "name": "Grey / L", "stock": 65 },
+      { "name": "Grey / XL", "stock": 45 },
+      { "name": "Light Blue / M", "stock": 70 },
+      { "name": "Light Blue / L", "stock": 80 },
+      { "name": "Light Blue / XL", "stock": 55 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 280,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-005",
+    "title": "Men's Linen Blend Casual Shirt, Long Sleeve",
+    "category": "mens-shirts",
+    "supplier": "moda-lusa",
+    "description": "A breathable linen-blend shirt with a relaxed fit, made for summer evenings, holidays and warm office days with the sleeves rolled up.\n• Material: 55% linen, 45% cotton\n• Classic collar and full button front\n• Long sleeves with button cuffs and roll-up tabs\n• Colours: tan and white\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1776838103951-993ff1ffc916?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781145822880-ab30339ac274?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2699,
+    "compareAtPrice": null,
+    "costPrice": 1189,
+    "variants": [
+      { "name": "Tan / M", "stock": 45 },
+      { "name": "Tan / L", "stock": 55 },
+      { "name": "Tan / XL", "stock": 40 },
+      { "name": "White / M", "stock": 60 },
+      { "name": "White / L", "stock": 70 },
+      { "name": "White / XL", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-006",
+    "title": "Men's Classic Cotton Pique Polo Shirt",
+    "category": "mens-polos",
+    "supplier": "moda-lusa",
+    "description": "A timeless short sleeve polo in breathable cotton pique, with a neat ribbed collar that holds its shape.\n• Material: 100% cotton pique, 200 g/m²\n• Ribbed collar and cuffs with a two-button placket\n• Side vents and a slightly longer back hem\n• Colours: navy and white\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1770058428104-9dab343b7ccc?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1671438118097-479e63198629?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2399,
+    "costPrice": 789,
+    "variants": [
+      { "name": "Navy / M", "stock": 70 },
+      { "name": "Navy / L", "stock": 85 },
+      { "name": "Navy / XL", "stock": 60 },
+      { "name": "White / M", "stock": 65 },
+      { "name": "White / L", "stock": 75 },
+      { "name": "White / XL", "stock": 55 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 230,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-007",
+    "title": "Men's Printed Short Sleeve Polo Shirt",
+    "category": "mens-polos",
+    "supplier": "moda-lusa",
+    "description": "A summery polo with a small all-over print in soft, quick-drying jersey that stays comfortable on warm days.\n• Material: 100% polyester jersey with a light, smooth feel\n• Self collar with a three-button placket\n• Regular fit with short sleeves\n• Colour: light blue pattern\n• Machine wash at 30°C; dries quickly",
+    "images": [
+      "https://images.unsplash.com/photo-1779907448384-bcd21af9bbbf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 739,
+    "variants": [
+      { "name": "S", "stock": 40 },
+      { "name": "M", "stock": 75 },
+      { "name": "L", "stock": 80 },
+      { "name": "XL", "stock": 55 },
+      { "name": "XXL", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 190,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-008",
+    "title": "Men's Full-Zip Hoodie with Brushed Fleece Lining",
+    "category": "mens-hoodies",
+    "supplier": "moda-lusa",
+    "description": "A go-to zip-up hoodie with a soft brushed interior, easy to throw on over a tee for walks, gym runs and cool evenings.\n• Material: 80% cotton, 20% polyester, 280 g/m² fleece\n• Full-length metal zip and drawcord hood\n• Two front pockets; ribbed cuffs and hem\n• Colours: grey and black\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1611817757591-c3f345024273?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1319,
+    "variants": [
+      { "name": "Grey / M", "stock": 60 },
+      { "name": "Grey / L", "stock": 75 },
+      { "name": "Grey / XL", "stock": 50 },
+      { "name": "Black / M", "stock": 70 },
+      { "name": "Black / L", "stock": 85 },
+      { "name": "Black / XL", "stock": 60 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 620,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-009",
+    "title": "Men's Fleece Pullover Hoodie with Kangaroo Pocket",
+    "category": "mens-hoodies",
+    "supplier": "moda-lusa",
+    "description": "A cosy pullover hoodie with a warm fleece inside and a classic regular fit for everyday wear.\n• Material: 70% cotton, 30% polyester fleece\n• Double-layer hood with drawcord\n• Front kangaroo pocket; ribbed cuffs and hem\n• Colours: black and white\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1596075780750-81249df16d19?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1615397587950-3cbb55f95b77?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Black / S", "stock": 45 },
+      { "name": "Black / M", "stock": 85 },
+      { "name": "Black / L", "stock": 90 },
+      { "name": "Black / XL", "stock": 60 },
+      { "name": "White / M", "stock": 40 },
+      { "name": "White / L", "stock": 45 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 580,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-010",
+    "title": "Men's Crew Neck Knit Sweater in Soft Wool Blend",
+    "category": "mens-sweaters",
+    "supplier": "moda-lusa",
+    "description": "A classic fine-knit crew neck jumper that layers neatly over a shirt collar or works alone with chinos and jeans.\n• Material: 50% acrylic, 30% nylon, 20% wool\n• Ribbed crew neck, cuffs and hem\n• Regular fit, approx. 70 cm long in size L\n• Colours: red and grey\n• Hand wash cold or use a wool cycle; dry flat",
+    "images": [
+      "https://images.unsplash.com/photo-1608975321561-176c1b187d24?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1599032909736-0155c1d43a6c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3699,
+    "costPrice": 1229,
+    "variants": [
+      { "name": "Red / M", "stock": 40 },
+      { "name": "Red / L", "stock": 50 },
+      { "name": "Red / XL", "stock": 35 },
+      { "name": "Grey / M", "stock": 60 },
+      { "name": "Grey / L", "stock": 70 },
+      { "name": "Grey / XL", "stock": 50 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-011",
+    "title": "Men's Slim Fit Stretch Jeans, Dark Wash",
+    "category": "mens-jeans",
+    "supplier": "moda-lusa",
+    "description": "Slim jeans with a comfortable stretch that moves with you, in a dark wash that dresses up or down.\n• Material: 98% cotton, 2% elastane\n• Mid rise with zip fly and button fastening\n• Slim leg tapering slightly to the ankle\n• Inside leg 32 in (81 cm)\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1714143164072-7646ef5cb24d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1714143136372-ddaf8b606da7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1319,
+    "variants": [
+      { "name": "W30 L32", "stock": 50 },
+      { "name": "W32 L32", "stock": 85 },
+      { "name": "W34 L32", "stock": 90 },
+      { "name": "W36 L32", "stock": 65 },
+      { "name": "W38 L32", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-012",
+    "title": "Men's Regular Fit Straight Leg Jeans",
+    "category": "mens-jeans",
+    "supplier": "moda-lusa",
+    "description": "Classic straight leg jeans with a regular fit through the seat and thigh, cut from sturdy denim that softens with every wash.\n• Material: 100% cotton denim, 12.5 oz, mid-blue wash\n• Mid rise with zip fly and button fastening\n• Five-pocket styling and belt loops\n• Inside leg 32 in (81 cm)\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1617114919297-3c8ddb01f599?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3199,
+    "compareAtPrice": null,
+    "costPrice": 1409,
+    "variants": [
+      { "name": "W30 L32", "stock": 40 },
+      { "name": "W32 L32", "stock": 70 },
+      { "name": "W34 L32", "stock": 80 },
+      { "name": "W36 L32", "stock": 65 },
+      { "name": "W38 L32", "stock": 45 },
+      { "name": "W40 L32", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 720,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-013",
+    "title": "Men's Slim Fit Stretch Chino Trousers",
+    "category": "mens-pants",
+    "supplier": "moda-lusa",
+    "description": "Smart-casual chinos with a slim cut and a little stretch for comfort at the desk and beyond.\n• Material: 97% cotton, 3% elastane twill\n• Zip fly with button fastening and belt loops\n• Two slant front pockets and two back welt pockets\n• Colours: beige and tan\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1789238052416-d6c439162025?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1788380945240-6a630ade7d2e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2699,
+    "compareAtPrice": 3499,
+    "costPrice": 1189,
+    "variants": [
+      { "name": "Beige / W30", "stock": 45 },
+      { "name": "Beige / W32", "stock": 70 },
+      { "name": "Beige / W34", "stock": 75 },
+      { "name": "Beige / W36", "stock": 50 },
+      { "name": "Tan / W32", "stock": 55 },
+      { "name": "Tan / W34", "stock": 60 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-014",
+    "title": "Men's Cotton Cargo Trousers with Six Pockets",
+    "category": "mens-pants",
+    "supplier": "moda-lusa",
+    "description": "Hard-wearing cargo trousers with plenty of storage, comfortable for outdoor days, travel and weekend projects.\n• Material: 100% cotton twill\n• Elasticated back waistband with belt loops and zip fly\n• Six pockets, including two side cargo pockets with flaps\n• Relaxed straight leg\n• Colours: brown and olive",
+    "images": [
+      "https://images.unsplash.com/photo-1511794322962-129ddbd0af38?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1766575696324-5b65330f23c2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2899,
+    "compareAtPrice": null,
+    "costPrice": 1279,
+    "variants": [
+      { "name": "Brown / M", "stock": 50 },
+      { "name": "Brown / L", "stock": 60 },
+      { "name": "Brown / XL", "stock": 40 },
+      { "name": "Olive / M", "stock": 55 },
+      { "name": "Olive / L", "stock": 65 },
+      { "name": "Olive / XL", "stock": 45 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 640,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-015",
+    "title": "Men's Cotton Chino Shorts, Knee Length",
+    "category": "mens-shorts",
+    "supplier": "moda-lusa",
+    "description": "Neat knee-length chino shorts in lightweight cotton for summer days in town or on holiday.\n• Material: 98% cotton, 2% elastane twill\n• Zip fly with button fastening and belt loops\n• Two side pockets and two back pockets\n• Inseam approx. 23 cm\n• Colours: green, navy and beige",
+    "images": [
+      "https://images.unsplash.com/photo-1621496503717-095a410e1566?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1697319452360-ee47502e39f6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2299,
+    "costPrice": 789,
+    "variants": [
+      { "name": "Green / M", "stock": 50 },
+      { "name": "Green / L", "stock": 55 },
+      { "name": "Navy / M", "stock": 70 },
+      { "name": "Navy / L", "stock": 75 },
+      { "name": "Beige / M", "stock": 65 },
+      { "name": "Beige / L", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-016",
+    "title": "Men's Classic Bomber Jacket with Ribbed Trims",
+    "category": "mens-coats",
+    "supplier": "moda-lusa",
+    "description": "A lightweight bomber jacket with a lightly padded lining, ideal as an in-between layer for spring and autumn.\n• Shell: 100% polyester twill; lining: 100% polyester with light padding\n• Front zip with ribbed collar, cuffs and hem\n• Two side pockets and a zipped sleeve pocket\n• Colours: brown and black\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1774413768903-057eb084133b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1759,
+    "variants": [
+      { "name": "Brown / M", "stock": 40 },
+      { "name": "Brown / L", "stock": 50 },
+      { "name": "Brown / XL", "stock": 35 },
+      { "name": "Black / M", "stock": 55 },
+      { "name": "Black / L", "stock": 65 },
+      { "name": "Black / XL", "stock": 45 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-017",
+    "title": "Men's Hooded Puffer Jacket with Water-Repellent Shell",
+    "category": "mens-coats",
+    "supplier": "moda-lusa",
+    "description": "A warm, quilted puffer jacket with a hood and a water-repellent outer, built for cold, damp winter days.\n• Shell and lining: 100% nylon; padding: polyester fibre fill\n• Fixed hood, high collar and two-way front zip\n• Two zip hand pockets and one inner pocket\n• Elasticated cuffs and adjustable hem\n• Colours: black and navy",
+    "images": [
+      "https://images.unsplash.com/photo-1769689387719-f11faac08cbe?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1769689387681-42b8a41fa2de?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5499,
+    "compareAtPrice": 7499,
+    "costPrice": 2419,
+    "variants": [
+      { "name": "Black / M", "stock": 50 },
+      { "name": "Black / L", "stock": 65 },
+      { "name": "Black / XL", "stock": 50 },
+      { "name": "Black / XXL", "stock": 30 },
+      { "name": "Navy / M", "stock": 35 },
+      { "name": "Navy / L", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1050,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-MCL-018",
+    "title": "Men's Slim Fit Two-Piece Suit, Jacket and Trousers",
+    "category": "mens-suits",
+    "supplier": "moda-lusa",
+    "description": "A sharp slim fit suit for weddings, interviews and the office, with a two-button jacket and matching flat-front trousers.\n• Material: 65% polyester, 35% viscose; jacket lining: 100% polyester\n• Jacket: notch lapels, two-button front, two flap pockets and a chest pocket\n• Trousers: flat front, zip fly and unfinished hem for easy tailoring\n• Set includes jacket and trousers\n• Dry clean recommended",
+    "images": [
+      "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 8999,
+    "compareAtPrice": 12999,
+    "costPrice": 3999,
+    "variants": [
+      { "name": "Blue / EU 46", "stock": 20 },
+      { "name": "Blue / EU 48", "stock": 35 },
+      { "name": "Blue / EU 50", "stock": 45 },
+      { "name": "Blue / EU 52", "stock": 40 },
+      { "name": "Blue / EU 54", "stock": 30 },
+      { "name": "Blue / EU 56", "stock": 20 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-019",
+    "title": "Men's Quick-Dry Training Shorts with Zip Pocket",
+    "category": "mens-activewear",
+    "supplier": "moda-lusa",
+    "description": "Light, breathable training shorts that dry quickly, made for the gym, running and outdoor workouts.\n• Material: 100% polyester woven fabric with stretch\n• Elastic waistband with an internal drawcord\n• Two side pockets and a zipped back pocket\n• Inseam approx. 18 cm\n• Colours: black and grey",
+    "images": [
+      "https://images.unsplash.com/photo-1605490855119-94921710a47f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604480133435-25b86862d276?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 659,
+    "variants": [
+      { "name": "Black / M", "stock": 80 },
+      { "name": "Black / L", "stock": 90 },
+      { "name": "Black / XL", "stock": 60 },
+      { "name": "Grey / M", "stock": 55 },
+      { "name": "Grey / L", "stock": 60 },
+      { "name": "Grey / XL", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MCL-020",
+    "title": "Men's Quick-Dry Swim Shorts with Mesh Lining",
+    "category": "mens-swim",
+    "supplier": "moda-lusa",
+    "description": "Comfortable swim shorts that dry fast, with a breathable mesh lining for beach days, pool sessions and holidays.\n• Material: 100% polyester, quick-drying\n• Elastic waistband with drawcord\n• Two side pockets and a back pocket with drainage eyelets\n• Inseam approx. 15 cm\n• Rinse in cool water after use",
+    "images": [
+      "https://images.unsplash.com/photo-1762944081584-f150e797f803?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789222523783-65911021aad5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": 1999,
+    "costPrice": 699,
+    "variants": [
+      { "name": "S", "stock": 45 },
+      { "name": "M", "stock": 80 },
+      { "name": "L", "stock": 85 },
+      { "name": "XL", "stock": 60 },
+      { "name": "XXL", "stock": 35 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 160,
+    "featured": false
+  }
+]

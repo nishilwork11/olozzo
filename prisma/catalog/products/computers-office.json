@@ -1,0 +1,430 @@
+[
+  {
+    "sku": "OLZ-CMP-001",
+    "title": "Wireless Keyboard and Mouse Set, 2.4 GHz, Quiet Keys, Full Size",
+    "category": "keyboards-mice",
+    "supplier": "voltix",
+    "description": "A full-size wireless keyboard and mouse that share one tiny USB receiver, so your desk stays free of cables. Low-profile keys type quietly, which is handy in shared offices and for late-night work.\n• 104-key international QWERTY layout with number pad and 12 media shortcut keys\n• 2.4 GHz connection with up to 10 m range through one USB-A nano receiver\n• Optical mouse with 800 / 1200 / 1600 DPI switch\n• Runs on 2 × AA (keyboard) and 1 × AA (mouse) batteries, included\n• Keyboard 43.5 × 13 × 2.2 cm, mouse 10.5 × 6 × 3.5 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1768839719877-c280c9a3633f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1768839723684-5824a8f02cb6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1199,
+    "variants": [
+      { "name": "White", "stock": 140 },
+      { "name": "Black", "stock": 180 },
+      { "name": "Pink", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 780,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-CMP-002",
+    "title": "Mechanical Keyboard, 87 Keys, Hot-Swappable Switches, RGB Backlight",
+    "category": "keyboards-mice",
+    "supplier": "voltix",
+    "description": "A compact tenkeyless mechanical keyboard that leaves more desk space for wide mouse movements. The switches pull out without soldering, so you can change the typing feel whenever you like.\n• 87-key tenkeyless layout with double-shot PBT keycaps\n• Hot-swappable 3- and 5-pin switches; keycap and switch puller included\n• 18 RGB lighting effects with adjustable brightness\n• Detachable braided USB-C to USB-A cable, 1.8 m\n• Full anti-ghosting (N-key rollover); size 36 × 13.5 × 4 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1777259113729-9bda92fb8ce8?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760708551859-6559dc9640b8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5499,
+    "costPrice": 1899,
+    "variants": [
+      { "name": "Blue switches (clicky)", "stock": 80 },
+      { "name": "Red switches (linear)", "stock": 110 },
+      { "name": "Brown switches (tactile)", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 850,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-003",
+    "title": "Ergonomic Wireless Mouse, Rechargeable, Silent Clicks, 6 Buttons",
+    "category": "keyboards-mice",
+    "supplier": "voltix",
+    "description": "A sculpted mouse with a raised thumb rest that keeps your hand in a relaxed, natural position. Soft-touch buttons click almost silently.\n• Dual mode: 2.4 GHz USB receiver plus Bluetooth 5.0, switch between two devices\n• 6 buttons including forward and back; DPI steps 800 / 1200 / 1600 / 2400\n• Built-in 500 mAh battery, charges via USB-C (cable included)\n• Auto-sleep to save power; works with most laptops and PCs",
+    "images": [
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Black", "stock": 200 },
+      { "name": "Grey", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 95,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-004",
+    "title": "Extended Desk Mat 80 × 30 cm, Water-Resistant, Stitched Edges",
+    "category": "keyboards-mice",
+    "supplier": "voltix",
+    "description": "A large mouse pad that sits under both keyboard and mouse, giving a smooth, even glide and protecting your desk from scratches.\n• 80 × 30 cm, 3 mm thick\n• Micro-weave fabric surface suited to optical and laser mice\n• Natural rubber base that stays in place\n• Stitched edges to prevent fraying; wipe clean with a damp cloth",
+    "images": [
+      "https://images.unsplash.com/photo-1702561667800-2c49b0182229?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 349,
+    "variants": [
+      { "name": "Black", "stock": 260 },
+      { "name": "Grey", "stock": 180 },
+      { "name": "Navy", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-005",
+    "title": "Adjustable Aluminium Laptop Stand, Foldable, for 10–17 Inch Laptops",
+    "category": "laptop-accessories",
+    "supplier": "voltix",
+    "description": "Raises your laptop screen to eye level so you can sit up straight, then folds flat to slip into a laptop bag.\n• Sturdy aluminium alloy, holds up to 8 kg\n• 6 height settings from 6 to 24 cm\n• Open design lets air flow under the laptop to help keep it cool\n• Silicone pads protect the laptop and stop it from slipping\n• Folded size 24 × 5 × 3 cm, weight 300 g",
+    "images": [
+      "https://images.unsplash.com/photo-1652198145075-b41c363792d3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1652198144911-4f204ccf35e6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 899,
+    "variants": [
+      { "name": "Silver", "stock": 220 },
+      { "name": "Dark Grey", "stock": 160 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 360,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-CMP-006",
+    "title": "7-Port USB 3.0 Hub with Individual Power Switches",
+    "category": "laptop-accessories",
+    "supplier": "voltix",
+    "description": "Turns one USB port into seven, with a switch and LED for every port so you can turn devices on and off without unplugging them.\n• 7 × USB-A 3.0 ports, up to 5 Gbps data transfer\n• Individual on/off switch and blue LED for each port\n• 1 m USB-A cable; plug and play, no drivers needed\n• Optional 5 V DC input for power-hungry devices (adapter not included)\n• Size 19 × 3.5 × 2 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1760376789487-994070337c76?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760376789478-c1023d2dc007?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 749,
+    "variants": [
+      { "name": "Default", "stock": 180 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-007",
+    "title": "65 W USB-C Laptop Charger, 3 Ports, Compact GaN Design, EU Plug",
+    "category": "laptop-accessories",
+    "supplier": "voltix",
+    "description": "A compact wall charger that powers USB-C laptops, tablets and phones at full speed, so one plug can replace several bulky adapters.\n• 65 W total output with USB Power Delivery 3.0 and PPS\n• 2 × USB-C and 1 × USB-A; power is shared automatically when several devices charge\n• GaN technology makes it about half the size of a standard laptop adapter\n• Protection against overheating, overcurrent and short circuits\n• EU plug, 100–240 V; 1.5 m USB-C to USB-C cable included",
+    "images": [
+      "https://images.unsplash.com/photo-1720048169707-a32d6dfca0b3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1149,
+    "variants": [
+      { "name": "Default", "stock": 150 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-008",
+    "title": "Dual Monitor Arm Desk Mount, Gas Spring, for 13–32 Inch Screens",
+    "category": "monitors",
+    "supplier": "voltix",
+    "description": "Lifts two screens off the desk and lets you tilt, swivel and rotate each one on its own, freeing up workspace and putting your monitors at a comfortable height.\n• Fits screens 13–32 inch weighing 2–9 kg each, with VESA 75 × 75 or 100 × 100 mounts\n• Gas spring arms for smooth height changes; ±90° tilt, 180° swivel, 360° rotation\n• Desk clamp (for desks 10–85 mm thick) and grommet base both included\n• Built-in cable management clips\n• Steel and aluminium construction; all tools and screws included",
+    "images": [
+      "https://images.unsplash.com/photo-1765371515218-0a4c992ba8e2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1767126600994-e509dacc967c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2399,
+    "variants": [
+      { "name": "Default", "stock": 90 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 5200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-009",
+    "title": "Freestanding Monitor Stand, Height Adjustable, VESA 75/100",
+    "category": "monitors",
+    "supplier": "voltix",
+    "description": "A freestanding stand that replaces your monitor's original base, so you can raise, tilt and rotate the screen without clamping anything to the desk.\n• Fits 13–27 inch screens up to 7 kg with VESA 75 × 75 or 100 × 100 mounts\n• Height adjustable along a 40 cm pole; ±15° tilt and 360° rotation\n• Weighted 25 × 20 cm steel base keeps it steady\n• Cable clip on the back of the pole; screws and Allen key included",
+    "images": [
+      "https://images.unsplash.com/photo-1666771410140-0573b232426e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1399,
+    "variants": [
+      { "name": "Default", "stock": 110 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-010",
+    "title": "128 GB USB 3.2 Flash Drive, Metal Housing with Keyring Loop",
+    "category": "storage-memory",
+    "supplier": "voltix",
+    "description": "A slim metal USB stick with 128 GB of space for documents, photos and backups, plus a keyring loop so it is always with you.\n• 128 GB capacity (about 115 GB usable after formatting)\n• USB 3.2 Gen 1 with read speeds up to 120 MB/s; also works in USB 2.0 ports\n• Zinc alloy housing with ring for keys or a lanyard\n• Plug and play on most PCs, laptops, TVs and car stereos\n• Size 3.9 × 1.2 × 0.5 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1587145820098-23e484e69816?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1477949331575-2763034b5fb5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1699,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Silver", "stock": 260 },
+      { "name": "Black", "stock": 220 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 25,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-011",
+    "title": "Portable SSD 1 TB, USB-C, Read Speeds up to 1050 MB/s",
+    "category": "storage-memory",
+    "supplier": "voltix",
+    "description": "A pocket-sized external SSD for fast backups and moving large video files, with no moving parts to break if it gets knocked.\n• 1 TB capacity; read up to 1050 MB/s and write up to 1000 MB/s over USB 3.2 Gen 2\n• USB-C port with USB-C to USB-C and USB-C to USB-A cables included\n• Aluminium shell with rubber edges, tested for drops up to 2 m\n• Works with laptops, desktops, tablets, game consoles and most smartphones\n• Size 8.5 × 5.5 × 1 cm, weight 58 g",
+    "images": [
+      "https://images.unsplash.com/photo-1779896412225-e2f374234cd1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1779896412305-638de9b07d8a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 7999,
+    "compareAtPrice": 9999,
+    "costPrice": 4499,
+    "variants": [
+      { "name": "Black", "stock": 80 },
+      { "name": "Grey", "stock": 60 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-012",
+    "title": "microSDXC Memory Card 128 GB with SD Adapter, U3 V30 A2",
+    "category": "storage-memory",
+    "supplier": "voltix",
+    "description": "A fast memory card that adds storage to phones, action cameras, tablets and handheld consoles; the included adapter lets it work in full-size SD slots too.\n• 128 GB capacity, Class 10, UHS-I U3 and V30 for 4K video recording\n• A2 rating for quicker app loading on devices that support it\n• Read up to 160 MB/s, write up to 90 MB/s\n• Water-, temperature- and shock-resistant\n• SD adapter included",
+    "images": [
+      "https://images.unsplash.com/photo-1714071803594-de887dd5b9af?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Default", "stock": 260 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 15,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-013",
+    "title": "Dual-Band USB Wi-Fi Adapter with 2 Antennas, 1300 Mbps",
+    "category": "networking",
+    "supplier": "voltix",
+    "description": "Adds fast wireless internet to a desktop PC, or replaces a weak built-in laptop connection, with two adjustable antennas for better range through walls.\n• Dual band: up to 867 Mbps on 5 GHz plus 400 Mbps on 2.4 GHz\n• Two adjustable 5 dBi high-gain antennas\n• USB 3.0 connection with a 1.2 m USB extension cradle included\n• Supports WPA3 and WPA2 encryption\n• Driver download link and quick start guide included",
+    "images": [
+      "https://images.unsplash.com/photo-1785175861969-b4518b2eaaa6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1785175862090-b667001e8c18?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": 2199,
+    "costPrice": 699,
+    "variants": [
+      { "name": "Default", "stock": 170 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-014",
+    "title": "Cat6 Flat Ethernet Cable 5 m, Gigabit, Gold-Plated RJ45 Plugs",
+    "category": "networking",
+    "supplier": "voltix",
+    "description": "A flat network cable that tucks under rugs and along skirting boards, for a stable wired connection to your router, console or PC.\n• Cat6 standard: up to 1 Gbps with 250 MHz bandwidth\n• 5 m long, flat profile only 1.4 mm thin\n• Pure copper conductors and gold-plated RJ45 plugs\n• Snagless clip covers; 10 cable clips included",
+    "images": [
+      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 599,
+    "compareAtPrice": 899,
+    "costPrice": 249,
+    "variants": [
+      { "name": "Blue", "stock": 240 },
+      { "name": "White", "stock": 200 },
+      { "name": "Black", "stock": 180 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-015",
+    "title": "RGB Case Fans 120 mm, 3-Pack with Hub and Remote Control",
+    "category": "computer-components",
+    "supplier": "voltix",
+    "description": "Three quiet 120 mm fans that improve airflow through your PC case and add colourful lighting you can change with the included remote.\n• 3 × 120 mm fans, 1200 RPM, up to 52 CFM airflow each, under 26 dBA\n• Hydraulic bearings for long, quiet running\n• Hub and remote included: 10 colours and over 300 lighting modes\n• Hub powered from a SATA connector; also works with 5 V 3-pin ARGB headers\n• Anti-vibration rubber corners and all mounting screws included",
+    "images": [
+      "https://images.unsplash.com/photo-1760114333216-604b60cf6d12?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760087959406-8d9ee5319e53?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1149,
+    "variants": [
+      { "name": "Black", "stock": 120 },
+      { "name": "White", "stock": 100 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-016",
+    "title": "Tower CPU Air Cooler with 4 Copper Heat Pipes and 120 mm PWM Fan",
+    "category": "computer-components",
+    "supplier": "voltix",
+    "description": "A tower-style processor cooler that keeps temperatures down during gaming and heavy workloads, and runs more quietly than most stock coolers.\n• 4 direct-contact copper heat pipes with an aluminium fin stack\n• 120 mm PWM fan, 800–1800 RPM, 4-pin connector\n• Mounting kit for most current desktop CPU sockets; check your socket before ordering\n• Height 155 mm, so check the clearance in your case\n• Thermal paste pre-applied, plus a spare syringe",
+    "images": [
+      "https://images.unsplash.com/photo-1513366884929-f0b3bedfb653?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1755290726854-11ef582225b7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": null,
+    "costPrice": 1049,
+    "variants": [
+      { "name": "Default", "stock": 100 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 680,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-017",
+    "title": "Adjustable Aluminium Tablet Stand for 4–13 Inch Tablets and Phones",
+    "category": "tablet-accessories",
+    "supplier": "voltix",
+    "description": "A desk stand that holds a tablet or phone at a comfortable viewing angle for video calls, recipes, reading or drawing.\n• Fits devices from 4 to 13 inch, with or without a slim case\n• Double hinge adjusts height and angle freely\n• Aluminium alloy with a weighted base and silicone pads\n• Gap in the holder for a charging cable\n• Folds flat for travel, weight 300 g",
+    "images": [
+      "https://images.unsplash.com/photo-1780802369931-d6eee63ea4c2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1675109313924-48bf0139b4a2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Silver", "stock": 180 },
+      { "name": "Grey", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-018",
+    "title": "Fine-Tip Active Stylus Pen for Touchscreens, Rechargeable",
+    "category": "tablet-accessories",
+    "supplier": "voltix",
+    "description": "A fine-tip active stylus for precise writing, sketching and note-taking on most tablet and smartphone touchscreens, with no pairing or app needed.\n• 1.5 mm tip for accurate lines; 2 spare tips included\n• Works on most capacitive touchscreens without a Bluetooth connection\n• Built-in battery charges in about 1 hour via USB-C and lasts around 10 hours\n• Switches off automatically after 5 minutes without use\n• Aluminium body, 16.5 cm long, 15 g",
+    "images": [
+      "https://images.unsplash.com/photo-1746645524502-6dd8e319c4bc?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2199,
+    "costPrice": 599,
+    "variants": [
+      { "name": "White", "stock": 200 },
+      { "name": "Black", "stock": 150 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 40,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-019",
+    "title": "1080p Full HD Webcam with Dual Microphones and Privacy Cover",
+    "category": "webcams",
+    "supplier": "voltix",
+    "description": "A clear, plug-and-play webcam for video calls, online classes and streaming, with a sliding cover for privacy when you are off camera.\n• 1920 × 1080 at 30 fps, 90° wide-angle glass lens and automatic light correction\n• Two built-in noise-reducing microphones\n• Universal clip fits monitors and laptop screens; tripod thread on the base\n• 1.5 m USB-A cable; works with common video call apps without drivers",
+    "images": [
+      "https://images.unsplash.com/photo-1760348213920-d2a90ed705fd?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1762681290673-ba1ad4ea0875?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": null,
+    "costPrice": 999,
+    "variants": [
+      { "name": "Default", "stock": 160 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-CMP-020",
+    "title": "USB Headset with Noise-Cancelling Microphone and Inline Controls",
+    "category": "webcams",
+    "supplier": "voltix",
+    "description": "A light, padded over-ear headset made for long days of calls and meetings, with a flexible boom mic that reduces background noise.\n• Noise-cancelling boom microphone rotates 270° and mutes when raised\n• 40 mm drivers with soft faux-leather ear cushions\n• Inline control for volume and mute\n• USB-A plug plus 3.5 mm jack adapter, 2 m cable\n• Adjustable headband, weight 180 g",
+    "images": [
+      "https://images.unsplash.com/photo-1553775282-20af80779df7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      { "name": "Default", "stock": 150 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 260,
+    "featured": false
+  }
+]

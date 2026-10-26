@@ -1,0 +1,741 @@
+[
+  {
+    "sku": "OLZ-WED-001",
+    "title": "Lace Appliqué A-Line Wedding Dress with Tulle Skirt",
+    "category": "wedding-dresses",
+    "supplier": "oro-luce",
+    "description": "A romantic A-line gown with floral lace appliqués scattered over a fitted bodice and a full, floaty tulle skirt. Thin straps and a sweep train keep the look light and timeless.\n• Material: polyester lace and soft tulle; satin lining\n• Lightly boned bodice with built-in cups\n• Concealed back zip with covered buttons\n• Sweep train, about 40 cm\n• Colour: ivory; sizes EU 34–44",
+    "images": [
+      "https://images.unsplash.com/photo-1770757685010-2d3d30d270d6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 12999,
+    "compareAtPrice": 17999,
+    "costPrice": 5999,
+    "variants": [
+      {
+        "name": "EU 34",
+        "stock": 12
+      },
+      {
+        "name": "EU 36",
+        "stock": 20
+      },
+      {
+        "name": "EU 38",
+        "stock": 25
+      },
+      {
+        "name": "EU 40",
+        "stock": 22
+      },
+      {
+        "name": "EU 42",
+        "stock": 16
+      },
+      {
+        "name": "EU 44",
+        "stock": 10
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 2200,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-WED-002",
+    "title": "Long-Sleeve Lace Mermaid Wedding Dress with Open Back",
+    "category": "wedding-dresses",
+    "supplier": "oro-luce",
+    "description": "A figure-hugging mermaid gown covered in corded floral lace, with sheer long sleeves and a deep open back finished with a row of covered buttons.\n• Material: corded lace over stretch satin lining\n• Sheer long sleeves with lace detail\n• Open back with covered buttons over a concealed zip\n• Court train, about 60 cm\n• Colour: ivory; sizes EU 34–44",
+    "images": [
+      "https://images.unsplash.com/photo-1585241920473-b472eb9ffbae?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 14999,
+    "compareAtPrice": null,
+    "costPrice": 6999,
+    "variants": [
+      {
+        "name": "EU 34",
+        "stock": 10
+      },
+      {
+        "name": "EU 36",
+        "stock": 16
+      },
+      {
+        "name": "EU 38",
+        "stock": 20
+      },
+      {
+        "name": "EU 40",
+        "stock": 18
+      },
+      {
+        "name": "EU 42",
+        "stock": 12
+      },
+      {
+        "name": "EU 44",
+        "stock": 8
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 2000,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-003",
+    "title": "Minimalist Satin Slip Wedding Dress with Cowl Neck",
+    "category": "wedding-dresses",
+    "supplier": "oro-luce",
+    "description": "A pared-back bias-cut slip dress in soft satin with a draped cowl neckline and thin adjustable straps. Ideal for civil ceremonies, beach weddings and elopements.\n• Material: polyester satin with a light sheen\n• Bias cut that skims the figure\n• Adjustable spaghetti straps\n• Floor length with a small train\n• Colour: ivory; sizes EU 34–44",
+    "images": [
+      "https://images.unsplash.com/photo-1777312378694-cc3c67fa1adf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 8999,
+    "compareAtPrice": 11999,
+    "costPrice": 3999,
+    "variants": [
+      {
+        "name": "EU 34",
+        "stock": 15
+      },
+      {
+        "name": "EU 36",
+        "stock": 25
+      },
+      {
+        "name": "EU 38",
+        "stock": 30
+      },
+      {
+        "name": "EU 40",
+        "stock": 28
+      },
+      {
+        "name": "EU 42",
+        "stock": 20
+      },
+      {
+        "name": "EU 44",
+        "stock": 12
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-004",
+    "title": "Chiffon Wrap Maxi Bridesmaid Dress with Side Slit",
+    "category": "bridesmaid-dresses",
+    "supplier": "oro-luce",
+    "description": "A flowing wrap dress in light chiffon with a V-neckline, tie waist and thigh-high side slit. The adjustable wrap flatters many body shapes, making it easy to match a whole bridal party.\n• Material: polyester chiffon, fully lined\n• Wrap front with self-tie waist sash\n• Adjustable spaghetti straps\n• Floor length with side slit\n• Colours: sage or dusty rose; sizes S, M, L",
+    "images": [
+      "https://images.unsplash.com/photo-1596783047904-4000addd05cd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5499,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "Sage / S",
+        "stock": 40
+      },
+      {
+        "name": "Sage / M",
+        "stock": 55
+      },
+      {
+        "name": "Sage / L",
+        "stock": 40
+      },
+      {
+        "name": "Dusty Rose / S",
+        "stock": 35
+      },
+      {
+        "name": "Dusty Rose / M",
+        "stock": 50
+      },
+      {
+        "name": "Dusty Rose / L",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-005",
+    "title": "Satin Bridesmaid Dress with Flutter Sleeves and V-Neck",
+    "category": "bridesmaid-dresses",
+    "supplier": "oro-luce",
+    "description": "An elegant floor-length satin dress with soft flutter sleeves, a V-neckline and a cinched waist. The blush tone works for spring and summer weddings.\n• Material: matte satin, fully lined\n• Flutter sleeves and V-neckline\n• Concealed back zip\n• Floor length\n• Colour: blush; sizes XS–XL",
+    "images": [
+      "https://images.unsplash.com/photo-1640654506452-b54cf6dad06c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": null,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "XS",
+        "stock": 25
+      },
+      {
+        "name": "S",
+        "stock": 45
+      },
+      {
+        "name": "M",
+        "stock": 55
+      },
+      {
+        "name": "L",
+        "stock": 45
+      },
+      {
+        "name": "XL",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 550,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-006",
+    "title": "Off-Shoulder Chiffon Bridesmaid Maxi Dress",
+    "category": "bridesmaid-dresses",
+    "supplier": "oro-luce",
+    "description": "A classic off-shoulder bridesmaid dress with a folded neckline, fitted bodice and soft A-line chiffon skirt in a rich burgundy shade for autumn and winter weddings.\n• Material: polyester chiffon with satin lining\n• Folded off-shoulder neckline with stretch\n• Concealed side zip\n• Floor length\n• Colour: burgundy; sizes XS–XXL",
+    "images": [
+      "https://images.unsplash.com/photo-1633076748086-b1a0f69405e5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "XS",
+        "stock": 20
+      },
+      {
+        "name": "S",
+        "stock": 40
+      },
+      {
+        "name": "M",
+        "stock": 50
+      },
+      {
+        "name": "L",
+        "stock": 45
+      },
+      {
+        "name": "XL",
+        "stock": 30
+      },
+      {
+        "name": "XXL",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-007",
+    "title": "Satin A-Line Prom Dress with Lace Bodice and Leg Slit",
+    "category": "evening-dresses",
+    "supplier": "oro-luce",
+    "description": "A show-stopping gown with a lace-appliqué bodice, plunging V-neck and a full satin skirt with a high leg slit. Made for proms, galas and black-tie events.\n• Material: satin skirt with lace and mesh bodice; lined\n• Plunging V-neck with thin straps\n• Concealed back zip\n• Floor length with leg slit\n• Colour: plum; sizes XS–XL",
+    "images": [
+      "https://images.unsplash.com/photo-1765229277457-dd2f9f259f17?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": 7999,
+    "costPrice": 2699,
+    "variants": [
+      {
+        "name": "XS",
+        "stock": 20
+      },
+      {
+        "name": "S",
+        "stock": 35
+      },
+      {
+        "name": "M",
+        "stock": 40
+      },
+      {
+        "name": "L",
+        "stock": 35
+      },
+      {
+        "name": "XL",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-008",
+    "title": "Glitter Tulle Ball Gown with V-Neck",
+    "category": "evening-dresses",
+    "supplier": "oro-luce",
+    "description": "A sparkling ball gown with a fitted V-neck bodice and layers of glitter tulle that catch the light with every step.\n• Material: glitter tulle over satin lining\n• Fitted bodice with wide shoulder straps\n• Lace-up corset back for an adjustable fit\n• Full floor-length skirt\n• Colour: emerald green; sizes XS–XL",
+    "images": [
+      "https://images.unsplash.com/photo-1765871421513-452fe03d15cc?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 6999,
+    "compareAtPrice": null,
+    "costPrice": 3199,
+    "variants": [
+      {
+        "name": "XS",
+        "stock": 15
+      },
+      {
+        "name": "S",
+        "stock": 30
+      },
+      {
+        "name": "M",
+        "stock": 35
+      },
+      {
+        "name": "L",
+        "stock": 30
+      },
+      {
+        "name": "XL",
+        "stock": 15
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-009",
+    "title": "Sequin Spaghetti-Strap Evening Gown",
+    "category": "evening-dresses",
+    "supplier": "oro-luce",
+    "description": "A slinky column gown covered in shimmering sequins, with a low V-neckline and delicate spaghetti straps. Effortless glamour for parties and formal dinners.\n• Material: sequinned mesh with stretch lining\n• V-neckline with adjustable straps\n• Slip-on style, no zip\n• Floor length\n• Colour: champagne; sizes XS–XL",
+    "images": [
+      "https://images.unsplash.com/photo-1601653311204-38ac329d790e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2299,
+    "variants": [
+      {
+        "name": "XS",
+        "stock": 20
+      },
+      {
+        "name": "S",
+        "stock": 40
+      },
+      {
+        "name": "M",
+        "stock": 45
+      },
+      {
+        "name": "L",
+        "stock": 35
+      },
+      {
+        "name": "XL",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-010",
+    "title": "Beaded V-Neck Mother of the Bride Gown",
+    "category": "mother-of-bride",
+    "supplier": "oro-luce",
+    "description": "A refined floor-length gown embellished all over with beaded and sequinned patterns, with a flattering V-neck and cap sleeves. Elegant for the mother of the bride or groom.\n• Material: beaded mesh over soft jersey lining\n• V-neckline with cap sleeves\n• Concealed back zip\n• Floor length\n• Colour: silver grey; sizes EU 38–48",
+    "images": [
+      "https://images.unsplash.com/photo-1708739515458-f30d3a0e7dc9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 7999,
+    "compareAtPrice": 9999,
+    "costPrice": 3599,
+    "variants": [
+      {
+        "name": "EU 38",
+        "stock": 15
+      },
+      {
+        "name": "EU 40",
+        "stock": 25
+      },
+      {
+        "name": "EU 42",
+        "stock": 30
+      },
+      {
+        "name": "EU 44",
+        "stock": 25
+      },
+      {
+        "name": "EU 46",
+        "stock": 15
+      },
+      {
+        "name": "EU 48",
+        "stock": 10
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-011",
+    "title": "Two-Piece Trouser Suit for Mother of the Bride",
+    "category": "mother-of-bride",
+    "supplier": "oro-luce",
+    "description": "A polished alternative to a dress: a tailored single-button blazer with matching wide-leg trousers in a fresh teal. Wear it with a silk-look blouse for weddings, christenings and garden parties.\n• Material: 95% polyester, 5% elastane crepe\n• Blazer with notch lapels and front pockets\n• Wide-leg trousers with side zip\n• Blouse not included\n• Colour: teal; sizes EU 38–48",
+    "images": [
+      "https://images.unsplash.com/photo-1745962978491-ed35bdd18456?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 6999,
+    "compareAtPrice": null,
+    "costPrice": 3149,
+    "variants": [
+      {
+        "name": "EU 38",
+        "stock": 15
+      },
+      {
+        "name": "EU 40",
+        "stock": 25
+      },
+      {
+        "name": "EU 42",
+        "stock": 30
+      },
+      {
+        "name": "EU 44",
+        "stock": 25
+      },
+      {
+        "name": "EU 46",
+        "stock": 15
+      },
+      {
+        "name": "EU 48",
+        "stock": 10
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-012",
+    "title": "Flower Girl Tulle Dress with Lace Long Sleeves",
+    "category": "flower-girl",
+    "supplier": "oro-luce",
+    "description": "A pretty white dress with a lace bodice, sheer lace long sleeves and a full, layered tulle skirt that twirls beautifully down the aisle.\n• Material: lace bodice, polyester tulle skirt, cotton-blend lining\n• Sheer long lace sleeves\n• Back zip with satin bow\n• Ankle length\n• Sizes: 2–3 to 10–11 years",
+    "images": [
+      "https://images.unsplash.com/photo-1778166071486-9ac6f2ac700d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1778166071688-763afe2ddd29?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4499,
+    "costPrice": 1599,
+    "variants": [
+      {
+        "name": "2–3 years",
+        "stock": 25
+      },
+      {
+        "name": "4–5 years",
+        "stock": 35
+      },
+      {
+        "name": "6–7 years",
+        "stock": 35
+      },
+      {
+        "name": "8–9 years",
+        "stock": 30
+      },
+      {
+        "name": "10–11 years",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-013",
+    "title": "Flower Girl Dress with Big Satin Bow",
+    "category": "flower-girl",
+    "supplier": "oro-luce",
+    "description": "A sweet sleeveless dress with a soft tulle skirt and an oversized satin bow at the back, in a gentle dusty blue that suits pastel wedding colour schemes.\n• Material: satin bodice and bow, polyester tulle skirt, cotton-blend lining\n• Large satin bow at the back\n• Back zip\n• Knee to mid-calf length\n• Sizes: 2–3 to 10–11 years",
+    "images": [
+      "https://images.unsplash.com/photo-1717459410414-7d2c8a63306e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "2–3 years",
+        "stock": 20
+      },
+      {
+        "name": "4–5 years",
+        "stock": 30
+      },
+      {
+        "name": "6–7 years",
+        "stock": 30
+      },
+      {
+        "name": "8–9 years",
+        "stock": 25
+      },
+      {
+        "name": "10–11 years",
+        "stock": 15
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-014",
+    "title": "Flower Girl Tulle Dress with Satin Sash",
+    "category": "flower-girl",
+    "supplier": "oro-luce",
+    "description": "A classic white tulle dress with a satin bodice and a contrasting pink sash tied in a bow at the back. Puffy layers give it a fairy-tale feel.\n• Material: satin bodice, polyester tulle skirt, cotton-blend lining\n• Removable satin sash with bow\n• Back zip\n• Ankle length\n• Sizes: 2–3 to 10–11 years",
+    "images": [
+      "https://images.unsplash.com/photo-1505973021421-5a0831eb2d20?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3499,
+    "costPrice": 1249,
+    "variants": [
+      {
+        "name": "2–3 years",
+        "stock": 25
+      },
+      {
+        "name": "4–5 years",
+        "stock": 35
+      },
+      {
+        "name": "6–7 years",
+        "stock": 35
+      },
+      {
+        "name": "8–9 years",
+        "stock": 30
+      },
+      {
+        "name": "10–11 years",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-015",
+    "title": "Pearl and Star Bridal Hair Pins, Set of 12",
+    "category": "wedding-accessories",
+    "supplier": "oro-luce",
+    "description": "Delicate hair pins topped with faux pearls and little enamel stars, made to scatter through an updo, braid or half-up style.\n• Set of 12 pins: 6 with stars, 6 with pearls\n• Material: gold-tone alloy, faux pearls, enamel\n• Pin length: 6 cm\n• Comes in a small gift pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1769869174682-19e960909bdb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Gold Tone",
+        "stock": 120
+      },
+      {
+        "name": "Silver Tone",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 50,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-016",
+    "title": "Pearl and Leaf Bridal Hair Vine",
+    "category": "wedding-accessories",
+    "supplier": "oro-luce",
+    "description": "A bendable hair vine of faux pearls, crystals and metal leaves that can be woven through braids, wrapped around a bun or worn as a headband.\n• Length: 50 cm; flexible wire base\n• Material: alloy, faux pearls and glass crystals\n• Ribbon ends for tying\n• Comes in a gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1623428455512-264b33ca8cec?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "Gold Tone",
+        "stock": 90
+      },
+      {
+        "name": "Silver Tone",
+        "stock": 90
+      },
+      {
+        "name": "Rose Gold Tone",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-017",
+    "title": "Soft Tulle Bridal Veil with Metal Comb",
+    "category": "wedding-accessories",
+    "supplier": "oro-luce",
+    "description": "A single-tier veil in soft, drapey tulle with a cut edge and a metal comb that slides securely into the hair. Choose a fingertip or cathedral length.\n• Material: soft polyester tulle, 300 cm wide\n• Lengths: 150 cm (fingertip) or 300 cm (cathedral)\n• Metal comb, 7 cm wide\n• Steam gently to remove creases",
+    "images": [
+      "https://images.unsplash.com/photo-1779055660064-7a81ee65e0ce?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606216794079-73f85bbd57d5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Ivory / 150 cm",
+        "stock": 60
+      },
+      {
+        "name": "Ivory / 300 cm",
+        "stock": 50
+      },
+      {
+        "name": "White / 150 cm",
+        "stock": 50
+      },
+      {
+        "name": "White / 300 cm",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-018",
+    "title": "Wedding Guest Book with Floral Cover and Gold Pen Set",
+    "category": "wedding-decorations",
+    "supplier": "oro-luce",
+    "description": "A keepsake guest book with a floral wreath on the cover and thick pages for wishes, photos and signatures. Two gold-tone pens are included.\n• Size: 25 × 19 cm, 80 cream pages (120 g/m²)\n• Hardback cover with gold foil lettering\n• Includes 2 gold-tone ballpoint pens with stand\n• Pages suitable for instant-photo prints",
+    "images": [
+      "https://images.unsplash.com/photo-1755134677147-7255886429c9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1788628956218-ecfc2231bec7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-019",
+    "title": "Rustic Wooden Card Box with Latch and Cards Sign",
+    "category": "wedding-decorations",
+    "supplier": "oro-luce",
+    "description": "A vintage-style wooden chest for collecting cards and envelopes at the reception. The hinged lid closes with a metal latch to keep everything safe until the end of the day.\n• Size: 30 × 20 × 22 cm\n• Material: stained pine with metal hinges and latch\n• Includes a hanging 'Cards' tag\n• Reusable afterwards as a keepsake or storage box",
+    "images": [
+      "https://images.unsplash.com/photo-1773005695244-3f6d75654511?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WED-020",
+    "title": "Warm White LED Fairy String Lights, 20 m, EU Plug",
+    "category": "wedding-decorations",
+    "supplier": "oro-luce",
+    "description": "200 warm white micro LEDs on thin copper-coloured wire for draping over beams, arches, backdrops and tables. Eight lighting modes create anything from a steady glow to gentle twinkling.\n• Length: 20 m of lights plus 3 m lead cable\n• 200 LEDs; 8 modes with memory function\n• EU plug with low-voltage adapter\n• IP44: suitable for covered outdoor areas",
+    "images": [
+      "https://images.unsplash.com/photo-1526092817387-8f07b2904e48?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 250
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": true
+  }
+]

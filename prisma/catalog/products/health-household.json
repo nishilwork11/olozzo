@@ -1,0 +1,568 @@
+[
+  {
+    "sku": "OLZ-HLT-001",
+    "title": "Plastic Clothes Pegs with Strong Springs, Pack of 48",
+    "category": "household-supplies",
+    "supplier": "harmonie",
+    "description": "Sturdy pegs that grip firmly on the line without leaving marks on most fabrics. A mixed pack of bright colours for laundry days indoors or out.\n• 48 pegs, 7.5 cm long\n• UV-stabilised polypropylene with stainless steel springs\n• Ridged non-slip grip for towels, bedding and clothes\n• Also handy for sealing snack bags",
+    "images": [
+      "https://images.unsplash.com/photo-1780531980877-ab9edfbfef50?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1585997769088-95219fac87f4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 699,
+    "costPrice": 189,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 280
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-002",
+    "title": "Drawstring Bin Bags 35 L, 100 Bags",
+    "category": "household-supplies",
+    "supplier": "harmonie",
+    "description": "Strong, leak-resistant bin bags with built-in drawstrings that close and carry easily. Sized for most kitchen bins.\n• 100 bags on 5 rolls, 35 litres each\n• Size: 55 × 60 cm, 20 µm thick\n• Made with 70% recycled polyethylene\n• Drawstring handles for easy tying and lifting",
+    "images": [
+      "https://images.unsplash.com/photo-1570993896215-7acdbff8e2ef?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1611830696076-462acd8aa9e9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": null,
+    "costPrice": 299,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 300
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-003",
+    "title": "Dual-Sided Scrub Sponges for Dishes, Pack of 12",
+    "category": "household-supplies",
+    "supplier": "harmonie",
+    "description": "Everyday kitchen sponges with a soft, absorbent side for wiping and a scouring side for stuck-on food. The scouring pad is gentle on most pots, plates and worktops.\n• 12 sponges, 9 × 6 × 3 cm each\n• Polyurethane foam with a non-scratch scouring pad\n• Rinse and air-dry between uses\n• Assorted colours to keep kitchen and bathroom sponges apart",
+    "images": [
+      "https://images.unsplash.com/photo-1790617225647-6dae63954f31?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1791403367484-a3bf25af4666?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 449,
+    "compareAtPrice": 699,
+    "costPrice": 169,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 260
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-004",
+    "title": "Plastic Laundry Basket with Handles, 40 L",
+    "category": "household-supplies",
+    "supplier": "harmonie",
+    "description": "A lightweight, ventilated laundry basket for carrying washing to the machine or the line. The moulded handles are comfortable to grip, even when it is full.\n• Capacity 40 L; size 58 × 40 × 26 cm\n• Durable polypropylene with ventilation slots\n• Stackable when empty\n• Wipe clean",
+    "images": [
+      "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1585314293845-4db3b9d0c6e9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 120
+      },
+      {
+        "name": "Blue",
+        "stock": 90
+      },
+      {
+        "name": "Grey",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-005",
+    "title": "Digital Bathroom Scale with Tempered Glass Platform, 180 kg",
+    "category": "personal-care",
+    "supplier": "harmonie",
+    "description": "A slim, easy-to-read bathroom scale with a large backlit display and precise sensors. Just step on and it switches on automatically.\n• Capacity 180 kg in 100 g steps; kg, lb and st units\n• 6 mm tempered glass platform, 30 × 30 cm\n• Auto on/off with low-battery and overload indicators\n• 2 × AAA batteries included",
+    "images": [
+      "https://images.unsplash.com/photo-1646829873498-e874cfa27933?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522844990619-4951c40f7eda?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2299,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 120
+      },
+      {
+        "name": "Black",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-006",
+    "title": "Stainless Steel Manicure and Pedicure Set, 10 Pieces",
+    "category": "personal-care",
+    "supplier": "harmonie",
+    "description": "A complete grooming kit for hands and feet in a compact zip case. Sharp, precise tools for neat nails at home or on the go.\n• Includes fingernail and toenail clippers, nail scissors, cuticle nipper, slanted tweezers, nail file, cuticle pusher, cuticle trimmer, nail cleaner and brow scissors\n• Stainless steel tools\n• PU leather zip case, 11 × 7.5 cm\n• Wipe tools clean after each use",
+    "images": [
+      "https://images.unsplash.com/photo-1779636198585-658170ee0283?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1762114928380-32f18f76d6f1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 389,
+    "variants": [
+      {
+        "name": "Black Case",
+        "stock": 120
+      },
+      {
+        "name": "Rose Case",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-007",
+    "title": "Microfibre Hair Towel Wrap, Pack of 2",
+    "category": "personal-care",
+    "supplier": "harmonie",
+    "description": "A soft, absorbent hair wrap that soaks up water quickly with less rubbing than a regular towel. The button and loop keep it in place while you get ready.\n• Pack of 2, each 65 × 25 cm\n• Highly absorbent microfibre\n• Elastic loop and button fastening\n• Machine washable at 40 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1631715053540-ba83646f3edb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631715053570-602a2fdcbfc6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": null,
+    "costPrice": 259,
+    "variants": [
+      {
+        "name": "Pink and Grey",
+        "stock": 120
+      },
+      {
+        "name": "White and Beige",
+        "stock": 100
+      },
+      {
+        "name": "Lilac and Mint",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-008",
+    "title": "Ultrasonic Aroma Diffuser 300 ml with Ambient Light, USB-C",
+    "category": "wellness",
+    "supplier": "harmonie",
+    "description": "A quiet ultrasonic diffuser that releases a fine, cool mist with a few drops of your favourite essential oil. A soft seven-colour light sets a relaxing mood in bedrooms and living rooms.\n• 300 ml water tank, up to 8 hours on continuous mode\n• Automatic shut-off when the water runs low\n• 7-colour light that can be dimmed or switched off\n• Powered by USB-C; cable included (no plug)",
+    "images": [
+      "https://images.unsplash.com/photo-1768471569643-717e823b5f9a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1732229035217-e7e42f61af4b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 150
+      },
+      {
+        "name": "Wood Grain",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 420,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-HLT-009",
+    "title": "Buckwheat Meditation Cushion, Round 40 cm",
+    "category": "wellness",
+    "supplier": "harmonie",
+    "description": "A firm floor cushion filled with buckwheat hulls that shape to you as you sit. Ideal for meditation, yoga or simply sitting comfortably on the floor.\n• Diameter 40 cm, height 15 cm\n• Removable cotton cover with zip, machine washable at 30 °C\n• Filling: natural buckwheat hulls, adjustable\n• Carry handle on the side",
+    "images": [
+      "https://images.unsplash.com/photo-1512291313931-d4291048e7b6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1792060052578-9dbe661cadbd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1049,
+    "variants": [
+      {
+        "name": "Navy",
+        "stock": 70
+      },
+      {
+        "name": "Sage Green",
+        "stock": 60
+      },
+      {
+        "name": "Terracotta",
+        "stock": 50
+      },
+      {
+        "name": "Grey",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 2200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-010",
+    "title": "Brass Singing Bowl Set with Wooden Mallet and Cushion",
+    "category": "wellness",
+    "supplier": "harmonie",
+    "description": "A hammered brass singing bowl that gives a long, resonant tone when struck or circled with the wooden mallet. A peaceful addition to yoga, meditation or quiet moments at home.\n• Bowl diameter 10 cm, height 5 cm\n• Brass alloy with a hand-hammered finish\n• Includes wooden mallet and fabric cushion\n• Presented in a gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1767328173806-cd46338aab6e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1593810451410-8fbb422cc15e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-011",
+    "title": "Himalayan Salt Lamp with Wooden Base and Dimmer, EU Plug",
+    "category": "wellness",
+    "supplier": "harmonie",
+    "description": "A hand-carved pink salt crystal lamp that gives off a warm amber glow. The inline dimmer adjusts the brightness from a soft night light to a cosy glow.\n• Weight 2–3 kg, height approx. 18–22 cm (every lamp is unique)\n• Wooden base with E14 bulb holder; 2 × 15 W bulbs included\n• 1.8 m cable with inline dimmer switch and EU plug\n• Salt attracts moisture: keep in a dry room and wipe with a dry cloth",
+    "images": [
+      "https://images.unsplash.com/photo-1623241923490-5b2fd532828f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1790524461774-6bb49504786f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": 3299,
+    "costPrice": 999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 2900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-012",
+    "title": "Weekly Pill Organiser with 7 Daily Compartments",
+    "category": "daily-living-aids",
+    "supplier": "harmonie",
+    "description": "A simple 7-day organiser that makes it easy to sort and keep track of daily tablets. Each day has its own snap-shut lid marked with a large letter.\n• 7 compartments, each 3.5 × 2.5 × 2 cm\n• BPA-free plastic with easy-open lids\n• Days printed in large, easy-to-read letters\n• Compact 19 × 4 × 2.5 cm size for bags and travel",
+    "images": [
+      "https://images.unsplash.com/photo-1789983361946-1dd2258c7470?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 399,
+    "compareAtPrice": null,
+    "costPrice": 149,
+    "variants": [
+      {
+        "name": "Orange",
+        "stock": 120
+      },
+      {
+        "name": "Blue",
+        "stock": 100
+      },
+      {
+        "name": "Rainbow",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-013",
+    "title": "Handheld Magnifying Glass 3×, 90 mm Glass Lens",
+    "category": "daily-living-aids",
+    "supplier": "harmonie",
+    "description": "A large, clear glass lens for reading small print on labels, maps, newspapers and instructions. The comfortable handle and light frame make it easy to hold for longer.\n• Lens: 90 mm optical glass, 3× magnification\n• Overall length 23 cm, weight 140 g\n• Metal frame with non-slip handle\n• Includes microfibre cleaning cloth and pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1568495341369-1066472c7a27?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-014",
+    "title": "Wooden Step Stool with Non-Slip Feet, 23 cm",
+    "category": "daily-living-aids",
+    "supplier": "harmonie",
+    "description": "A sturdy little step stool for reaching high shelves and cupboards, or for use as a footrest. Solid wood with a smooth, sanded finish.\n• Size: 40 × 22 × 23 cm (L × W × H)\n• Solid pine, maximum load 120 kg\n• Rubber feet help prevent slipping\n• Arrives fully assembled",
+    "images": [
+      "https://images.unsplash.com/photo-1622759660470-63d4369958ba?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1634798245965-03669c757183?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1049,
+    "variants": [
+      {
+        "name": "Natural",
+        "stock": 60
+      },
+      {
+        "name": "White",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 2200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-015",
+    "title": "Empty First Aid Bag with Labelled Compartments, 2 L",
+    "category": "first-aid",
+    "supplier": "harmonie",
+    "description": "A compact, water-resistant bag for building your own first aid kit for home, car or travel. Clear inner pockets keep supplies organised and easy to find.\n• Size: 20 × 14 × 8 cm, approx. 2 L\n• Water-resistant 600D polyester with a reflective strip\n• Elastic loops and clear mesh pockets inside\n• Belt loop and carry handle; supplied empty, contents not included",
+    "images": [
+      "https://images.unsplash.com/photo-1564144573017-8dc932e0039e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1782835430497-19223e7432cc?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Green",
+        "stock": 120
+      },
+      {
+        "name": "Red",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-016",
+    "title": "First Aid Storage Box with Handle and Removable Tray",
+    "category": "first-aid",
+    "supplier": "harmonie",
+    "description": "A sturdy plastic box with a lift-out tray that keeps household first aid supplies tidy and together. The printed cross symbol makes it easy to spot in a hurry.\n• Size: 33 × 18 × 16 cm\n• Durable polypropylene with snap-lock latches\n• Lift-out tray with 6 small compartments\n• Fold-down carry handle; supplied empty, contents not included",
+    "images": [
+      "https://images.unsplash.com/photo-1563260324-5ebeedc8af7c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1782583042505-62ab4e05ccd3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Orange",
+        "stock": 80
+      },
+      {
+        "name": "Red",
+        "stock": 90
+      },
+      {
+        "name": "White",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 750,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-017",
+    "title": "Contoured Memory Foam Pillow with Washable Cover",
+    "category": "sleep-comfort",
+    "supplier": "harmonie",
+    "description": "A memory foam pillow with a gentle contour that cradles the head and neck for side and back sleepers. The breathable cover zips off for washing.\n• Size: 60 × 35 cm, height 11 cm and 9 cm on the two sides\n• Slow-rebound memory foam, 50 kg/m³ density\n• Bamboo-viscose blend cover, machine washable at 40 °C\n• Air out for 24 hours after unpacking",
+    "images": [
+      "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1652440606600-1a48d5f80316?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3699,
+    "costPrice": 1049,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1400,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-HLT-018",
+    "title": "Soft Satin Sleep Mask with Adjustable Strap",
+    "category": "sleep-comfort",
+    "supplier": "harmonie",
+    "description": "A smooth, lightweight eye mask that blocks out light at home, on planes or during daytime naps. Soft padding sits comfortably without pressing on the eyes.\n• Polyester satin outer and lining with soft fibre padding\n• Size 20 × 9 cm with adjustable elastic strap\n• Contoured nose bridge to reduce light leaks\n• Comes with a matching travel pouch",
+    "images": [
+      "https://images.unsplash.com/photo-1687435703153-88f6bc0cdcff?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631310709791-1b3701c7a335?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 749,
+    "costPrice": 179,
+    "variants": [
+      {
+        "name": "Blush Pink",
+        "stock": 150
+      },
+      {
+        "name": "Black",
+        "stock": 160
+      },
+      {
+        "name": "Champagne",
+        "stock": 90
+      },
+      {
+        "name": "Navy",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 50,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-019",
+    "title": "Hot Water Bottle 2 L with Knitted Cover",
+    "category": "sleep-comfort",
+    "supplier": "harmonie",
+    "description": "A classic hot water bottle in a cosy cable-knit cover for warming up chilly beds and sofa evenings. The ribbed rubber body holds its warmth for hours.\n• Capacity 2 litres; size 33 × 20 cm\n• Natural rubber body with screw stopper\n• Removable knitted acrylic cover\n• Fill with hot, not boiling, water to no more than two-thirds full",
+    "images": [
+      "https://images.unsplash.com/photo-1773747608435-0fa80d11a32f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Cream",
+        "stock": 120
+      },
+      {
+        "name": "Grey",
+        "stock": 100
+      },
+      {
+        "name": "Sage Green",
+        "stock": 80
+      },
+      {
+        "name": "Red",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HLT-020",
+    "title": "Hollowfibre Pillows 48 × 74 cm, Pair",
+    "category": "sleep-comfort",
+    "supplier": "harmonie",
+    "description": "Plump, medium-firm pillows with a soft microfibre cover and springy hollowfibre filling that keeps its shape night after night. A comfortable choice for all sleeping positions.\n• Size: 48 × 74 cm, pack of 2\n• Filling: 800 g siliconised hollowfibre per pillow\n• Cover: soft-touch microfibre with piped edges\n• Machine washable at 40 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1737094661981-baad6b211852?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1634382734199-e837de37271f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1900,
+    "featured": false
+  }
+]

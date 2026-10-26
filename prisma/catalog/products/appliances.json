@@ -1,0 +1,492 @@
+[
+  {
+    "sku": "OLZ-APL-001",
+    "title": "2-Slice Toaster with Wide Slots, 7 Browning Levels and Crumb Tray",
+    "category": "kitchen-appliances",
+    "supplier": "nordhaus",
+    "description": "Compact toaster for everyday breakfasts, with extra-wide slots that take thick bread, bagels and brioche.\n• 850 W, 7 browning levels with defrost, reheat and cancel buttons\n• 3.8 cm wide slots with self-centring bread guides\n• Brushed stainless steel housing\n• Pull-out crumb tray, cord storage and EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1686644823126-7ed947386b77?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1613221699807-4940ba9b83f4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1299,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-002",
+    "title": "Mini Oven 12 L with Timer, Top and Bottom Heat, Tray and Rack",
+    "category": "kitchen-appliances",
+    "supplier": "nordhaus",
+    "description": "Small countertop oven for toast, pizza slices, muffins and reheating leftovers without heating up a full-size oven.\n• Capacity 12 L, 1000 W, temperature 100–230 °C\n• 60-minute timer with bell; top, bottom or combined heating\n• Includes baking tray, wire rack and tray handle\n• Retro-style housing with glass door; EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1649264191931-9235c8dd03ef?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": 5999,
+    "costPrice": 2499,
+    "variants": [
+      {
+        "name": "Pink",
+        "stock": 60
+      },
+      {
+        "name": "Grey",
+        "stock": 80
+      },
+      {
+        "name": "White",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 5200,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-APL-003",
+    "title": "Hand Mixer 300 W with 5 Speeds, Turbo Button and 4 Attachments",
+    "category": "kitchen-appliances",
+    "supplier": "nordhaus",
+    "description": "Lightweight hand mixer for whipping cream, beating egg whites and mixing cake batter or soft bread dough.\n• 300 W motor with 5 speeds plus turbo boost\n• Includes 2 stainless steel beaters and 2 dough hooks\n• One-touch eject button for removing attachments\n• 1.2 m cable with EU plug; weighs about 1 kg",
+    "images": [
+      "https://images.unsplash.com/photo-1772915516557-2d57f94b0bd0?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1638792958866-9b3f787ec709?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-004",
+    "title": "Retro Electric Kettle 1.7 L with Temperature Gauge",
+    "category": "coffee-makers",
+    "supplier": "nordhaus",
+    "description": "Retro-style kettle with a built-in temperature gauge, so you can see when the water is right for green tea, coffee or a full boil.\n• Capacity 1.7 L, 2200 W fast boil\n• Stainless steel body with enamel finish and analogue temperature dial\n• Automatic shut-off, boil-dry protection and removable limescale filter\n• 360° cordless base with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1685514128186-c5d8d7e90e1a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1499,
+    "variants": [
+      {
+        "name": "Cream",
+        "stock": 100
+      },
+      {
+        "name": "Black",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-005",
+    "title": "Espresso Machine 20 Bar with Steam Wand and 1.5 L Water Tank",
+    "category": "coffee-makers",
+    "supplier": "nordhaus",
+    "description": "Semi-automatic espresso machine for café-style espresso, cappuccino and latte at home.\n• 20-bar pump and 1350 W fast-heating system\n• Steam wand for frothing milk; removable 1.5 L water tank\n• Portafilter with single and double baskets, measuring scoop and tamper\n• Stainless steel front and removable drip tray; EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1609050471053-8636409f9f5b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 11999,
+    "compareAtPrice": 16999,
+    "costPrice": 6999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 4800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-006",
+    "title": "Stovetop Espresso Maker 6 Cups, Aluminium",
+    "category": "coffee-makers",
+    "supplier": "nordhaus",
+    "description": "Classic stovetop coffee maker that brews rich, strong coffee on gas, electric and ceramic hobs.\n• Makes 6 small cups (300 ml)\n• Food-grade aluminium body with heat-resistant handle\n• Safety valve and replaceable silicone gasket\n• Not suitable for induction hobs; hand wash only",
+    "images": [
+      "https://images.unsplash.com/photo-1604946326876-e8cdb157ec59?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604946327250-fbef76816bfe?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 749,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-007",
+    "title": "Countertop Blender 1.5 L, 1200 W, with 6-Point Stainless Steel Blade",
+    "category": "blenders",
+    "supplier": "nordhaus",
+    "description": "Powerful blender for smoothies, crushed ice, soups and nut butters.\n• 1200 W motor with 3 speeds, pulse and a smoothie programme\n• 1.5 L BPA-free jug with measuring scale and vented lid\n• 6-point stainless steel blade assembly\n• Suction-cup feet, overload protection and EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1585237672814-8f85a8118bf6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1780511879744-af5e51e70f28?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2699,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 3600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-008",
+    "title": "Hand Blender Set 800 W with Whisk, Chopper and Beaker",
+    "category": "blenders",
+    "supplier": "nordhaus",
+    "description": "Stick blender for puréeing soup right in the pot and for making sauces, baby food and milkshakes.\n• 800 W motor, variable speed plus turbo button\n• Stainless steel blending shaft with 4-blade cutter\n• Includes whisk, 500 ml chopper bowl and 700 ml measuring beaker\n• Detachable parts are dishwasher-safe; EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1789304140039-8a072a77d343?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-009",
+    "title": "Food Processor 2 L, 600 W, with Chopping Blade and Slicing Disc",
+    "category": "blenders",
+    "supplier": "nordhaus",
+    "description": "Compact food processor that chops onions, grates cheese, slices vegetables and mixes pastry in seconds.\n• 600 W, 2 speeds plus pulse\n• 2 L work bowl with feed tube and pusher\n• Stainless steel S-blade, reversible slicing/shredding disc and dough blade\n• Safety lock: runs only with the lid in place; EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1622818426197-d54f85b88690?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5499,
+    "costPrice": 2099,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 3200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-010",
+    "title": "Digital Air Fryer 5.5 L with Touch Screen and 8 Presets",
+    "category": "air-fryers",
+    "supplier": "nordhaus",
+    "description": "Crispy fries, chicken wings and roast vegetables with little or no oil, cooked faster than in a conventional oven.\n• Capacity 5.5 L, 1700 W, temperature 80–200 °C, 60-minute timer\n• Touch display with 8 presets and a shake reminder\n• Non-stick removable basket, dishwasher-safe\n• Auto shut-off and cool-touch handle; EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1745846664210-756817e1b19c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 6999,
+    "compareAtPrice": 9999,
+    "costPrice": 3999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 5200,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-APL-011",
+    "title": "Compact Air Fryer 3.5 L with Dial Controls",
+    "category": "air-fryers",
+    "supplier": "nordhaus",
+    "description": "Space-saving air fryer for one or two people, ideal for small kitchens, student flats and caravans.\n• Capacity 3.5 L, 1400 W, temperature 80–200 °C\n• Simple dial controls with 30-minute timer\n• Non-stick basket with safety release button\n• Automatic shut-off; EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1751262444163-a25a66cd2011?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": null,
+    "costPrice": 2499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 3300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-012",
+    "title": "Cordless Stick Vacuum 25 kPa with LED Display, Up to 40 Minutes",
+    "category": "vacuums",
+    "supplier": "nordhaus",
+    "description": "Lightweight cordless vacuum that converts into a handheld for stairs, sofas and car seats.\n• Suction up to 25 kPa, 3 power modes, up to 40 minutes runtime in eco mode\n• LED display shows battery level and mode\n• Washable multi-layer filter and 1.2 L dust cup\n• Includes motorised floor brush, crevice tool, 2-in-1 brush, wall mount and charger with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1746645297698-306ef29852ca?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1765970101634-9cb341a94ea0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 9999,
+    "compareAtPrice": 14999,
+    "costPrice": 5699,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 3400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-013",
+    "title": "Cordless Wet and Dry Floor Cleaner with Self-Cleaning Brush",
+    "category": "vacuums",
+    "supplier": "nordhaus",
+    "description": "Vacuums and mops hard floors in one pass, picking up crumbs, spills and sticky marks.\n• Separate clean-water (800 ml) and dirty-water (700 ml) tanks\n• Rolling brush with a self-cleaning cycle in the charging base\n• Runtime up to 35 minutes; LED display\n• For tiles, laminate, vinyl and sealed wood; charging base with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1765970101654-337b573142fb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1778062868060-f5feca2edb0f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 17999,
+    "compareAtPrice": 24999,
+    "costPrice": 10499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 6200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-014",
+    "title": "Robot Vacuum Cleaner with App Control and Auto Recharge",
+    "category": "vacuums",
+    "supplier": "nordhaus",
+    "description": "Robot vacuum that keeps floors tidy on a schedule and returns to its dock to recharge when the battery runs low.\n• 2700 Pa suction, 3 power levels, runtime up to 120 minutes\n• Control and scheduling via smartphone app or remote\n• Low-profile body fits under most beds and sofas; anti-drop sensors for stairs\n• Works on hard floors and low-pile carpets; charging dock with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1653990480360-31a12ce9723e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 14999,
+    "compareAtPrice": 21999,
+    "costPrice": 8499,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 60
+      },
+      {
+        "name": "White",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 4300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-015",
+    "title": "Quartz Heater 1200 W with 3 Heating Rods and Tip-Over Switch",
+    "category": "heating-cooling",
+    "supplier": "nordhaus",
+    "description": "Instant radiant heat for home offices, hobby rooms and workshops, warming you seconds after switching on.\n• 3 quartz heating rods for 400, 800 or 1200 W\n• Tip-over safety switch and protective front grille\n• Carry handle and wall bracket included\n• 1.5 m cable with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1547186577-a3f4fa07c2ef?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1633596879450-e98a1a4d0c80?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-016",
+    "title": "Rechargeable Desk Fan with 4 Speeds and Tilting Head",
+    "category": "heating-cooling",
+    "supplier": "nordhaus",
+    "description": "Quiet cordless fan for desks, bedside tables and camping trips that keeps running without a socket nearby.\n• 4 speeds and a 90° tilting head\n• 4000 mAh battery for up to 12 hours on the lowest speed; USB-C charging\n• Height-adjustable stem from 22 to 35 cm\n• Weighted base that can also be wall-mounted",
+    "images": [
+      "https://images.unsplash.com/photo-1618941716939-553df3c6c278?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1199,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 80
+      },
+      {
+        "name": "White",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-017",
+    "title": "Hair Dryer 1800 W with Ionic Function and Magnetic Nozzle",
+    "category": "personal-care-appliances",
+    "supplier": "nordhaus",
+    "description": "Compact, lightweight hair dryer that dries quickly and leaves hair smooth and shiny.\n• 1800 W with 3 heat and 2 speed settings plus a cool-shot button\n• Ionic function to reduce static and frizz\n• Magnetic concentrator nozzle that clicks on in any direction\n• 1.8 m cable with hanging loop and EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1727364438136-6edc10ef0a52?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5999,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-018",
+    "title": "Cordless Beard and Hair Trimmer with 4 Guide Combs",
+    "category": "personal-care-appliances",
+    "supplier": "nordhaus",
+    "description": "Rechargeable trimmer for keeping beards, stubble and short hairstyles neat at home.\n• Stainless steel blades, 20 length settings from 0.5 to 20 mm\n• 4 guide combs, cleaning brush and blade oil included\n• 600 mAh battery for 90 minutes of cordless use; USB charging\n• Washable head and LED battery indicator",
+    "images": [
+      "https://images.unsplash.com/photo-1647900893846-e6ab4048e824?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1199,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 130
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-019",
+    "title": "Steam Iron 2400 W with Ceramic Soleplate and Anti-Drip",
+    "category": "laundry",
+    "supplier": "nordhaus",
+    "description": "Powerful steam iron that glides easily over cotton, linen and blended fabrics.\n• 2400 W, continuous steam 35 g/min and 160 g steam boost\n• Ceramic soleplate; vertical steam for hanging garments\n• 300 ml water tank with self-clean and anti-calc functions\n• Anti-drip system, auto shut-off and 2 m cable with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1489274495757-95c7c837b101?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-APL-020",
+    "title": "Handheld Garment Steamer 1200 W, Ready in About 25 Seconds",
+    "category": "laundry",
+    "supplier": "nordhaus",
+    "description": "Removes creases from shirts, dresses and curtains without an ironing board, at home or when travelling.\n• 1200 W, heats up in about 25 seconds\n• Continuous steam up to 22 g/min; 200 ml removable water tank\n• Works upright and horizontally\n• Includes fabric brush and lint brush; EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1732605556119-cefb5faaf313?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1732605549016-7983a22820f0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3799,
+    "costPrice": 1399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1100,
+    "featured": false
+  }
+]

@@ -1,0 +1,435 @@
+[
+  {
+    "sku": "OLZ-BAB-001",
+    "title": "Short-Sleeve Cotton Baby Bodysuits, Pack of 5",
+    "category": "baby-clothing",
+    "supplier": "juego-feliz",
+    "description": "Everyday bodysuits in soft, breathable cotton that layer easily under sleepsuits and dungarees. The envelope neckline slips over the head without a struggle, and press studs at the crotch keep nappy changes quick.\n• Material: 100% cotton jersey, 180 g/m²\n• Pack contents: 5 bodysuits in white, grey melange and sage\n• Envelope shoulders and 3 nickel-free press studs\n• Machine washable at 40 °C; tumble dry on low",
+    "images": [
+      "https://images.unsplash.com/photo-1622290319146-7b63df48a635?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 599,
+    "variants": [
+      { "name": "0–3 months", "stock": 120 },
+      { "name": "3–6 months", "stock": 160 },
+      { "name": "6–12 months", "stock": 140 },
+      { "name": "12–18 months", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-BAB-002",
+    "title": "Baby Dungarees with Bunny Print and Long-Sleeve Top, 2-Piece Set",
+    "category": "baby-clothing",
+    "supplier": "juego-feliz",
+    "description": "A playful two-piece outfit: printed dungarees with a bunny patch on the bib, paired with a matching long-sleeve top. Press studs along the inside legs make changes simple.\n• Material: 95% cotton, 5% elastane\n• Set includes dungarees and a long-sleeve top\n• Adjustable shoulder straps with two button positions\n• Machine washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1780329942969-eb17bf426e37?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 699,
+    "variants": [
+      { "name": "3–6 months", "stock": 80 },
+      { "name": "6–9 months", "stock": 110 },
+      { "name": "9–12 months", "stock": 100 },
+      { "name": "12–18 months", "stock": 70 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 240,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-003",
+    "title": "Knitted Baby Beanie Hat with Bear Ears",
+    "category": "baby-clothing",
+    "supplier": "juego-feliz",
+    "description": "A snug knitted beanie with two little bear ears that keeps small heads cosy on walks and chilly days. The fold-up ribbed brim lets the hat grow with your baby.\n• Material: 70% cotton, 30% acrylic, soft double knit\n• Sizes: 0–6 months (head 36–42 cm), 6–18 months (head 42–48 cm)\n• Fold-up ribbed brim for a longer fit\n• Machine washable at 30 °C on a gentle cycle",
+    "images": [
+      "https://images.unsplash.com/photo-1546015720-b8b30df5aa27?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 599,
+    "compareAtPrice": null,
+    "costPrice": 249,
+    "variants": [
+      { "name": "Grey / 0–6 months", "stock": 90 },
+      { "name": "Grey / 6–18 months", "stock": 110 },
+      { "name": "Cream / 0–6 months", "stock": 70 },
+      { "name": "Cream / 6–18 months", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 50,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-004",
+    "title": "Wide-Neck Baby Feeding Bottles 260 ml, Set of 2",
+    "category": "baby-feeding",
+    "supplier": "juego-feliz",
+    "description": "Two wide-neck bottles that are easy to fill, clean and hold. The soft silicone teat has a broad base, and a small vent lets air in while your baby drinks.\n• Capacity: 260 ml each, with millilitre markings\n• Material: BPA-free polypropylene bottle, food-grade silicone teat\n• Includes 2 bottles, 2 teats, 2 screw rings and 2 travel caps\n• Dishwasher safe (top rack) and suitable for steam sterilising",
+    "images": [
+      "https://images.unsplash.com/photo-1623707430616-d9f956bcac2b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1599,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Slow-flow teat (0 m+)", "stock": 140 },
+      { "name": "Medium-flow teat (3 m+)", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-005",
+    "title": "Silicone Baby Bib with Deep Food Catcher",
+    "category": "baby-feeding",
+    "supplier": "juego-feliz",
+    "description": "A soft, waterproof bib with a deep pocket that catches crumbs and spills before they reach the floor. It wipes clean in seconds, ready for the next meal.\n• Material: food-grade silicone, BPA-free\n• Adjustable neck strap with 4 press-stud positions\n• Suitable from about 6 months to 3 years\n• Rinse under the tap or wash in the dishwasher",
+    "images": [
+      "https://images.unsplash.com/photo-1652480238095-64e45e638c08?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 749,
+    "costPrice": 199,
+    "variants": [
+      { "name": "Sage Green", "stock": 150 },
+      { "name": "Dusty Pink", "stock": 120 },
+      { "name": "Mustard", "stock": 90 },
+      { "name": "Stone Grey", "stock": 110 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-006",
+    "title": "Bamboo Weaning Set with Suction Plate, Bowl and Spoons",
+    "category": "baby-feeding",
+    "supplier": "juego-feliz",
+    "description": "A natural bamboo weaning set for the first steps into solid food. The divided plate and the bowl have silicone suction rings that hold them in place on a high-chair tray or table.\n• Includes a divided plate, a bowl and 2 silicone-tip spoons, plus 1 spare suction ring\n• Plate 22 × 18 cm; bowl 12 cm diameter, 300 ml\n• Material: natural bamboo with food-grade silicone\n• Hand wash in warm soapy water; not for microwave or dishwasher",
+    "images": [
+      "https://images.unsplash.com/photo-1673465823278-11ff3197c5c6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 899,
+    "variants": [
+      { "name": "Default", "stock": 160 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-007",
+    "title": "Hooded Baby Bath Towel with Ears, 80 × 80 cm",
+    "category": "baby-diapering",
+    "supplier": "juego-feliz",
+    "description": "A generous hooded towel that wraps your baby up warm straight after bath time. The hood keeps a damp head covered and has two sewn-on ears.\n• Size: 80 × 80 cm, from birth to about 3 years\n• Material: 100% cotton, muslin outer with a terry inner layer\n• Hood with decorative ears\n• Machine washable at 60 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1763089359104-f87d8adfd1ba?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1763089359160-3c55707c5808?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1699,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Sage Green", "stock": 140 },
+      { "name": "Stone Grey", "stock": 110 },
+      { "name": "Oat", "stock": 100 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 360,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-008",
+    "title": "Reusable Cloth Nappies with Bamboo Inserts, Pack of 3",
+    "category": "baby-diapering",
+    "supplier": "juego-feliz",
+    "description": "One-size pocket nappies that adjust with press studs to fit from about 3.5 to 15 kg. Each nappy has a waterproof outer and a soft inner lining, with an absorbent insert that slides into the pocket.\n• Pack contents: 3 nappy covers and 3 bamboo-viscose inserts\n• Outer: waterproof PUL fabric; lining: microfleece\n• Adjustable rise and waist with press studs\n• Machine wash at 40–60 °C; line dry",
+    "images": [
+      "https://images.unsplash.com/photo-1697751946618-d04ad612cb78?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573662012516-5cb4399006e7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2199,
+    "compareAtPrice": null,
+    "costPrice": 999,
+    "variants": [
+      { "name": "Cactus Print", "stock": 80 },
+      { "name": "Owl Print", "stock": 70 },
+      { "name": "Mixed Prints", "stock": 90 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 480,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-009",
+    "title": "Baby Bath Tub with Non-Slip Backrest and Drain Plug",
+    "category": "baby-diapering",
+    "supplier": "juego-feliz",
+    "description": "A sturdy bath tub shaped to hold your baby in a comfortable semi-reclined position, leaving your hands free for washing. The plug in the base lets you empty it without lifting.\n• Size: 82 × 48 × 24 cm, from birth to about 12 months\n• Material: BPA-free polypropylene with rubber non-slip feet\n• Moulded backrest and drain plug\n• Always stay within arm's reach of your baby during bath time",
+    "images": [
+      "https://images.unsplash.com/photo-1617817740234-86b952cf9b04?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1199,
+    "variants": [
+      { "name": "White", "stock": 90 },
+      { "name": "Grey", "stock": 70 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 1500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-010",
+    "title": "Stroller Organiser Bag with Detachable Shoulder Strap",
+    "category": "baby-strollers",
+    "supplier": "juego-feliz",
+    "description": "A roomy organiser that hangs from the stroller handlebar and keeps keys, bottles, wipes and your phone close at hand. Unclip it and it doubles as a small shoulder bag.\n• Size: 34 × 15 × 14 cm\n• Material: faux leather (PU) outer with a water-resistant lining\n• 2 bottle pockets, a zipped main section and an outside phone pocket\n• Fits most stroller handles with 2 adjustable straps",
+    "images": [
+      "https://images.unsplash.com/photo-1784751722840-471e603b467f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2299,
+    "costPrice": 749,
+    "variants": [
+      { "name": "Brown", "stock": 120 },
+      { "name": "Black", "stock": 140 },
+      { "name": "Grey", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-011",
+    "title": "Reversible Cotton Stroller Seat Liner",
+    "category": "baby-strollers",
+    "supplier": "juego-feliz",
+    "description": "A padded liner that adds a soft, washable layer to strollers and pushchairs. It is reversible, with a plain side and a patterned side, and has harness slots for 3- and 5-point straps.\n• Size: 80 × 35 cm with 1.5 cm padding\n• Material: 100% cotton cover, polyester filling\n• Harness slots for 3- and 5-point systems\n• Machine washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1636384919179-d936e55c5cca?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Peach", "stock": 90 },
+      { "name": "Grey", "stock": 110 },
+      { "name": "Navy", "stock": 80 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-012",
+    "title": "Soft Plush Teddy Bear, 30 cm",
+    "category": "baby-toys",
+    "supplier": "juego-feliz",
+    "description": "A cuddly teddy bear in extra-soft plush, with an embroidered face so there are no small parts to come loose. Just the right size for little arms to carry around.\n• Height: 30 cm (sitting)\n• Material: polyester plush with polyester fibre filling\n• Embroidered eyes and nose, no buttons or beads\n• Machine washable at 30 °C in a laundry bag\n• Ages 0+ (suitable from birth)",
+    "images": [
+      "https://images.unsplash.com/photo-1549501602-52168bb8f653?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 449,
+    "variants": [
+      { "name": "Default", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-013",
+    "title": "Wooden Xylophone for Toddlers with Two Mallets",
+    "category": "baby-toys",
+    "supplier": "juego-feliz",
+    "description": "A colourful xylophone that invites little ones to tap out their first tunes. Each metal key plays a different note, and the wooden mallets are sized for small hands.\n• Size: 30 × 13 × 4 cm with 8 colour-coded metal keys\n• Material: wooden base finished with water-based paint\n• Includes 2 wooden mallets\n• Ages 18 months+",
+    "images": [
+      "https://images.unsplash.com/photo-1504484656217-38f8ffc617f9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Default", "stock": 180 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-BAB-014",
+    "title": "Floating Bath Ducks in Assorted Colours, Set of 10",
+    "category": "baby-toys",
+    "supplier": "juego-feliz",
+    "description": "A set of brightly coloured ducks that bob on the water and make bath time more fun. Each duck is fully sealed with no hole, so no water gets trapped inside.\n• Set of 10 ducks, each about 6 cm long\n• Material: BPA-free soft vinyl\n• Sealed design; rinse and air dry after use\n• Ages 6 months+",
+    "images": [
+      "https://images.unsplash.com/photo-1778278552846-30e0b4dd6a17?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": null,
+    "costPrice": 279,
+    "variants": [
+      { "name": "Default", "stock": 250 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-015",
+    "title": "Hanging Cot Mobile with Felt Sheep and Wooden Bar",
+    "category": "nursery",
+    "supplier": "juego-feliz",
+    "description": "A calm mobile with soft felt sheep that turn gently in the air above the cot or changing table. The neutral colours suit any nursery.\n• Wooden hanging bar 40 cm, drop length about 60 cm\n• Material: wool-blend felt, beech wood and cotton thread\n• Ceiling hook included\n• Hang out of baby's reach and remove once your baby can push up on hands and knees\n• Ages 0+",
+    "images": [
+      "https://images.unsplash.com/photo-1543346242-2b8e41fb91ca?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2499,
+    "costPrice": 899,
+    "variants": [
+      { "name": "Default", "stock": 120 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-016",
+    "title": "Cable-Knit Cotton Baby Blanket, 80 × 100 cm",
+    "category": "nursery",
+    "supplier": "juego-feliz",
+    "description": "A soft cable-knit blanket for the cot, the stroller or the play mat. The breathable cotton knit keeps it comfortable in every season.\n• Size: 80 × 100 cm\n• Material: 100% cotton knit\n• Classic cable pattern with a ribbed border\n• Machine washable at 30 °C on a wool cycle; dry flat",
+    "images": [
+      "https://images.unsplash.com/photo-1601628570754-f602c5930dd5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      { "name": "Stone Grey", "stock": 110 },
+      { "name": "Cream", "stock": 100 },
+      { "name": "Sage", "stock": 80 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-017",
+    "title": "Socket Safety Covers for EU Wall Sockets, Pack of 24",
+    "category": "baby-safety",
+    "supplier": "juego-feliz",
+    "description": "Plug-in covers that block unused wall sockets so curious fingers and small objects stay out. They push in firmly and come out again with the removal key.\n• Pack contents: 24 covers and 2 removal keys\n• Fits standard EU Type E and Type F wall sockets\n• Material: white ABS plastic\n• Flush, low-profile design",
+    "images": [
+      "https://images.unsplash.com/photo-1484024091473-858a1e7ece52?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 699,
+    "costPrice": 179,
+    "variants": [
+      { "name": "Default", "stock": 300 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-018",
+    "title": "Adhesive Cabinet and Drawer Safety Locks, Pack of 10",
+    "category": "baby-safety",
+    "supplier": "juego-feliz",
+    "description": "Flexible strap locks that keep cupboards, drawers and appliance doors shut against little explorers, while adults release them with one press. They stick on in seconds with no drilling.\n• Pack contents: 10 strap locks and 2 spare adhesive pads\n• Adjustable strap length up to 22 cm\n• Strong adhesive pads for wood, glass and metal\n• Fits cabinets, drawers, fridges and toilet lids",
+    "images": [
+      "https://images.unsplash.com/photo-1621907016226-13b75620eaf4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": null,
+    "costPrice": 299,
+    "variants": [
+      { "name": "White", "stock": 200 },
+      { "name": "Grey", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-019",
+    "title": "Maternity Shirt Dress with Tie Waist",
+    "category": "maternity",
+    "supplier": "juego-feliz",
+    "description": "A relaxed button-front shirt dress cut with extra room through the bump, so it fits throughout pregnancy and after. The full button front makes it practical for nursing too.\n• Material: 100% viscose, light and airy\n• Full button front, two chest pockets and roll-up sleeves\n• Removable tie belt for an adjustable fit\n• Knee length; machine washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1568043625493-2b0633c7c491?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "S", "stock": 60 },
+      { "name": "M", "stock": 90 },
+      { "name": "L", "stock": 80 },
+      { "name": "XL", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BAB-020",
+    "title": "Seamless Maternity Leggings with Over-Bump Waistband",
+    "category": "maternity",
+    "supplier": "juego-feliz",
+    "description": "Soft, stretchy leggings with a tall waistband that sits comfortably over the bump and grows with you from early pregnancy onwards. The opaque fabric works for everyday wear and light activity.\n• Material: 92% polyamide, 8% elastane, opaque\n• Seamless over-bump panel, 30 cm high\n• Full length with flat seams\n• Machine washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1710897869539-a48e3d69a8d7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      { "name": "S", "stock": 80 },
+      { "name": "M", "stock": 110 },
+      { "name": "L", "stock": 100 },
+      { "name": "XL", "stock": 60 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 220,
+    "featured": false
+  }
+]

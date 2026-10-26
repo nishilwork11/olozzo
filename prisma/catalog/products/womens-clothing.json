@@ -1,0 +1,516 @@
+[
+  {
+    "sku": "OLZ-WCL-001",
+    "title": "Floral Wrap Midi Dress with Flutter Sleeves and Tie Waist",
+    "category": "womens-dresses",
+    "supplier": "moda-lusa",
+    "description": "A breezy wrap dress in a soft floral print that ties at the waist for an adjustable, flattering fit. Dress it up with sandals or down with trainers on warm days.\n• Material: 100% viscose, lightweight and fluid\n• V-neckline, short flutter sleeves and a side slit in the midi skirt\n• Self-tie waist; length approx. 115 cm in size M\n• Machine wash cold on a gentle cycle, hang to dry",
+    "images": [
+      "https://images.unsplash.com/photo-1759992878336-a5dd342ea245?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602010069450-0a62034f235c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1124,
+    "variants": [
+      { "name": "XS", "stock": 40 },
+      { "name": "S", "stock": 85 },
+      { "name": "M", "stock": 110 },
+      { "name": "L", "stock": 80 },
+      { "name": "XL", "stock": 45 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 280,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-WCL-002",
+    "title": "Ditsy Floral Sleeveless Sundress with Smocked Back",
+    "category": "womens-dresses",
+    "supplier": "moda-lusa",
+    "description": "A relaxed summer sundress covered in a small all-over floral print, with a stretchy smocked back panel that moves with you.\n• Material: 100% cotton poplin\n• Square neckline, wide shoulder straps and a flared knee-length skirt\n• Two side seam pockets\n• Length approx. 98 cm in size M\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1762154057377-cc9d3dd6900c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1592924514972-71c5938462d1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 879,
+    "variants": [
+      { "name": "Pink / S", "stock": 60 },
+      { "name": "Pink / M", "stock": 75 },
+      { "name": "Pink / L", "stock": 50 },
+      { "name": "Blue / S", "stock": 55 },
+      { "name": "Blue / M", "stock": 70 },
+      { "name": "Blue / L", "stock": 45 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 240,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-003",
+    "title": "White Cotton Tiered Maxi Dress with Square Neck",
+    "category": "womens-dresses",
+    "supplier": "moda-lusa",
+    "description": "An airy tiered maxi dress in crisp white cotton, cut loose through the body for comfort on hot days, beach holidays and garden parties.\n• Material: 100% cotton with a lined bodice\n• Square neckline and short puff sleeves with elastic cuffs\n• Three gathered tiers to the ankle, approx. 135 cm long in size M\n• Machine wash at 30°C, iron on medium heat",
+    "images": [
+      "https://images.unsplash.com/photo-1774885798368-9c94c63426d4?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1761745806834-cf91edc124ef?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1349,
+    "variants": [
+      { "name": "XS", "stock": 35 },
+      { "name": "S", "stock": 70 },
+      { "name": "M", "stock": 90 },
+      { "name": "L", "stock": 65 },
+      { "name": "XL", "stock": 30 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-004",
+    "title": "Classic Cotton Poplin Button-Up Shirt, Relaxed Fit",
+    "category": "womens-tops",
+    "supplier": "moda-lusa",
+    "description": "A wardrobe staple: a crisp button-up shirt with a slightly relaxed cut that works tucked into trousers or worn open over a tee.\n• Material: 100% cotton poplin, non-stretch\n• Pointed collar, front button placket and single-button cuffs\n• Curved hem, slightly longer at the back\n• Available in white and light blue\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1612889002991-fbfaf775d231?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1608234807905-4466023792f5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2299,
+    "costPrice": 809,
+    "variants": [
+      { "name": "White / S", "stock": 70 },
+      { "name": "White / M", "stock": 95 },
+      { "name": "White / L", "stock": 60 },
+      { "name": "Light Blue / S", "stock": 45 },
+      { "name": "Light Blue / M", "stock": 60 },
+      { "name": "Light Blue / L", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-005",
+    "title": "Satin Long Sleeve Blouse with Button Front",
+    "category": "womens-tops",
+    "supplier": "moda-lusa",
+    "description": "A smooth satin blouse with a soft sheen that takes you from the office to dinner. The loose fit drapes nicely over trousers and skirts.\n• Material: 100% polyester satin with a silky hand feel\n• Notched collar, button front and buttoned cuffs\n• Relaxed fit with dropped shoulders\n• Colours: red, emerald and black\n• Gentle machine wash cold; iron on low heat",
+    "images": [
+      "https://images.unsplash.com/photo-1790539459975-3c468dcb209e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1790539459929-4b40e8b3f694?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1949,
+    "compareAtPrice": null,
+    "costPrice": 897,
+    "variants": [
+      { "name": "Red / S", "stock": 50 },
+      { "name": "Red / M", "stock": 65 },
+      { "name": "Red / L", "stock": 40 },
+      { "name": "Emerald / M", "stock": 45 },
+      { "name": "Black / M", "stock": 70 },
+      { "name": "Black / L", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-006",
+    "title": "Basic Crew Neck Cotton T-Shirt, Pack of 2",
+    "category": "womens-tshirts",
+    "supplier": "moda-lusa",
+    "description": "Two everyday crew neck tees in soft combed cotton with a classic regular fit, for layering or wearing on their own.\n• Material: 100% combed cotton jersey, 160 g/m²\n• Ribbed crew neckline and short sleeves\n• Pack contains 2 T-shirts in the same colour\n• Pre-shrunk; machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1610142991820-e02266a4a9f0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1699,
+    "costPrice": 545,
+    "variants": [
+      { "name": "White / S", "stock": 120 },
+      { "name": "White / M", "stock": 150 },
+      { "name": "White / L", "stock": 110 },
+      { "name": "Black / S", "stock": 90 },
+      { "name": "Black / M", "stock": 130 },
+      { "name": "Black / L", "stock": 95 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 330,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-007",
+    "title": "Oversized Drop Shoulder T-Shirt in Heavyweight Cotton",
+    "category": "womens-tshirts",
+    "supplier": "moda-lusa",
+    "description": "A boxy, slouchy tee with dropped shoulders and a thick, structured feel, made to be worn loose with jeans, cycling shorts or skirts.\n• Material: 100% cotton, heavyweight 220 g/m² jersey\n• Wide ribbed neckline and elbow-length sleeves\n• Oversized fit: order your usual size for a roomy look\n• Colours: white, pink and charcoal",
+    "images": [
+      "https://images.unsplash.com/photo-1778671394516-8270eac13c42?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1775234576241-54cbf57ffd74?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 449,
+    "variants": [
+      { "name": "White / S-M", "stock": 110 },
+      { "name": "White / L-XL", "stock": 85 },
+      { "name": "Pink / S-M", "stock": 70 },
+      { "name": "Pink / L-XL", "stock": 55 },
+      { "name": "Charcoal / S-M", "stock": 80 },
+      { "name": "Charcoal / L-XL", "stock": 60 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 230,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-008",
+    "title": "Chunky Knit Crew Neck Sweater with Drop Shoulders",
+    "category": "womens-sweaters",
+    "supplier": "moda-lusa",
+    "description": "A cosy, thick-knit jumper with a relaxed silhouette and dropped shoulders, for layering over shirts or wearing alone on cold days.\n• Material: 60% acrylic, 30% polyester, 10% wool\n• Ribbed crew neck, cuffs and hem\n• Length approx. 62 cm in size M\n• Hand wash cold or use a wool cycle; dry flat",
+    "images": [
+      "https://images.unsplash.com/photo-1588271968087-4c51abe05afc?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3999,
+    "costPrice": 1259,
+    "variants": [
+      { "name": "Cream / S", "stock": 55 },
+      { "name": "Cream / M", "stock": 80 },
+      { "name": "Cream / L", "stock": 50 },
+      { "name": "Grey / S", "stock": 45 },
+      { "name": "Grey / M", "stock": 70 },
+      { "name": "Grey / L", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 620,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-009",
+    "title": "V-Neck Button-Front Knit Cardigan",
+    "category": "womens-sweaters",
+    "supplier": "moda-lusa",
+    "description": "A soft, mid-weight cardigan with a V-neck and button front that layers easily over dresses, tees and blouses.\n• Material: 70% viscose, 30% nylon fine-gauge knit\n• Five-button front with ribbed trims\n• Regular fit, hip length, approx. 58 cm in size M\n• Colours: mustard, grey and black\n• Hand wash cold, dry flat",
+    "images": [
+      "https://images.unsplash.com/photo-1610288311735-39b7facbd095?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1579206464424-7e43a81cadc1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": null,
+    "costPrice": 1034,
+    "variants": [
+      { "name": "Mustard / S", "stock": 40 },
+      { "name": "Mustard / M", "stock": 60 },
+      { "name": "Mustard / L", "stock": 35 },
+      { "name": "Grey / M", "stock": 55 },
+      { "name": "Black / M", "stock": 75 },
+      { "name": "Black / L", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-010",
+    "title": "Oversized Fleece-Lined Pullover Hoodie with Kangaroo Pocket",
+    "category": "womens-hoodies",
+    "supplier": "moda-lusa",
+    "description": "A roomy pullover hoodie with a brushed fleece lining that feels soft and warm, made for lazy weekends and chilly commutes.\n• Material: 65% cotton, 35% polyester, 300 g/m² brushed fleece\n• Lined hood with drawcords and a front kangaroo pocket\n• Ribbed cuffs and hem; dropped shoulders\n• Colours: pink, grey and black\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1516195851888-6f1a981a862e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1594656375376-64d56e2f3ed1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Pink / S", "stock": 60 },
+      { "name": "Pink / M", "stock": 85 },
+      { "name": "Pink / L", "stock": 55 },
+      { "name": "Grey / S", "stock": 65 },
+      { "name": "Grey / M", "stock": 90 },
+      { "name": "Grey / L", "stock": 60 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 560,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-011",
+    "title": "High Waist Straight Leg Jeans in Stretch Denim",
+    "category": "womens-jeans",
+    "supplier": "moda-lusa",
+    "description": "Everyday high-rise jeans with a straight leg and a touch of stretch for comfort that keeps its shape all day.\n• Material: 98% cotton, 2% elastane, mid-blue wash\n• High rise with zip fly and button fastening\n• Classic five-pocket design\n• Inside leg approx. 76 cm\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1714143136367-7bb68f3f0669?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1349,
+    "variants": [
+      { "name": "EU 34", "stock": 40 },
+      { "name": "EU 36", "stock": 75 },
+      { "name": "EU 38", "stock": 95 },
+      { "name": "EU 40", "stock": 85 },
+      { "name": "EU 42", "stock": 60 },
+      { "name": "EU 44", "stock": 35 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 560,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-012",
+    "title": "High Waist Wide Leg Trousers with Pleated Front",
+    "category": "womens-pants",
+    "supplier": "moda-lusa",
+    "description": "Smart wide leg trousers with front pleats and a high waist that make an easy work outfit with a blouse or a fine knit.\n• Material: 68% polyester, 28% viscose, 4% elastane\n• Hook-and-bar closure with zip fly and belt loops\n• Front slant pockets and back welt pockets\n• Full length, approx. 104 cm outer leg in size M\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1767631338127-8cd80ee2f9df?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2699,
+    "compareAtPrice": null,
+    "costPrice": 1189,
+    "variants": [
+      { "name": "Black / S", "stock": 55 },
+      { "name": "Black / M", "stock": 80 },
+      { "name": "Black / L", "stock": 60 },
+      { "name": "Black / XL", "stock": 35 },
+      { "name": "Beige / S", "stock": 40 },
+      { "name": "Beige / M", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-013",
+    "title": "Linen Blend Drawstring Wide Leg Pants",
+    "category": "womens-pants",
+    "supplier": "moda-lusa",
+    "description": "Light, breathable pull-on trousers in a linen-cotton blend with a drawstring waist, made for summer holidays and warm days in the city.\n• Material: 55% linen, 45% cotton\n• Elasticated waist with an adjustable drawstring\n• Two side pockets and a relaxed wide leg\n• Colours: mustard and sage\n• Machine wash at 30°C; iron while slightly damp",
+    "images": [
+      "https://images.unsplash.com/photo-1789110520143-9f54f069b43f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789110520410-4fce7246f844?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": 2999,
+    "costPrice": 1009,
+    "variants": [
+      { "name": "Mustard / S", "stock": 45 },
+      { "name": "Mustard / M", "stock": 60 },
+      { "name": "Mustard / L", "stock": 40 },
+      { "name": "Sage / S", "stock": 50 },
+      { "name": "Sage / M", "stock": 65 },
+      { "name": "Sage / L", "stock": 45 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-014",
+    "title": "Polka Dot Midi Skirt with Elastic Waist",
+    "category": "womens-skirts",
+    "supplier": "moda-lusa",
+    "description": "A flowing A-line midi skirt with a playful polka dot print and a comfortable elasticated waistband. Pair it with a plain tee and trainers for an easy summer look.\n• Material: 100% polyester crepe with a half lining\n• Wide elasticated waistband, no fastening needed\n• Length approx. 78 cm\n• Colours: red with white dots, black with white dots\n• Machine wash cold, hang to dry",
+    "images": [
+      "https://images.unsplash.com/photo-1789110520324-9e4d30ad899b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789110519584-ce21260be4e6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": null,
+    "costPrice": 789,
+    "variants": [
+      { "name": "Red / S", "stock": 50 },
+      { "name": "Red / M", "stock": 70 },
+      { "name": "Red / L", "stock": 45 },
+      { "name": "Black / S", "stock": 45 },
+      { "name": "Black / M", "stock": 65 },
+      { "name": "Black / L", "stock": 40 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 230,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-015",
+    "title": "High Waist Denim Shorts with Frayed Hem",
+    "category": "womens-shorts",
+    "supplier": "moda-lusa",
+    "description": "Classic high-rise denim shorts with a raw, frayed hem and a relaxed fit through the leg for sunny days.\n• Material: 100% cotton rigid denim, light-blue wash\n• Zip fly with button fastening and belt loops\n• Five-pocket styling; inseam approx. 8 cm\n• Machine wash at 30°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789110519362-89db815e94e4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2199,
+    "costPrice": 739,
+    "variants": [
+      { "name": "EU 34", "stock": 45 },
+      { "name": "EU 36", "stock": 80 },
+      { "name": "EU 38", "stock": 95 },
+      { "name": "EU 40", "stock": 70 },
+      { "name": "EU 42", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 280,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-016",
+    "title": "Double-Breasted Belted Trench Coat, Water-Repellent",
+    "category": "womens-coats",
+    "supplier": "moda-lusa",
+    "description": "A timeless double-breasted trench coat with a water-repellent finish and a removable belt, ready for showers and changeable spring and autumn weather.\n• Shell: 65% polyester, 35% cotton with water-repellent coating; lining: 100% polyester\n• Notched lapels, shoulder epaulettes and buttoned cuff straps\n• Two front pockets and a back vent\n• Length approx. 100 cm in size M\n• Colours: black and camel",
+    "images": [
+      "https://images.unsplash.com/photo-1760551937537-a29dbbfab30b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1788119667207-fffeae50b488?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2249,
+    "variants": [
+      { "name": "Black / S", "stock": 35 },
+      { "name": "Black / M", "stock": 50 },
+      { "name": "Black / L", "stock": 35 },
+      { "name": "Camel / S", "stock": 30 },
+      { "name": "Camel / M", "stock": 45 },
+      { "name": "Camel / L", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1100,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-WCL-017",
+    "title": "Floral Print Wide Leg Jumpsuit with Tie Waist",
+    "category": "womens-sets",
+    "supplier": "moda-lusa",
+    "description": "A one-piece outfit sorted in seconds: a sleeveless wide leg jumpsuit in a bold floral print with a tie belt to define the waist.\n• Material: 100% viscose, soft and breathable\n• V-neckline with wide straps and a concealed back zip\n• Side pockets and a removable self-tie belt\n• Full length, approx. 140 cm in size M\n• Machine wash cold on a gentle cycle",
+    "images": [
+      "https://images.unsplash.com/photo-1768803968246-5b8c7d04b722?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1767077280665-c3e251378f9e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": null,
+    "costPrice": 1229,
+    "variants": [
+      { "name": "XS", "stock": 30 },
+      { "name": "S", "stock": 55 },
+      { "name": "M", "stock": 70 },
+      { "name": "L", "stock": 50 },
+      { "name": "XL", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 340,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-018",
+    "title": "Seamless Racerback Sports Bra with Removable Pads",
+    "category": "womens-activewear",
+    "supplier": "moda-lusa",
+    "description": "A seamless, medium-support sports bra with a racerback that stays comfortable through yoga, gym sessions and runs.\n• Material: 88% nylon, 12% elastane, quick-drying knit\n• Wide elastic under-band and racerback straps\n• Removable pads for shape and coverage\n• Pull-on design with no hooks\n• Colours: green, pink and black",
+    "images": [
+      "https://images.unsplash.com/photo-1682523426986-92746735ccc2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1759476530591-e6d197cc70f7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 559,
+    "variants": [
+      { "name": "Green / S", "stock": 60 },
+      { "name": "Green / M", "stock": 75 },
+      { "name": "Pink / S", "stock": 55 },
+      { "name": "Pink / M", "stock": 70 },
+      { "name": "Black / M", "stock": 95 },
+      { "name": "Black / L", "stock": 65 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-019",
+    "title": "High Waist Yoga Leggings with Side Pockets",
+    "category": "womens-activewear",
+    "supplier": "moda-lusa",
+    "description": "Soft, opaque leggings with a high, wide waistband that stays in place through stretches, workouts and everyday wear. Two side pockets hold a phone or keys.\n• Material: 75% nylon, 25% elastane with four-way stretch\n• Double-layer high-rise waistband with a hidden key pocket\n• Two deep side pockets and flatlock seams\n• Full-length leg\n• Machine wash at 30°C, do not tumble dry",
+    "images": [
+      "https://images.unsplash.com/photo-1584863495140-a320b13a11a8?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1626026397008-3316047db4fc?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 749,
+    "variants": [
+      { "name": "Black / XS", "stock": 50 },
+      { "name": "Black / S", "stock": 90 },
+      { "name": "Black / M", "stock": 110 },
+      { "name": "Black / L", "stock": 75 },
+      { "name": "Navy / S", "stock": 45 },
+      { "name": "Navy / M", "stock": 55 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 230,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WCL-020",
+    "title": "Floral Triangle Bikini Set with Tie-Side Bottoms",
+    "category": "womens-swimwear",
+    "supplier": "moda-lusa",
+    "description": "A two-piece bikini in a bright floral print, with a padded triangle top and tie-side bottoms you can adjust for the perfect fit.\n• Material: 82% polyamide, 18% elastane, fully lined\n• Top: removable padding, halter neck and back ties\n• Bottoms: classic coverage with side ties\n• Set includes top and bottoms\n• Rinse in cool water after swimming; hand wash",
+    "images": [
+      "https://images.unsplash.com/photo-1515161318750-781d6122e367?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1630588034516-9180c7ead89e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2699,
+    "costPrice": 869,
+    "variants": [
+      { "name": "XS", "stock": 40 },
+      { "name": "S", "stock": 75 },
+      { "name": "M", "stock": 90 },
+      { "name": "L", "stock": 60 },
+      { "name": "XL", "stock": 35 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 120,
+    "featured": false
+  }
+]

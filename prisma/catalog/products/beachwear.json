@@ -1,0 +1,684 @@
+[
+  {
+    "sku": "OLZ-BCH-001",
+    "title": "Triangle String Bikini Set with Tie-Side Bottoms",
+    "category": "bikinis",
+    "supplier": "moda-lusa",
+    "description": "A classic two-piece with sliding triangle cups and ties at the neck, back and hips, so you can set the coverage and fit exactly the way you like it.\n• Fabric: 82% polyamide, 18% elastane; fully lined\n• Sliding triangle cups with removable soft pads\n• Tie-side bottoms with moderate rear coverage\n• Hand wash cold, rinse after swimming in salt or pool water and dry in the shade",
+    "images": [
+      "https://images.unsplash.com/photo-1571425046076-94af69bd4201?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1899,
+    "costPrice": 571,
+    "variants": [
+      {
+        "name": "Brown / S",
+        "stock": 45
+      },
+      {
+        "name": "Brown / M",
+        "stock": 60
+      },
+      {
+        "name": "Brown / L",
+        "stock": 40
+      },
+      {
+        "name": "Black / S",
+        "stock": 50
+      },
+      {
+        "name": "Black / M",
+        "stock": 70
+      },
+      {
+        "name": "Black / L",
+        "stock": 45
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 110,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-002",
+    "title": "Underwire Bikini Set with Adjustable Straps and High-Waist Bottoms",
+    "category": "bikinis",
+    "supplier": "moda-lusa",
+    "description": "A supportive black bikini that pairs a lightly moulded underwire top with high-waisted bottoms sitting comfortably at the natural waist.\n• Fabric: 80% polyamide, 20% elastane; fully lined\n• Underwire cups, adjustable shoulder straps and a three-row hook fastening at the back\n• High-waist bottoms with full rear coverage\n• Hand wash cold and dry flat away from direct sunlight",
+    "images": [
+      "https://images.unsplash.com/photo-1566447172003-b861a3a44ae7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1749104371559-5930065852be?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "S",
+        "stock": 40
+      },
+      {
+        "name": "M",
+        "stock": 65
+      },
+      {
+        "name": "L",
+        "stock": 60
+      },
+      {
+        "name": "XL",
+        "stock": 40
+      },
+      {
+        "name": "XXL",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 170,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-003",
+    "title": "Ribbed Bandeau Bikini Set with Detachable Halter Strap",
+    "category": "bikinis",
+    "supplier": "moda-lusa",
+    "description": "A textured rib-knit bikini in sunny yellow. The strapless bandeau top turns into a halter neck with the strap that comes in the set.\n• Fabric: 85% polyamide, 15% elastane stretch rib; lined\n• Bandeau top with silicone grip edging and removable pads\n• Mid-rise bottoms with cheeky rear coverage\n• Hand wash in cold water; do not tumble dry",
+    "images": [
+      "https://images.unsplash.com/photo-1776688128903-2a375d021651?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1449,
+    "compareAtPrice": null,
+    "costPrice": 638,
+    "variants": [
+      {
+        "name": "XS",
+        "stock": 30
+      },
+      {
+        "name": "S",
+        "stock": 55
+      },
+      {
+        "name": "M",
+        "stock": 70
+      },
+      {
+        "name": "L",
+        "stock": 50
+      },
+      {
+        "name": "XL",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-004",
+    "title": "Colour-Block Push-Up Bikini Set, Black and Pink",
+    "category": "bikinis",
+    "supplier": "moda-lusa",
+    "description": "A two-tone bikini with contrast pink trims and a gently padded push-up top that adds shape without an underwire.\n• Fabric: 80% polyamide, 20% elastane; lined throughout\n• Wire-free push-up cups with adjustable straps and a tie back\n• Low-rise bottoms with a contrast waistband\n• Hand wash cold; rinse after every swim in the pool or sea",
+    "images": [
+      "https://images.unsplash.com/photo-1492709560992-3fa75e9e887b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2299,
+    "costPrice": 747,
+    "variants": [
+      {
+        "name": "S",
+        "stock": 45
+      },
+      {
+        "name": "M",
+        "stock": 60
+      },
+      {
+        "name": "L",
+        "stock": 50
+      },
+      {
+        "name": "XL",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 140,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-005",
+    "title": "Scoop-Back One-Piece Swimsuit with Tummy-Control Front Panel",
+    "category": "one-piece-swimsuits",
+    "supplier": "moda-lusa",
+    "description": "A clean, sporty one-piece with a low scoop back and a double-layer front panel that smooths the midsection. Made for swimming lengths as much as for lazy beach days.\n• Fabric: 78% polyamide, 22% elastane with a chlorine-resistant finish\n• Built-in shelf bra with removable cups\n• Medium leg cut and full rear coverage\n• Machine wash at 30°C on a delicate cycle in a laundry bag",
+    "images": [
+      "https://images.unsplash.com/photo-1542427361-4388a46a654a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": 3299,
+    "costPrice": 1011,
+    "variants": [
+      {
+        "name": "Blue / S",
+        "stock": 40
+      },
+      {
+        "name": "Blue / M",
+        "stock": 60
+      },
+      {
+        "name": "Blue / L",
+        "stock": 55
+      },
+      {
+        "name": "Blue / XL",
+        "stock": 35
+      },
+      {
+        "name": "Black / M",
+        "stock": 60
+      },
+      {
+        "name": "Black / L",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 190,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-BCH-006",
+    "title": "Ribbed Square-Neck One-Piece Swimsuit with High-Cut Leg",
+    "category": "one-piece-swimsuits",
+    "supplier": "moda-lusa",
+    "description": "A minimalist ribbed swimsuit with a square neckline, slim adjustable straps and a leg-lengthening high cut, offered in chocolate brown or white.\n• Fabric: 82% polyamide, 18% elastane soft rib; fully lined, so the white is not see-through when wet\n• Adjustable shoulder straps and removable cups\n• Moderate rear coverage\n• Hand wash cold and dry flat in the shade",
+    "images": [
+      "https://images.unsplash.com/photo-1630406440709-80170ed7dfbb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1585924756944-b82af627eca9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 879,
+    "variants": [
+      {
+        "name": "Brown / S",
+        "stock": 35
+      },
+      {
+        "name": "Brown / M",
+        "stock": 50
+      },
+      {
+        "name": "Brown / L",
+        "stock": 35
+      },
+      {
+        "name": "White / S",
+        "stock": 30
+      },
+      {
+        "name": "White / M",
+        "stock": 45
+      },
+      {
+        "name": "White / L",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 170,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-007",
+    "title": "Printed Kaftan Beach Cover-Up with V-Neck and Side Slits",
+    "category": "cover-ups",
+    "supplier": "moda-lusa",
+    "description": "A loose, floaty kaftan in a blue patterned print that slips on over swimwear and works just as well for beach bars and holiday evenings.\n• Fabric: 100% viscose, lightweight and quick to dry\n• Relaxed fit with a V-neckline and wide batwing sleeves\n• Length approx. 120 cm in size S/M, with side slits for easy walking\n• Hand wash cold or machine wash at 30°C on a gentle cycle",
+    "images": [
+      "https://images.unsplash.com/photo-1753192108753-81be0db2f7fe?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1753192108606-b4a2bc9e5661?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2499,
+    "costPrice": 809,
+    "variants": [
+      {
+        "name": "S/M",
+        "stock": 80
+      },
+      {
+        "name": "L/XL",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 210,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-008",
+    "title": "Crochet Knit Beach Cover-Up Dress, White",
+    "category": "cover-ups",
+    "supplier": "moda-lusa",
+    "description": "An open-weave crochet dress that layers over a bikini or swimsuit, letting the breeze through while keeping your beach look pulled together.\n• Material: 100% cotton crochet knit, unlined\n• Long sleeves, round neckline and a relaxed straight fit\n• Length approx. 95 cm in size M\n• Hand wash cold and dry flat to keep its shape",
+    "images": [
+      "https://images.unsplash.com/photo-1787784228094-6811706b3c55?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2199,
+    "compareAtPrice": null,
+    "costPrice": 967,
+    "variants": [
+      {
+        "name": "S",
+        "stock": 40
+      },
+      {
+        "name": "M",
+        "stock": 55
+      },
+      {
+        "name": "L",
+        "stock": 45
+      },
+      {
+        "name": "XL",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 290,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-009",
+    "title": "Men's Quick-Dry Swim Shorts with Mesh Lining and Drawcord",
+    "category": "board-shorts",
+    "supplier": "moda-lusa",
+    "description": "Lightweight swim shorts in a fast-drying fabric for swimming, beach games and poolside lounging, with an elasticated waist and drawcord for a secure fit.\n• Fabric: 100% polyester shell with a polyester mesh brief lining\n• Elastic waistband with internal drawcord\n• Two side pockets plus a back pocket with hook-and-loop closure\n• Inside leg approx. 15 cm in size M; machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1789222523732-629886efc35d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789222603716-aaaa75806c00?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 659,
+    "variants": [
+      {
+        "name": "S",
+        "stock": 50
+      },
+      {
+        "name": "M",
+        "stock": 80
+      },
+      {
+        "name": "L",
+        "stock": 80
+      },
+      {
+        "name": "XL",
+        "stock": 60
+      },
+      {
+        "name": "XXL",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-010",
+    "title": "Men's Floral Print Board Shorts, Knee Length with Zip Pocket",
+    "category": "board-shorts",
+    "supplier": "moda-lusa",
+    "description": "Longer-cut board shorts in a bold tropical floral print, made from a stretch fabric that moves with you in the surf, on the sand or along the promenade.\n• Fabric: 92% polyester, 8% elastane four-way stretch; unlined\n• Flat front waistband with lace-up tie fly\n• Zipped side pocket with an internal key loop\n• Outer leg length approx. 51 cm in size W32; machine wash at 30°C and do not iron the print",
+    "images": [
+      "https://images.unsplash.com/photo-1601387270083-0200631d1ff9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591737591066-7b8c9a2a6940?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 879,
+    "variants": [
+      {
+        "name": "W30",
+        "stock": 30
+      },
+      {
+        "name": "W32",
+        "stock": 55
+      },
+      {
+        "name": "W34",
+        "stock": 60
+      },
+      {
+        "name": "W36",
+        "stock": 45
+      },
+      {
+        "name": "W38",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 230,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-011",
+    "title": "Toddler Short-Sleeve Swimsuit with Back Zip, UPF 50+ Fabric",
+    "category": "kids-swimwear",
+    "supplier": "moda-lusa",
+    "description": "An all-in-one swimsuit for little ones with short sleeves and a back zip, so it is quick to put on and covers more skin at the beach or pool.\n• Fabric: 82% polyamide, 18% elastane rated UPF 50+\n• Back zip with a soft fabric zip guard and flat seams\n• Blue with a white polka-dot print\n• Rinse in fresh water after use and dry in the shade",
+    "images": [
+      "https://images.unsplash.com/photo-1779933818875-82d19f72b20c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1761479587462-c8709bfe4e48?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 571,
+    "variants": [
+      {
+        "name": "12–18 months",
+        "stock": 40
+      },
+      {
+        "name": "18–24 months",
+        "stock": 50
+      },
+      {
+        "name": "2–3 years",
+        "stock": 55
+      },
+      {
+        "name": "3–4 years",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 110,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-012",
+    "title": "Girls' Floral Ruffle One-Piece Swimsuit with Crossover Back",
+    "category": "kids-swimwear",
+    "supplier": "moda-lusa",
+    "description": "A cheerful floral swimsuit for girls with ruffle trims on the straps and a lined front for comfortable all-day splashing.\n• Fabric: 85% polyester, 15% elastane; front lined\n• Ruffled shoulder straps and a crossover back\n• White with a red and pink floral print\n• Hand wash cold; rinse after swimming in chlorinated water",
+    "images": [
+      "https://images.unsplash.com/photo-1602500393280-fcaeeb89e487?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": null,
+    "costPrice": 527,
+    "variants": [
+      {
+        "name": "3–4 years",
+        "stock": 40
+      },
+      {
+        "name": "5–6 years",
+        "stock": 50
+      },
+      {
+        "name": "7–8 years",
+        "stock": 50
+      },
+      {
+        "name": "9–10 years",
+        "stock": 35
+      },
+      {
+        "name": "11–12 years",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-013",
+    "title": "Striped Flat-Weave Cotton Beach Towel with Tassels, 100 x 180 cm",
+    "category": "beach-towels",
+    "supplier": "moda-lusa",
+    "description": "A striped hammam-style towel that is thinner than terry, so it dries fast and folds small, yet is big enough to stretch out on.\n• Material: 100% cotton flat weave\n• Size: 100 x 180 cm with knotted tassels on both short ends\n• Doubles as a sarong, picnic throw or light summer blanket\n• Machine wash at 40°C; gets softer with every wash",
+    "images": [
+      "https://images.unsplash.com/photo-1760783320488-9af5d3217f50?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 659,
+    "variants": [
+      {
+        "name": "Blue Stripe",
+        "stock": 90
+      },
+      {
+        "name": "Terracotta Stripe",
+        "stock": 70
+      },
+      {
+        "name": "Sage Stripe",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 330,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-014",
+    "title": "Microfibre Quick-Dry Beach Towel with Pouch, 160 x 80 cm",
+    "category": "beach-towels",
+    "supplier": "moda-lusa",
+    "description": "A lightweight microfibre towel that soaks up water quickly, shakes free of sand easily and packs down to roughly the size of a water bottle.\n• Material: 80% polyester, 20% polyamide microfibre\n• Size: 160 x 80 cm; folds into the matching drawstring pouch included\n• Corner hanging loop for drying\n• Machine wash at 40°C without fabric softener",
+    "images": [
+      "https://images.unsplash.com/photo-1525033129866-4638542c73a0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 949,
+    "compareAtPrice": null,
+    "costPrice": 418,
+    "variants": [
+      {
+        "name": "Ocean Blue",
+        "stock": 110
+      },
+      {
+        "name": "Coral",
+        "stock": 80
+      },
+      {
+        "name": "Grey",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 280,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-015",
+    "title": "Woven Straw Beach Tote Bag with Faux-Leather Handles",
+    "category": "beach-bags",
+    "supplier": "moda-lusa",
+    "description": "A roomy woven tote with sturdy handles that takes a towel, sunscreen, a paperback and a water bottle with space to spare.\n• Material: woven paper straw body with faux-leather handles\n• Size: approx. 45 x 32 x 15 cm; handle drop 22 cm\n• Cotton inner lining with a zipped pocket and magnetic snap closure\n• Spot clean only and keep out of heavy rain",
+    "images": [
+      "https://images.unsplash.com/photo-1786727869306-7109e903ec05?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1789675136012-b3755f0c34ca?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 879,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-BCH-016",
+    "title": "Striped Canvas Beach Bag with Woven Straw Base",
+    "category": "beach-bags",
+    "supplier": "moda-lusa",
+    "description": "A bright striped canvas shoulder bag set on a woven straw base, for a playful pop of colour on the way to the beach or the market.\n• Material: cotton canvas body with a woven straw base\n• Size: approx. 40 x 30 x 14 cm; shoulder straps 60 cm long\n• Drawstring top closure and one inner slip pocket\n• Spot clean the base; the canvas can be gently hand washed in cold water",
+    "images": [
+      "https://images.unsplash.com/photo-1785704440157-ac28234e2010?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 747,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-017",
+    "title": "Packable Wide-Brim Straw Sun Hat with Adjustable Inner Band",
+    "category": "sun-hats",
+    "supplier": "moda-lusa",
+    "description": "A wide-brim straw hat that shades your face and neck on bright days, with a flexible weave that can be gently rolled into a beach bag.\n• Material: woven paper straw with a soft inner sweatband\n• Brim width approx. 11 cm; crown height approx. 10 cm\n• Fits head sizes 56–58 cm via an inner drawstring\n• Reshape by hand after packing; spot clean only",
+    "images": [
+      "https://images.unsplash.com/photo-1518061124653-4b85d51931f1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1774647001381-6585f36449f9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 571,
+    "variants": [
+      {
+        "name": "Natural",
+        "stock": 90
+      },
+      {
+        "name": "Light Brown",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-018",
+    "title": "Adjustable Cotton Sun Visor with Wide Peak",
+    "category": "sun-hats",
+    "supplier": "moda-lusa",
+    "description": "An open-top visor that keeps the sun out of your eyes while letting heat escape. Handy for beach walks, padel or a day of sightseeing.\n• Material: cotton twill peak with a terry-lined sweatband\n• Peak length approx. 9 cm\n• Hook-and-loop back strap fits head sizes 54–60 cm\n• Hand wash cold and air dry",
+    "images": [
+      "https://images.unsplash.com/photo-1711822987743-bb0dd85f6c60?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1507015264727-8e0a4e8d3f8d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 749,
+    "compareAtPrice": 999,
+    "costPrice": 337,
+    "variants": [
+      {
+        "name": "Orange",
+        "stock": 70
+      },
+      {
+        "name": "White",
+        "stock": 90
+      },
+      {
+        "name": "Navy",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-019",
+    "title": "Striped Beach Umbrella with Tilt and Sand Anchor, 180 cm",
+    "category": "beach-accessories",
+    "supplier": "moda-lusa",
+    "description": "A classic striped beach parasol with a push-button tilt and a screw-in sand anchor that keeps it steady in soft sand.\n• Canopy: 180 cm diameter polyester with UPF 50+ coating and a wind vent\n• Two-part aluminium pole, height adjustable up to approx. 210 cm\n• Includes sand anchor and a carry bag with shoulder strap\n• Close and take down in strong wind; do not leave open unattended",
+    "images": [
+      "https://images.unsplash.com/photo-1777903676316-bcb9556a76ff?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1777989110457-fe43f8d00994?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4999,
+    "costPrice": 1574,
+    "variants": [
+      {
+        "name": "Blue / White Stripe",
+        "stock": 60
+      },
+      {
+        "name": "Red / White Stripe",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 1900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-BCH-020",
+    "title": "Inflatable Flamingo Pool Float, 120 cm",
+    "category": "beach-accessories",
+    "supplier": "moda-lusa",
+    "description": "A giant pink flamingo float for lounging in the pool or on calm water, with a tall neck to lean against and quick-inflate valves.\n• Material: 0.25 mm PVC; approx. 120 cm across when inflated\n• Two safety valves for fast inflation and deflation; repair patch included\n• Ages 14+; maximum load 90 kg\n• Not a life-saving device: use only under supervision and in water where the user can stand",
+    "images": [
+      "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1449,
+    "compareAtPrice": null,
+    "costPrice": 652,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 950,
+    "featured": false
+  }
+]

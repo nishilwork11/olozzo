@@ -1,0 +1,427 @@
+[
+  {
+    "sku": "OLZ-AUT-001",
+    "title": "Dash Cam 1080p with 3-Inch Screen, Night Vision and G-Sensor",
+    "category": "car-electronics",
+    "supplier": "werkbank",
+    "description": "A compact windscreen camera that records your journeys automatically, so you have clear footage if something happens on the road.\n• Full HD 1080p recording with 170° wide-angle lens and night vision\n• 3-inch screen for easy playback and settings\n• Loop recording replaces the oldest files; G-sensor locks clips after a bump\n• Parking monitor wakes the camera if the car is knocked\n• Suction mount and 3.5 m 12/24 V power cable included; microSD card up to 128 GB not included; check local rules on dash cam use",
+    "images": [
+      "https://images.unsplash.com/photo-1765959106936-851735565c12?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4999,
+    "costPrice": 1599,
+    "variants": [
+      { "name": "Default", "stock": 150 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 350,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-AUT-002",
+    "title": "7-Inch 2-DIN Touchscreen Car Stereo with Bluetooth and Reversing Camera",
+    "category": "car-electronics",
+    "supplier": "werkbank",
+    "description": "Upgrade an older car with a large touchscreen for hands-free calls, music streaming and a clear rear view when parking.\n• 7-inch HD touchscreen in standard 2-DIN size (178 × 100 mm)\n• Bluetooth hands-free calling and music streaming; FM radio with 18 presets\n• USB and microSD playback, AUX input and steering-wheel control support\n• Reversing camera with night vision included, switches on automatically in reverse\n• 4 × 50 W max output; ISO wiring harness and remote control included",
+    "images": [
+      "https://images.unsplash.com/photo-1602794314297-12a1181fecd3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1643816614644-6f73236efafe?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 6999,
+    "compareAtPrice": null,
+    "costPrice": 3699,
+    "variants": [
+      { "name": "Default", "stock": 80 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-003",
+    "title": "7-Inch Portable Car Display with Wireless Phone Mirroring and Bluetooth",
+    "category": "car-electronics",
+    "supplier": "werkbank",
+    "description": "A dashboard touchscreen that brings navigation, music and calls from your phone to a bigger, easier-to-see screen, without changing the car radio.\n• 7-inch IPS touchscreen, 1024 × 600 resolution\n• Wireless and wired screen mirroring for most smartphones\n• Bluetooth hands-free calls; sound through the built-in speaker, AUX cable or FM transmitter\n• Plugs into the 12/24 V socket; suction and dashboard mounts included\n• Voice control through your phone's assistant",
+    "images": [
+      "https://images.unsplash.com/photo-1766804626506-aa17e59496d2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 7999,
+    "compareAtPrice": null,
+    "costPrice": 4299,
+    "variants": [
+      { "name": "Default", "stock": 70 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-004",
+    "title": "6.5-Inch Coaxial Car Speakers, 2-Way, 160 W Max, Pair",
+    "category": "car-electronics",
+    "supplier": "werkbank",
+    "description": "Replacement door speakers with clearer highs and fuller bass than worn-out factory speakers, in a standard size that fits many cars.\n• 165 mm (6.5-inch) 2-way coaxial design with built-in tweeter\n• 160 W max / 40 W RMS per speaker, 4 Ω\n• Polypropylene cone with rubber surround for long life\n• Mounting depth 55 mm; grilles, screws and cables included\n• Supplied as a pair",
+    "images": [
+      "https://images.unsplash.com/photo-1641264024413-f5e6a9ce2f06?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1726248985986-20bef82d2b52?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1399,
+    "variants": [
+      { "name": "Default", "stock": 110 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-005",
+    "title": "Car Air Freshener Diffuser with 3 Scent Refills and Vent Clip",
+    "category": "car-interior",
+    "supplier": "werkbank",
+    "description": "Keep your car smelling fresh with a slow-release liquid diffuser that clips onto an air vent or hangs from the mirror.\n• Aluminium and glass diffuser with adjustable flow\n• 3 × 8 ml scent refills, each lasting up to 30 days\n• Vent clip and hanging cord both included\n• Keep out of reach of children; avoid spills on dashboard plastics",
+    "images": [
+      "https://images.unsplash.com/photo-1768983298275-942312c9b446?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1778530207709-dda695c3e615?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      { "name": "Ocean", "stock": 140 },
+      { "name": "Vanilla", "stock": 120 },
+      { "name": "Green Tea", "stock": 110 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-006",
+    "title": "Universal Car Seat Cover Set for 5 Seats, Padded, Side-Airbag Friendly",
+    "category": "car-interior",
+    "supplier": "werkbank",
+    "description": "Protect your seats from wear, spills and pet hair with a full set of padded covers that fits most cars.\n• Full set: 2 front seat covers, split rear bench cover (40/60) and 5 headrest covers\n• Breathable polyester with 5 mm foam padding\n• Tear-away seams for side airbags built into the seats\n• Elastic straps and hooks for quick fitting\n• Machine washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1790821074572-1fb58fd2ddc6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5499,
+    "costPrice": 1899,
+    "variants": [
+      { "name": "Black / Grey", "stock": 90 },
+      { "name": "Black / Beige", "stock": 70 },
+      { "name": "Black / Red", "stock": 60 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-007",
+    "title": "Steering Wheel Cover 37–38 cm, Microfibre Leather, Non-Slip Grip",
+    "category": "car-interior",
+    "supplier": "werkbank",
+    "description": "A soft, grippy cover that refreshes a worn steering wheel and stays comfortable in summer heat and winter cold.\n• Fits steering wheels 37–38 cm in diameter\n• Microfibre leather with breathable perforated grip zones\n• Non-slip rubber inner ring keeps it from twisting\n• Stretches on in a few minutes, no tools needed",
+    "images": [
+      "https://images.unsplash.com/photo-1594097481403-d2d5d5ee51c1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1681857239369-15ebd70bdad9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      { "name": "Black", "stock": 200 },
+      { "name": "Black / Red stitching", "stock": 120 },
+      { "name": "Grey", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-008",
+    "title": "Waterproof Full Car Cover with UV and Snow Protection, Sizes S–XL",
+    "category": "car-exterior",
+    "supplier": "werkbank",
+    "description": "A full-size outdoor car cover that keeps rain, snow, dust, bird droppings and strong sun off your paintwork.\n• Multi-layer PEVA-coated polyester with a soft cotton-feel lining\n• Waterproof and UV-resistant, with elastic hem and underbody straps\n• Driver-side zip for door access, plus mirror pockets\n• Reflective strips for visibility at night\n• Storage bag included; choose the size by your car's length",
+    "images": [
+      "https://images.unsplash.com/photo-1779357807392-52e6cd446561?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542317048-7a6ce1a438c8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4999,
+    "costPrice": 1599,
+    "variants": [
+      { "name": "S (cars up to 4.0 m)", "stock": 60 },
+      { "name": "M (cars up to 4.4 m)", "stock": 90 },
+      { "name": "L (cars up to 4.8 m)", "stock": 80 },
+      { "name": "XL (cars up to 5.2 m)", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-009",
+    "title": "2-in-1 Ice Scraper and Snow Brush, Extendable 65–90 cm",
+    "category": "car-exterior",
+    "supplier": "werkbank",
+    "description": "Clear snow and ice from windscreens and roofs quickly, with enough reach for SUVs and vans.\n• Extends from 65 to 90 cm\n• Wide snow brush with soft bristles that won't scratch the paint\n• Tough scraper blade with ice-breaking teeth\n• Foam grip stays comfortable in freezing temperatures",
+    "images": [
+      "https://images.unsplash.com/photo-1615222599210-48df29c6d3c6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1672152781731-20abf54c70e8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      { "name": "Default", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-010",
+    "title": "Microfibre Car Cleaning Cloths, 12-Pack, 40 × 40 cm, 350 GSM",
+    "category": "car-care",
+    "supplier": "werkbank",
+    "description": "Soft, absorbent cloths for washing, drying, polishing and interior cleaning, gentle on paint, glass and screens.\n• 12 cloths, 40 × 40 cm, 350 GSM split microfibre\n• Edgeless design helps avoid scratches\n• Absorbs several times its own weight in water\n• Machine washable at 40 °C; do not use fabric softener",
+    "images": [
+      "https://images.unsplash.com/photo-1639091113354-952b59d18004?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1704796141009-5ed5cc8ca5f3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      { "name": "Default", "stock": 260 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-011",
+    "title": "Car Wash Kit with Foam Sprayer, Wash Mitt, Sponge and Drying Towel",
+    "category": "car-care",
+    "supplier": "werkbank",
+    "description": "Everything you need for a careful hand wash at home, from thick pre-wash foam to a streak-free dry.\n• 1 L pump foam sprayer with adjustable nozzle\n• Chenille microfibre wash mitt and wheel sponge\n• Large waffle-weave drying towel, 60 × 90 cm\n• Storage bag included; car shampoo not included",
+    "images": [
+      "https://images.unsplash.com/photo-1754369404182-9dbbee13f4bc?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1694678505383-676d78ea3b96?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      { "name": "Default", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-012",
+    "title": "Car Detailing Brush Set, 5 Soft Brushes for Interior, Vents and Wheels",
+    "category": "car-care",
+    "supplier": "werkbank",
+    "description": "Reach into air vents, seams, badges and wheel spokes that cloths can't get to, without scratching delicate surfaces.\n• 5 brushes in different sizes with soft synthetic bristles\n• No exposed metal, so they are safe on dashboards, screens and paint\n• Comfortable plastic handles with hanging loops\n• Simply rinse with water after use",
+    "images": [
+      "https://images.unsplash.com/photo-1708805282683-50a060eba80f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1771491237209-b89bc7290588?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1699,
+    "costPrice": 449,
+    "variants": [
+      { "name": "Default", "stock": 220 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-013",
+    "title": "Cordless Tyre Inflator with Digital Gauge, 150 PSI, Auto Stop",
+    "category": "auto-tools",
+    "supplier": "werkbank",
+    "description": "A rechargeable pocket compressor that tops up car, bike and motorbike tyres anywhere, stopping automatically at the pressure you set.\n• Up to 150 PSI (10.3 bar) with a clear digital display\n• Set the target in PSI, bar, kPa or kg/cm²; stops automatically when reached\n• Built-in 4000 mAh battery charges via USB-C; built-in LED light\n• Includes bike valve adapter, ball needle and storage pouch\n• Takes a typical car tyre from 2.0 to 2.5 bar in about 3 minutes",
+    "images": [
+      "https://images.unsplash.com/photo-1758739956768-169833459935?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5499,
+    "costPrice": 1899,
+    "variants": [
+      { "name": "Default", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 700,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-AUT-014",
+    "title": "Car Jump Leads 3.5 m, 600 A, with Fully Insulated Clamps",
+    "category": "auto-tools",
+    "supplier": "werkbank",
+    "description": "Heavy-duty jump leads for starting a car with a flat battery from another vehicle, long enough to reach between two cars.\n• 3.5 m cables rated up to 600 A\n• For petrol engines up to 3.0 L and diesel engines up to 2.5 L\n• Fully insulated, colour-coded red and black clamps with strong springs\n• Storage bag with printed instructions included",
+    "images": [
+      "https://images.unsplash.com/photo-1597766370173-a14200ec0b42?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1597766321604-9de3ff9e93e2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      { "name": "Default", "stock": 160 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-015",
+    "title": "Smart Car Battery Charger 6 A, 12 V, with Maintenance Mode, EU Plug",
+    "category": "auto-tools",
+    "supplier": "werkbank",
+    "description": "Charges and maintains car, motorbike and ride-on mower batteries automatically, ideal for vehicles that stand unused over winter.\n• For 12 V lead-acid, AGM and gel batteries from 4 to 120 Ah\n• 7-stage automatic charging with maintenance mode\n• LCD shows voltage, current and charge level\n• Reverse polarity, short-circuit and overheat protection\n• EU plug; crocodile clips and ring terminals included",
+    "images": [
+      "https://images.unsplash.com/photo-1676337167091-88381125fe7e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4499,
+    "costPrice": 1599,
+    "variants": [
+      { "name": "Default", "stock": 110 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-016",
+    "title": "USB RGB Car Interior Ambient Light Strips, 4 × 22 cm, App Control",
+    "category": "auto-lighting",
+    "supplier": "werkbank",
+    "description": "Add soft coloured lighting to your car's footwells and seats, with colours you set from your phone or that pulse along to music.\n• 4 LED strips, 22 cm each, with adhesive backing\n• 16 million colours, brightness control and built-in microphone for music sync\n• Controlled by app or the included remote\n• Plugs into a USB port; for interior use only\n• Keep brightness low while driving and follow local rules",
+    "images": [
+      "https://images.unsplash.com/photo-1780963991450-1a80d64d29c1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1773696756753-af4dcfd66eda?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Default", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-017",
+    "title": "USB Star Projector Light for Car Roof, Plug and Play",
+    "category": "auto-lighting",
+    "supplier": "werkbank",
+    "description": "A tiny USB light that projects a starry-sky pattern onto the car ceiling for a relaxing atmosphere.\n• Plug-and-play USB-A, no wiring or app needed\n• Rotating head to aim the star pattern\n• Sound-activated flicker mode\n• Just 4 × 2 cm; also works with laptops and power banks\n• Use while parked or for passengers so it never distracts the driver",
+    "images": [
+      "https://images.unsplash.com/photo-1776639520962-dad59bd15197?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 399,
+    "variants": [
+      { "name": "Default", "stock": 220 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 80,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-018",
+    "title": "Rechargeable LED Work Light Torch with Magnetic Base and Hook",
+    "category": "auto-lighting",
+    "supplier": "werkbank",
+    "description": "A bright, hands-free light for engine bays, tyre changes and roadside stops: stick it to the car with the magnet or hang it from the hook.\n• Up to 800 lumens with main beam, side flood light and red warning flash\n• Magnetic base and fold-out hook; head rotates 180°\n• Built-in 2000 mAh battery charges via USB-C, up to 6 hours on low\n• IPX4 splash-proof aluminium body",
+    "images": [
+      "https://images.unsplash.com/photo-1561916960-dea3b9b0355a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 599,
+    "variants": [
+      { "name": "Default", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-019",
+    "title": "Waterproof Motorcycle Cover with Lock Holes and Heat-Resistant Panel",
+    "category": "motorcycle",
+    "supplier": "werkbank",
+    "description": "Keeps your motorbike or scooter dry, clean and out of the sun when parked outdoors or in the garage.\n• 210D Oxford polyester with waterproof coating and a heat-resistant panel near the exhaust\n• Elastic hem and buckle strap stop it blowing off in the wind\n• Reinforced lock holes at the front and rear wheels\n• Reflective strips; storage bag included",
+    "images": [
+      "https://images.unsplash.com/photo-1772544375923-1f57e73cf211?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1773414052632-c805d4304fce?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "M (bikes up to 2.0 m)", "stock": 80 },
+      { "name": "L (bikes up to 2.2 m)", "stock": 100 },
+      { "name": "XL (bikes up to 2.5 m)", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-AUT-020",
+    "title": "Motorcycle Saddlebags, Pair, Water-Resistant PU Leather, 2 × 13 L",
+    "category": "motorcycle",
+    "supplier": "werkbank",
+    "description": "Classic-look throw-over saddlebags that add storage for touring, commuting and weekend rides.\n• 2 × 13 L capacity, each bag 35 × 28 × 13 cm\n• Water-resistant PU leather with quick-release buckles\n• Adjustable connecting straps fit most motorcycles with a rear seat\n• Rain covers included\n• Keep clear of the exhaust and check the fit before riding",
+    "images": [
+      "https://images.unsplash.com/photo-1747174474508-4fa5e6a93d22?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1723121248439-88ffcb5d94c5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": null,
+    "costPrice": 2799,
+    "variants": [
+      { "name": "Black", "stock": 60 },
+      { "name": "Brown", "stock": 40 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2600,
+    "featured": false
+  }
+]
