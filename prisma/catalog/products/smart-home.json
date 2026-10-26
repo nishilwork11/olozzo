@@ -1,0 +1,427 @@
+[
+  {
+    "sku": "OLZ-SMH-001",
+    "title": "2K Indoor Wi-Fi Security Camera, Pan and Tilt, Night Vision, EU Plug",
+    "category": "security-cameras",
+    "supplier": "voltix",
+    "description": "A compact indoor camera that turns 355° side to side and 90° up and down, so one camera can watch a whole room from your phone. Handy for keeping an eye on pets, a playroom or an empty home.\n• 2K (2304 × 1296) video with infrared night vision up to 10 m\n• Motion and sound alerts with person detection, sent to the free app\n• Two-way audio through the built-in microphone and speaker\n• Saves clips to a microSD card (up to 256 GB, not included) or optional cloud storage\n• 2.4 GHz Wi-Fi; USB power adapter with EU plug and 3 m cable included",
+    "images": [
+      "https://images.unsplash.com/photo-1715869618915-a7bf6608d4c3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "White", "stock": 220 },
+      { "name": "Black", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 280,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-SMH-002",
+    "title": "Outdoor Wi-Fi Bullet Camera 2K, IP66 Weatherproof, Colour Night Vision",
+    "category": "security-cameras",
+    "supplier": "voltix",
+    "description": "A weatherproof outdoor camera for driveways, gardens and entrances, with built-in spotlights that switch on to record colour video after dark.\n• 2K resolution, 105° viewing angle, colour night vision up to 30 m\n• IP66 rated against rain and dust, works from -20 °C to 50 °C\n• Motion zones and instant phone alerts; spotlight and siren can be set off remotely\n• Records to a microSD card (up to 256 GB, not included) or optional cloud storage\n• 2.4 GHz Wi-Fi or Ethernet; 12 V power adapter with EU plug included",
+    "images": [
+      "https://images.unsplash.com/photo-1496368077930-c1e31b4e5b44?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1773767797729-f3ae24353399?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5499,
+    "costPrice": 1899,
+    "variants": [
+      { "name": "Default", "stock": 140 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-003",
+    "title": "Wireless Battery Security Camera with Solar Panel, 2K, IP65",
+    "category": "security-cameras",
+    "supplier": "voltix",
+    "description": "A cable-free outdoor camera powered by a rechargeable battery that the included solar panel keeps topped up, so you can mount it anywhere within Wi-Fi range.\n• 2K video, 130° wide angle, infrared and colour night vision\n• Built-in 7800 mAh battery plus 3 W solar panel with 3 m cable\n• PIR motion sensor reduces false alerts from moving shadows\n• IP65 weatherproof, with two-way talk and a built-in siren\n• microSD storage (card not included) or optional cloud plan; wall mount and screws included",
+    "images": [
+      "https://images.unsplash.com/photo-1765121689322-6befc57dc8db?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781355959989-67b652fc21d7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2399,
+    "variants": [
+      { "name": "White", "stock": 110 },
+      { "name": "Black", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-004",
+    "title": "4-Camera Wireless Security System with 10-Channel NVR and 1 TB Drive",
+    "category": "security-cameras",
+    "supplier": "voltix",
+    "description": "A complete CCTV kit for a home or small shop: four weatherproof cameras link wirelessly to a recorder that stores footage around the clock on its built-in hard drive.\n• 4 × 3 MP bullet cameras, IP66, night vision up to 25 m\n• 10-channel NVR with a 1 TB hard drive pre-installed for continuous recording\n• Live view and playback in the free app, or on a TV or monitor via HDMI\n• Cameras connect over their own wireless network; each needs a nearby socket for power\n• Includes 4 camera adapters and 1 NVR adapter (EU plug), mouse, network cable and screws",
+    "images": [
+      "https://images.unsplash.com/photo-1563920443079-783e5c786b83?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1495714096525-285e85481946?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 14999,
+    "compareAtPrice": null,
+    "costPrice": 8499,
+    "variants": [
+      { "name": "Default", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 4800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-005",
+    "title": "Wireless Video Doorbell 2K with Plug-In Chime, Battery Powered",
+    "category": "doorbells",
+    "supplier": "voltix",
+    "description": "See and speak to whoever is at your door from your phone, wherever you are. The rechargeable battery means no wiring, and the plug-in chime rings inside the house.\n• 2K HD video with a 166° head-to-toe view and infrared night vision\n• Instant alerts when someone presses the button or motion is detected\n• Two-way audio with noise reduction and quick-reply voice messages\n• 6000 mAh rechargeable battery, up to 4 months per charge depending on use\n• Plug-in chime with EU plug and 52 tones; IP65 weatherproof; mounting kit included",
+    "images": [
+      "https://images.unsplash.com/photo-1633194883650-df448a10d554?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1572613090232-224fa91e5394?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5999,
+    "costPrice": 1799,
+    "variants": [
+      { "name": "Black", "stock": 120 },
+      { "name": "Silver", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-006",
+    "title": "Wireless Doorbell Kit, Waterproof Button and Plug-In Chime, EU Plug",
+    "category": "doorbells",
+    "supplier": "voltix",
+    "description": "A simple wireless doorbell with no wiring: plug the chime into any socket and fix the button by the door.\n• Range up to 300 m in open space\n• 58 melodies and 5 volume levels, with LED flash\n• IP55 waterproof button with adhesive pad and screws\n• Button battery included; chime has an EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1775678179509-7f2e4ca08cd9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1704075877553-0d4a318459d7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      { "name": "1 button + 1 chime", "stock": 200 },
+      { "name": "1 button + 2 chimes", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-007",
+    "title": "Smart Wi-Fi Plug with Energy Monitoring, 16 A, EU Plug, 4-Pack",
+    "category": "smart-plugs",
+    "supplier": "voltix",
+    "description": "Switch lamps, heaters and other appliances on and off from your phone, with schedules and timers, and see how much electricity each one uses.\n• Set of 4 Wi-Fi smart plugs, max load 16 A / 3680 W\n• Live power reading plus daily, weekly and monthly energy history\n• Schedules, countdown timers and away mode in the free app\n• Voice control through common voice assistants; no hub required\n• 2.4 GHz Wi-Fi; EU plug (type F) with child protection shutters",
+    "images": [
+      "https://images.unsplash.com/photo-1599709173342-d754b32df17d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1399,
+    "variants": [
+      { "name": "Default", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-008",
+    "title": "Smart Power Strip with 4 Sockets and 3 USB Ports, Wi-Fi, EU Plug",
+    "category": "smart-plugs",
+    "supplier": "voltix",
+    "description": "A Wi-Fi power strip where each socket can be switched on its own from the app, plus USB ports for charging phones and tablets.\n• 4 individually controlled sockets plus 2 × USB-A and 1 × USB-C (20 W)\n• Schedules and timers for each socket; manual buttons on the strip too\n• Surge protection and overload switch\n• Max 16 A / 3680 W in total; 1.5 m cable with EU plug (type F)",
+    "images": [
+      "https://images.unsplash.com/photo-1788497079207-68aab17ff15c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1581558775369-0fe7925f0035?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1349,
+    "variants": [
+      { "name": "Default", "stock": 160 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-009",
+    "title": "Smart Wi-Fi Light Switch, Touch Glass Panel, No Neutral Wire Needed",
+    "category": "smart-plugs",
+    "supplier": "voltix",
+    "description": "Replaces a standard wall switch with a sleek touch panel you can also control from your phone, for example to have the lights on when you get home.\n• Tempered glass touch panel with LED indicator, fits standard EU 86 × 86 mm wall boxes\n• Works without a neutral wire, max 300 W per gang\n• App control, schedules and voice control through common voice assistants\n• Remembers its on/off state after a power cut\n• Must be installed by a qualified electrician; screws included",
+    "images": [
+      "https://images.unsplash.com/photo-1707733260992-73ff6dbed163?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1759647020638-72224b9003b1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 899,
+    "variants": [
+      { "name": "White / 1-gang", "stock": 150 },
+      { "name": "White / 2-gang", "stock": 110 },
+      { "name": "Black / 1-gang", "stock": 90 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-010",
+    "title": "Smart LED Bulb E27, 9 W, Colour and Tunable White, 4-Pack",
+    "category": "smart-lighting",
+    "supplier": "voltix",
+    "description": "Screw in these Wi-Fi bulbs to change brightness, colour and warmth from your phone, set wake-up routines or match the light to a film night.\n• 4 × E27 bulbs, 9 W (replaces 60 W), 806 lumens each\n• 16 million colours plus white from 2700 K warm to 6500 K cool\n• Schedules, scenes and music sync in the free app; no hub needed\n• Works with common voice assistants\n• Rated life around 25,000 hours; 2.4 GHz Wi-Fi",
+    "images": [
+      "https://images.unsplash.com/photo-1775876201255-509501deb444?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1590845947698-8924d7409b56?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Default", "stock": 220 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 320,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-SMH-011",
+    "title": "Smart RGB LED Strip Lights 10 m with App, Remote and Music Sync, EU Plug",
+    "category": "smart-lighting",
+    "supplier": "voltix",
+    "description": "Self-adhesive colour-changing LED strips for behind the TV, under the bed or along shelves, controlled from your phone or the included remote.\n• 10 m in total (2 × 5 m) with 300 RGB LEDs, can be cut every 3 LEDs\n• Built-in microphone syncs the colours to music\n• App with schedules, scenes and timer, plus a 24-key remote\n• Strong self-adhesive backing; extra mounting clips included\n• 12 V power adapter with EU plug included",
+    "images": [
+      "https://images.unsplash.com/photo-1565382038303-8c62e88d119a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1775410631936-7de96322df0b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 799,
+    "variants": [
+      { "name": "Default", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-012",
+    "title": "Smart Bedside Table Lamp, RGB and Warm White, Touch and App Control",
+    "category": "smart-lighting",
+    "supplier": "voltix",
+    "description": "A bedside lamp with a soft, even glow in any colour, controlled with a tap on top, from your phone or by voice.\n• Warm to cool white plus 16 million colours, dimmable from 1 to 100 %\n• Touch-sensitive top: tap to switch on or off, hold to dim\n• App schedules with gentle sunrise wake-up and sunset fade\n• USB-C powered; 1.5 m cable and USB power adapter with EU plug included\n• Height 25 cm, base diameter 12 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1708232981795-2baec1d6687b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1691499833748-8af2bcd6d1f2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "White", "stock": 120 },
+      { "name": "Black", "stock": 80 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-013",
+    "title": "Smart LED Bulb E27, Dimmable Warm to Cool White, 2-Pack",
+    "category": "smart-lighting",
+    "supplier": "voltix",
+    "description": "Budget-friendly smart bulbs for everyday rooms: adjust brightness and colour temperature from your phone, or set them to switch on at dusk.\n• 2 × E27 bulbs, 9 W (replaces 60 W), 806 lumens each\n• Tunable white from 2700 K to 6500 K, dimmable from 1 to 100 %\n• Schedules, timers and group control in the free app\n• 2.4 GHz Wi-Fi, no hub required; works with common voice assistants",
+    "images": [
+      "https://images.unsplash.com/photo-1712294252418-680891540aa8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Default", "stock": 240 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-014",
+    "title": "Fingerprint Padlock, Keyless, USB-C Rechargeable, Splash-Proof",
+    "category": "smart-locks",
+    "supplier": "voltix",
+    "description": "Open your gym locker, bike shed or suitcase with a touch of your finger, with no keys or codes to remember.\n• Stores up to 20 fingerprints and unlocks in about 0.5 seconds\n• Zinc alloy body with stainless steel shackle\n• Around 6 months of normal use per charge; charges via USB-C (cable included)\n• IP65 splash-proof for outdoor use\n• Shackle diameter 6 mm, inside clearance 24 mm",
+    "images": [
+      "https://images.unsplash.com/photo-1585079374502-415f8516dcc3?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1696013910376-c56f76dd8178?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Silver", "stock": 160 },
+      { "name": "Black", "stock": 120 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-015",
+    "title": "Smart Door Lock with Fingerprint, Keypad and Handle, for Interior Doors",
+    "category": "smart-locks",
+    "supplier": "voltix",
+    "description": "Replaces a standard door handle with a lock that opens by fingerprint, code, app or key, ideal for home offices, rented rooms and back doors.\n• 5 ways to unlock: fingerprint (up to 100), PIN code, app, key card and mechanical key\n• Fits doors 35–55 mm thick; reversible handle for left- or right-opening doors\n• Runs on 4 × AA batteries (included) with low-battery warning and USB-C emergency power\n• Temporary guest codes and an unlock history in the app\n• Zinc alloy body; drilling template and screws included",
+    "images": [
+      "https://images.unsplash.com/photo-1602503874881-c97c18856ae6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 6999,
+    "compareAtPrice": 9999,
+    "costPrice": 3699,
+    "variants": [
+      { "name": "Black", "stock": 70 },
+      { "name": "Silver", "stock": 50 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-016",
+    "title": "Wi-Fi Motion Sensor, PIR, Battery Powered, Instant App Alerts",
+    "category": "alarms-sensors",
+    "supplier": "voltix",
+    "description": "A small battery-powered motion sensor that sends a phone notification when someone walks past, or switches on your smart lights automatically.\n• Detection range up to 7 m with a 110° angle\n• Runs on a CR123A battery (included) for up to 1 year\n• Connects directly to 2.4 GHz Wi-Fi, no hub needed\n• Triggers automations with other devices in the same app\n• Free-standing base and adhesive pad included",
+    "images": [
+      "https://images.unsplash.com/photo-1753039495488-434a2fe53e41?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 549,
+    "variants": [
+      { "name": "Default", "stock": 180 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-017",
+    "title": "Wi-Fi Temperature and Humidity Sensor with LCD Display",
+    "category": "alarms-sensors",
+    "supplier": "voltix",
+    "description": "Keep track of the climate in a nursery, cellar, greenhouse or wine store, with readings on the screen and history in the app.\n• Measures -10 °C to 60 °C (±0.5 °C) and 0–99 % humidity (±3 %)\n• Clear LCD display with comfort indicator\n• App graphs and alerts when readings go above or below your limits\n• Runs on 2 × AAA batteries (included); 2.4 GHz Wi-Fi\n• Stand and wall hook included; size 6 × 6 × 2 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1610389337008-84e005329867?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1770219792143-1586d82a7101?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      { "name": "Default", "stock": 200 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 80,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-018",
+    "title": "Wireless Home Alarm Kit with Siren, Door Sensors and Motion Detector",
+    "category": "alarms-sensors",
+    "supplier": "voltix",
+    "description": "A DIY alarm kit for doors, windows and hallways that sounds a loud siren and alerts your phone if anything is triggered while you are away.\n• Kit: Wi-Fi hub with built-in 110 dB siren, 4 door/window sensors, 1 motion detector and 2 remote key fobs\n• Arm, disarm and home modes from the app or the key fobs\n• Add up to 50 extra wireless sensors\n• Backup battery keeps the hub running during short power cuts\n• Hub power adapter with EU plug included; sensors run on included batteries",
+    "images": [
+      "https://images.unsplash.com/photo-1528817466667-942353411fee?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1585367437379-e0b71bb18156?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": 7999,
+    "costPrice": 2999,
+    "variants": [
+      { "name": "Default", "stock": 80 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-019",
+    "title": "Smart Wi-Fi Speaker with 360° Sound, Bluetooth and Voice Control",
+    "category": "smart-speakers",
+    "supplier": "voltix",
+    "description": "A compact speaker that fills the room with 360° sound and streams music over Wi-Fi or Bluetooth, with far-field microphones for hands-free voice control.\n• 15 W full-range driver with passive bass radiator\n• Wi-Fi and Bluetooth 5.2; group several speakers for multi-room audio\n• Far-field microphones with a mute button; works with common voice assistants\n• Alarm, timer and sleep functions in the app\n• Power adapter with EU plug included; size 10 × 10 × 14 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1761384409444-2f8359d67a69?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1761384409454-736d69295db0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1999,
+    "variants": [
+      { "name": "White", "stock": 90 },
+      { "name": "Grey", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 750,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-SMH-020",
+    "title": "10.1-Inch Wi-Fi Digital Photo Frame with Touchscreen, 32 GB",
+    "category": "smart-speakers",
+    "supplier": "voltix",
+    "description": "Family and friends can send photos and short videos to this frame from anywhere using the free app, so new pictures appear straight on your shelf.\n• 10.1-inch IPS touchscreen, 1280 × 800 resolution\n• 32 GB built-in storage plus microSD and USB slots\n• Auto-rotates portrait and landscape photos; slideshow, clock and weather screens\n• Sleep schedule switches the screen off at night\n• Power adapter with EU plug included; stands on a table or hangs on the wall",
+    "images": [
+      "https://images.unsplash.com/photo-1650682009477-52fd77302b78?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5999,
+    "compareAtPrice": null,
+    "costPrice": 2999,
+    "variants": [
+      { "name": "White", "stock": 70 },
+      { "name": "Black", "stock": 90 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1100,
+    "featured": false
+  }
+]

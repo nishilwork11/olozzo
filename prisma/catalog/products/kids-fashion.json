@@ -1,0 +1,489 @@
+[
+  {
+    "sku": "OLZ-KID-001",
+    "title": "Girls' Cotton Sleeveless Summer Dress with Flared Skirt",
+    "category": "girls-clothing",
+    "supplier": "moda-lusa",
+    "description": "A cheerful sleeveless dress in soft cotton with a twirly flared skirt, made for warm days, parties and holidays. Ages 2–9.\n• Material: 100% cotton poplin with a lined bodice\n• Round neckline with button fastening at the back\n• Gathered waist and knee-length flared skirt\n• Colours: yellow and pink\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1611003967145-fb3960072424?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1578897367107-2828e351c8a8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Yellow / 2-3Y", "stock": 45 },
+      { "name": "Yellow / 4-5Y", "stock": 60 },
+      { "name": "Yellow / 6-7Y", "stock": 55 },
+      { "name": "Yellow / 8-9Y", "stock": 40 },
+      { "name": "Pink / 4-5Y", "stock": 45 },
+      { "name": "Pink / 6-7Y", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-KID-002",
+    "title": "Girls' Unicorn Print Long Sleeve Jersey Dress",
+    "category": "girls-clothing",
+    "supplier": "moda-lusa",
+    "description": "A comfy long sleeve jersey dress with a playful unicorn print, easy to pull on for school, play and weekends. Ages 2–9.\n• Material: 95% cotton, 5% elastane jersey\n• Round neckline and long sleeves\n• Skater-style skirt that ends just above the knee\n• Colour: blue\n• Machine wash at 40°C inside out",
+    "images": [
+      "https://images.unsplash.com/photo-1759313560255-0458c8f4e615?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 739,
+    "variants": [
+      { "name": "2-3Y", "stock": 45 },
+      { "name": "4-5Y", "stock": 60 },
+      { "name": "6-7Y", "stock": 55 },
+      { "name": "8-9Y", "stock": 40 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-003",
+    "title": "Girls' Layered Tulle Tutu Skirt with Elastic Waist",
+    "category": "girls-clothing",
+    "supplier": "moda-lusa",
+    "description": "A soft, puffy tutu skirt with several layers of tulle over a satin lining, great for dressing up, dance class and birthday parties. Ages 2–10.\n• Material: 100% polyester tulle with a polyester satin lining\n• Four tulle layers for extra volume\n• Wide, soft elasticated waistband\n• Length approx. 30–38 cm depending on size\n• Hand wash cold",
+    "images": [
+      "https://images.unsplash.com/photo-1703797203965-6200ca831e48?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1599,
+    "costPrice": 519,
+    "variants": [
+      { "name": "Pink / 2-4Y", "stock": 60 },
+      { "name": "Pink / 5-7Y", "stock": 70 },
+      { "name": "Pink / 8-10Y", "stock": 45 },
+      { "name": "White / 2-4Y", "stock": 40 },
+      { "name": "White / 5-7Y", "stock": 45 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-004",
+    "title": "Girls' Cotton T-Shirt and Shorts Set",
+    "category": "girls-clothing",
+    "supplier": "moda-lusa",
+    "description": "An easy summer outfit: a soft cotton tee paired with shorts that have a comfy elasticated waist. Ages 4–13.\n• Material: 100% cotton jersey\n• Short sleeve T-shirt with a round neck\n• Shorts with an elasticated waist and side pockets\n• Set includes T-shirt and shorts\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1604482858862-1db908a653e4?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1502808777105-c5f7b639feae?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 559,
+    "variants": [
+      { "name": "4-5Y", "stock": 50 },
+      { "name": "6-7Y", "stock": 60 },
+      { "name": "8-9Y", "stock": 55 },
+      { "name": "10-11Y", "stock": 45 },
+      { "name": "12-13Y", "stock": 35 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-005",
+    "title": "Boys' Striped Cotton T-Shirt, Pack of 2",
+    "category": "boys-clothing",
+    "supplier": "moda-lusa",
+    "description": "Two classic striped tees in soft cotton jersey that go with shorts, jeans and joggers. Ages 2–13.\n• Material: 100% cotton jersey, 160 g/m²\n• Crew neck with a soft rib trim\n• Regular fit with short sleeves\n• Pack of 2: grey stripe and navy stripe\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1627639678910-be8329e36789?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1099,
+    "compareAtPrice": 1499,
+    "costPrice": 469,
+    "variants": [
+      { "name": "2-3Y", "stock": 50 },
+      { "name": "4-5Y", "stock": 70 },
+      { "name": "6-7Y", "stock": 75 },
+      { "name": "8-9Y", "stock": 65 },
+      { "name": "10-11Y", "stock": 50 },
+      { "name": "12-13Y", "stock": 35 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-006",
+    "title": "Boys' Long Sleeve Check Shirt in Cotton",
+    "category": "boys-clothing",
+    "supplier": "moda-lusa",
+    "description": "A smart check shirt in soft cotton for school events, family occasions and everyday wear. Ages 4–11.\n• Material: 100% cotton\n• Button-down collar and full button front\n• Long sleeves with button cuffs, plus a chest pocket\n• Colours: blue check and red check\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1586537182864-75d5ea8a0e3d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604303768345-038b79a8c47a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Blue Check / 4-5Y", "stock": 40 },
+      { "name": "Blue Check / 6-7Y", "stock": 50 },
+      { "name": "Blue Check / 8-9Y", "stock": 45 },
+      { "name": "Blue Check / 10-11Y", "stock": 35 },
+      { "name": "Red Check / 6-7Y", "stock": 35 },
+      { "name": "Red Check / 8-9Y", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 170,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-007",
+    "title": "Boys' Fleece Pullover Hoodie",
+    "category": "boys-clothing",
+    "supplier": "moda-lusa",
+    "description": "A warm, cosy pullover hoodie with a brushed fleece inside and a front pocket for small treasures. Ages 4–11.\n• Material: 70% cotton, 30% polyester fleece\n• Lined hood with no cords\n• Front kangaroo pocket; ribbed cuffs and hem\n• Colours: white and grey\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1719421992052-e7d4394fa7fd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2299,
+    "costPrice": 779,
+    "variants": [
+      { "name": "White / 4-5Y", "stock": 35 },
+      { "name": "White / 6-7Y", "stock": 45 },
+      { "name": "White / 8-9Y", "stock": 40 },
+      { "name": "Grey / 6-7Y", "stock": 50 },
+      { "name": "Grey / 8-9Y", "stock": 50 },
+      { "name": "Grey / 10-11Y", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 330,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-008",
+    "title": "Boys' Stretch Chino Trousers with Adjustable Waist",
+    "category": "boys-clothing",
+    "supplier": "moda-lusa",
+    "description": "Smart stretch chinos with an adjustable inner waistband, so they keep fitting as your child grows. Ages 4–13.\n• Material: 97% cotton, 3% elastane twill\n• Adjustable button-elastic inner waistband, zip fly and button\n• Two front pockets and two back pockets\n• Colour: brown\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1596392927852-2a18c336fb78?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": null,
+    "costPrice": 689,
+    "variants": [
+      { "name": "4-5Y", "stock": 40 },
+      { "name": "6-7Y", "stock": 55 },
+      { "name": "8-9Y", "stock": 55 },
+      { "name": "10-11Y", "stock": 45 },
+      { "name": "12-13Y", "stock": 35 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 280,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-009",
+    "title": "Kids' Hooded Puffer Coat with Fleece-Lined Hood",
+    "category": "kids-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A warm, padded winter coat with a cosy fleece-lined hood that keeps little ones snug on cold days. Ages 2–9.\n• Shell: 100% polyester with water-repellent finish; padding: polyester fibre fill\n• Fixed hood with no cords; front zip with chin guard\n• Two zip pockets and elasticated cuffs\n• Reflective strip on the back\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1770996869979-7d20bd6b28e7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1770954179469-de30aec1cb7e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4499,
+    "costPrice": 1539,
+    "variants": [
+      { "name": "Navy / 2-3Y", "stock": 35 },
+      { "name": "Navy / 4-5Y", "stock": 45 },
+      { "name": "Navy / 6-7Y", "stock": 45 },
+      { "name": "Navy / 8-9Y", "stock": 35 },
+      { "name": "Red / 4-5Y", "stock": 30 },
+      { "name": "Red / 6-7Y", "stock": 30 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 520,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-KID-010",
+    "title": "Kids' Water-Resistant Hooded Raincoat",
+    "category": "kids-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A bright, lightweight raincoat that keeps children dry on rainy walks to school and puddle-jumping days. Ages 2–9.\n• Material: 100% polyester with PU coating and taped seams; mesh lining\n• Fixed hood with no cords\n• Press-stud front fastening and two flap pockets\n• Reflective details on the front and back\n• Colour: yellow",
+    "images": [
+      "https://images.unsplash.com/photo-1758535291260-d02ee9ae1ceb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781735974892-360b1cbf8765?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 869,
+    "variants": [
+      { "name": "2-3Y", "stock": 50 },
+      { "name": "4-5Y", "stock": 65 },
+      { "name": "6-7Y", "stock": 55 },
+      { "name": "8-9Y", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-011",
+    "title": "Kids' Full-Zip Fleece Jacket",
+    "category": "kids-outerwear",
+    "supplier": "moda-lusa",
+    "description": "A soft, lightweight fleece jacket for layering under a coat in winter or wearing on its own on cool spring days. Ages 4–11.\n• Material: 100% polyester micro-fleece\n• Full-length zip with chin guard and stand collar\n• Two zip side pockets\n• Elasticated cuffs and hem\n• Colours: grey and navy",
+    "images": [
+      "https://images.unsplash.com/photo-1768383235583-99e9d8c836b0?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1566513783358-9b483cfc7042?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2199,
+    "costPrice": 739,
+    "variants": [
+      { "name": "Grey / 4-5Y", "stock": 40 },
+      { "name": "Grey / 6-7Y", "stock": 50 },
+      { "name": "Grey / 8-9Y", "stock": 45 },
+      { "name": "Navy / 6-7Y", "stock": 45 },
+      { "name": "Navy / 8-9Y", "stock": 45 },
+      { "name": "Navy / 10-11Y", "stock": 35 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-012",
+    "title": "Kids' Cotton Long Sleeve Pajama Set",
+    "category": "kids-sleepwear",
+    "supplier": "moda-lusa",
+    "description": "Soft, comfy cotton pajamas with a long sleeve top and full-length bottoms for a cosy night's sleep. Ages 2–11.\n• Material: 100% cotton jersey\n• Round neck top with long sleeves and ribbed cuffs\n• Bottoms with a soft elasticated waist\n• Set includes top and bottoms\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1759408174266-8b11788dff30?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1783514508938-39b933a59cf8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      { "name": "2-3Y", "stock": 50 },
+      { "name": "4-5Y", "stock": 70 },
+      { "name": "6-7Y", "stock": 65 },
+      { "name": "8-9Y", "stock": 55 },
+      { "name": "10-11Y", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-013",
+    "title": "Kids' Pink Cotton Jersey Pajama Set",
+    "category": "kids-sleepwear",
+    "supplier": "moda-lusa",
+    "description": "A sweet pink pajama set in stretchy cotton jersey with a snug fit for comfortable sleep. Ages 1–6.\n• Material: 95% cotton, 5% elastane jersey\n• Long sleeve top with a round neck\n• Snug-fit bottoms with an elasticated waist and ankle cuffs\n• Set includes top and bottoms\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1771419912747-df33d91c329d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1399,
+    "compareAtPrice": null,
+    "costPrice": 609,
+    "variants": [
+      { "name": "12-18M", "stock": 40 },
+      { "name": "18-24M", "stock": 50 },
+      { "name": "2-3Y", "stock": 55 },
+      { "name": "3-4Y", "stock": 50 },
+      { "name": "5-6Y", "stock": 40 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-014",
+    "title": "Toddler Zip-Up Footed Sleepsuit, Pack of 2",
+    "category": "kids-sleepwear",
+    "supplier": "moda-lusa",
+    "description": "Easy-on zip sleepsuits with covered feet, ideal for toddlers who kick off their blankets. Ages 6 months to 3 years.\n• Material: 100% cotton interlock\n• Two-way zip with a fabric guard at the chin\n• Enclosed feet with non-slip dots on the soles\n• Pack of 2 in assorted colours\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1517588487680-fc59cb1a55cf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": 1999,
+    "costPrice": 689,
+    "variants": [
+      { "name": "6-12M", "stock": 45 },
+      { "name": "12-18M", "stock": 55 },
+      { "name": "18-24M", "stock": 50 },
+      { "name": "2-3Y", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 280,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-015",
+    "title": "Kids' Two-Piece Tracksuit, Zip Jacket and Joggers",
+    "category": "kids-activewear",
+    "supplier": "moda-lusa",
+    "description": "A matching tracksuit for sports, play and travel, with a zip-up jacket and comfortable joggers. Ages 4–11.\n• Material: 100% polyester tricot\n• Jacket: stand collar, full zip and two side pockets\n• Joggers: elasticated waist and cuffed ankles\n• Set includes jacket and joggers\n• Colours: blue-green and black",
+    "images": [
+      "https://images.unsplash.com/photo-1632232962967-0740a757380d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1632232962634-eb4312eba176?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Blue-Green / 4-5Y", "stock": 35 },
+      { "name": "Blue-Green / 6-7Y", "stock": 45 },
+      { "name": "Blue-Green / 8-9Y", "stock": 45 },
+      { "name": "Blue-Green / 10-11Y", "stock": 35 },
+      { "name": "Black / 6-7Y", "stock": 40 },
+      { "name": "Black / 8-9Y", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-016",
+    "title": "Kids' Fleece Sweatshirt and Jogger Set",
+    "category": "kids-activewear",
+    "supplier": "moda-lusa",
+    "description": "A cosy two-piece set with a crew neck sweatshirt and matching joggers, soft enough for lounging and tough enough for the playground. Ages 4–13.\n• Material: 65% cotton, 35% polyester brushed fleece\n• Crew neck sweatshirt with ribbed cuffs and hem\n• Joggers with an elasticated waist and cuffs\n• Set includes sweatshirt and joggers\n• Colour: black",
+    "images": [
+      "https://images.unsplash.com/photo-1637161065977-014b2935d84d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2599,
+    "costPrice": 869,
+    "variants": [
+      { "name": "4-5Y", "stock": 40 },
+      { "name": "6-7Y", "stock": 55 },
+      { "name": "8-9Y", "stock": 55 },
+      { "name": "10-11Y", "stock": 45 },
+      { "name": "12-13Y", "stock": 35 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-017",
+    "title": "Kids' Colour-Block Pullover Sports Hoodie",
+    "category": "kids-activewear",
+    "supplier": "moda-lusa",
+    "description": "A lightweight colour-block hoodie in quick-drying fabric for PE, football practice and active days. Ages 4–13.\n• Material: 100% polyester with a soft brushed back\n• Lined hood with no cords\n• Front kangaroo pocket and thumbholes in the cuffs\n• Colours: black and red\n• Machine wash at 30°C",
+    "images": [
+      "https://images.unsplash.com/photo-1632232962706-b0b17c9c2b5e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 739,
+    "variants": [
+      { "name": "4-5Y", "stock": 40 },
+      { "name": "6-7Y", "stock": 50 },
+      { "name": "8-9Y", "stock": 50 },
+      { "name": "10-11Y", "stock": 40 },
+      { "name": "12-13Y", "stock": 30 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-018",
+    "title": "Kids' Knitted Beanie with Fleece Lining",
+    "category": "kids-accessories",
+    "supplier": "moda-lusa",
+    "description": "A soft, stretchy knitted beanie with a warm fleece lining to keep ears cosy on cold days. Ages 2–10.\n• Material: 100% acrylic knit with a polyester fleece lining\n• Ribbed knit with a fold-over cuff\n• Stretchy fit for head circumference approx. 48–54 cm\n• Colours: pink, navy and grey\n• Hand wash cold",
+    "images": [
+      "https://images.unsplash.com/photo-1769388921011-aa7cbfb2b5f3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": 999,
+    "costPrice": 339,
+    "variants": [
+      { "name": "Pink", "stock": 90 },
+      { "name": "Navy", "stock": 85 },
+      { "name": "Grey", "stock": 75 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-019",
+    "title": "Kids' Woven Straw Sun Hat with Wide Brim",
+    "category": "kids-accessories",
+    "supplier": "moda-lusa",
+    "description": "A lightweight woven sun hat with a wide brim that shades the face and neck at the beach, in the garden or on holiday. Ages 2–8.\n• Material: paper straw with a cotton sweatband\n• Wide brim, approx. 8 cm\n• Adjustable inner band and a breakaway chin strap\n• Fits head circumference approx. 48–54 cm\n• Spot clean only",
+    "images": [
+      "https://images.unsplash.com/photo-1787385974057-18d07d504d81?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781761555882-ff03543230c8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 429,
+    "variants": [
+      { "name": "S (2-4Y)", "stock": 70 },
+      { "name": "M (5-8Y)", "stock": 80 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 80,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KID-020",
+    "title": "Kids' Small Backpack with Padded Straps",
+    "category": "kids-accessories",
+    "supplier": "moda-lusa",
+    "description": "A lightweight backpack sized for little shoulders, with room for a lunch box, water bottle and a change of clothes. Ages 3+.\n• Material: 600D polyester with water-repellent coating; lined interior\n• Main zip compartment and a front zip pocket\n• Padded adjustable straps and a chest strap\n• Size approx. 30 x 23 x 11 cm, about 7 litres\n• Colours: navy, pink and green",
+    "images": [
+      "https://images.unsplash.com/photo-1765329104418-b16804330f90?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1764662366894-fd7fa31f5d36?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Navy", "stock": 80 },
+      { "name": "Pink", "stock": 85 },
+      { "name": "Green", "stock": 60 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 320,
+    "featured": false
+  }
+]

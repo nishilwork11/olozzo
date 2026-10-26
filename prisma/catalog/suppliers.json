@@ -1,0 +1,12 @@
+[
+  { "key": "moda-lusa", "companyName": "Moda Lusa Têxteis Lda", "contactName": "Rita Almeida", "country": "PT", "processingDays": 2, "description": "Clothing for women, men and kids, made and shipped from Porto." },
+  { "key": "passo-firme", "companyName": "Passo Firme Calçado Lda", "contactName": "Tiago Mendes", "country": "PT", "processingDays": 2, "description": "Footwear for the whole family from northern Portugal's shoe district." },
+  { "key": "oro-luce", "companyName": "Oro & Luce S.r.l.", "contactName": "Giulia Conti", "country": "IT", "processingDays": 2, "description": "Jewellery, watches, bags and accessories, plus bridal and occasion wear." },
+  { "key": "bella-cura", "companyName": "Bella Cura S.r.l.", "contactName": "Marco Ferri", "country": "IT", "processingDays": 1, "description": "Beauty, hair and personal care, from skincare to wigs." },
+  { "key": "nordhaus", "companyName": "Nordhaus Wohnen GmbH", "contactName": "Anna Schulz", "country": "DE", "processingDays": 2, "description": "Home, kitchen, lighting and small appliances from a warehouse near Hamburg." },
+  { "key": "werkbank", "companyName": "Werkbank Technik GmbH", "contactName": "Lukas Weber", "country": "DE", "processingDays": 2, "description": "Tools, car accessories and electronic components for DIY and workshops." },
+  { "key": "voltix", "companyName": "Voltix Sp. z o.o.", "contactName": "Piotr Zieliński", "country": "PL", "processingDays": 1, "description": "Consumer electronics, phone accessories, computer gear and smart home devices." },
+  { "key": "actief", "companyName": "Actief Outdoor B.V.", "contactName": "Sanne de Jong", "country": "NL", "processingDays": 2, "description": "Sports and outdoor gear, garden supplies and everything for pets." },
+  { "key": "juego-feliz", "companyName": "Juego Feliz S.L.", "contactName": "Lucía Romero", "country": "ES", "processingDays": 2, "description": "Toys, games, baby products, party supplies and craft materials." },
+  { "key": "harmonie", "companyName": "Harmonie Music & Office s.r.o.", "contactName": "Tomáš Dvořák", "country": "CZ", "processingDays": 3, "description": "Musical instruments, office and school supplies and household essentials." }
+]

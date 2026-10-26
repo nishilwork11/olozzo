@@ -1,0 +1,511 @@
+[
+  {
+    "sku": "OLZ-ELE-001",
+    "title": "Wireless Earbuds Bluetooth 5.3 with Charging Case, 30 h Playtime",
+    "category": "headphones",
+    "supplier": "voltix",
+    "description": "Compact true wireless earbuds for commuting, workouts and calls, with a pocket-size case that tops them up on the go.\n• Bluetooth 5.3 with stable connection and a low-latency game mode\n• Up to 6 h per charge and 30 h in total with the case; USB-C charging\n• Touch controls and dual microphones with noise reduction for calls\n• IPX5 sweat- and splash-resistant; 3 sizes of silicone ear tips included",
+    "images": [
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 200
+      },
+      {
+        "name": "White",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-ELE-002",
+    "title": "Active Noise Cancelling Headphones, Wireless Over-Ear, 50 h Battery",
+    "category": "headphones",
+    "supplier": "voltix",
+    "description": "Over-ear headphones that block out engine hum and office chatter, so you can focus on music, podcasts or calls.\n• Active noise cancellation with transparency mode\n• Up to 50 h playback with ANC off; 5-minute quick charge gives 3 h; USB-C\n• 40 mm drivers, soft protein-leather cushions and a foldable design\n• Bluetooth 5.3 plus 3.5 mm cable for wired listening; carry case included",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505740106531-4243f3831c78?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5999,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 120
+      },
+      {
+        "name": "White",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-003",
+    "title": "Gaming Headset with Noise-Reducing Microphone and RGB Lights",
+    "category": "headphones",
+    "supplier": "voltix",
+    "description": "Wired gaming headset for most consoles and PCs, with clear voice chat and immersive sound for long sessions.\n• 50 mm drivers with deep bass\n• Flexible noise-reducing boom microphone with mute button\n• Memory-foam ear cushions and adjustable padded headband\n• 3.5 mm jack for most consoles, PCs, laptops and smartphones; USB plug powers the RGB lights",
+    "images": [
+      "https://images.unsplash.com/photo-1610041321327-b794c052db27?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1199,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-004",
+    "title": "Portable Bluetooth Speaker 20 W, IPX7 Waterproof, with Carry Strap",
+    "category": "speakers",
+    "supplier": "voltix",
+    "description": "Rugged speaker for the beach, pool, hikes and garden parties, loud enough to fill a patio.\n• 20 W stereo sound with passive bass radiator\n• IPX7 waterproof and dustproof\n• Up to 15 h playtime; USB-C charging\n• Pair two speakers for true stereo; built-in microphone for hands-free calls",
+    "images": [
+      "https://images.unsplash.com/photo-1547052178-7f2c5a20c332?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1499,
+    "variants": [
+      {
+        "name": "Grey",
+        "stock": 100
+      },
+      {
+        "name": "Black",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-005",
+    "title": "Mini Bluetooth Speaker 5 W with Lanyard, Pocket Size",
+    "category": "speakers",
+    "supplier": "voltix",
+    "description": "Palm-size speaker that clips to a backpack or sits on a desk for podcasts and background music.\n• 5 W full-range driver\n• Up to 8 h playtime; USB-C charging\n• Bluetooth 5.3 with a range of up to 10 m\n• Fabric grille, removable lanyard and hands-free microphone",
+    "images": [
+      "https://images.unsplash.com/photo-1582978571763-2d039e56f0c3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 120
+      },
+      {
+        "name": "Black",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-006",
+    "title": "Wireless Speaker 20 W with Stereo Pairing and Deep Bass",
+    "category": "speakers",
+    "supplier": "voltix",
+    "description": "Stylish speaker for kitchens, bedrooms and home offices that sounds bigger than its size.\n• 2 × 10 W drivers with bass radiator\n• Up to 12 h playtime; USB-C charging\n• Pair two units for stereo; AUX input for wired devices\n• Splash-resistant (IPX5) fabric-covered housing",
+    "images": [
+      "https://images.unsplash.com/photo-1674303324806-7018a739ed11?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1199,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 90
+      },
+      {
+        "name": "Black",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-007",
+    "title": "Smartwatch with 1.85 Inch Display, Bluetooth Calls and Activity Tracking",
+    "category": "wearables",
+    "supplier": "voltix",
+    "description": "Everyday smartwatch that shows calls and messages from most smartphones and keeps track of your steps, workouts and sleep.\n• 1.85 inch colour touchscreen with customisable watch faces\n• Answer calls with the built-in microphone and speaker; message and app notifications\n• 100+ sport modes, step counter, heart rate and sleep tracking (for general fitness and wellness use only)\n• Up to 7 days battery; IP67 water-resistant; magnetic charger included",
+    "images": [
+      "https://images.unsplash.com/photo-1660844817855-3ecc7ef21f12?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4999,
+    "costPrice": 1699,
+    "variants": [
+      {
+        "name": "Silver / White Strap",
+        "stock": 80
+      },
+      {
+        "name": "Black / Black Strap",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 160,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-008",
+    "title": "Fitness Tracker Band with Colour Display, Step and Sleep Tracking",
+    "category": "wearables",
+    "supplier": "voltix",
+    "description": "Slim, lightweight activity band that keeps an eye on daily steps, workouts and sleep habits.\n• 1.1 inch AMOLED colour display\n• Step counter, calories, 20 sport modes, heart rate and sleep tracking (for general fitness and wellness use only)\n• Call and message notifications from most smartphones\n• Up to 14 days battery; water-resistant to 5 ATM",
+    "images": [
+      "https://images.unsplash.com/photo-1690016424217-03f4d9427a6a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1758525747610-a89423707238?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-009",
+    "title": "4K Action Camera with Waterproof Case and Mounting Kit",
+    "category": "cameras",
+    "supplier": "voltix",
+    "description": "Small, tough camera for capturing cycling, skiing, snorkelling and holiday adventures in sharp detail.\n• 4K/30fps video and 20 MP photos; 170° wide-angle lens\n• 2 inch screen and electronic image stabilisation\n• Waterproof to 30 m in the included case\n• Kit includes 2 × 1050 mAh batteries, helmet and handlebar mounts, clips and adhesive pads",
+    "images": [
+      "https://images.unsplash.com/photo-1562878671-b3efe27953b9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513193643083-07325d25a4b0?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1484506399805-c273b8e91dce?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2699,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-010",
+    "title": "LED Ring Light 26 cm with Tripod Stand and Phone Holder",
+    "category": "cameras",
+    "supplier": "voltix",
+    "description": "Even, flattering light for video calls, live streams, make-up and product photos.\n• 26 cm ring with 3 colour modes (warm, neutral, cool) and 10 brightness levels\n• Tripod stand extends from 50 to 160 cm\n• Adjustable holder for most smartphones; Bluetooth remote shutter\n• USB powered with inline controller",
+    "images": [
+      "https://images.unsplash.com/photo-1780413747936-1df5c1255d9f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1771444700441-6e8bc12f16d6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-011",
+    "title": "Tilting TV Wall Mount for 32–70 Inch TVs, up to 45 kg",
+    "category": "tv-video",
+    "supplier": "voltix",
+    "description": "Low-profile bracket that hangs your TV close to the wall, with a gentle tilt to cut glare from windows and lamps.\n• Fits most 32–70 inch TVs with wall-mount hole patterns from 100 × 100 to 400 × 400 mm\n• Holds up to 45 kg; tilts from −8° to +8°\n• Only 3.5 cm from the wall, with levelling after installation\n• Fixings for solid walls and a small bubble level included",
+    "images": [
+      "https://images.unsplash.com/photo-1757774636367-d03962a019f7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1619233543829-665423afedc3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-012",
+    "title": "4K HDMI Cable 2 m, Braided, 18 Gbps with Gold-Plated Connectors",
+    "category": "tv-video",
+    "supplier": "voltix",
+    "description": "High-speed cable for connecting TVs, monitors, projectors, consoles and laptops.\n• Supports 4K at 60 Hz, HDR and audio return channel\n• Bandwidth up to 18 Gbps\n• Nylon-braided jacket and gold-plated connectors with aluminium shells\n• Length 2 m",
+    "images": [
+      "https://images.unsplash.com/photo-1760377821967-8bb2f250e041?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": null,
+    "costPrice": 319,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 300
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-013",
+    "title": "Foldable Camera Drone with 4K Camera, GPS and 30-Minute Flight, Under 249 g",
+    "category": "drones",
+    "supplier": "voltix",
+    "description": "Pocket-size folding drone for aerial photos and video on holidays and hikes. Ages 14+.\n• 4K camera on a 2-axis gimbal with live view on your phone via the app\n• GPS return-to-home, altitude hold and follow-me mode\n• Up to 30 minutes per battery; take-off weight under 249 g\n• Includes remote controller, 1 battery, spare propellers and carry case; check local drone rules before flying",
+    "images": [
+      "https://images.unsplash.com/photo-1782840766902-dbcbdd7e0d77?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1762478237936-187fa02b9c69?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 8999,
+    "compareAtPrice": 12999,
+    "costPrice": 5199,
+    "variants": [
+      {
+        "name": "Grey",
+        "stock": 50
+      },
+      {
+        "name": "White",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-014",
+    "title": "Mini Drone with Propeller Guards, 1080p Camera and One-Key Take-Off",
+    "category": "drones",
+    "supplier": "voltix",
+    "description": "Beginner-friendly drone with fully enclosed propellers, ideal for learning to fly indoors and in the garden. Ages 14+.\n• 1080p camera with live view on your phone\n• One-key take-off and landing, altitude hold and headless mode\n• 2 batteries for about 2 × 12 minutes of flight\n• Weighs under 250 g; check local drone rules before flying outdoors",
+    "images": [
+      "https://images.unsplash.com/photo-1770260071751-0711b6f26ff4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-015",
+    "title": "Power Bank 20000 mAh with 22.5 W Fast Charging and USB-C PD",
+    "category": "power-banks",
+    "supplier": "voltix",
+    "description": "High-capacity portable charger that can refill a typical smartphone four to five times.\n• 20000 mAh lithium-polymer battery (74 Wh), allowed in hand luggage on most flights\n• USB-C PD input/output up to 20 W plus USB-A output up to 22.5 W\n• Charges 3 devices at once\n• LED battery level indicator",
+    "images": [
+      "https://images.unsplash.com/photo-1566554738544-d962991c3fee?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1199,
+    "variants": [
+      {
+        "name": "Blue",
+        "stock": 100
+      },
+      {
+        "name": "Black",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-016",
+    "title": "Power Bank 10000 mAh with Built-In Cables and Digital Display",
+    "category": "power-banks",
+    "supplier": "voltix",
+    "description": "Slim power bank with its own cables attached, so you never have to remember a charging lead.\n• 10000 mAh battery with digital percentage display\n• Built-in USB-C and Micro-USB cables plus a USB-A output\n• 15 W fast charging; recharges via USB-C\n• Weighs about 220 g and fits in a jacket pocket",
+    "images": [
+      "https://images.unsplash.com/photo-1760708825913-65a50b3dc39b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1788959021344-1b88df1f3864?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": null,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 120
+      },
+      {
+        "name": "Black",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-017",
+    "title": "USB-C to USB-C Cable 2 m, 100 W Fast Charging, Braided, 2 Pack",
+    "category": "cables-adapters",
+    "supplier": "voltix",
+    "description": "Tough braided cables for fast charging phones, tablets and laptops, and for syncing data.\n• Up to 100 W (20 V / 5 A) power delivery with built-in e-marker chip\n• USB 2.0 data transfer up to 480 Mbps\n• Nylon-braided jacket, reinforced cable joints and aluminium connector housings\n• 2 cables, each 2 m long",
+    "images": [
+      "https://images.unsplash.com/photo-1595756630452-736bc8ef3693?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1756043827134-dcc8ac7462f6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 300
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 140,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-018",
+    "title": "USB 3.0 Hub with 7 Ports and Individual On/Off Switches",
+    "category": "cables-adapters",
+    "supplier": "voltix",
+    "description": "Adds extra ports to a laptop or desktop for drives, keyboards, mice and card readers.\n• 7 × USB-A 3.0 ports, up to 5 Gbps\n• Individual switch with LED indicator for each port\n• 1 m cable; plug and play, no drivers needed\n• DC input for an optional power adapter when running several drives",
+    "images": [
+      "https://images.unsplash.com/photo-1760376789487-994070337c76?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760376789478-c1023d2dc007?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": null,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-ELE-019",
+    "title": "Mini Projector with Wireless Screen Mirroring, 1080p Supported",
+    "category": "projectors",
+    "supplier": "voltix",
+    "description": "Compact home cinema projector for movie nights, gaming and cartoons on a wall or screen up to 150 inches.\n• Native 720p resolution, accepts 1080p input; brightness approx. 200 ANSI lumens\n• Wireless screen mirroring from most smartphones, plus HDMI, USB and AV inputs\n• Built-in speaker and 3.5 mm audio output\n• Keystone correction and zoom; remote control and EU plug included",
+    "images": [
+      "https://images.unsplash.com/photo-1589113050289-1c654e7e305d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1579036095242-fe07594274ca?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 6999,
+    "compareAtPrice": 9999,
+    "costPrice": 3999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1400,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-ELE-020",
+    "title": "Portable Projector Screen 100 Inch with Stand, 16:9",
+    "category": "projectors",
+    "supplier": "voltix",
+    "description": "Foldable screen for indoor movie nights and backyard cinema that sets up in minutes without tools.\n• 100 inch diagonal (221 × 125 cm viewing area), 16:9 format\n• Matte white surface with 160° viewing angle; washable\n• Height-adjustable tripod stand, plus ropes and pegs for outdoor use\n• Carry bag included",
+    "images": [
+      "https://images.unsplash.com/photo-1788145687063-7a37303015de?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1774538272529-53562925d6bd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 2800,
+    "featured": false
+  }
+]

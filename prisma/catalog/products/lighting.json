@@ -1,0 +1,524 @@
+[
+  {
+    "sku": "OLZ-LGT-001",
+    "title": "RGB LED Strip Lights 10 m with Remote, App Control and Music Sync",
+    "category": "led-strips",
+    "supplier": "nordhaus",
+    "description": "Colour-changing LED strip for bedrooms, desks, shelves and gaming corners. Stick it along any clean, dry surface and pick colours from the remote or the phone app.\n• Length 10 m (2 × 5 m rolls), 300 RGB LEDs, cuttable every 3 LEDs\n• 16 million colours, scene modes and a built-in microphone for music sync\n• Control by 44-key remote or free app over Bluetooth\n• Self-adhesive backing; 12 V adapter with EU plug included",
+    "images": [
+      "https://images.unsplash.com/photo-1572249930263-64fc5bbdb14b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1659066019874-7a15628cea60?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2299,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 220
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-LGT-002",
+    "title": "USB LED TV Backlight 2 m for 32–55 Inch Screens, RGB with Remote",
+    "category": "led-strips",
+    "supplier": "nordhaus",
+    "description": "Adds soft ambient light behind a TV or monitor, so evening viewing feels more relaxed and the wall behind the screen glows instead of staying dark.\n• 2 m strip in 4 pre-cut 50 cm pieces with corner connectors\n• Powered from the TV's USB port (5 V), so it can switch on and off with the screen\n• 16 colours, 4 dynamic modes and adjustable brightness via a 24-key remote\n• Strong self-adhesive tape, no tools needed",
+    "images": [
+      "https://images.unsplash.com/photo-1495954222046-2c427ecb546d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 449,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 260
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-003",
+    "title": "LED Rope Light 5 m, RGB Colour Changing, USB Powered with Remote",
+    "category": "led-strips",
+    "supplier": "nordhaus",
+    "description": "Flexible rope light that bends around corners and outlines desks, mirrors, shelves or the edge of a bed frame.\n• Length 5 m, 10 mm flexible PVC tube with LEDs every 2.5 cm\n• RGB with 20 colours and dynamic modes, controlled by remote\n• USB powered (5 V), works with a phone charger or power bank\n• Mounting clips and adhesive pads included; for indoor use",
+    "images": [
+      "https://images.unsplash.com/photo-1774005371075-7e2cb5efca48?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1618403323851-ac3d38029495?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": null,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-004",
+    "title": "LED Ceiling Light 24 W, Round Flush Mount 30 cm",
+    "category": "ceiling-lights",
+    "supplier": "nordhaus",
+    "description": "Slim flush-mount ceiling light that replaces an old fitting in hallways, bedrooms, kitchens and bathrooms.\n• 24 W LED, 2400 lumens, as bright as a 150 W incandescent bulb\n• Diameter 30 cm, height 5 cm; opal acrylic diffuser for even, glare-free light\n• IP44 splash-proof, suitable for bathrooms\n• Hardwired to 230 V mains; installation by a qualified electrician recommended",
+    "images": [
+      "https://images.unsplash.com/photo-1569327015452-131a698ae69e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 999,
+    "variants": [
+      {
+        "name": "Warm White 3000K",
+        "stock": 80
+      },
+      {
+        "name": "Neutral White 4000K",
+        "stock": 100
+      },
+      {
+        "name": "Cool White 6500K",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-005",
+    "title": "Hand-Woven Rattan Pendant Light Shade 30 cm with E27 Cord Set",
+    "category": "ceiling-lights",
+    "supplier": "nordhaus",
+    "description": "Natural rattan shade that casts warm, patterned light over a dining table, kitchen island or reading corner.\n• Dome shade approx. 30 cm wide × 32 cm high, hand-woven natural rattan\n• Includes ceiling canopy, 1 m adjustable fabric cable and E27 lamp holder\n• Max. bulb 40 W, LED recommended (bulb not included)\n• Hardwired to 230 V mains; installation by a qualified electrician recommended",
+    "images": [
+      "https://images.unsplash.com/photo-1643509877015-c90830bb8519?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1199,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-006",
+    "title": "Industrial Metal Dome Pendant Light 30 cm, E27",
+    "category": "ceiling-lights",
+    "supplier": "nordhaus",
+    "description": "Matte metal pendant with a wide dome shade that directs light down onto tables, worktops and kitchen islands.\n• Shade: powder-coated steel, Ø 30 cm, white inner reflector\n• 1.2 m cable, height adjustable at the ceiling canopy\n• E27 lamp holder, max. 60 W (bulb not included)\n• Hardwired to 230 V mains; installation by a qualified electrician recommended",
+    "images": [
+      "https://images.unsplash.com/photo-1553604588-20fc10d843a7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1899,
+    "compareAtPrice": null,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 90
+      },
+      {
+        "name": "Grey",
+        "stock": 70
+      },
+      {
+        "name": "White",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-007",
+    "title": "Retro Gooseneck Desk Lamp with E27 Socket and Weighted Base",
+    "category": "lamps",
+    "supplier": "nordhaus",
+    "description": "Flexible metal desk lamp that bends to put light exactly where you need it for reading, homework or crafts.\n• Adjustable gooseneck arm and metal shade, height approx. 45 cm\n• E27 socket, max. 40 W; works with LED bulbs (not included)\n• Weighted round base keeps the lamp steady\n• 1.5 m cable with inline switch and EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1570974802254-4b0ad1a755f5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621447980929-6638614633c8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2299,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "Cream",
+        "stock": 90
+      },
+      {
+        "name": "Pink",
+        "stock": 60
+      },
+      {
+        "name": "Black",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-008",
+    "title": "Wooden Tripod Table Lamp with Linen Drum Shade",
+    "category": "lamps",
+    "supplier": "nordhaus",
+    "description": "Scandinavian-style table lamp with a natural wood tripod base and a soft linen shade for living rooms and bedside tables.\n• Height 48 cm, shade Ø 25 cm\n• Base: solid pine with natural finish; shade: linen-look fabric\n• E27 socket, max. 40 W (bulb not included)\n• 1.8 m cable with inline switch and EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": null,
+    "costPrice": 1399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-009",
+    "title": "Floor Lamp 155 cm with Fabric Shade and Foot Switch",
+    "category": "lamps",
+    "supplier": "nordhaus",
+    "description": "Slim floor lamp that adds warm, indirect light next to a sofa, armchair or bed.\n• Height 155 cm, conical fabric shade Ø 30 cm\n• Gold-tone metal stem and heavy round base\n• E27 socket, max. 40 W (bulb not included)\n• 2 m cable with foot switch and EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1759647020559-2f91a4290ae4?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1630578877871-1a2f9d372fd2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": 6499,
+    "costPrice": 2399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 4200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-010",
+    "title": "LED Floodlight 50 W, IP65 Waterproof, for Yard and Driveway",
+    "category": "outdoor-lighting",
+    "supplier": "nordhaus",
+    "description": "Bright, compact floodlight for driveways, yards, garages and building entrances.\n• 50 W LED, 5000 lumens, 120° beam angle\n• IP65 aluminium housing with tempered glass front\n• Adjustable mounting bracket for walls and eaves\n• 1 m cable with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1779036440565-9e776cfce061?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2499,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Cool White 6500K",
+        "stock": 120
+      },
+      {
+        "name": "Warm White 3000K",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-011",
+    "title": "Outdoor Up and Down Wall Light, IP54 Aluminium, GU10",
+    "category": "outdoor-lighting",
+    "supplier": "nordhaus",
+    "description": "Modern wall light that throws beams up and down for a striking look on facades, entrances and terraces.\n• Die-cast aluminium with black powder coating\n• IP54 weatherproof for covered and open outdoor walls\n• 2 × GU10 sockets, max. 2 × 7 W LED (bulbs not included)\n• Hardwired to 230 V mains; installation by a qualified electrician recommended",
+    "images": [
+      "https://images.unsplash.com/photo-1759722127805-39a77d665cb9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1766128868287-7931ad45d6ef?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1949,
+    "compareAtPrice": null,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "Square",
+        "stock": 70
+      },
+      {
+        "name": "Round",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-012",
+    "title": "Copper Wire Fairy Lights 10 m, 100 LEDs, USB with Remote",
+    "category": "string-lights",
+    "supplier": "nordhaus",
+    "description": "Thin, bendable copper-wire fairy lights for bedrooms, shelves, jars, wreaths and party tables.\n• Length 10 m with 100 micro LEDs at 10 cm spacing\n• 8 lighting modes, timer and dimming via a 13-key remote\n• USB powered (5 V), so a phone charger or power bank will run it\n• IP44 wire and LEDs, suitable for sheltered outdoor use",
+    "images": [
+      "https://images.unsplash.com/photo-1551564874-2c247864797e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573689705959-7786e029b31e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": 999,
+    "costPrice": 299,
+    "variants": [
+      {
+        "name": "Warm White",
+        "stock": 200
+      },
+      {
+        "name": "Multicolour",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-013",
+    "title": "Outdoor Festoon String Lights 15 m with 15 Shatterproof Bulbs, EU Plug",
+    "category": "string-lights",
+    "supplier": "nordhaus",
+    "description": "Café-style string lights for patios, pergolas, balconies and garden parties. The plastic bulbs survive knocks and drops that would break glass.\n• Length 15 m with 15 E27 sockets at 1 m spacing\n• 15 + 2 spare ST45 LED bulbs, 1 W each, warm white 2700 K\n• IP65 weatherproof cable and sockets; connect up to 3 sets end to end\n• 3 m lead cable with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1575174124376-1e1ee0ba742e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1508172466753-aa5687ae25b5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-014",
+    "title": "Curtain Fairy Lights 3 × 3 m, 300 LEDs, USB with Remote",
+    "category": "string-lights",
+    "supplier": "nordhaus",
+    "description": "Window curtain lights that turn a plain wall, window or headboard into a softly glowing backdrop.\n• Size 3 × 3 m: 10 strands of 30 LEDs hanging from a 3 m top wire\n• 8 lighting modes and timer via remote\n• USB powered (5 V) with a 1.5 m lead cable\n• Clear hooks included for easy hanging",
+    "images": [
+      "https://images.unsplash.com/photo-1630381962685-b2c8dbe97ca2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1575156854398-b2f437458442?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1899,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Warm White",
+        "stock": 140
+      },
+      {
+        "name": "Cool White",
+        "stock": 80
+      },
+      {
+        "name": "Multicolour",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-015",
+    "title": "3D Moon Lamp 15 cm with 16 Colours, Touch Control and Wooden Stand",
+    "category": "night-lights",
+    "supplier": "nordhaus",
+    "description": "A realistic moon surface printed in fine 3D layers that glows softly on a bedside table, desk or bookshelf.\n• Diameter 15 cm, lightweight PLA shell\n• 16 colours and 4 modes via remote; tap the base to switch between warm and cool white\n• Built-in rechargeable battery for 8–12 hours, charged by USB cable (included)\n• Wooden display stand included",
+    "images": [
+      "https://images.unsplash.com/photo-1632712535563-c30adb9a9e2e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1558108531-feea1bc6ad2e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": 2299,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-LGT-016",
+    "title": "Mushroom Night Light, Rechargeable with Touch Dimming",
+    "category": "night-lights",
+    "supplier": "nordhaus",
+    "description": "Mushroom-shaped lamp with a frosted dome that gives a soft, warm glow for nurseries, bedrooms and late-night reading.\n• Height 20 cm, dome Ø 15 cm\n• Touch the top to switch on and dim in 3 steps\n• Built-in battery lasts up to 20 hours at low brightness; USB-C charging\n• LED stays cool to the touch; stable weighted base",
+    "images": [
+      "https://images.unsplash.com/photo-1786325835316-6af65bd31231?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1759753874998-5e0182e07af6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1249,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-017",
+    "title": "Vintage LED Filament Bulbs E27 ST64, 4 Pack, Amber Warm White",
+    "category": "light-bulbs",
+    "supplier": "nordhaus",
+    "description": "Edison-style bulbs with glowing filaments for bare-bulb pendants, wall lamps and string lights, using a fraction of the energy of old bulbs.\n• 4 W LED (replaces 40 W), 400 lumens, 2200 K amber glow\n• E27 base, ST64 shape (64 × 140 mm), clear amber glass\n• Rated life 15,000 hours\n• Not dimmable",
+    "images": [
+      "https://images.unsplash.com/photo-1602876153306-9a59170d9d8d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1528833719242-ad363bd3a0ce?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-018",
+    "title": "LED Light Bulbs E27 A60 9 W, 6 Pack",
+    "category": "light-bulbs",
+    "supplier": "nordhaus",
+    "description": "Everyday frosted LED bulbs that replace 60 W incandescent bulbs in ceiling lights, table lamps and floor lamps.\n• 9 W, 806 lumens, replaces 60 W\n• E27 screw base, A60 shape, frosted cover\n• Instant full brightness and rated life of 15,000 hours\n• Energy class F; not dimmable",
+    "images": [
+      "https://images.unsplash.com/photo-1532007271951-c487760934ae?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1674659719067-8735479ba10c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1399,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Warm White 2700K",
+        "stock": 200
+      },
+      {
+        "name": "Cool White 6500K",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-019",
+    "title": "Solar Garden Path Lights, 6 Pack, Warm White",
+    "category": "solar-lights",
+    "supplier": "nordhaus",
+    "description": "Push-in solar lights that line paths, driveways and flower beds with a soft glow, switching on automatically at dusk.\n• Set of 6, each 38 cm tall with a ground spike\n• Built-in solar panel and 600 mAh rechargeable battery\n• Up to 8 hours of light after a sunny day\n• IP44 weatherproof ABS and aluminium in black; no wiring needed",
+    "images": [
+      "https://images.unsplash.com/photo-1785162434673-835bb98ad923?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-LGT-020",
+    "title": "Solar Hanging Lantern with Flicker Effect, Metal Frame",
+    "category": "solar-lights",
+    "supplier": "nordhaus",
+    "description": "Traditional-look lantern that charges by day and glows at night on trees, pergolas, fences and balconies.\n• Size approx. 13 × 13 × 25 cm, powder-coated metal frame with clear panels\n• Warm white LED with steady or flickering candle mode\n• Solar panel on the roof with automatic dusk-to-dawn switching; 6–8 hours of light\n• Hanging handle and wall hook included; IP44",
+    "images": [
+      "https://images.unsplash.com/photo-1774265537519-05c29a22bc32?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1449,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  }
+]

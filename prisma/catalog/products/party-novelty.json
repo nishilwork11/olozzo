@@ -1,0 +1,516 @@
+[
+  {
+    "sku": "OLZ-PTY-001",
+    "title": "Party Tableware Set for 16 Guests, Paper Plates, Cups, Napkins and Wooden Cutlery",
+    "category": "party-supplies",
+    "supplier": "juego-feliz",
+    "description": "Everything you need to lay a colourful birthday table in one box, made from paper and wood instead of single-use plastic.\n• Contents: 16 large plates (23 cm), 16 dessert plates (18 cm), 16 cups (250 ml) and 32 napkins\n• Also includes 16 sets of wooden forks, knives and spoons\n• Bright polka-dot and confetti designs\n• Paper items are compostable after use",
+    "images": [
+      "https://images.unsplash.com/photo-1531956531700-dc0ee0f1f9a5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1648187618119-7ec4d0a130bf?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 640,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-002",
+    "title": "Birthday Cake Candles Set, Happy Birthday Letters and 24 Spiral Candles",
+    "category": "party-supplies",
+    "supplier": "juego-feliz",
+    "description": "Colourful candles that spell out the birthday message, plus a pack of slim spiral candles for cupcakes and cakes.\n• Contents: 13 letter candles spelling HAPPY BIRTHDAY and 24 spiral candles (6 cm) in assorted colours\n• Includes 12 plastic holders for the spiral candles\n• Burn time approx. 8–10 minutes\n• Never leave burning candles unattended; keep away from children and flammable materials",
+    "images": [
+      "https://images.unsplash.com/photo-1464347601390-25e2842a37f7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551892644-51a6e2e8fc65?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 349,
+    "compareAtPrice": null,
+    "costPrice": 140,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 280
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-003",
+    "title": "Happy Birthday Party Hats, 12 Pieces with Gold Foil Lettering",
+    "category": "party-supplies",
+    "supplier": "juego-feliz",
+    "description": "Classic cone party hats in white card with shiny gold lettering and stars, for birthday parties of all ages.\n• Contents: 12 cone hats, approx. 16 cm tall and 11 cm in diameter\n• Sturdy card with gold foil print\n• Soft elastic chin strap on every hat\n• Supplied flat; quick to assemble with the pre-attached tab",
+    "images": [
+      "https://images.unsplash.com/photo-1759124650162-00cb97c7db31?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 599,
+    "compareAtPrice": 899,
+    "costPrice": 250,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-004",
+    "title": "Latex Party Balloons 12 Inch, Pack of 100 in Assorted Colours",
+    "category": "balloons",
+    "supplier": "juego-feliz",
+    "description": "Thick, glossy latex balloons for birthdays, baby showers and classroom parties. Fill with air for floor and garland displays or with helium to float.\n• Contents: 100 balloons, 12 in (30 cm) when inflated\n• Natural latex, approx. 2.8 g each for good durability\n• Choose from three colour mixes\n• Floats for about 8–12 hours when filled with helium (helium not included)\n• Warning: children under 8 years can choke or suffocate on uninflated or broken balloons. Adult supervision required",
+    "images": [
+      "https://images.unsplash.com/photo-1783369997568-3acd9c13997c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": 999,
+    "costPrice": 290,
+    "variants": [
+      {
+        "name": "Rainbow Mix",
+        "stock": 140
+      },
+      {
+        "name": "Pastel Mix",
+        "stock": 120
+      },
+      {
+        "name": "Gold & White",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-005",
+    "title": "Balloon Garland Arch Kit, 120 Balloons with Decorating Strip and Glue Dots",
+    "category": "balloons",
+    "supplier": "juego-feliz",
+    "description": "Build an eye-catching balloon arch for a party backdrop, entrance or dessert table. The kit includes balloons in several sizes and all the tools to assemble it.\n• Contents: 120 latex balloons in 5 in, 10 in, 12 in and 18 in sizes\n• Includes a 5 m decorating strip, 100 glue dots, tying tool and ribbon\n• Makes a garland of approx. 4–5 m\n• Hand pump included; an electric pump (not included) makes inflating quicker\n• Warning: children under 8 years can choke or suffocate on uninflated or broken balloons. Adult supervision required",
+    "images": [
+      "https://images.unsplash.com/photo-1560128411-79892dd93bf8?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587160728015-924483626a1a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2199,
+    "costPrice": 650,
+    "variants": [
+      {
+        "name": "Chrome Rose Gold & Blue",
+        "stock": 80
+      },
+      {
+        "name": "Pastel Rainbow",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-006",
+    "title": "2027 New Year Foil Balloons, 4 Giant 40 Inch Numbers",
+    "category": "balloons",
+    "supplier": "juego-feliz",
+    "description": "Ring in the new year with giant metallic numbers that make a striking backdrop for New Year's Eve parties and photos.\n• Contents: 4 foil number balloons (2, 0, 2 and 7), each approx. 40 in (100 cm) tall\n• Self-sealing valve; fill with air or helium (helium not included)\n• Includes a straw for air filling and 5 m of ribbon\n• Reusable: deflate carefully and store flat\n• Warning: children under 8 years can choke or suffocate on uninflated or broken balloons. Adult supervision required",
+    "images": [
+      "https://images.unsplash.com/photo-1789479810221-71f28471af9e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 560,
+    "variants": [
+      {
+        "name": "Silver",
+        "stock": 90
+      },
+      {
+        "name": "Gold",
+        "stock": 90
+      },
+      {
+        "name": "Rose Gold",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 280,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-007",
+    "title": "Masquerade Mask Set for Couples, Lace-Cut Silver and Black Masks",
+    "category": "costumes",
+    "supplier": "juego-feliz",
+    "description": "A matching pair of Venetian-style masks for masked balls, carnival, themed weddings and New Year's Eve parties.\n• Contents: 1 silver mask with rhinestones and 1 black mask with filigree pattern\n• Lightweight metal-look plastic, approx. 18 x 8 cm\n• Satin ribbon ties to fit most adults\n• Soft padding at the nose bridge for comfort",
+    "images": [
+      "https://images.unsplash.com/photo-1777936235876-63747f6ca84d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 560,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-008",
+    "title": "Classic Witch Hat with Wide Brim, Black Felt for Adults and Kids",
+    "category": "costumes",
+    "supplier": "juego-feliz",
+    "description": "A pointed witch hat with a crooked tip and wide brim that completes any Halloween, carnival or storybook costume.\n• Material: soft polyester felt with a wire-shaped brim\n• Height approx. 38 cm, brim diameter approx. 40 cm\n• Available in adult (58 cm head) and kids (52 cm head) sizes\n• Keep away from fire and heat sources",
+    "images": [
+      "https://images.unsplash.com/photo-1760627589327-79f4aa6235c2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1697041273673-056e098cc3f2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 380,
+    "variants": [
+      {
+        "name": "Adult (58 cm)",
+        "stock": 100
+      },
+      {
+        "name": "Kids (52 cm)",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-009",
+    "title": "Kids' Bat Wings Costume with Elastic Arm Loops and Ears Headband",
+    "category": "costumes",
+    "supplier": "juego-feliz",
+    "description": "Flappy black bat wings that slip on in seconds over everyday clothes, for Halloween, dress-up days and themed parties.\n• Includes: bat wings (approx. 100 cm wingspan) and a headband with bat ears\n• Soft satin-feel polyester with stitched wing ribs\n• Elastic shoulder straps and wrist loops so the wings open when arms are raised\n• Sizes: 3–5 years and 6–8 years. Keep away from fire and heat sources",
+    "images": [
+      "https://images.unsplash.com/photo-1760659988791-c9bee57ac295?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1599,
+    "costPrice": 520,
+    "variants": [
+      {
+        "name": "3–5 years",
+        "stock": 70
+      },
+      {
+        "name": "6–8 years",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-010",
+    "title": "Happy Birthday Banner and Gold Foil Curtain Backdrop Set",
+    "category": "party-decorations",
+    "supplier": "juego-feliz",
+    "description": "Turn any wall into a party backdrop with a letter banner and shimmering foil curtains, ready to hang in minutes.\n• Includes: HAPPY BIRTHDAY bunting banner (approx. 3 m) and 2 foil fringe curtains (1 x 2.5 m each)\n• Also includes 10 gold latex balloons, ribbon and adhesive dots\n• Card letters with glitter finish, pre-strung on twine\n• Reusable for future parties\n• Warning: children under 8 years can choke or suffocate on uninflated or broken balloons. Adult supervision required",
+    "images": [
+      "https://images.unsplash.com/photo-1643175816971-a463dee6ae61?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 420,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-011",
+    "title": "Fabric Bunting Flags 10 m, 30 Triangle Pennants in Bright Colours",
+    "category": "party-decorations",
+    "supplier": "juego-feliz",
+    "description": "Cheerful triangle bunting for garden parties, birthdays, school fairs and summer celebrations, indoors or outdoors.\n• Length: 10 m with 30 flags, each approx. 20 x 28 cm\n• Water-resistant polyester fabric, colours will not run in the rain\n• Flags stitched onto a sturdy cotton tape with loops at both ends\n• Machine-washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1767262569686-874990f63d4b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 549,
+    "compareAtPrice": null,
+    "costPrice": 230,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-012",
+    "title": "Round Paper Lanterns, Set of 10 in 3 Sizes, 20–30 cm",
+    "category": "party-decorations",
+    "supplier": "juego-feliz",
+    "description": "Paper lanterns that add instant colour to birthdays, weddings, baby showers and garden parties. Hang them from the ceiling, a tree or along a string.\n• Contents: 10 lanterns (4 x 30 cm, 3 x 25 cm and 3 x 20 cm)\n• Choose pink and purple shades or classic white\n• Thin paper with a wire expander inside; opens in seconds and folds flat for storage\n• For decoration only: never use with candles or other open flames (battery LED lights are fine)",
+    "images": [
+      "https://images.unsplash.com/photo-1784660945528-fa6116503f3f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1766054440493-0296ad721e67?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 420,
+    "variants": [
+      {
+        "name": "Pink & Purple",
+        "stock": 120
+      },
+      {
+        "name": "White",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 350,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-013",
+    "title": "Kraft Wrapping Paper Roll 70 cm x 10 m with White Polka Dots",
+    "category": "gift-wrapping",
+    "supplier": "juego-feliz",
+    "description": "Sturdy brown kraft paper with a simple dot print, a timeless choice for birthdays, Christmas and everyday gifts. Add ribbon or twine for a natural look.\n• Size: 70 cm x 10 m on a cardboard core\n• 80 gsm recyclable kraft paper\n• White dots printed on one side; plain kraft on the reverse\n• Easy to cut, fold and tape without tearing",
+    "images": [
+      "https://images.unsplash.com/photo-1577217534079-41d6bb68ac50?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": null,
+    "costPrice": 340,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-014",
+    "title": "Paper Gift Bags with Handles, 12 Assorted Sizes and Tissue Paper",
+    "category": "gift-wrapping",
+    "supplier": "juego-feliz",
+    "description": "A set of patterned gift bags in three sizes so you always have the right bag ready, with tissue paper to fill them.\n• Contents: 4 small (18 x 10 x 23 cm), 4 medium (26 x 12 x 32 cm) and 4 large (32 x 12 x 42 cm) bags\n• Includes 12 sheets of tissue paper and 12 gift tags\n• 200 gsm paper with twisted paper handles\n• Assorted grid, stripe and plain designs",
+    "images": [
+      "https://images.unsplash.com/photo-1604118464816-5e2bd7b863c2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513884923967-4b182ef167ab?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1099,
+    "compareAtPrice": 1499,
+    "costPrice": 470,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-015",
+    "title": "Gift Ribbon Set, 6 Rolls of Satin and Velvet Ribbon, 5 m Each",
+    "category": "gift-wrapping",
+    "supplier": "juego-feliz",
+    "description": "Soft satin and velvet ribbons for tying bows on presents, bouquets and hampers, and for festive crafts.\n• Contents: 6 rolls x 5 m in red, green, blush pink, ivory, gold and navy\n• Widths: 3 rolls of 25 mm satin and 3 rolls of 15 mm velvet\n• Wound on wooden-look spools that keep ribbon neat\n• Polyester; ends can be heat-sealed to prevent fraying",
+    "images": [
+      "https://images.unsplash.com/photo-1763154045697-62961f67dee1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1646182504823-a02b768e28b5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 649,
+    "compareAtPrice": null,
+    "costPrice": 270,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-016",
+    "title": "Swinging Balls Desk Toy with 5 Chrome Balls and Wooden Base",
+    "category": "novelty-gifts",
+    "supplier": "juego-feliz",
+    "description": "The classic Newton's cradle: lift one ball, let go and watch the momentum click back and forth. A satisfying gift for offices, teachers and science fans.\n• 5 chrome-plated steel balls (20 mm) on adjustable nylon strings\n• Gold-tone metal frame on a solid wood base\n• Size approx. 18 x 9 x 12 cm\n• Decorative item for adults; not a toy, keep away from children under 14 years",
+    "images": [
+      "https://images.unsplash.com/photo-1633493702341-4d04841df53b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 640,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 650,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-PTY-017",
+    "title": "Hourglass Sand Timer, 30 Minutes, Decorative Desk Ornament",
+    "category": "novelty-gifts",
+    "supplier": "juego-feliz",
+    "description": "A handsome hourglass for timing focus sessions, board games or tea breaks, and a calming piece of décor on a desk or bookshelf.\n• Runs for approx. 30 minutes\n• Clear borosilicate glass filled with fine sand\n• Choose a turned wooden frame (approx. 18 cm tall) or a frameless glass version (approx. 15 cm tall)\n• Comes in a gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1499377193864-82682aefed04?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1555255675-1d2d8db2d191?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 560,
+    "variants": [
+      {
+        "name": "Wooden Frame",
+        "stock": 100
+      },
+      {
+        "name": "Frameless Glass",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-018",
+    "title": "Shatterproof Christmas Baubles, 24 Pieces in Matte, Glitter and Shiny Finishes",
+    "category": "seasonal",
+    "supplier": "juego-feliz",
+    "description": "A coordinated set of Christmas tree baubles that will not break if they fall, so they are safe around pets and children.\n• Contents: 24 baubles, 6 cm diameter, in matte, glitter and shiny finishes\n• Shatterproof plastic with pre-attached hanging string\n• Choose from two colour themes\n• Stored in a reusable box with dividers",
+    "images": [
+      "https://images.unsplash.com/photo-1543759616-92ca87aaedd8?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1767741857489-b28dcaa531a4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 560,
+    "variants": [
+      {
+        "name": "Red, Green & Gold",
+        "stock": 110
+      },
+      {
+        "name": "Gold & Silver",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 600,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-PTY-019",
+    "title": "Knitted Christmas Stocking 45 cm with Snowflake Pattern and Plush Cuff",
+    "category": "seasonal",
+    "supplier": "juego-feliz",
+    "description": "A cosy cable-knit stocking to hang by the fireplace or on the door, ready to be filled with small gifts and sweets.\n• Size: approx. 45 cm long, 20 cm wide at the cuff\n• Soft acrylic knit with a white plush cuff and snowflake detail\n• Hanging loop sewn into the cuff\n• Hand-wash cold and dry flat",
+    "images": [
+      "https://images.unsplash.com/photo-1769053062019-39e066def1f3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 380,
+    "variants": [
+      {
+        "name": "Red",
+        "stock": 120
+      },
+      {
+        "name": "Grey",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-PTY-020",
+    "title": "Halloween Pumpkin String Lights, 3 m with 20 LEDs, Battery Operated",
+    "category": "seasonal",
+    "supplier": "juego-feliz",
+    "description": "Smiling jack-o'-lantern lights that bring a warm orange glow to windows, mantels, porches and Halloween parties.\n• Length: 3 m with 20 pumpkin-shaped LEDs, plus 30 cm lead\n• Powered by 2 x AA batteries (not included); battery box with on/off switch\n• Steady and flashing modes\n• Suitable for indoor use and covered outdoor areas (IP44 battery box)",
+    "images": [
+      "https://images.unsplash.com/photo-1573085139963-c8befdc59cfb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": null,
+    "costPrice": 330,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 220,
+    "featured": false
+  }
+]

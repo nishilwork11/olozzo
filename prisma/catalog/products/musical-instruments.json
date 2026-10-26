@@ -1,0 +1,502 @@
+[
+  {
+    "sku": "OLZ-MUS-001",
+    "title": "Mahogany Ukulele Beginner Kit with Gig Bag, Tuner and Spare Strings",
+    "category": "guitars",
+    "supplier": "harmonie",
+    "description": "A warm-sounding ukulele that is easy on the fingers, packed with everything a beginner needs to start playing straight away.\n• Body: mahogany-look laminate top, back and sides with satin finish\n• Choose soprano (21 in / 53 cm, 12 frets) or concert size (23 in / 58 cm, 18 frets)\n• Included: padded gig bag, clip-on tuner, 1 set of spare nylon strings, 2 felt picks and a strap\n• Geared tuning pegs that hold their tuning well",
+    "images": [
+      "https://images.unsplash.com/photo-1541447554742-4b7eff548fe1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1556449895-a33c9dba33dd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4999,
+    "costPrice": 1550,
+    "variants": [
+      {
+        "name": "Soprano 21 in",
+        "stock": 120
+      },
+      {
+        "name": "Concert 23 in",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-MUS-002",
+    "title": "Acoustic Guitar 41 Inch with Spruce Top, Beginner Set with Gig Bag",
+    "category": "guitars",
+    "supplier": "harmonie",
+    "description": "A full-size dreadnought acoustic guitar with a bright, full sound, set up with a low action so it is comfortable for new players.\n• Body: spruce laminate top with basswood back and sides; 41 in (104 cm) long\n• Neck: 20 frets with truss rod; die-cast tuning machines\n• Steel strings fitted; 1 spare set included\n• Also included: padded gig bag, strap, 3 picks and a cleaning cloth",
+    "images": [
+      "https://images.unsplash.com/photo-1778154904340-1e99b32d0ac7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 8999,
+    "compareAtPrice": 12999,
+    "costPrice": 4300,
+    "variants": [
+      {
+        "name": "Natural",
+        "stock": 60
+      },
+      {
+        "name": "Black",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 3200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-003",
+    "title": "Classical Guitar with Nylon Strings, 4/4 or 3/4 Size for Students",
+    "category": "guitars",
+    "supplier": "harmonie",
+    "description": "A traditional classical guitar with soft nylon strings that are gentle on the fingertips, ideal for music lessons and fingerstyle playing.\n• Sizes: 4/4 (39 in / 99 cm) for teens and adults, 3/4 (36 in / 91 cm) for children aged about 8–12\n• Spruce laminate top, linden back and sides, rosewood-look fingerboard\n• Wide classical neck with 19 frets and open-gear tuners\n• Supplied with a thin carry bag",
+    "images": [
+      "https://images.unsplash.com/photo-1787074191751-78c2044f2fb7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 6999,
+    "compareAtPrice": null,
+    "costPrice": 3300,
+    "variants": [
+      {
+        "name": "4/4 (39 in)",
+        "stock": 50
+      },
+      {
+        "name": "3/4 (36 in)",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 1900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-004",
+    "title": "61-Key Electronic Keyboard with Music Rest, Microphone and EU Adapter",
+    "category": "keyboards-pianos",
+    "supplier": "harmonie",
+    "description": "A portable keyboard with full-size keys and lots of built-in sounds and rhythms, great for learning songs at home.\n• 61 full-size keys; 300 voices, 300 rhythms and 40 demo songs\n• Record and playback, metronome and teaching mode\n• Built-in stereo speakers, headphone output and USB-MIDI port\n• Included: music rest, wired microphone and mains adapter with EU plug (can also run on 6 x AA batteries, not included)\n• Size approx. 94 x 31 x 10 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1599494009395-5b43c783a2d5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1632008341003-5c6767c7d237?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 7999,
+    "compareAtPrice": 10999,
+    "costPrice": 3800,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 3800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-005",
+    "title": "88-Key Digital Piano with Semi-Weighted Keys and Sustain Pedal, EU Plug",
+    "category": "keyboards-pianos",
+    "supplier": "harmonie",
+    "description": "A slim digital piano with a full 88-key range and touch-sensitive keys, for practising classical pieces without taking up much space.\n• 88 full-size, semi-weighted, touch-sensitive keys\n• 128-note polyphony with 20 voices, including grand piano, electric piano and organ\n• 2 x 20 W speakers, dual headphone outputs and USB-MIDI connection\n• Included: sustain pedal, music rest and power adapter with EU plug\n• Size approx. 132 x 28 x 12 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1538402074774-8e624f3f7e5d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 27999,
+    "compareAtPrice": 34999,
+    "costPrice": 14500,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 4,
+    "shippingDaysMax": 8,
+    "weightGrams": 7500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-006",
+    "title": "Djembe Hand Drum 10 Inch, Carved Wood with Natural Skin Head",
+    "category": "drums",
+    "supplier": "harmonie",
+    "description": "A hand-carved djembe with a deep bass tone and crisp slaps, for drum circles, music lessons and jamming with friends.\n• Head: 10 in (25 cm) natural goatskin, rope-tuned\n• Body: carved hardwood, approx. 50 cm tall\n• Tuning rope lets you tighten the head for a higher pitch\n• Each drum is carved and finished by hand, so patterns vary slightly",
+    "images": [
+      "https://images.unsplash.com/photo-1620886446012-883671836317?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1692303365672-3f04586f5deb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1800,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 2400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-007",
+    "title": "Wooden Tambourine 8 Inch with Double Row of Metal Jingles",
+    "category": "drums",
+    "supplier": "harmonie",
+    "description": "A bright, lively tambourine for bands, choirs, classrooms and sing-alongs, with a drum head you can tap as well as shake.\n• Diameter: 8 in (20 cm), wooden frame\n• Double row of 16 steel jingles\n• Synthetic drum head\n• Finger hole in the frame for a secure grip",
+    "images": [
+      "https://images.unsplash.com/photo-1790934423001-c2ac1e366c57?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 560,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-008",
+    "title": "Kalimba Thumb Piano with 17 Keys, Solid Wood Body and Tuning Hammer",
+    "category": "drums",
+    "supplier": "harmonie",
+    "description": "A soothing, music-box-like instrument that anyone can learn quickly. Pluck the metal tines with your thumbs to play melodies and chords.\n• 17 steel tines tuned to C major; notes engraved on each tine\n• Body: solid wood with a sound hole for a warm, resonant tone\n• Included: tuning hammer, note stickers, song book, cleaning cloth and storage bag\n• Size approx. 18 x 13 x 4 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1780259796855-8596d3875fd7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 860,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-009",
+    "title": "Diatonic Harmonica, 10 Holes, Stainless Steel Covers with Case",
+    "category": "wind-instruments",
+    "supplier": "harmonie",
+    "description": "A pocket-size harmonica for blues, folk and rock, with a responsive feel that suits beginners and more experienced players.\n• 10 holes, 20 brass reeds; available in the keys of C, G and A\n• Polished stainless steel cover plates and ABS comb\n• Size approx. 10 x 2.6 x 2 cm\n• Comes in a padded hard case",
+    "images": [
+      "https://images.unsplash.com/photo-1682271920907-781daffc09a6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 420,
+    "variants": [
+      {
+        "name": "Key of C",
+        "stock": 150
+      },
+      {
+        "name": "Key of G",
+        "stock": 60
+      },
+      {
+        "name": "Key of A",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-010",
+    "title": "Soprano Recorder in C, Baroque Fingering, 3-Piece with Cleaning Rod",
+    "category": "wind-instruments",
+    "supplier": "harmonie",
+    "description": "A school recorder with a clear, steady tone that is easy to blow, the classic first wind instrument for music lessons.\n• Soprano (descant) in C with baroque fingering\n• Durable ABS resin in 3 parts for easy cleaning\n• Included: cleaning rod, fingering chart and fabric bag\n• Length approx. 32 cm; suitable for ages 6+",
+    "images": [
+      "https://images.unsplash.com/photo-1580719653258-26873fde0b4d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": null,
+    "costPrice": 290,
+    "variants": [
+      {
+        "name": "Cream",
+        "stock": 150
+      },
+      {
+        "name": "Dark Brown",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-011",
+    "title": "Student Flute in C, 16 Closed Holes, Nickel-Plated with Hard Case",
+    "category": "wind-instruments",
+    "supplier": "harmonie",
+    "description": "A reliable concert flute for beginners and school orchestras, with a smooth key action and an even tone across the range.\n• Key of C, 16 closed holes with E mechanism\n• Nickel-plated cupronickel body and keys\n• Included: padded hard case, cleaning rod, cloth, gloves and screwdriver\n• Total length approx. 67 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1771923654517-9be42eb0e516?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1771923654511-b192b1e08d39?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 11999,
+    "compareAtPrice": 15999,
+    "costPrice": 5800,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 1600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-012",
+    "title": "Student Trumpet in B Flat, Brass Lacquer Finish with Hard Case",
+    "category": "wind-instruments",
+    "supplier": "harmonie",
+    "description": "A full-size B flat trumpet for students and hobby players, with smooth valves and a bright, projecting sound.\n• Key of B flat; yellow brass body with clear lacquer\n• Bore 11.7 mm, bell diameter 123 mm\n• Stainless steel piston valves\n• Included: 7C mouthpiece, hard case, gloves, valve oil and cleaning cloth",
+    "images": [
+      "https://images.unsplash.com/photo-1777428411508-94829a0c9186?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1595026063555-01883e4ec8ee?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 12999,
+    "compareAtPrice": null,
+    "costPrice": 6200,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 2800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-013",
+    "title": "Guitar Picks Set, 30 Celluloid Picks in Mixed Colours and Thicknesses",
+    "category": "instrument-accessories",
+    "supplier": "harmonie",
+    "description": "A handy assortment of picks so you can find the feel you like for strumming, lead lines and bass.\n• Contents: 30 picks in assorted pearloid colours\n• Thicknesses: 0.46 mm, 0.71 mm, 0.81 mm, 0.96 mm and 1.2 mm (6 of each)\n• Standard teardrop shape for acoustic, electric and bass guitar\n• Includes a small tin for storage",
+    "images": [
+      "https://images.unsplash.com/photo-1672677591628-c2df5bbf87e2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1672931732404-28aa081776b2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": 749,
+    "costPrice": 190,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 300
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 40,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-014",
+    "title": "Guitar Capo with Spring Trigger for Acoustic and Electric Guitars",
+    "category": "instrument-accessories",
+    "supplier": "harmonie",
+    "description": "A quick-change capo that clamps on with one hand, so you can change key between songs in seconds.\n• Lightweight aluminium alloy with silicone pads that protect the neck\n• Spring-loaded trigger with even pressure across all 6 strings\n• Fits most 6-string acoustic and electric guitars; also suitable for ukulele\n• Clips onto the headstock when not in use",
+    "images": [
+      "https://images.unsplash.com/photo-1783910823239-038af9f1f468?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": null,
+    "costPrice": 330,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 120
+      },
+      {
+        "name": "Silver",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 70,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-015",
+    "title": "Acoustic Guitar Strings, Phosphor Bronze, 2 Sets in Light or Extra Light",
+    "category": "instrument-accessories",
+    "supplier": "harmonie",
+    "description": "Fresh strings bring a dull guitar back to life. These phosphor bronze strings give a warm, balanced tone with a clear top end.\n• Contents: 2 complete sets of 6 strings\n• Gauges: Light 0.011–0.052 or Extra Light 0.010–0.047\n• Phosphor bronze wound strings on a hexagonal steel core\n• Each string individually sealed to keep it fresh",
+    "images": [
+      "https://images.unsplash.com/photo-1769018335461-3e69497280f1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522008224169-e5992bed5fae?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 380,
+    "variants": [
+      {
+        "name": "Light 11–52",
+        "stock": 120
+      },
+      {
+        "name": "Extra Light 10–47",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-016",
+    "title": "USB Condenser Microphone Kit with Boom Arm, Shock Mount and Pop Filter",
+    "category": "studio-equipment",
+    "supplier": "harmonie",
+    "description": "A complete desktop recording set for vocals, podcasts, streaming and voice-overs. Plug it into a USB port and start recording, no extra drivers needed.\n• Cardioid condenser capsule, 16 mm; 24-bit / 192 kHz sampling rate\n• USB connection to most PCs and laptops; 2.5 m cable included\n• Included: adjustable scissor boom arm with desk clamp, shock mount, pop filter and foam windscreen\n• Gain knob and mute button on the microphone body",
+    "images": [
+      "https://images.unsplash.com/photo-1660631228116-b3643559f611?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531651008558-ed1740375b39?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6999,
+    "costPrice": 2400,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1600,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-MUS-017",
+    "title": "Closed-Back Studio Headphones with 50 mm Drivers and 3 m Cable",
+    "category": "studio-equipment",
+    "supplier": "harmonie",
+    "description": "Over-ear monitoring headphones with a detailed, balanced sound for recording, mixing, practising an instrument or just listening.\n• 50 mm neodymium drivers, 32 ohm impedance, 15 Hz–25 kHz\n• Closed-back cups with soft protein-leather cushions that block outside noise\n• Detachable 3 m coiled cable with 3.5 mm plug and 6.35 mm adapter\n• Fold-flat ear cups and adjustable padded headband",
+    "images": [
+      "https://images.unsplash.com/photo-1619296794093-3df1ae6819a8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1800,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-018",
+    "title": "Kids' 37-Key Electronic Keyboard with Microphone, Battery Powered",
+    "category": "kids-instruments",
+    "supplier": "harmonie",
+    "description": "A first keyboard sized for small hands, with fun instrument sounds, demo songs and a microphone for singing along.\n• 37 mini keys with 8 instrument sounds, 8 rhythms and 6 demo songs\n• Record and playback function with adjustable volume\n• Built-in speakers and a wired microphone\n• Runs on 4 x AA batteries (not included); size approx. 47 x 17 x 5 cm\n• Ages 3+",
+    "images": [
+      "https://images.unsplash.com/photo-1643134399052-26ca463b860f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 880,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-019",
+    "title": "Colourful Desk Hand Bells, Set of 8 Notes for Kids and Classrooms",
+    "category": "kids-instruments",
+    "supplier": "harmonie",
+    "description": "Tap-the-top bells in eight colours, each tuned to one note of the scale, so children can play simple tunes together right away.\n• 8 bells tuned to a C major scale (C, D, E, F, G, A, B, C)\n• Press the button on top to ring; colour-coded for easy song charts\n• Metal bells on sturdy plastic bases, approx. 9 cm tall\n• Includes a booklet with colour-coded songs\n• Ages 3+",
+    "images": [
+      "https://images.unsplash.com/photo-1780039298271-f3e1318eb3ae?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1100,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MUS-020",
+    "title": "Wooden Maracas, Pair of Rumba Shakers for Kids and Adults",
+    "category": "kids-instruments",
+    "supplier": "harmonie",
+    "description": "Classic hand-turned shakers with a crisp, rattling sound, great for sing-alongs, music classes and adding rhythm to any song.\n• Pair of maracas, each approx. 20 cm long\n• Hardwood with a smooth lacquered finish\n• Filled with seeds for a natural shaker sound; sealed so nothing can escape\n• Ages 3+",
+    "images": [
+      "https://images.unsplash.com/photo-1750224179573-6cb36565821a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 380,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 220,
+    "featured": false
+  }
+]

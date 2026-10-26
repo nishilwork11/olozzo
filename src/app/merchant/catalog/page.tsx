@@ -19,21 +19,31 @@ export default async function CatalogPage({
   const { q, category, from, sort, ...flash } = await searchParams;
   const { store } = await requireMerchantStore();
 
+  const catalogWhere: Prisma.ProductWhereInput = { active: true, supplier: { status: "APPROVED" } };
   const where: Prisma.ProductWhereInput = {
     active: true,
     supplier: { status: "APPROVED", ...(from ? { country: from } : {}) },
     ...(q ? { OR: [{ title: { contains: q, mode: "insensitive" } }, { description: { contains: q, mode: "insensitive" } }] } : {}),
-    ...(category ? { category: { slug: category } } : {}),
+    // a top-level category includes its subcategories
+    ...(category ? { category: { OR: [{ slug: category }, { parent: { slug: category } }] } } : {}),
   };
   const orderBy: Prisma.ProductOrderByWithRelationInput =
     sort === "cost" ? { costPrice: "asc" } : sort === "fast" ? { shippingDaysMax: "asc" } : { createdAt: "desc" };
+  const menuOrder = [{ position: "asc" as const }, { name: "asc" as const }];
 
-  const [products, categories, imported, supplierCountries] = await Promise.all([
+  const [products, categoryTree, categoryCounts, imported, supplierCountries] = await Promise.all([
     db.product.findMany({ where, include: { supplier: true, variants: true, category: true }, orderBy, take: 120 }),
-    db.category.findMany({ orderBy: { name: "asc" } }),
+    db.category.findMany({
+      where: { parentId: null },
+      orderBy: menuOrder,
+      select: { id: true, slug: true, name: true, children: { select: { id: true, slug: true, name: true }, orderBy: menuOrder } },
+    }),
+    db.product.groupBy({ by: ["categoryId"], where: catalogWhere, _count: { _all: true } }),
     db.storeProduct.findMany({ where: { storeId: store.id }, select: { productId: true, id: true } }),
     db.supplier.findMany({ where: { status: "APPROVED" }, select: { country: true }, distinct: ["country"] }),
   ]);
+  const countOf = new Map(categoryCounts.map((c) => [c.categoryId, c._count._all]));
+  const count = (id: string) => countOf.get(id) ?? 0;
   const vatRate = vatRateFor(store.country);
   const importedMap = new Map(imported.map((i) => [i.productId, i.id]));
   const returnTo = `/merchant/catalog?${new URLSearchParams(Object.entries({ q, category, from, sort }).filter(([, v]) => v) as [string, string][]).toString()}`;
@@ -57,11 +67,26 @@ export default async function CatalogPage({
           <Search size={15} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-ink-400" />
           <input name="q" defaultValue={q} placeholder="Search products, e.g. headphones" className="input pl-8" />
         </div>
-        <select name="category" defaultValue={category ?? ""} className="input w-auto">
+        <select name="category" defaultValue={category ?? ""} aria-label="Category" className="input w-auto max-w-full">
           <option value="">All categories</option>
-          {categories.map((c) => (
-            <option key={c.id} value={c.slug}>{c.name}</option>
-          ))}
+          {categoryTree.map((top) =>
+            top.children.length === 0 ? (
+              <option key={top.id} value={top.slug}>
+                {top.name} ({count(top.id)})
+              </option>
+            ) : (
+              <optgroup key={top.id} label={top.name}>
+                <option value={top.slug}>
+                  All {top.name} ({top.children.reduce((sum, c) => sum + count(c.id), count(top.id))})
+                </option>
+                {top.children.map((c) => (
+                  <option key={c.id} value={c.slug}>
+                    {c.name} ({count(c.id)})
+                  </option>
+                ))}
+              </optgroup>
+            ),
+          )}
         </select>
         <select name="from" defaultValue={from ?? ""} className="input w-auto">
           <option value="">Ships from anywhere in EU</option>

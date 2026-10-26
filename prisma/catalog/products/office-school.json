@@ -1,0 +1,495 @@
+[
+  {
+    "sku": "OLZ-OFF-001",
+    "title": "Gel Ink Pens 0.5 mm, Set of 24 Colours with Quick-Dry Ink",
+    "category": "writing",
+    "supplier": "harmonie",
+    "description": "A bright set of gel pens for notes, journaling and colouring in. The fine 0.5 mm tip lays down an even line that dries quickly, so it is less likely to smudge.\n• Contents: 24 pens in 24 colours, including pastel, neon and metallic shades\n• Tip: 0.5 mm fine point, approx. 500 m writing length per pen\n• Barrel: clear plastic with soft rubber grip and push-on cap\n• Acid-free, low-odour ink that works on most paper types",
+    "images": [
+      "https://images.unsplash.com/photo-1521669145854-0bd392445939?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522363890879-4bf9c65ee3f8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": 999,
+    "costPrice": 310,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 240
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 280,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-OFF-002",
+    "title": "Highlighter Pens, Set of 6, Chisel Tip in Fluorescent Colours",
+    "category": "writing",
+    "supplier": "harmonie",
+    "description": "Mark up textbooks, reports and to-do lists with these chunky highlighters. The chisel tip draws a broad stripe or a fine line depending on how you hold it.\n• Contents: 6 highlighters in yellow, orange, pink, green, blue and purple\n• Tip: chisel, 1–5 mm line width\n• Water-based, quick-drying ink that does not bleed through standard 80 gsm paper\n• Vented cap with pocket clip",
+    "images": [
+      "https://images.unsplash.com/photo-1771868421764-a3de7fd9c4c1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 399,
+    "compareAtPrice": null,
+    "costPrice": 170,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 280
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 110,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-003",
+    "title": "Metal Fountain Pen with Medium Nib, Ink Converter and 6 Cartridges",
+    "category": "writing",
+    "supplier": "harmonie",
+    "description": "A classic metal fountain pen that makes everyday writing feel a little more special. It takes standard international cartridges, or bottled ink with the included converter.\n• Nib: polished stainless steel, medium (approx. 0.7 mm line)\n• Body: lacquered metal with silver-tone trim, approx. 14 cm long and 28 g\n• Included: twist converter and 6 blue ink cartridges (standard international size)\n• Presented in a hinged gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 590,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 120
+      },
+      {
+        "name": "Navy Blue",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 140,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-004",
+    "title": "Dual Tip Marker Pens, Brush and Fine Tip, Set of 36 Colours",
+    "category": "writing",
+    "supplier": "harmonie",
+    "description": "Water-based markers with a flexible brush tip on one end and a fineliner on the other, made for hand lettering, sketching and colouring books.\n• Contents: 36 markers in 36 colours plus a blank colour chart card\n• Tips: 1–6 mm flexible nylon brush tip and 0.4 mm fine tip\n• Blendable water-based ink; vented caps colour-matched to the ink\n• Supplied in a clear plastic storage box",
+    "images": [
+      "https://images.unsplash.com/photo-1588014328249-1453571ccb27?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1561117089-3fb7c944887f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2199,
+    "costPrice": 640,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 480,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-005",
+    "title": "A5 Kraft Cover Notebooks, 5 mm Grid, Pack of 4, 64 Pages Each",
+    "category": "notebooks",
+    "supplier": "harmonie",
+    "description": "Simple, sturdy notebooks with brown kraft card covers and grid pages, ideal for class notes, bullet journaling and sketching out plans.\n• Size: A5 (148 x 210 mm), 4 notebooks per pack\n• Pages: 64 pages (32 sheets) of 80 gsm off-white paper with a 5 mm grid\n• Stitched spine that lets each notebook lie flat when open\n• Plain covers that you can label, stamp or decorate",
+    "images": [
+      "https://images.unsplash.com/photo-1787640619073-3dcb10c316c4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": 1099,
+    "costPrice": 340,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 460,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-006",
+    "title": "A4 Spiral Notebooks, Ruled, Pack of 3, 80 Perforated Sheets",
+    "category": "notebooks",
+    "supplier": "harmonie",
+    "description": "Everyday spiral notebooks for school and the office, with ruled lines and micro-perforated pages that tear out cleanly.\n• Size: A4 (210 x 297 mm), 3 notebooks per pack\n• Paper: 80 sheets (160 pages) of 70 gsm white paper, 8 mm ruled with margin\n• Twin-wire metal spiral that opens flat and folds back fully\n• Stiff white card covers",
+    "images": [
+      "https://images.unsplash.com/photo-1612367980327-7454a7276aa7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1623697899811-f2403f50685e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 400,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-007",
+    "title": "Sticky Notes 76 x 76 mm, 12 Pads in 6 Colours, 1,200 Sheets",
+    "category": "notebooks",
+    "supplier": "harmonie",
+    "description": "Bright self-stick notes for reminders, brainstorming and page marking. They stick to paper, walls, screens and glass and peel off without leaving residue.\n• Contents: 12 pads x 100 sheets (1,200 notes)\n• Size: 76 x 76 mm\n• Colours: yellow, pink, orange, green, blue and purple (2 pads of each)\n• Repositionable adhesive strip on the back of every sheet",
+    "images": [
+      "https://images.unsplash.com/photo-1568219557405-376e23e4f7cf?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1759868937753-34859b641bc1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 549,
+    "compareAtPrice": 799,
+    "costPrice": 230,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 260
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 540,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-008",
+    "title": "Undated Monthly Planner Pad A4, 25 Tear-Off Sheets with Notes Column",
+    "category": "planners",
+    "supplier": "harmonie",
+    "description": "A desk planner pad that shows a whole month at a glance. Write in the month and dates yourself, then tear off the sheet when the month is over.\n• Size: A4 portrait (210 x 297 mm), 25 undated monthly sheets\n• Monday-to-Sunday grid with large day boxes plus a notes and to-do column\n• Thick 100 gsm paper that takes gel pens and highlighters without bleeding through\n• Sturdy card backing; sheets are glued at the top for a clean tear-off",
+    "images": [
+      "https://images.unsplash.com/photo-1632772998001-cc9bf6f7c852?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": 999,
+    "costPrice": 290,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 320,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-009",
+    "title": "2027 Wall Calendar, Monthly Grid, A3 Portrait with Hanging Hook",
+    "category": "planners",
+    "supplier": "harmonie",
+    "description": "A clean, minimalist calendar for the kitchen, office or classroom, covering January to December 2027 with plenty of room to write.\n• Size: A3 (297 x 420 mm), portrait format\n• 12 monthly pages with a Monday-start grid and large writing boxes\n• Thick 150 gsm matte paper that takes pen and pencil well\n• Wire-bound with a metal hanging hook",
+    "images": [
+      "https://images.unsplash.com/photo-1543168256-4ae2229821f1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1578625155481-7bc40a6481b6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 420,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-010",
+    "title": "Small Stand-Up Desk Calendar 2027, Spiral Bound, Monday Start",
+    "category": "planners",
+    "supplier": "harmonie",
+    "description": "A compact desk calendar that stands on its own and keeps the whole month in view next to your keyboard.\n• Size: approx. 15 x 13 cm when standing\n• Covers January to December 2027, one month per page\n• Monday-start layout with lines for short notes\n• Twin-wire spiral binding and sturdy fold-out card stand",
+    "images": [
+      "https://images.unsplash.com/photo-1611988615248-5d4f0b9ac31e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 549,
+    "compareAtPrice": null,
+    "costPrice": 230,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 220
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 160,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-011",
+    "title": "Round Bamboo Pen Holder, Desk Organiser for Pens and Markers",
+    "category": "desk-organization",
+    "supplier": "harmonie",
+    "description": "A natural bamboo pen pot that keeps pens, scissors and markers upright and within reach on your desk.\n• Material: laminated bamboo with a clear protective lacquer\n• Size: approx. 9 cm diameter x 11 cm high\n• Felt pads underneath protect the desk surface\n• Wipe clean with a damp cloth",
+    "images": [
+      "https://images.unsplash.com/photo-1751107807635-a2ac6035e8dd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 380,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-012",
+    "title": "A4 Magazine File Holders, Pack of 2, White Desk Organiser",
+    "category": "desk-organization",
+    "supplier": "harmonie",
+    "description": "Upright file holders that tidy away magazines, folders, catalogues and notebooks on a desk or shelf.\n• Size per holder: approx. 8 x 25 x 30 cm, fits A4 documents\n• Material: sturdy white plastic with a smooth matte finish\n• Angled front cut-out for easy access and a small front compartment for pens\n• Pack of 2; line them up side by side on a shelf",
+    "images": [
+      "https://images.unsplash.com/photo-1777917845221-f92884c1b61b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1699,
+    "costPrice": 560,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-013",
+    "title": "Desktop Stapler, 25-Sheet Capacity, with 1,000 Staples 24/6",
+    "category": "desk-organization",
+    "supplier": "harmonie",
+    "description": "A solid stapler with a metal mechanism for everyday office and homework use, finished with a non-slip base.\n• Capacity: staples up to 25 sheets of 80 gsm paper\n• Takes 24/6 and 26/6 staples; 1,000 staples included\n• Top-loading, spring-fed staple channel\n• Built-in staple remover at the back",
+    "images": [
+      "https://images.unsplash.com/photo-1603234408844-15d80c40d580?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1541690161184-75cbc0386cd6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": null,
+    "costPrice": 330,
+    "variants": [
+      {
+        "name": "Smoke Grey",
+        "stock": 110
+      },
+      {
+        "name": "Orange",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 290,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-014",
+    "title": "School Backpack 20 L with Padded Laptop Sleeve and Bottle Pockets",
+    "category": "school-bags",
+    "supplier": "harmonie",
+    "description": "A light everyday backpack for school, college or day trips, with a padded sleeve that fits a laptop of up to 15.6 inches.\n• Capacity: approx. 20 litres; size 42 x 30 x 14 cm\n• Material: water-repellent polyester with smooth-running zips\n• Padded back panel and adjustable padded shoulder straps\n• Pockets: main compartment, laptop sleeve, zipped front pocket and 2 side bottle pockets",
+    "images": [
+      "https://images.unsplash.com/photo-1765516833058-c322c800fee1?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1726726192148-af52008ff663?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 4499,
+    "costPrice": 1350,
+    "variants": [
+      {
+        "name": "Sage Green",
+        "stock": 120
+      },
+      {
+        "name": "Mustard Yellow",
+        "stock": 100
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 520,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-OFF-015",
+    "title": "Textured Fabric Pencil Case with Zip, 21 cm, Lined Interior",
+    "category": "school-bags",
+    "supplier": "harmonie",
+    "description": "A soft, roomy pencil case in a woven, textured fabric that holds pens, pencils, a ruler and an eraser.\n• Size: approx. 21 x 8 x 6 cm\n• Material: cotton-polyester blend outer with a smooth lining\n• Metal zip with fabric pull tab\n• Hand-washable in lukewarm water",
+    "images": [
+      "https://images.unsplash.com/photo-1790088230000-21800df65cad?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 449,
+    "compareAtPrice": 699,
+    "costPrice": 200,
+    "variants": [
+      {
+        "name": "Red",
+        "stock": 80
+      },
+      {
+        "name": "Cream",
+        "stock": 90
+      },
+      {
+        "name": "Sage Green",
+        "stock": 70
+      },
+      {
+        "name": "Grey",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 70,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-016",
+    "title": "Metal Pencil Tin with 12 Coloured Pencils and Sharpener",
+    "category": "school-bags",
+    "supplier": "harmonie",
+    "description": "A sturdy hinged tin that stops pencils snapping in a school bag, supplied ready to use with a set of coloured pencils.\n• Tin size: approx. 20 x 8.5 x 2 cm with hinged lid\n• Included: 12 coloured pencils and 1 double-hole sharpener\n• Pencils: 17.5 cm long with soft 3 mm colour leads\n• Ages 6+",
+    "images": [
+      "https://images.unsplash.com/photo-1574944558125-f8d12f23be89?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 649,
+    "compareAtPrice": null,
+    "costPrice": 280,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 240,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-017",
+    "title": "Scientific Calculator with 240 Functions and Large Display",
+    "category": "office-electronics",
+    "supplier": "harmonie",
+    "description": "A full-featured scientific calculator for secondary school, university and technical work.\n• 240 functions including fractions, statistics, trigonometry, logarithms and powers\n• Large multi-line display shows the entry and the result together\n• Powered by 1 x AAA battery (included) with automatic power-off\n• Slide-on hard cover; size approx. 16 x 8 x 1.5 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1648201637025-1c77b9be3013?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 650,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 130
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-018",
+    "title": "Desktop Calculator 12-Digit, Solar and Battery Powered, Large Keys",
+    "category": "office-electronics",
+    "supplier": "harmonie",
+    "description": "A dependable desk calculator with a tilted display and big keys for invoices, budgets and everyday sums.\n• Display: 12-digit LCD, angled for easy reading\n• Dual power: solar panel plus LR1130 button cell (included)\n• Functions: percentage, square root, memory, tax and sign change\n• Size approx. 15 x 11 x 3 cm with non-slip rubber feet",
+    "images": [
+      "https://images.unsplash.com/photo-1611125832047-1d7ad1e8e48f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": null,
+    "costPrice": 380,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 170
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-019",
+    "title": "Space Theme Vinyl Stickers, 50 Pieces, Waterproof Die-Cut",
+    "category": "stickers-labels",
+    "supplier": "harmonie",
+    "description": "Playful die-cut stickers with rockets, planets, astronauts and comets for laptops, water bottles, notebooks and phone cases.\n• Contents: 50 different stickers, 4–8 cm each\n• Material: waterproof vinyl with a matte, fade-resistant laminate\n• Adhesive peels off cleanly from smooth surfaces\n• Ages 3+",
+    "images": [
+      "https://images.unsplash.com/photo-1633533452206-8ab246b00e30?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 399,
+    "compareAtPrice": 599,
+    "costPrice": 160,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 300
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-OFF-020",
+    "title": "Washi Tape Set, 6 Rolls with Cute Cat Designs in 3 Widths",
+    "category": "stickers-labels",
+    "supplier": "harmonie",
+    "description": "Decorative paper tape for planners, journals, scrapbooks and gift wrap. It tears easily by hand and can be lifted and repositioned.\n• Contents: 6 rolls in 3 widths (15 mm, 20 mm and 30 mm)\n• Length: 3 m per roll\n• Thin washi-style paper with low-tack adhesive\n• Illustrated cat and animal patterns in soft pastel colours",
+    "images": [
+      "https://images.unsplash.com/photo-1777401085896-ce44b3bdc49c?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1777401085837-6cbbd391b553?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 549,
+    "compareAtPrice": 799,
+    "costPrice": 230,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 220
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 120,
+    "featured": false
+  }
+]

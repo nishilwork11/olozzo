@@ -1,0 +1,825 @@
+[
+  {
+    "sku": "OLZ-KSH-001",
+    "title": "Kids' Hook-and-Loop Sneakers with Suede-Look Panels",
+    "category": "kids-sneakers",
+    "supplier": "passo-firme",
+    "description": "Everyday sneakers with a hook-and-loop strap over elastic laces, so children can put them on by themselves. Sage and cream suede-look panels sit on a light, flexible sole.\n• Upper: faux leather with faux suede panels; lining: textile\n• Hook-and-loop strap with elastic laces\n• Removable cushioned insole\n• Flexible rubber outsole; sizes EU 28–33",
+    "images": [
+      "https://images.unsplash.com/photo-1744812441981-44d4f466361f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "EU 28",
+        "stock": 40
+      },
+      {
+        "name": "EU 29",
+        "stock": 60
+      },
+      {
+        "name": "EU 30",
+        "stock": 70
+      },
+      {
+        "name": "EU 31",
+        "stock": 65
+      },
+      {
+        "name": "EU 32",
+        "stock": 50
+      },
+      {
+        "name": "EU 33",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 550,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-002",
+    "title": "Kids' Lace-Up Retro Sneakers in Navy and Cream",
+    "category": "kids-sneakers",
+    "supplier": "passo-firme",
+    "description": "Retro court-style sneakers in navy and cream with lime accents, built tough enough for the playground and the football pitch.\n• Upper: faux leather and faux suede; lining: textile\n• Padded collar and tongue\n• Cushioned insole\n• Durable rubber cupsole; sizes EU 30–35",
+    "images": [
+      "https://images.unsplash.com/photo-1744812441708-674b4fe49c94?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1744812441732-9232ad268386?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": null,
+    "costPrice": 1249,
+    "variants": [
+      {
+        "name": "EU 30",
+        "stock": 35
+      },
+      {
+        "name": "EU 31",
+        "stock": 55
+      },
+      {
+        "name": "EU 32",
+        "stock": 65
+      },
+      {
+        "name": "EU 33",
+        "stock": 60
+      },
+      {
+        "name": "EU 34",
+        "stock": 45
+      },
+      {
+        "name": "EU 35",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-003",
+    "title": "Toddler High-Top First Sneakers with Lace-Up Front",
+    "category": "kids-sneakers",
+    "supplier": "passo-firme",
+    "description": "Supportive high-tops for toddlers finding their feet, with a padded ankle collar and a bendy rubber sole. The blue upper has a bright lime stripe on the side.\n• Upper: faux suede and textile; lining: textile\n• Padded high-top collar\n• Flexible, non-marking rubber outsole\n• Sizes EU 20–25",
+    "images": [
+      "https://images.unsplash.com/photo-1553884013-c5593d463526?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2499,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "EU 20",
+        "stock": 30
+      },
+      {
+        "name": "EU 21",
+        "stock": 45
+      },
+      {
+        "name": "EU 22",
+        "stock": 55
+      },
+      {
+        "name": "EU 23",
+        "stock": 55
+      },
+      {
+        "name": "EU 24",
+        "stock": 40
+      },
+      {
+        "name": "EU 25",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-004",
+    "title": "Girls' Suede-Look Mary Jane Shoes with Ankle Tie",
+    "category": "girls-shoes",
+    "supplier": "passo-firme",
+    "description": "Sweet Mary Jane shoes in a bright orange suede-look finish with a ribbon tie around the ankle. Perfect for parties, family occasions and Sunday best.\n• Upper: faux suede; lining: faux leather\n• Ribbon ankle tie\n• Soft padded insole\n• Thin rubber outsole; sizes EU 24–29",
+    "images": [
+      "https://images.unsplash.com/photo-1780850337330-855f790f35bb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "EU 24",
+        "stock": 30
+      },
+      {
+        "name": "EU 25",
+        "stock": 45
+      },
+      {
+        "name": "EU 26",
+        "stock": 55
+      },
+      {
+        "name": "EU 27",
+        "stock": 50
+      },
+      {
+        "name": "EU 28",
+        "stock": 40
+      },
+      {
+        "name": "EU 29",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 350,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-005",
+    "title": "Girls' Leather Lace-Up School Shoes",
+    "category": "girls-shoes",
+    "supplier": "passo-firme",
+    "description": "Classic lace-up school shoes in polished brown leather with a stitched sole that stands up to daily wear. The rounded toe leaves room for growing feet.\n• Upper: smooth leather; lining: leather and textile\n• Cushioned leather-covered insole\n• Stitched rubber outsole\n• Sizes EU 30–35",
+    "images": [
+      "https://images.unsplash.com/photo-1773314860341-e00c3d598ceb?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": null,
+    "costPrice": 1599,
+    "variants": [
+      {
+        "name": "EU 30",
+        "stock": 30
+      },
+      {
+        "name": "EU 31",
+        "stock": 45
+      },
+      {
+        "name": "EU 32",
+        "stock": 55
+      },
+      {
+        "name": "EU 33",
+        "stock": 50
+      },
+      {
+        "name": "EU 34",
+        "stock": 40
+      },
+      {
+        "name": "EU 35",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-006",
+    "title": "Girls' Suede-Look Sneakers with Contrast Stripes",
+    "category": "girls-shoes",
+    "supplier": "passo-firme",
+    "description": "Retro-style sneakers in soft pink with baby-blue side stripes and a gum-colour sole. A playful everyday pair that goes with dresses and jeans.\n• Upper: faux suede; lining: textile\n• Lace-up front with padded collar\n• Gum rubber outsole\n• Sizes EU 28–33",
+    "images": [
+      "https://images.unsplash.com/photo-1742392787511-8158c243b772?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "EU 28",
+        "stock": 35
+      },
+      {
+        "name": "EU 29",
+        "stock": 55
+      },
+      {
+        "name": "EU 30",
+        "stock": 65
+      },
+      {
+        "name": "EU 31",
+        "stock": 60
+      },
+      {
+        "name": "EU 32",
+        "stock": 45
+      },
+      {
+        "name": "EU 33",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 550,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-007",
+    "title": "Girls' Glitter Sandals with Hook-and-Loop Strap",
+    "category": "girls-shoes",
+    "supplier": "passo-firme",
+    "description": "Sparkly sandals with a glitter cross-over band and a fuchsia hook-and-loop ankle strap that children can fasten themselves.\n• Upper: glitter-coated textile with faux leather straps\n• Hook-and-loop ankle strap\n• Padded footbed\n• Rubber outsole; sizes EU 26–31",
+    "images": [
+      "https://images.unsplash.com/photo-1743591684800-c8cfba557087?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2299,
+    "costPrice": 749,
+    "variants": [
+      {
+        "name": "EU 26",
+        "stock": 35
+      },
+      {
+        "name": "EU 27",
+        "stock": 50
+      },
+      {
+        "name": "EU 28",
+        "stock": 60
+      },
+      {
+        "name": "EU 29",
+        "stock": 55
+      },
+      {
+        "name": "EU 30",
+        "stock": 45
+      },
+      {
+        "name": "EU 31",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 350,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-008",
+    "title": "Boys' Suede-Look Sneakers with Double Hook-and-Loop Straps",
+    "category": "boys-shoes",
+    "supplier": "passo-firme",
+    "description": "Bold blue sneakers with two hook-and-loop straps for a quick, secure fit and light-blue side stripes. The gum sole grips well on grass and playground surfaces.\n• Upper: faux suede; lining: textile\n• Two hook-and-loop straps\n• Removable cushioned insole\n• Gum rubber outsole; sizes EU 28–33",
+    "images": [
+      "https://images.unsplash.com/photo-1744812441924-8ff7ae8e577e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "EU 28",
+        "stock": 40
+      },
+      {
+        "name": "EU 29",
+        "stock": 60
+      },
+      {
+        "name": "EU 30",
+        "stock": 70
+      },
+      {
+        "name": "EU 31",
+        "stock": 65
+      },
+      {
+        "name": "EU 32",
+        "stock": 50
+      },
+      {
+        "name": "EU 33",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 560,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-009",
+    "title": "Boys' Boat-Style Sneakers with Elastic Laces",
+    "category": "boys-shoes",
+    "supplier": "passo-firme",
+    "description": "Smart-casual boat-style sneakers in taupe suede-look with leather-look laces threaded around the collar and light-blue trim. Elastic laces mean no tying is needed.\n• Upper: faux suede; lining: textile\n• Elastic laces for easy slip-on wear\n• Padded insole\n• White rubber outsole; sizes EU 26–31",
+    "images": [
+      "https://images.unsplash.com/photo-1742390671657-c8738e123962?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": 2999,
+    "costPrice": 999,
+    "variants": [
+      {
+        "name": "EU 26",
+        "stock": 35
+      },
+      {
+        "name": "EU 27",
+        "stock": 50
+      },
+      {
+        "name": "EU 28",
+        "stock": 60
+      },
+      {
+        "name": "EU 29",
+        "stock": 55
+      },
+      {
+        "name": "EU 30",
+        "stock": 45
+      },
+      {
+        "name": "EU 31",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-010",
+    "title": "Boys' Plush Puppy House Slippers",
+    "category": "boys-shoes",
+    "supplier": "passo-firme",
+    "description": "Cosy indoor slippers shaped like a friendly puppy, with floppy ears, an embroidered face and a soft fleece lining.\n• Upper: plush polyester; lining: fleece\n• Embroidered face, no small parts\n• Non-slip dotted sole\n• Sizes: EU 24–25 to 32–33",
+    "images": [
+      "https://images.unsplash.com/photo-1574203128190-9e750ce771dd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1399,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "EU 24–25",
+        "stock": 40
+      },
+      {
+        "name": "EU 26–27",
+        "stock": 55
+      },
+      {
+        "name": "EU 28–29",
+        "stock": 60
+      },
+      {
+        "name": "EU 30–31",
+        "stock": 50
+      },
+      {
+        "name": "EU 32–33",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-011",
+    "title": "Kids' Polka Dot Rubber Rain Boots",
+    "category": "kids-boots",
+    "supplier": "passo-firme",
+    "description": "Cheerful yellow wellies with white polka dots and mint trim, made for jumping in puddles. Side handles help little hands pull them on.\n• Material: waterproof natural rubber; lining: cotton jersey\n• Pull-on handles on both sides\n• Non-slip treaded sole\n• Sizes EU 22–27",
+    "images": [
+      "https://images.unsplash.com/photo-1555036802-ded42283445c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "EU 22",
+        "stock": 35
+      },
+      {
+        "name": "EU 23",
+        "stock": 50
+      },
+      {
+        "name": "EU 24",
+        "stock": 60
+      },
+      {
+        "name": "EU 25",
+        "stock": 55
+      },
+      {
+        "name": "EU 26",
+        "stock": 45
+      },
+      {
+        "name": "EU 27",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 700,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-KSH-012",
+    "title": "Kids' Classic Red Rubber Wellies",
+    "category": "kids-boots",
+    "supplier": "passo-firme",
+    "description": "Glossy red wellington boots that keep feet dry on rainy walks to school and muddy weekends outdoors.\n• Material: waterproof natural rubber; lining: cotton jersey\n• Reinforced toe and heel\n• Deep-tread non-slip sole\n• Sizes EU 24–29",
+    "images": [
+      "https://images.unsplash.com/photo-1554569409-f5ac433e0f67?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516658908390-30039e1d09d5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "EU 24",
+        "stock": 35
+      },
+      {
+        "name": "EU 25",
+        "stock": 50
+      },
+      {
+        "name": "EU 26",
+        "stock": 60
+      },
+      {
+        "name": "EU 27",
+        "stock": 55
+      },
+      {
+        "name": "EU 28",
+        "stock": 45
+      },
+      {
+        "name": "EU 29",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 750,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-013",
+    "title": "Kids' Car Print Rain Boots with Pull-On Handles",
+    "category": "kids-boots",
+    "supplier": "passo-firme",
+    "description": "Bright blue rain boots covered in a red racing-car print, with easy-grip handles so children can pull them on themselves.\n• Material: waterproof rubber; lining: cotton jersey\n• Pull-on handles at the top\n• Non-slip treaded sole\n• Sizes EU 22–27",
+    "images": [
+      "https://images.unsplash.com/photo-1534881026402-ba6e234a0c4d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2299,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "EU 22",
+        "stock": 35
+      },
+      {
+        "name": "EU 23",
+        "stock": 50
+      },
+      {
+        "name": "EU 24",
+        "stock": 60
+      },
+      {
+        "name": "EU 25",
+        "stock": 55
+      },
+      {
+        "name": "EU 26",
+        "stock": 45
+      },
+      {
+        "name": "EU 27",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-014",
+    "title": "Toddler Suede Lace-Up Ankle Boots",
+    "category": "kids-boots",
+    "supplier": "passo-firme",
+    "description": "Soft suede ankle boots with a warm lining and a flexible sole, ideal for toddlers taking their first steps outdoors in autumn and winter.\n• Upper: cow suede; lining: warm textile\n• Lace-up front with padded ankle\n• Flexible rubber outsole\n• Colour: graphite grey; sizes EU 20–25",
+    "images": [
+      "https://images.unsplash.com/photo-1769010759023-430f18b0cb86?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "EU 20",
+        "stock": 30
+      },
+      {
+        "name": "EU 21",
+        "stock": 40
+      },
+      {
+        "name": "EU 22",
+        "stock": 50
+      },
+      {
+        "name": "EU 23",
+        "stock": 50
+      },
+      {
+        "name": "EU 24",
+        "stock": 40
+      },
+      {
+        "name": "EU 25",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 480,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-015",
+    "title": "Kids' Sport Sandals with Hook-and-Loop Straps",
+    "category": "kids-sandals",
+    "supplier": "passo-firme",
+    "description": "Adventure-ready sandals with three adjustable hook-and-loop straps in pastel pink and mint, on a chunky, grippy sole.\n• Upper: woven webbing with padded lining\n• Three adjustable hook-and-loop straps\n• Cushioned EVA footbed\n• Rubber outsole; sizes EU 26–31",
+    "images": [
+      "https://images.unsplash.com/photo-1742390671765-c87aaed67ad8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2499,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "EU 26",
+        "stock": 35
+      },
+      {
+        "name": "EU 27",
+        "stock": 50
+      },
+      {
+        "name": "EU 28",
+        "stock": 60
+      },
+      {
+        "name": "EU 29",
+        "stock": 55
+      },
+      {
+        "name": "EU 30",
+        "stock": 45
+      },
+      {
+        "name": "EU 31",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-016",
+    "title": "Kids' Cross-Strap Leather Sandals with Buckle",
+    "category": "kids-sandals",
+    "supplier": "passo-firme",
+    "description": "Classic leather sandals with colourful crossed front straps and an adjustable buckle at the ankle. A summer favourite for holidays and smart occasions.\n• Upper: smooth and metallic leather; lining: leather\n• Adjustable buckle ankle strap\n• Contoured leather footbed\n• Rubber outsole; sizes EU 28–33",
+    "images": [
+      "https://images.unsplash.com/photo-1741783895531-ccc860eb946a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "EU 28",
+        "stock": 30
+      },
+      {
+        "name": "EU 29",
+        "stock": 45
+      },
+      {
+        "name": "EU 30",
+        "stock": 55
+      },
+      {
+        "name": "EU 31",
+        "stock": 50
+      },
+      {
+        "name": "EU 32",
+        "stock": 40
+      },
+      {
+        "name": "EU 33",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-017",
+    "title": "Toddler Buckle Sandals with Soft Footbed",
+    "category": "kids-sandals",
+    "supplier": "passo-firme",
+    "description": "Little two-strap sandals in red leather-look with buckles and a padded footbed, a lovely match for summer outfits.\n• Upper: faux leather; lining: faux leather\n• Two adjustable buckle straps\n• Soft padded footbed\n• Flexible rubber outsole; sizes EU 19–24",
+    "images": [
+      "https://images.unsplash.com/photo-1777397660834-67c6d0eabe15?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "EU 19",
+        "stock": 25
+      },
+      {
+        "name": "EU 20",
+        "stock": 40
+      },
+      {
+        "name": "EU 21",
+        "stock": 50
+      },
+      {
+        "name": "EU 22",
+        "stock": 50
+      },
+      {
+        "name": "EU 23",
+        "stock": 40
+      },
+      {
+        "name": "EU 24",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-018",
+    "title": "Baby Soft-Sole First Walker Shoes",
+    "category": "baby-shoes",
+    "supplier": "passo-firme",
+    "description": "Light, bendy first shoes with a soft, non-slip sole so little feet can feel the ground as they learn to walk. The elastic laces stay neat and the shoes slip on easily.\n• Upper: printed cotton canvas; lining: cotton\n• Elastic laces, no tying needed\n• Soft non-slip rubber sole\n• Sizes: 0–6 months (11 cm), 6–12 months (12 cm), 12–18 months (13 cm)",
+    "images": [
+      "https://images.unsplash.com/photo-1678192568478-9488ee55def6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1678192569393-c7aff066e5bd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "0–6 months",
+        "stock": 70
+      },
+      {
+        "name": "6–12 months",
+        "stock": 90
+      },
+      {
+        "name": "12–18 months",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 150,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-KSH-019",
+    "title": "Baby Canvas Lace-Up Pram Shoes",
+    "category": "baby-shoes",
+    "supplier": "passo-firme",
+    "description": "Mini canvas sneakers for babies, with soft cotton lining, pink laces and a flexible sole edged with a little fruit print.\n• Upper: cotton canvas; lining: cotton\n• Real laces with a padded collar\n• Soft flexible sole for pre-walkers\n• Sizes: 0–6, 6–12 and 12–18 months",
+    "images": [
+      "https://images.unsplash.com/photo-1718296238829-a2f51b2f6759?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "0–6 months",
+        "stock": 80
+      },
+      {
+        "name": "6–12 months",
+        "stock": 90
+      },
+      {
+        "name": "12–18 months",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 140,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-KSH-020",
+    "title": "Crochet-Knit Baby Booties with Button Strap",
+    "category": "baby-shoes",
+    "supplier": "passo-firme",
+    "description": "Chunky crochet-knit booties in a soft coral shade with a button strap that keeps them on little feet. A sweet gift for a new arrival.\n• Material: 100% cotton yarn\n• Strap with a double-stitched button\n• Soft sole for newborns and pre-walkers\n• Hand wash at 30 °C; sizes 0–3, 3–6 and 6–12 months",
+    "images": [
+      "https://images.unsplash.com/photo-1513091250092-b06c2b7981bc?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1199,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "0–3 months",
+        "stock": 60
+      },
+      {
+        "name": "3–6 months",
+        "stock": 70
+      },
+      {
+        "name": "6–12 months",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 80,
+    "featured": false
+  }
+]

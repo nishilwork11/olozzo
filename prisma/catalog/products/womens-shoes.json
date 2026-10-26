@@ -1,0 +1,842 @@
+[
+  {
+    "sku": "OLZ-WSH-001",
+    "title": "Women's Chunky Platform Sneakers in Faux Leather",
+    "category": "womens-sneakers",
+    "supplier": "passo-firme",
+    "description": "Lace-up trainers on a chunky but lightweight sole that adds about 5 cm of height. The smooth faux-leather upper wipes clean and goes with jeans, dresses and joggers alike.\n• Upper: faux leather (PU) with mesh panels; lining: textile\n• Removable padded insole\n• Platform height 5 cm; EVA and rubber outsole\n• Colour: sand beige; sizes EU 36–41 (between sizes, choose the larger)",
+    "images": [
+      "https://images.unsplash.com/photo-1758702701300-372126112cb4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3999,
+    "costPrice": 1299,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 40
+      },
+      {
+        "name": "EU 37",
+        "stock": 70
+      },
+      {
+        "name": "EU 38",
+        "stock": 90
+      },
+      {
+        "name": "EU 39",
+        "stock": 85
+      },
+      {
+        "name": "EU 40",
+        "stock": 60
+      },
+      {
+        "name": "EU 41",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 950,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-WSH-002",
+    "title": "Women's Canvas High-Top Sneakers with Rubber Toe Cap",
+    "category": "womens-sneakers",
+    "supplier": "passo-firme",
+    "description": "Classic high-tops in sturdy cotton canvas on a vulcanised rubber sole with a reinforced toe cap. Eight-eyelet lacing gives a snug, adjustable fit around the ankle.\n• Upper: cotton canvas; lining: cotton\n• Cushioned textile insole\n• Vulcanised rubber outsole with toe cap\n• Colour: red with white laces; sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1650320079970-b4ee8f0dae33?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 899,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 35
+      },
+      {
+        "name": "EU 37",
+        "stock": 60
+      },
+      {
+        "name": "EU 38",
+        "stock": 80
+      },
+      {
+        "name": "EU 39",
+        "stock": 75
+      },
+      {
+        "name": "EU 40",
+        "stock": 55
+      },
+      {
+        "name": "EU 41",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-003",
+    "title": "Women's Low-Top Suede-Look Sneakers with Platform Sole",
+    "category": "womens-sneakers",
+    "supplier": "passo-firme",
+    "description": "Low-top sneakers in a soft suede-look finish with canvas panels on a 4 cm platform sole. Neutral sand tones make them an easy everyday pair.\n• Upper: faux suede and canvas; lining: textile\n• Padded collar and tongue\n• Rubber platform outsole, 4 cm\n• Sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1783697462212-eec530c25421?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 30
+      },
+      {
+        "name": "EU 37",
+        "stock": 55
+      },
+      {
+        "name": "EU 38",
+        "stock": 75
+      },
+      {
+        "name": "EU 39",
+        "stock": 70
+      },
+      {
+        "name": "EU 40",
+        "stock": 50
+      },
+      {
+        "name": "EU 41",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 850,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-004",
+    "title": "Pointed-Toe Stiletto Pumps with 10 cm Heel",
+    "category": "womens-heels",
+    "supplier": "passo-firme",
+    "description": "Elegant pointed pumps on a slim 10 cm stiletto heel with a subtle textured finish. A padded insole keeps them comfortable through weddings, parties and office days.\n• Upper: textured faux leather; lining: faux leather\n• Heel height: 10 cm\n• Padded insole and non-slip rubber heel tip\n• Colour: champagne; sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 30
+      },
+      {
+        "name": "EU 37",
+        "stock": 55
+      },
+      {
+        "name": "EU 38",
+        "stock": 70
+      },
+      {
+        "name": "EU 39",
+        "stock": 65
+      },
+      {
+        "name": "EU 40",
+        "stock": 45
+      },
+      {
+        "name": "EU 41",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-005",
+    "title": "Floral Print Pointed Pumps with 9 cm Heel",
+    "category": "womens-heels",
+    "supplier": "passo-firme",
+    "description": "Statement pumps in a vivid floral print on a blue base, with a slim 9 cm heel and a pointed toe. They add a pop of colour to plain dresses and tailored trousers.\n• Upper: printed satin-finish fabric; lining: faux leather\n• Heel height: 9 cm\n• Lightly padded insole\n• Sizes EU 36–40",
+    "images": [
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": null,
+    "costPrice": 1199,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 25
+      },
+      {
+        "name": "EU 37",
+        "stock": 45
+      },
+      {
+        "name": "EU 38",
+        "stock": 60
+      },
+      {
+        "name": "EU 39",
+        "stock": 50
+      },
+      {
+        "name": "EU 40",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 620,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-006",
+    "title": "Classic Black Court Shoes with 8 cm Heel",
+    "category": "womens-heels",
+    "supplier": "passo-firme",
+    "description": "Timeless black court shoes with a pointed toe and a stable 8 cm heel, made to go from desk to dinner. The smooth finish polishes up easily.\n• Upper: smooth faux leather; lining: textile\n• Heel height: 8 cm\n• Padded insole and rubber heel tip\n• Sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1596703263926-eb0762ee17e4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 2999,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 40
+      },
+      {
+        "name": "EU 37",
+        "stock": 70
+      },
+      {
+        "name": "EU 38",
+        "stock": 95
+      },
+      {
+        "name": "EU 39",
+        "stock": 90
+      },
+      {
+        "name": "EU 40",
+        "stock": 60
+      },
+      {
+        "name": "EU 41",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-007",
+    "title": "Pointed Ballet Flats in Soft Faux Suede",
+    "category": "womens-flats",
+    "supplier": "passo-firme",
+    "description": "Lightweight pointed flats in soft faux suede that fold neatly into a bag. A cushioned insole and a flexible sole make them easy to wear all day.\n• Upper: faux suede; lining: faux leather\n• Cushioned insole\n• Flexible rubber outsole with a 1 cm heel\n• Colour: mustard yellow; sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1775297832774-9eb647970c68?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2499,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 35
+      },
+      {
+        "name": "EU 37",
+        "stock": 60
+      },
+      {
+        "name": "EU 38",
+        "stock": 80
+      },
+      {
+        "name": "EU 39",
+        "stock": 75
+      },
+      {
+        "name": "EU 40",
+        "stock": 50
+      },
+      {
+        "name": "EU 41",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-008",
+    "title": "Women's Suede-Look Loafers with Metal Bit Detail",
+    "category": "womens-flats",
+    "supplier": "passo-firme",
+    "description": "Polished slip-on loafers in a warm tan suede-look finish, trimmed with a gold-tone metal bit across the vamp. A low stacked heel keeps them comfortable for long days.\n• Upper: faux suede; lining: faux leather\n• Gold-tone metal bit across the vamp\n• Heel height 2 cm; rubber outsole\n• Sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1676121270762-47c8d3a7b9d5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": null,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 30
+      },
+      {
+        "name": "EU 37",
+        "stock": 50
+      },
+      {
+        "name": "EU 38",
+        "stock": 70
+      },
+      {
+        "name": "EU 39",
+        "stock": 65
+      },
+      {
+        "name": "EU 40",
+        "stock": 45
+      },
+      {
+        "name": "EU 41",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-009",
+    "title": "Women's Canvas Espadrilles with Braided Jute Sole",
+    "category": "womens-flats",
+    "supplier": "passo-firme",
+    "description": "Summer slip-ons with a braided jute midsole and a rubber sole for grip. Light and packable, they are made for warm days in town or at the beach.\n• Upper: cotton canvas; lining: cotton\n• Braided jute midsole with rubber outsole\n• Soft, flexible fit that moulds to your foot\n• Colour: tan; sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1565953198075-db265882ee68?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 40
+      },
+      {
+        "name": "EU 37",
+        "stock": 70
+      },
+      {
+        "name": "EU 38",
+        "stock": 90
+      },
+      {
+        "name": "EU 39",
+        "stock": 85
+      },
+      {
+        "name": "EU 40",
+        "stock": 55
+      },
+      {
+        "name": "EU 41",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-010",
+    "title": "Women's Cross-Strap Flat Slide Sandals",
+    "category": "womens-sandals",
+    "supplier": "passo-firme",
+    "description": "Minimal slides with two wide crossed straps and a square toe, a summer staple that slips on in seconds. The padded footbed and light sole make them comfortable for city days.\n• Upper: smooth faux leather; lining: faux leather\n• Padded footbed\n• Flat rubber outsole, 1.5 cm\n• Colour: tan; sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1613662632164-7f2b081a5b46?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": null,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 40
+      },
+      {
+        "name": "EU 37",
+        "stock": 65
+      },
+      {
+        "name": "EU 38",
+        "stock": 85
+      },
+      {
+        "name": "EU 39",
+        "stock": 80
+      },
+      {
+        "name": "EU 40",
+        "stock": 55
+      },
+      {
+        "name": "EU 41",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-011",
+    "title": "Women's Toe-Loop Flat Sandals with Woven Straps",
+    "category": "womens-sandals",
+    "supplier": "passo-firme",
+    "description": "Flat sandals with a toe loop and a wide woven band in natural tones, inspired by traditional handmade styles. The soft footbed makes them easy to wear on warm days.\n• Upper: woven raffia-look straps with faux leather trim\n• Toe-loop design\n• Padded footbed on a flat rubber outsole\n• Sizes EU 36–40",
+    "images": [
+      "https://images.unsplash.com/photo-1777979925976-723230e37453?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2499,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 30
+      },
+      {
+        "name": "EU 37",
+        "stock": 55
+      },
+      {
+        "name": "EU 38",
+        "stock": 70
+      },
+      {
+        "name": "EU 39",
+        "stock": 60
+      },
+      {
+        "name": "EU 40",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-012",
+    "title": "Women's Chunky Platform Clog Sandals with Studded Trim",
+    "category": "womens-sandals",
+    "supplier": "passo-firme",
+    "description": "Bold platform sandals with a chunky wood-look heel, a denim-look strap and studded trim. The 3 cm platform at the front softens the feel of the high heel.\n• Upper: denim-look fabric with faux leather trim\n• Heel height 11 cm with a 3 cm platform\n• Adjustable buckle strap\n• Sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1554062097-69c634085c6d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 20
+      },
+      {
+        "name": "EU 37",
+        "stock": 40
+      },
+      {
+        "name": "EU 38",
+        "stock": 55
+      },
+      {
+        "name": "EU 39",
+        "stock": 50
+      },
+      {
+        "name": "EU 40",
+        "stock": 35
+      },
+      {
+        "name": "EU 41",
+        "stock": 15
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-013",
+    "title": "Women's Side-Zip Ankle Boots with Buckle Detail",
+    "category": "womens-boots",
+    "supplier": "passo-firme",
+    "description": "Casual ankle boots in a tan suede-look finish with an inside zip, decorative studs and a buckle strap. The low heel and grippy sole suit everyday wear through autumn and winter.\n• Upper: faux suede; lining: textile\n• Inside zip fastening\n• Heel height 3 cm; rubber lug outsole\n• Sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4999,
+    "costPrice": 1599,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 30
+      },
+      {
+        "name": "EU 37",
+        "stock": 55
+      },
+      {
+        "name": "EU 38",
+        "stock": 75
+      },
+      {
+        "name": "EU 39",
+        "stock": 70
+      },
+      {
+        "name": "EU 40",
+        "stock": 50
+      },
+      {
+        "name": "EU 41",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-014",
+    "title": "Women's Lace-Up Block-Heel Ankle Boots",
+    "category": "womens-boots",
+    "supplier": "passo-firme",
+    "description": "Vintage-inspired lace-up ankle boots with a square toe and a stable 7 cm block heel. A side zip makes them quick to put on despite the full lacing.\n• Upper: faux leather; lining: textile\n• Heel height: 7 cm block heel\n• Side zip and front lacing\n• Colour: cream; sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1610398752800-146f269dfcc8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 25
+      },
+      {
+        "name": "EU 37",
+        "stock": 45
+      },
+      {
+        "name": "EU 38",
+        "stock": 60
+      },
+      {
+        "name": "EU 39",
+        "stock": 55
+      },
+      {
+        "name": "EU 40",
+        "stock": 40
+      },
+      {
+        "name": "EU 41",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1150,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-015",
+    "title": "Women's Knee-High Faux Suede Boots with Block Heel",
+    "category": "womens-boots",
+    "supplier": "passo-firme",
+    "description": "Knee-high boots in soft faux suede with a slim fit through the calf and a comfortable 6 cm block heel. They pair well with skirts, dresses and skinny jeans.\n• Upper: faux suede; lining: textile\n• Shaft height 40 cm; heel height 6 cm\n• Full-length inside zip\n• Colour: taupe; sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1575425939273-46ecee6d6931?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": 5999,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 25
+      },
+      {
+        "name": "EU 37",
+        "stock": 50
+      },
+      {
+        "name": "EU 38",
+        "stock": 65
+      },
+      {
+        "name": "EU 39",
+        "stock": 60
+      },
+      {
+        "name": "EU 40",
+        "stock": 40
+      },
+      {
+        "name": "EU 41",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 1400,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-WSH-016",
+    "title": "Fluffy Cross-Band Open-Toe Slippers",
+    "category": "womens-slippers",
+    "supplier": "passo-firme",
+    "description": "Indoor slippers with two crossed bands of fluffy faux fur over a cushioned footbed. The open toe keeps them comfortable all year, and the textured sole adds grip on smooth floors.\n• Upper: faux fur; footbed: padded faux fur\n• Non-slip EVA sole\n• Colours: dusty pink or grey\n• Sizes: EU 36–37, 38–39, 40–41",
+    "images": [
+      "https://images.unsplash.com/photo-1575272775586-0702ab6de226?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1399,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Dusty Pink / EU 36–37",
+        "stock": 60
+      },
+      {
+        "name": "Dusty Pink / EU 38–39",
+        "stock": 80
+      },
+      {
+        "name": "Dusty Pink / EU 40–41",
+        "stock": 50
+      },
+      {
+        "name": "Grey / EU 36–37",
+        "stock": 55
+      },
+      {
+        "name": "Grey / EU 38–39",
+        "stock": 75
+      },
+      {
+        "name": "Grey / EU 40–41",
+        "stock": 45
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-017",
+    "title": "Fleece-Lined Closed-Back House Slippers",
+    "category": "womens-slippers",
+    "supplier": "passo-firme",
+    "description": "Warm closed-back slippers with a plush fleece lining and a fluffy collar, made for cold floors and winter evenings. The firm sole lets you pop outside to the post box.\n• Upper: faux sheepskin; lining: polyester fleece\n• Cushioned insole\n• Non-slip rubber sole\n• Colour: cream; sizes EU 36–37, 38–39, 40–41",
+    "images": [
+      "https://images.unsplash.com/photo-1543420629-5350879dd4cd?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": null,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "EU 36–37",
+        "stock": 70
+      },
+      {
+        "name": "EU 38–39",
+        "stock": 90
+      },
+      {
+        "name": "EU 40–41",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-018",
+    "title": "Women's Lightweight Mesh Running Shoes",
+    "category": "womens-athletic-shoes",
+    "supplier": "passo-firme",
+    "description": "Breathable running shoes with an engineered mesh upper and a springy foam midsole for daily runs and gym sessions. The gradient colourway adds a bright touch.\n• Upper: engineered mesh; lining: textile\n• Lightweight EVA midsole with rubber outsole\n• Padded collar and removable insole\n• Colour: pink/blue gradient; sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1555972635-8a10402b49b2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 35
+      },
+      {
+        "name": "EU 37",
+        "stock": 60
+      },
+      {
+        "name": "EU 38",
+        "stock": 80
+      },
+      {
+        "name": "EU 39",
+        "stock": 75
+      },
+      {
+        "name": "EU 40",
+        "stock": 55
+      },
+      {
+        "name": "EU 41",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 750,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-019",
+    "title": "Women's Trail Running Shoes with Grippy Lug Outsole",
+    "category": "womens-athletic-shoes",
+    "supplier": "passo-firme",
+    "description": "Trail shoes built for forest paths and gravel, with a deep-lug rubber outsole and a protective toe bumper. The quick-dry mesh upper keeps feet cool on long runs.\n• Upper: quick-dry mesh with synthetic overlays\n• Rubber lug outsole with 4 mm lugs\n• Protective toe bumper and padded tongue\n• Sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1590646299178-1b26ab821e34?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": null,
+    "costPrice": 1599,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 25
+      },
+      {
+        "name": "EU 37",
+        "stock": 45
+      },
+      {
+        "name": "EU 38",
+        "stock": 60
+      },
+      {
+        "name": "EU 39",
+        "stock": 55
+      },
+      {
+        "name": "EU 40",
+        "stock": 40
+      },
+      {
+        "name": "EU 41",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-WSH-020",
+    "title": "Women's Cushioned Training Shoes for Gym and Walking",
+    "category": "womens-athletic-shoes",
+    "supplier": "passo-firme",
+    "description": "Versatile trainers with a thick, cushioned sole for gym workouts, walking and everyday wear. The knit upper flexes with your foot, and the heel pull tab makes them easy to slip on.\n• Upper: stretch knit; lining: textile\n• Cushioned EVA midsole with rubber outsole\n• Heel pull tab and padded collar\n• Colour: white/orange; sizes EU 36–41",
+    "images": [
+      "https://images.unsplash.com/photo-1770177264833-3207a54a487f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3499,
+    "costPrice": 1249,
+    "variants": [
+      {
+        "name": "EU 36",
+        "stock": 35
+      },
+      {
+        "name": "EU 37",
+        "stock": 60
+      },
+      {
+        "name": "EU 38",
+        "stock": 85
+      },
+      {
+        "name": "EU 39",
+        "stock": 80
+      },
+      {
+        "name": "EU 40",
+        "stock": 55
+      },
+      {
+        "name": "EU 41",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 720,
+    "featured": false
+  }
+]

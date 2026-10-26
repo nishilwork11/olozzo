@@ -1,0 +1,502 @@
+[
+  {
+    "sku": "OLZ-UND-001",
+    "title": "Lace Bra and Brief Set with Scalloped Trim",
+    "category": "lingerie",
+    "supplier": "moda-lusa",
+    "description": "A delicate two-piece lingerie set in soft stretch lace, with a lightly padded underwire bra and matching briefs finished with scalloped edges.\n• Material: 88% nylon, 12% elastane lace; cotton gusset\n• Bra: lightly padded underwire cups, adjustable straps and hook-and-eye back closure\n• Briefs: mid-rise with scalloped lace trim\n• Set includes bra and briefs\n• Hand wash cold",
+    "images": [
+      "https://images.unsplash.com/photo-1651671488026-7a14be2e03c2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631242362679-d1d4d2d52af1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 859,
+    "variants": [
+      { "name": "Black / 70B", "stock": 30 },
+      { "name": "Black / 75B", "stock": 50 },
+      { "name": "Black / 75C", "stock": 50 },
+      { "name": "Black / 80C", "stock": 40 },
+      { "name": "Ivory / 75B", "stock": 30 },
+      { "name": "Ivory / 80C", "stock": 25 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 80,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-002",
+    "title": "Lace-Trim Satin Camisole and Shorts Set",
+    "category": "lingerie",
+    "supplier": "moda-lusa",
+    "description": "A smooth satin cami and shorts set with lace trim at the neckline and hems, made for warm nights and relaxed evenings in.\n• Material: 95% polyester satin, 5% elastane; nylon lace trim\n• Camisole with V-neck and adjustable spaghetti straps\n• Shorts with an elasticated waist\n• Set includes camisole and shorts\n• Hand wash cold, hang to dry",
+    "images": [
+      "https://images.unsplash.com/photo-1770294758971-44fa1eae61a3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": null,
+    "costPrice": 789,
+    "variants": [
+      { "name": "Black / S", "stock": 45 },
+      { "name": "Black / M", "stock": 60 },
+      { "name": "Black / L", "stock": 40 },
+      { "name": "Pearl / S", "stock": 35 },
+      { "name": "Pearl / M", "stock": 45 },
+      { "name": "Pearl / L", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-003",
+    "title": "Everyday T-Shirt Bra with Moulded Cups",
+    "category": "bras",
+    "supplier": "moda-lusa",
+    "description": "A smooth, seam-free T-shirt bra with lightly lined moulded cups that stay invisible under fitted tops.\n• Material: 82% nylon, 18% elastane microfibre\n• Underwire cups with light padding\n• Adjustable straps that convert to cross-back; three-row hook-and-eye closure\n• Colours: nude and black\n• Hand wash, or machine wash at 30°C in a laundry bag",
+    "images": [
+      "https://images.unsplash.com/photo-1694290340663-65804773ce7a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1633699124189-17c808027f4a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Nude / 75B", "stock": 70 },
+      { "name": "Nude / 75C", "stock": 75 },
+      { "name": "Nude / 80C", "stock": 60 },
+      { "name": "Black / 75B", "stock": 65 },
+      { "name": "Black / 80C", "stock": 60 },
+      { "name": "Black / 85C", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 70,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-004",
+    "title": "Wire-Free Comfort Bra, Pack of 2",
+    "category": "bras",
+    "supplier": "moda-lusa",
+    "description": "Soft, stretchy wire-free bras with removable pads, designed for comfortable all-day wear at home, at work or on the move.\n• Material: 90% nylon, 10% elastane seamless knit\n• Wire-free design with removable pads\n• Wide under-band and adjustable straps; pull-on with no hooks\n• Pack of 2 in assorted colours\n• Machine wash at 30°C in a laundry bag",
+    "images": [
+      "https://images.unsplash.com/photo-1494698852314-652666555934?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1568441556126-f36ae0900180?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 869,
+    "variants": [
+      { "name": "S", "stock": 70 },
+      { "name": "M", "stock": 110 },
+      { "name": "L", "stock": 95 },
+      { "name": "XL", "stock": 60 },
+      { "name": "XXL", "stock": 35 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 120,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-005",
+    "title": "Floral Lace Underwire Bra, Unpadded",
+    "category": "bras",
+    "supplier": "moda-lusa",
+    "description": "A pretty unlined bra in floral lace with underwire support and a sheer, lightweight feel.\n• Material: 85% nylon, 15% elastane lace\n• Unpadded underwire cups\n• Adjustable straps and two-row hook-and-eye closure\n• Colours: white and pink\n• Hand wash cold",
+    "images": [
+      "https://images.unsplash.com/photo-1594616091971-bf856a77b57d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1541182311535-f31f1aa15d12?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2299,
+    "costPrice": 739,
+    "variants": [
+      { "name": "White / 70B", "stock": 30 },
+      { "name": "White / 75B", "stock": 45 },
+      { "name": "White / 75C", "stock": 45 },
+      { "name": "Pink / 75B", "stock": 40 },
+      { "name": "Pink / 75C", "stock": 40 },
+      { "name": "Pink / 80C", "stock": 30 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-006",
+    "title": "Women's Cotton Briefs, Pack of 5",
+    "category": "womens-underwear",
+    "supplier": "moda-lusa",
+    "description": "Everyday full briefs in breathable stretch cotton with a soft waistband that sits comfortably without digging in.\n• Material: 95% cotton, 5% elastane\n• Mid-rise with full back coverage\n• Soft covered elastic at the waist and legs; cotton gusset\n• Pack of 5 in assorted neutral colours\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1643539292875-ff2ca209d72a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1699,
+    "costPrice": 559,
+    "variants": [
+      { "name": "XS", "stock": 60 },
+      { "name": "S", "stock": 120 },
+      { "name": "M", "stock": 150 },
+      { "name": "L", "stock": 130 },
+      { "name": "XL", "stock": 90 },
+      { "name": "XXL", "stock": 50 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-007",
+    "title": "Seamless No-Show Hipster Briefs, Pack of 3",
+    "category": "womens-underwear",
+    "supplier": "moda-lusa",
+    "description": "Seamless hipster briefs with laser-cut edges that lie flat and stay invisible under leggings, dresses and fitted trousers.\n• Material: 90% nylon, 10% elastane microfibre; cotton gusset\n• Bonded, laser-cut edges with no elastic\n• Low-rise hipster cut with moderate back coverage\n• Pack of 3: black, nude and white\n• Machine wash at 30°C in a laundry bag",
+    "images": [
+      "https://images.unsplash.com/photo-1643539293760-0061e47e6828?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 429,
+    "variants": [
+      { "name": "S", "stock": 110 },
+      { "name": "M", "stock": 140 },
+      { "name": "L", "stock": 120 },
+      { "name": "XL", "stock": 70 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 75,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-008",
+    "title": "Ribbed Cotton Bikini Briefs, Pack of 3",
+    "category": "womens-underwear",
+    "supplier": "moda-lusa",
+    "description": "Soft ribbed cotton briefs in a classic bikini cut, comfortable for everyday wear.\n• Material: 95% cotton, 5% elastane rib\n• Low-rise bikini cut with moderate coverage\n• Soft elastic waistband and cotton gusset\n• Pack of 3: white, grey and black\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1591385291640-8180a44df171?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1099,
+    "compareAtPrice": 1499,
+    "costPrice": 469,
+    "variants": [
+      { "name": "XS", "stock": 60 },
+      { "name": "S", "stock": 100 },
+      { "name": "M", "stock": 130 },
+      { "name": "L", "stock": 110 },
+      { "name": "XL", "stock": 70 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-009",
+    "title": "Satin Long Sleeve Pajama Set with Contrast Piping",
+    "category": "womens-sleepwear",
+    "supplier": "moda-lusa",
+    "description": "A silky satin pajama set with a classic button-up shirt and wide trousers, finished with contrast piping for a polished look.\n• Material: 100% polyester satin\n• Notch collar shirt with button front, chest pocket and long sleeves\n• Trousers with an elastic waist and wide legs\n• Set includes shirt and trousers\n• Machine wash cold on a gentle cycle",
+    "images": [
+      "https://images.unsplash.com/photo-1766056278948-dbb10f6d82bf?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1770294758967-6ed2b93ce42c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      { "name": "Light Pink / S", "stock": 50 },
+      { "name": "Light Pink / M", "stock": 70 },
+      { "name": "Light Pink / L", "stock": 50 },
+      { "name": "Pearl / S", "stock": 40 },
+      { "name": "Pearl / M", "stock": 55 },
+      { "name": "Pearl / L", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-UND-010",
+    "title": "Cotton Short Pajama Set, T-Shirt and Shorts",
+    "category": "womens-sleepwear",
+    "supplier": "moda-lusa",
+    "description": "A soft jersey short pajama set in pastel shades, light and breathable for summer nights.\n• Material: 100% cotton jersey, 160 g/m²\n• Short sleeve top with a round neck\n• Shorts with an elastic waist and drawstring\n• Set includes top and shorts\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1766056278836-3d889a1c9cad?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1766056278798-39cabf7ca628?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": null,
+    "costPrice": 789,
+    "variants": [
+      { "name": "Lilac / S", "stock": 50 },
+      { "name": "Lilac / M", "stock": 70 },
+      { "name": "Lilac / L", "stock": 50 },
+      { "name": "Mint / S", "stock": 45 },
+      { "name": "Mint / M", "stock": 65 },
+      { "name": "Mint / L", "stock": 45 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 260,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-011",
+    "title": "Cotton Short Sleeve Nightdress, Midi Length",
+    "category": "womens-sleepwear",
+    "supplier": "moda-lusa",
+    "description": "An airy cotton nightdress with a relaxed fit and midi length, comfortable on warm nights and lazy mornings.\n• Material: 100% cotton voile, lightweight\n• Round neckline with a short button placket\n• Short sleeves and side pockets\n• Length approx. 110 cm in size M\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1770294759243-664b21a8ac38?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1750064164897-093dc853c98a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2499,
+    "costPrice": 869,
+    "variants": [
+      { "name": "White / S", "stock": 45 },
+      { "name": "White / M", "stock": 65 },
+      { "name": "White / L", "stock": 50 },
+      { "name": "White / XL", "stock": 30 },
+      { "name": "Blue / M", "stock": 40 },
+      { "name": "Blue / L", "stock": 30 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 220,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-012",
+    "title": "Men's Cotton Stretch Boxer Briefs, Pack of 5",
+    "category": "mens-underwear",
+    "supplier": "moda-lusa",
+    "description": "Comfortable everyday boxer briefs in soft stretch cotton with a covered waistband that won't roll or dig in.\n• Material: 95% cotton, 5% elastane\n• Soft covered elastic waistband\n• Contoured front pouch; leg length approx. 12 cm\n• Pack of 5: black, grey, navy, blue and white\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1640765937555-6f413ed1d936?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1561504599-f900052636b3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2199,
+    "compareAtPrice": 2999,
+    "costPrice": 949,
+    "variants": [
+      { "name": "S", "stock": 80 },
+      { "name": "M", "stock": 150 },
+      { "name": "L", "stock": 160 },
+      { "name": "XL", "stock": 110 },
+      { "name": "XXL", "stock": 60 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 350,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-UND-013",
+    "title": "Men's Woven Cotton Boxer Shorts, Pack of 3",
+    "category": "mens-underwear",
+    "supplier": "moda-lusa",
+    "description": "Classic loose-fit boxer shorts in breathable woven cotton, cool and comfortable day and night.\n• Material: 100% cotton poplin\n• Elasticated waistband with button fly\n• Relaxed loose fit\n• Pack of 3 in assorted prints and plain colours\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1601393710008-984348f7447b?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1698328722621-83e080dcf60a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1599,
+    "compareAtPrice": null,
+    "costPrice": 689,
+    "variants": [
+      { "name": "S", "stock": 60 },
+      { "name": "M", "stock": 110 },
+      { "name": "L", "stock": 120 },
+      { "name": "XL", "stock": 80 },
+      { "name": "XXL", "stock": 45 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 270,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-014",
+    "title": "Men's Cotton V-Neck Undershirts, Pack of 3",
+    "category": "mens-underwear",
+    "supplier": "moda-lusa",
+    "description": "Soft, lightweight V-neck undershirts that sit unseen under open-collar shirts and keep you comfortable all day.\n• Material: 95% cotton, 5% elastane\n• V-neckline and short sleeves\n• Slim fit with extra length to stay tucked in\n• Pack of 3: black, grey and brown\n• Machine wash at 40°C",
+    "images": [
+      "https://images.unsplash.com/photo-1548768041-2fceab4c0b85?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1713881630214-82c44407cf25?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2299,
+    "costPrice": 779,
+    "variants": [
+      { "name": "S", "stock": 55 },
+      { "name": "M", "stock": 100 },
+      { "name": "L", "stock": 110 },
+      { "name": "XL", "stock": 75 },
+      { "name": "XXL", "stock": 40 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-015",
+    "title": "Men's Cotton Pajama Set with Contrast Piping",
+    "category": "mens-sleepwear",
+    "supplier": "moda-lusa",
+    "description": "Classic long pajamas in soft woven cotton, with a button-up shirt and relaxed trousers trimmed with contrast piping.\n• Material: 100% cotton poplin\n• Shirt with notch collar, button front and chest pocket\n• Trousers with an elastic waist and drawcord\n• Set includes shirt and trousers\n• Colour: light blue with white piping",
+    "images": [
+      "https://images.unsplash.com/photo-1768696082915-bdc6774f94c7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2699,
+    "compareAtPrice": null,
+    "costPrice": 1179,
+    "variants": [
+      { "name": "S", "stock": 35 },
+      { "name": "M", "stock": 60 },
+      { "name": "L", "stock": 65 },
+      { "name": "XL", "stock": 45 },
+      { "name": "XXL", "stock": 25 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 450,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-016",
+    "title": "Men's Waffle Knit Lounge Set, Top and Joggers",
+    "category": "mens-sleepwear",
+    "supplier": "moda-lusa",
+    "description": "A cosy waffle-knit lounge set with a relaxed long sleeve top and joggers, just right for weekends at home or travel days.\n• Material: 60% cotton, 40% polyester waffle knit\n• Crew neck top with long sleeves and ribbed cuffs\n• Joggers with elastic waist, drawcord and side pockets\n• Set includes top and joggers\n• Colours: beige and grey",
+    "images": [
+      "https://images.unsplash.com/photo-1759229875274-bd920070ceef?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1299,
+    "variants": [
+      { "name": "Beige / M", "stock": 40 },
+      { "name": "Beige / L", "stock": 45 },
+      { "name": "Beige / XL", "stock": 30 },
+      { "name": "Grey / M", "stock": 45 },
+      { "name": "Grey / L", "stock": 50 },
+      { "name": "Grey / XL", "stock": 35 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 620,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-017",
+    "title": "Cotton Crew Socks, Pack of 6, Assorted Colours",
+    "category": "socks-hosiery",
+    "supplier": "moda-lusa",
+    "description": "Six pairs of soft, colourful everyday socks with a cushioned sole and a ribbed cuff that stays up.\n• Material: 80% cotton, 17% polyamide, 3% elastane\n• Cushioned sole with reinforced heel and toe\n• Ribbed cuff, crew length\n• Pack of 6 pairs in assorted bright colours\n• Sizes EU 35–38, 39–42 and 43–46",
+    "images": [
+      "https://images.unsplash.com/photo-1585499583264-491df5142e83?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1564379976409-79bd0786fff1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1299,
+    "costPrice": 419,
+    "variants": [
+      { "name": "EU 35-38", "stock": 120 },
+      { "name": "EU 39-42", "stock": 160 },
+      { "name": "EU 43-46", "stock": 110 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-018",
+    "title": "Sheer 20 Denier Tights, Pack of 3",
+    "category": "socks-hosiery",
+    "supplier": "moda-lusa",
+    "description": "Sheer, smooth tights with a comfortable stretch waistband and reinforced toes, for workwear and evenings out.\n• Material: 88% polyamide, 12% elastane, 20 denier\n• Matte finish with a soft, wide waistband\n• Reinforced toe and cotton gusset\n• Pack of 3 pairs\n• Hand wash cold",
+    "images": [
+      "https://images.unsplash.com/photo-1761393956376-98c280da9698?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": null,
+    "costPrice": 339,
+    "variants": [
+      { "name": "Black / S-M", "stock": 120 },
+      { "name": "Black / L-XL", "stock": 90 },
+      { "name": "Nude / S-M", "stock": 80 },
+      { "name": "Nude / L-XL", "stock": 60 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 90,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-019",
+    "title": "Seamless Smoothing Bodysuit with Adjustable Straps",
+    "category": "shapewear",
+    "supplier": "moda-lusa",
+    "description": "A seamless bodysuit with light-to-medium control that smooths the waist and hips for a clean line under dresses and fitted tops.\n• Material: 78% nylon, 22% elastane seamless knit\n• Scoop neck with adjustable straps\n• Hook-and-eye gusset opening and brief back\n• Colours: black and nude\n• Hand wash cold",
+    "images": [
+      "https://images.unsplash.com/photo-1681913749298-68acc9428240?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1792588234603-78b327500ed9?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": null,
+    "costPrice": 999,
+    "variants": [
+      { "name": "Black / S", "stock": 40 },
+      { "name": "Black / M", "stock": 60 },
+      { "name": "Black / L", "stock": 50 },
+      { "name": "Black / XL", "stock": 30 },
+      { "name": "Nude / M", "stock": 40 },
+      { "name": "Nude / L", "stock": 35 }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 140,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-UND-020",
+    "title": "High-Waist Seamless Smoothing Briefs",
+    "category": "shapewear",
+    "supplier": "moda-lusa",
+    "description": "High-rise shaping briefs that smooth the tummy and waist with a soft but firm knit and a waistband that stays put.\n• Material: 75% nylon, 25% elastane\n• Firm front control panel; high waist that reaches just below the bust\n• Silicone grip strip to stop rolling down; cotton gusset\n• Colours: black and nude\n• Hand wash cold",
+    "images": [
+      "https://images.unsplash.com/photo-1591384752313-dd5a6b797164?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591385208815-e09e859e03d2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      { "name": "Black / S", "stock": 50 },
+      { "name": "Black / M", "stock": 75 },
+      { "name": "Black / L", "stock": 65 },
+      { "name": "Black / XL", "stock": 40 },
+      { "name": "Nude / M", "stock": 50 },
+      { "name": "Nude / L", "stock": 40 }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 90,
+    "featured": false
+  }
+]

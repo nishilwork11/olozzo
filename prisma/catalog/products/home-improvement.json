@@ -1,0 +1,498 @@
+[
+  {
+    "sku": "OLZ-TLS-001",
+    "title": "Cordless Drill Driver 18V with 2 Batteries, Fast Charger and 29-Piece Bit Set",
+    "category": "power-tools",
+    "supplier": "werkbank",
+    "description": "Compact cordless drill driver for assembling furniture, hanging shelves and drilling into wood, metal or plastic. With two batteries, one can charge while you keep working.\n• Motor: 18 V, two speeds (0–400 / 0–1500 rpm), 25 torque settings plus drill mode\n• Max torque 42 Nm, 10 mm keyless chuck and LED work light\n• Includes 2 × 1500 mAh Li-ion batteries, 1-hour charger (EU plug) and carry case\n• 29-piece set of drill bits, screwdriver bits and a magnetic bit holder",
+    "images": [
+      "https://images.unsplash.com/photo-1590635023142-73c3d34f2805?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": 6999,
+    "costPrice": 2399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2600,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-TLS-002",
+    "title": "Angle Grinder 850 W with 115 mm Discs, Side Handle and Safety Guard",
+    "category": "power-tools",
+    "supplier": "werkbank",
+    "description": "Corded angle grinder for cutting metal rods, removing rust and smoothing welds, stone or tiles. The adjustable guard and two-position side handle give you better control.\n• Power: 850 W, no-load speed 11,000 rpm, 2 m cable with EU plug\n• Disc diameter 115 mm, M14 spindle thread\n• Spindle lock button and pin spanner for quick disc changes\n• Included: grinder, side handle, guard, spanner, 1 cutting disc and 1 grinding disc",
+    "images": [
+      "https://images.unsplash.com/photo-1790244905268-22137f65ad6a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1734888369502-3e01d4c0a46e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3299,
+    "compareAtPrice": null,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 2100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-003",
+    "title": "Claw Hammer 450 g with Anti-Slip Shock-Absorbing Grip",
+    "category": "hand-tools",
+    "supplier": "werkbank",
+    "description": "Everyday claw hammer for driving and pulling nails around the house, garden shed or workshop. The forged head is balanced for controlled, accurate strikes.\n• Head: drop-forged carbon steel, 450 g (16 oz), polished striking face\n• Curved claw with a magnetic nail-starter slot\n• Tubular steel shaft with a cushioned rubber grip that dampens vibration\n• Overall length: 33 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1607870411590-d5e9e06da09a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1586864387789-628af9feed72?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1199,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-004",
+    "title": "Screwdriver Set 6-Piece, Slotted and Cross-Head with Magnetic Tips",
+    "category": "hand-tools",
+    "supplier": "werkbank",
+    "description": "A basic set of six screwdrivers that covers most jobs at home, from tightening cabinet hinges to opening battery covers on toys and remotes.\n• Slotted: 3 × 75, 5 × 100 and 6 × 125 mm\n• Cross-head: PH0 × 75, PH1 × 100 and PH2 × 125 mm\n• Chrome-vanadium steel shafts with magnetised black tips\n• Clear red handles with a comfortable grip and a hanging hole",
+    "images": [
+      "https://images.unsplash.com/photo-1524224313114-ebd9c49dde82?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1581621293775-7aac902d7032?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 449,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 250
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-005",
+    "title": "Combination Spanner Set 12-Piece, 8–19 mm, Chrome Vanadium Steel",
+    "category": "hand-tools",
+    "supplier": "werkbank",
+    "description": "Open-end and ring spanners in the twelve metric sizes used most on bikes, cars, furniture and plumbing fittings.\n• Sizes: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 and 19 mm\n• 12-point ring end offset at 15° for knuckle clearance\n• Chrome-vanadium steel with a satin chrome finish that resists rust\n• Supplied on a plastic storage rail with size markings",
+    "images": [
+      "https://images.unsplash.com/photo-1623160850502-9bd1bfeec545?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 140
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-006",
+    "title": "Pliers Set 3-Piece: Combination, Long-Nose and Diagonal Cutters",
+    "category": "hand-tools",
+    "supplier": "werkbank",
+    "description": "Three essential pliers for gripping, bending and cutting wire, with two-tone handles that give a firm hold.\n• Combination pliers 180 mm, long-nose pliers 160 mm, diagonal cutters 160 mm\n• Drop-forged chrome-vanadium steel with induction-hardened cutting edges\n• Cuts soft wire up to 2.5 mm\n• Cushioned two-component handles; zipped storage pouch included",
+    "images": [
+      "https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760376789482-04d10d87469e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": 1799,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 720,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-007",
+    "title": "Plastic Tool Box 40 cm with Removable Tray and Metal Latches",
+    "category": "tool-storage",
+    "supplier": "werkbank",
+    "description": "Sturdy carry box that keeps hand tools, screws and accessories together in the car, shed or under the sink.\n• Outer size approx. 40 × 21 × 18 cm\n• Lift-out tray with compartments for bits and small parts\n• Impact-resistant polypropylene with two metal latches and a padlock eye\n• Comfortable fold-down carry handle",
+    "images": [
+      "https://images.unsplash.com/photo-1585569695919-db237e7cc455?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 1999,
+    "costPrice": 699,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 130
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1300,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-008",
+    "title": "Roll-Up Tool Organiser Pouch with 22 Pockets, Water-Resistant Canvas",
+    "category": "tool-storage",
+    "supplier": "werkbank",
+    "description": "Roll-up pouch that holds spanners, screwdrivers and pliers in their own pockets, so every tool is visible when you unroll it and nothing rattles around in the car.\n• 22 pockets in assorted widths with elastic edges\n• Material: 600D water-resistant polyester canvas\n• Unrolled size approx. 60 × 38 cm; about 10 cm across when rolled\n• Two buckle straps and a carry handle; tools not included",
+    "images": [
+      "https://images.unsplash.com/photo-1789286970297-a9adfedc019e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1149,
+    "compareAtPrice": 1499,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 150
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-009",
+    "title": "Tape Measure 5 m with Auto Lock and Belt Clip",
+    "category": "measuring",
+    "supplier": "werkbank",
+    "description": "Pocket-size tape measure for DIY, furniture shopping and room planning, with a stiff blade that stays straight over long spans.\n• Blade: 5 m × 19 mm, metric scale with 1 mm markings and a nylon coating\n• Auto-lock holds the blade in place; press the button to retract\n• Rubberised case that survives drops, plus a steel belt clip\n• Double-riveted end hook for inside and outside measurements",
+    "images": [
+      "https://images.unsplash.com/photo-1602503497726-dc6cfaab7e17?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 499,
+    "compareAtPrice": null,
+    "costPrice": 199,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 300
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 210,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-010",
+    "title": "Aluminium Spirit Level 60 cm with 3 Vials",
+    "category": "measuring",
+    "supplier": "werkbank",
+    "description": "Lightweight aluminium level for hanging shelves, pictures and cabinets, and for checking tiles, worktops and fence posts.\n• Length 60 cm, box-profile aluminium frame\n• Three acrylic vials: horizontal, vertical and 45°\n• Accuracy 0.5 mm/m in the normal position\n• Milled measuring edge and shock-absorbing rubber end caps",
+    "images": [
+      "https://images.unsplash.com/photo-1567361808976-260065224468?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1786341594833-21079b3b40f7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 949,
+    "compareAtPrice": 1299,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 480,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-011",
+    "title": "Screw and Wall Plug Assortment, 500 Pieces in a Storage Case",
+    "category": "hardware",
+    "supplier": "werkbank",
+    "description": "Ready-sorted kit of wood screws and nylon wall plugs for hanging shelves, curtain rails, mirrors and cabinets.\n• 300 countersunk cross-head wood screws from 3.0 × 16 to 5.0 × 50 mm\n• 200 nylon wall plugs in 5, 6 and 8 mm for brick and concrete\n• Zinc-plated steel for indoor use\n• Clear divided case with a size chart on the lid",
+    "images": [
+      "https://images.unsplash.com/photo-1613945831677-383c19ad7721?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1703868671123-3deab40f66c4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 549,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 5,
+    "weightGrams": 1400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-012",
+    "title": "Brass Padlock 40 mm with 3 Keys and Hardened Steel Shackle",
+    "category": "hardware",
+    "supplier": "werkbank",
+    "description": "Solid padlock for lockers, sheds, gates, tool chests and storage cages.\n• Body: 40 mm solid brass, weather-resistant for outdoor use\n• Shackle: 6 mm hardened steel with 22 mm clearance\n• Pin-tumbler cylinder; 3 keys included\n• Key can only be removed when the lock is closed, so it is never left open by mistake",
+    "images": [
+      "https://images.unsplash.com/photo-1555529902-5261145633bf?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1761936648980-31bc4180bf19?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 699,
+    "compareAtPrice": 899,
+    "costPrice": 299,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 220
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 290,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-013",
+    "title": "4-Way Power Strip with 2 USB Ports and Switch, 1.5 m Cable, EU Plug",
+    "category": "electrical",
+    "supplier": "werkbank",
+    "description": "Socket strip with four earthed outlets and two USB ports, for desks, bedside tables and TV units.\n• 4 × earthed type F sockets, max. load 3500 W / 16 A\n• 2 × USB-A ports, 5 V / 2.4 A shared\n• Illuminated on/off switch and child-safety shutters\n• 1.5 m cable with EU plug",
+    "images": [
+      "https://images.unsplash.com/photo-1781331534854-c75885f01c01?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1699,
+    "compareAtPrice": 2299,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 140
+      },
+      {
+        "name": "Black",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-014",
+    "title": "Digital Multimeter with Backlit Display, Test Leads and Case",
+    "category": "electrical",
+    "supplier": "werkbank",
+    "description": "Handheld meter for checking batteries, fuses, sockets and wiring in the home, car or workshop.\n• Measures AC/DC voltage up to 600 V, DC current up to 10 A, resistance, continuity and diodes\n• 2000-count backlit LCD with data hold\n• Auto power-off and low-battery indicator\n• Includes silicone test leads, crocodile clips, hard carry case and a 9 V battery",
+    "images": [
+      "https://images.unsplash.com/photo-1564942513760-da4dc8da3d47?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 380,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-015",
+    "title": "Handheld Shower Head with 5 Spray Modes and 1.5 m Hose",
+    "category": "plumbing",
+    "supplier": "werkbank",
+    "description": "Swap a tired shower head in minutes: this handheld head screws onto any standard G1/2 hose connection without tools.\n• 5 spray patterns: rain, pulse, mist, jet and mixed\n• Silicone nozzles that rub clean of limescale with a fingertip\n• 1.5 m stainless steel flexible hose and adjustable wall bracket included\n• ABS body in matte black or polished chrome",
+    "images": [
+      "https://images.unsplash.com/photo-1785486250396-458eb9e38aa8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1399,
+    "compareAtPrice": 1999,
+    "costPrice": 649,
+    "variants": [
+      {
+        "name": "Matte Black",
+        "stock": 130
+      },
+      {
+        "name": "Chrome",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 560,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-016",
+    "title": "Kitchen Mixer Tap with 360° Swivel Spout and Single Lever, Chrome",
+    "category": "plumbing",
+    "supplier": "werkbank",
+    "description": "High-arc mixer tap that leaves room for filling large pots and swivels between two sink bowls.\n• Solid brass body with a polished chrome finish\n• Ceramic cartridge with single-lever hot and cold control\n• Spout height 22 cm, reach 20 cm, 360° rotation\n• Includes two 50 cm flexible hoses (M10 × G3/8) and a mounting kit for 32–35 mm holes",
+    "images": [
+      "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5999,
+    "costPrice": 2099,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 2300,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-TLS-017",
+    "title": "Paint Roller Set 9-Piece with Tray, Extension Pole and Brushes",
+    "category": "paint",
+    "supplier": "werkbank",
+    "description": "Everything you need to repaint a room: rollers for walls and ceilings, a tray, and brushes for corners and edges.\n• 1 roller frame with 2 × 23 cm microfibre covers\n• 1 × 10 cm mini roller for small areas and behind radiators\n• Paint tray 32 × 35 cm and 3 flat brushes (25, 38 and 50 mm)\n• Telescopic pole that extends from 60 to 110 cm",
+    "images": [
+      "https://images.unsplash.com/photo-1652829069862-87874e119527?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516962080544-eac695c93791?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-018",
+    "title": "Painter's Masking Tape, 3 Rolls of 25 mm × 50 m",
+    "category": "paint",
+    "supplier": "werkbank",
+    "description": "Paper masking tape for sharp paint lines on walls, skirting boards and window frames. It peels off cleanly without lifting paint when removed within 14 days.\n• 3 rolls, each 25 mm wide and 50 m long\n• Thin crepe paper follows edges and gentle curves\n• For indoor use on painted walls, glass, wood and metal\n• Tears easily by hand, no scissors needed",
+    "images": [
+      "https://images.unsplash.com/photo-1731575131896-c8bd19209358?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1681996537684-0104472712a8?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 599,
+    "compareAtPrice": null,
+    "costPrice": 249,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 300
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 320,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-019",
+    "title": "Leather Work Gloves with Elastic Wrist and Cowhide Palm",
+    "category": "safety-gear",
+    "supplier": "werkbank",
+    "description": "Hard-wearing all-purpose gloves for DIY, gardening, moving furniture and handling timber or bricks.\n• Palm and fingers: split cowhide leather; back: breathable cotton\n• Reinforced palm patch and fingertips\n• Elastic wrist keeps dirt out and the glove in place\n• Sizes M (8), L (9) and XL (10)",
+    "images": [
+      "https://images.unsplash.com/photo-1634852836003-c0aa5b67d243?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1673294861057-4584f92b91d2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 799,
+    "compareAtPrice": 1099,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "M",
+        "stock": 80
+      },
+      {
+        "name": "L",
+        "stock": 120
+      },
+      {
+        "name": "XL",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 4,
+    "weightGrams": 180,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-TLS-020",
+    "title": "Safety Helmet with Ratchet Adjustment and Ventilation Slots",
+    "category": "safety-gear",
+    "supplier": "werkbank",
+    "description": "Lightweight hard hat for building sites, renovation work, tree trimming and warehouse visits.\n• Shell: high-density polyethylene with ventilation slots\n• 6-point textile suspension with ratchet adjustment for head sizes 53–63 cm\n• Rain gutter and side slots for ear defenders or a visor\n• Replaceable sweatband",
+    "images": [
+      "https://images.unsplash.com/photo-1768158988512-ad31657fe5b8?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1564483335100-3413b45dbd37?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Yellow",
+        "stock": 120
+      },
+      {
+        "name": "White",
+        "stock": 80
+      },
+      {
+        "name": "Red",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 420,
+    "featured": false
+  }
+]

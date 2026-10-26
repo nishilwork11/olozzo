@@ -1,0 +1,864 @@
+[
+  {
+    "sku": "OLZ-MSH-001",
+    "title": "Men's Leather Low-Top Sneakers with Nubuck Panels",
+    "category": "mens-sneakers",
+    "supplier": "passo-firme",
+    "description": "Clean, minimal low-tops in white grained leather with sand-coloured nubuck panels and a pop of orange at the heel. A stitched cupsole gives them a smart-casual look that works with chinos or jeans.\n• Upper: grained leather and nubuck; lining: leather and textile\n• Removable cushioned insole\n• Stitched rubber cupsole\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": 5999,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 35
+      },
+      {
+        "name": "EU 41",
+        "stock": 60
+      },
+      {
+        "name": "EU 42",
+        "stock": 80
+      },
+      {
+        "name": "EU 43",
+        "stock": 75
+      },
+      {
+        "name": "EU 44",
+        "stock": 55
+      },
+      {
+        "name": "EU 45",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1050,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-MSH-002",
+    "title": "Men's Knit Slip-On Sneakers with Cushioned Sole",
+    "category": "mens-sneakers",
+    "supplier": "passo-firme",
+    "description": "Laceless sneakers with a stretchy, breathable knit upper that slips on in seconds. The chunky foam sole is light and springy for long days on your feet.\n• Upper: stretch knit; lining: textile\n• Heel pull loop for easy on and off\n• Lightweight EVA sole with rubber grip pads\n• Colour: olive; sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1631542156377-473540702434?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631542204051-7927ce32b94e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 40
+      },
+      {
+        "name": "EU 41",
+        "stock": 65
+      },
+      {
+        "name": "EU 42",
+        "stock": 85
+      },
+      {
+        "name": "EU 43",
+        "stock": 80
+      },
+      {
+        "name": "EU 44",
+        "stock": 55
+      },
+      {
+        "name": "EU 45",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-003",
+    "title": "Men's Canvas Low-Top Sneakers with Heel Stripe",
+    "category": "mens-sneakers",
+    "supplier": "passo-firme",
+    "description": "Easy-going canvas sneakers with a white and burgundy heel stripe and a vulcanised rubber sole. A lightweight everyday pair for summer and weekends.\n• Upper: cotton canvas; lining: textile\n• Padded collar and cushioned insole\n• Vulcanised rubber outsole\n• Colour: light grey; sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1699092372473-a829f4421580?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": null,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 40
+      },
+      {
+        "name": "EU 41",
+        "stock": 70
+      },
+      {
+        "name": "EU 42",
+        "stock": 90
+      },
+      {
+        "name": "EU 43",
+        "stock": 85
+      },
+      {
+        "name": "EU 44",
+        "stock": 60
+      },
+      {
+        "name": "EU 45",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 750,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-004",
+    "title": "Men's Cap-Toe Oxford Shoes in Black Leather",
+    "category": "mens-dress-shoes",
+    "supplier": "passo-firme",
+    "description": "Classic closed-lacing oxfords with a cap toe, cut from smooth black leather for suits, weddings and the office. A cushioned insole keeps them comfortable through long events.\n• Upper: smooth leather; lining: leather\n• Cushioned leather-covered insole\n• Rubber outsole with stacked heel, 2.5 cm\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1552422554-0d5af0c79fc6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6499,
+    "costPrice": 2299,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 30
+      },
+      {
+        "name": "EU 41",
+        "stock": 55
+      },
+      {
+        "name": "EU 42",
+        "stock": 70
+      },
+      {
+        "name": "EU 43",
+        "stock": 65
+      },
+      {
+        "name": "EU 44",
+        "stock": 45
+      },
+      {
+        "name": "EU 45",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1100,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-005",
+    "title": "Men's Plain-Toe Derby Shoes in Cognac",
+    "category": "mens-dress-shoes",
+    "supplier": "passo-firme",
+    "description": "Versatile open-lacing derby shoes in a warm cognac finish that pair with suits as well as smart jeans. The softly rounded toe gives a relaxed, modern shape.\n• Upper: smooth faux leather; lining: textile\n• Padded insole\n• Lightweight rubber outsole\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1616696038562-574c18066055?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 35
+      },
+      {
+        "name": "EU 41",
+        "stock": 60
+      },
+      {
+        "name": "EU 42",
+        "stock": 80
+      },
+      {
+        "name": "EU 43",
+        "stock": 75
+      },
+      {
+        "name": "EU 44",
+        "stock": 50
+      },
+      {
+        "name": "EU 45",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 950,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-006",
+    "title": "Men's Pebble-Grain Leather Derby Shoes",
+    "category": "mens-dress-shoes",
+    "supplier": "passo-firme",
+    "description": "Lace-up derby shoes in tan pebble-grain leather, a textured finish that hides scuffs and suits both office and weekend outfits.\n• Upper: pebble-grain leather; lining: leather and textile\n• Cushioned insole\n• Rubber outsole with low stacked heel\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1563434649554-58f91d22ec2c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": null,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 25
+      },
+      {
+        "name": "EU 41",
+        "stock": 50
+      },
+      {
+        "name": "EU 42",
+        "stock": 65
+      },
+      {
+        "name": "EU 43",
+        "stock": 60
+      },
+      {
+        "name": "EU 44",
+        "stock": 40
+      },
+      {
+        "name": "EU 45",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1050,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-007",
+    "title": "Men's Chelsea Boots in Polished Dark Brown",
+    "category": "mens-boots",
+    "supplier": "passo-firme",
+    "description": "Sleek Chelsea boots in a polished dark brown finish with elastic side panels and a pull tab at the back. Smart enough for the office and easy to pull on in a hurry.\n• Upper: polished faux leather; lining: textile\n• Elastic side gussets and rear pull tab\n• Rubber outsole with 3 cm heel\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1777987601423-f350ac29b3e9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1777987601677-3059be0e1388?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5499,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 30
+      },
+      {
+        "name": "EU 41",
+        "stock": 55
+      },
+      {
+        "name": "EU 42",
+        "stock": 75
+      },
+      {
+        "name": "EU 43",
+        "stock": 70
+      },
+      {
+        "name": "EU 44",
+        "stock": 50
+      },
+      {
+        "name": "EU 45",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1250,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-008",
+    "title": "Men's Suede Chelsea Boots with Contrast Sole",
+    "category": "mens-boots",
+    "supplier": "passo-firme",
+    "description": "Tan suede Chelsea boots on a light contrast sole, a relaxed autumn staple for jeans and chinos. Dark elastic panels and a pull tab make them quick to slip on.\n• Upper: cow suede; lining: textile\n• Elastic side panels and rear pull tab\n• Light rubber outsole\n• Spray with a suede protector before first wear\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1608629601270-a0007becead3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": 6499,
+    "costPrice": 2299,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 25
+      },
+      {
+        "name": "EU 41",
+        "stock": 50
+      },
+      {
+        "name": "EU 42",
+        "stock": 70
+      },
+      {
+        "name": "EU 43",
+        "stock": 65
+      },
+      {
+        "name": "EU 44",
+        "stock": 45
+      },
+      {
+        "name": "EU 45",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1200,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-MSH-009",
+    "title": "Men's Lace-Up Leather Boots with Lug Sole",
+    "category": "mens-boots",
+    "supplier": "passo-firme",
+    "description": "Rugged lace-up boots in waxed brown leather with speed hooks and a deep-lug rubber sole for wet pavements and country walks.\n• Upper: waxed leather; lining: textile\n• Padded collar and gusseted tongue\n• Deep-lug rubber outsole\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 5499,
+    "compareAtPrice": null,
+    "costPrice": 2499,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 20
+      },
+      {
+        "name": "EU 41",
+        "stock": 45
+      },
+      {
+        "name": "EU 42",
+        "stock": 60
+      },
+      {
+        "name": "EU 43",
+        "stock": 55
+      },
+      {
+        "name": "EU 44",
+        "stock": 40
+      },
+      {
+        "name": "EU 45",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 1500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-010",
+    "title": "Men's Suede Penny Loafers",
+    "category": "mens-loafers",
+    "supplier": "passo-firme",
+    "description": "Soft suede penny loafers in a sandy beige shade, an easy slip-on for summer suits, chinos and smart shorts.\n• Upper: cow suede; lining: leather\n• Classic penny strap across the vamp\n• Rubber outsole with low heel\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1556004583-d2aaffbba592?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 4999,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 30
+      },
+      {
+        "name": "EU 41",
+        "stock": 55
+      },
+      {
+        "name": "EU 42",
+        "stock": 70
+      },
+      {
+        "name": "EU 43",
+        "stock": 65
+      },
+      {
+        "name": "EU 44",
+        "stock": 45
+      },
+      {
+        "name": "EU 45",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-011",
+    "title": "Men's Leather Penny Loafers with Stacked Heel",
+    "category": "mens-loafers",
+    "supplier": "passo-firme",
+    "description": "Polished tan leather loafers with a penny strap and a stacked heel, a smart slip-on that dresses up jeans and suits alike.\n• Upper: smooth leather; lining: leather\n• Penny strap with moc-toe stitching\n• Rubber outsole with 2.5 cm stacked heel\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1777987601447-266e128de448?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": null,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 25
+      },
+      {
+        "name": "EU 41",
+        "stock": 50
+      },
+      {
+        "name": "EU 42",
+        "stock": 65
+      },
+      {
+        "name": "EU 43",
+        "stock": 60
+      },
+      {
+        "name": "EU 44",
+        "stock": 40
+      },
+      {
+        "name": "EU 45",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-012",
+    "title": "Men's Canvas Slip-On Shoes",
+    "category": "mens-loafers",
+    "supplier": "passo-firme",
+    "description": "Laid-back slip-ons in washed cotton canvas with elastic side panels and a flexible rubber sole. They are easy to pack and made for warm-weather days.\n• Upper: cotton canvas; lining: cotton\n• Elastic side gussets\n• Flexible vulcanised rubber outsole\n• Colour: sand; sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1649920566440-eb5678255340?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1799,
+    "compareAtPrice": 2299,
+    "costPrice": 749,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 45
+      },
+      {
+        "name": "EU 41",
+        "stock": 70
+      },
+      {
+        "name": "EU 42",
+        "stock": 90
+      },
+      {
+        "name": "EU 43",
+        "stock": 85
+      },
+      {
+        "name": "EU 44",
+        "stock": 60
+      },
+      {
+        "name": "EU 45",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-013",
+    "title": "Men's Toe-Post Sandals with Two-Tone Strap",
+    "category": "mens-sandals",
+    "supplier": "passo-firme",
+    "description": "Comfortable toe-post sandals with a padded black footbed and a two-tone black and brown strap. A smart summer choice for holidays and city days.\n• Upper: faux leather; footbed: padded microfibre\n• Toe-post design\n• Flexible rubber outsole\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1585120824848-8a5cd41493d2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3299,
+    "costPrice": 1099,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 35
+      },
+      {
+        "name": "EU 41",
+        "stock": 60
+      },
+      {
+        "name": "EU 42",
+        "stock": 80
+      },
+      {
+        "name": "EU 43",
+        "stock": 75
+      },
+      {
+        "name": "EU 44",
+        "stock": 50
+      },
+      {
+        "name": "EU 45",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-014",
+    "title": "Men's Two-Strap Sandals with Hook-and-Loop Straps",
+    "category": "mens-sandals",
+    "supplier": "passo-firme",
+    "description": "Sporty sandals with two wide adjustable straps and a heel strap that keeps them secure while walking. The textured footbed and grippy sole suit beach, city and travel.\n• Upper: nylon webbing with faux leather trim\n• Hook-and-loop straps adjust at the front and heel\n• Cushioned EVA footbed with rubber outsole\n• Colour: dark olive; sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1628375385879-1af64230c2e1?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": null,
+    "costPrice": 999,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 40
+      },
+      {
+        "name": "EU 41",
+        "stock": 65
+      },
+      {
+        "name": "EU 42",
+        "stock": 85
+      },
+      {
+        "name": "EU 43",
+        "stock": 80
+      },
+      {
+        "name": "EU 44",
+        "stock": 55
+      },
+      {
+        "name": "EU 45",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 550,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-015",
+    "title": "Men's Handcrafted-Style Leather Toe-Loop Sandals",
+    "category": "mens-sandals",
+    "supplier": "passo-firme",
+    "description": "Traditional-style leather sandals with a braided toe loop and a wide woven strap, finished with visible hand-stitching around the sole.\n• Upper and footbed: vegetable-tanned leather\n• Braided toe loop and woven strap\n• Leather outsole with rubber heel patch\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1568347619798-2008f2ce5b94?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2799,
+    "compareAtPrice": 3499,
+    "costPrice": 1249,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 25
+      },
+      {
+        "name": "EU 41",
+        "stock": 45
+      },
+      {
+        "name": "EU 42",
+        "stock": 60
+      },
+      {
+        "name": "EU 43",
+        "stock": 55
+      },
+      {
+        "name": "EU 44",
+        "stock": 40
+      },
+      {
+        "name": "EU 45",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-016",
+    "title": "Men's Lightweight Mesh Running Shoes",
+    "category": "mens-running-shoes",
+    "supplier": "passo-firme",
+    "description": "Light, breathable running shoes with a knit mesh upper and a thick, sculpted foam midsole for road runs and daily training.\n• Upper: knit mesh with synthetic overlays; lining: textile\n• Sculpted EVA midsole with rubber outsole\n• Padded collar and heel pull loop\n• Colour: dark grey with lime accent; sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1726133731483-d4b8bcabeb43?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3499,
+    "compareAtPrice": 4499,
+    "costPrice": 1599,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 35
+      },
+      {
+        "name": "EU 41",
+        "stock": 60
+      },
+      {
+        "name": "EU 42",
+        "stock": 85
+      },
+      {
+        "name": "EU 43",
+        "stock": 80
+      },
+      {
+        "name": "EU 44",
+        "stock": 55
+      },
+      {
+        "name": "EU 45",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 850,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-017",
+    "title": "Men's Trail Running Shoes with Grippy Lug Outsole",
+    "category": "mens-running-shoes",
+    "supplier": "passo-firme",
+    "description": "Trail shoes for forest tracks and gravel paths, with a deep-lug outsole for grip on loose ground and a reinforced toe for rocky sections.\n• Upper: quick-dry mesh with protective overlays\n• Rubber lug outsole with 4 mm lugs\n• Reinforced toe bumper and gusseted tongue\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1711466093648-1adfe1664678?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": null,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 30
+      },
+      {
+        "name": "EU 41",
+        "stock": 50
+      },
+      {
+        "name": "EU 42",
+        "stock": 70
+      },
+      {
+        "name": "EU 43",
+        "stock": 65
+      },
+      {
+        "name": "EU 44",
+        "stock": 45
+      },
+      {
+        "name": "EU 45",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-018",
+    "title": "Men's Knit Training Shoes for Gym and Walking",
+    "category": "mens-running-shoes",
+    "supplier": "passo-firme",
+    "description": "All-white knit trainers with a sock-like fit and a cushioned sole for gym sessions, walking and everyday wear.\n• Upper: one-piece stretch knit; lining: textile\n• Cushioned EVA midsole with rubber outsole\n• Sock-like collar for a snug fit\n• Colour: white; sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1648748571031-196114a25c62?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 3999,
+    "costPrice": 1349,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 35
+      },
+      {
+        "name": "EU 41",
+        "stock": 60
+      },
+      {
+        "name": "EU 42",
+        "stock": 80
+      },
+      {
+        "name": "EU 43",
+        "stock": 75
+      },
+      {
+        "name": "EU 44",
+        "stock": 55
+      },
+      {
+        "name": "EU 45",
+        "stock": 30
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 750,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-019",
+    "title": "Men's Steel Toe Work Boots with Scuff Cap",
+    "category": "mens-work-shoes",
+    "supplier": "passo-firme",
+    "description": "Sturdy work boots with a steel toe cap and a rubber scuff guard over the toe, made for building sites, warehouses and workshops.\n• Upper: water-resistant nubuck leather; lining: breathable mesh\n• Steel toe cap and padded ankle collar\n• Oil-resistant rubber outsole\n• Colour: wheat; sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1772521243993-9509958880a4?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": null,
+    "costPrice": 2299,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 25
+      },
+      {
+        "name": "EU 41",
+        "stock": 50
+      },
+      {
+        "name": "EU 42",
+        "stock": 70
+      },
+      {
+        "name": "EU 43",
+        "stock": 65
+      },
+      {
+        "name": "EU 44",
+        "stock": 45
+      },
+      {
+        "name": "EU 45",
+        "stock": 25
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1700,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-MSH-020",
+    "title": "Men's Water-Resistant Work Boots with Oil-Resistant Sole",
+    "category": "mens-work-shoes",
+    "supplier": "passo-firme",
+    "description": "Lace-up work boots in water-resistant leather with a thick, oil-resistant rubber sole. A padded collar and cushioned insole keep them comfortable over long shifts.\n• Upper: water-resistant leather; lining: textile\n• Composite toe cap\n• Oil-resistant rubber lug outsole\n• Sizes EU 40–45",
+    "images": [
+      "https://images.unsplash.com/photo-1582481455314-5fd9fecd06b3?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": null,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "EU 40",
+        "stock": 25
+      },
+      {
+        "name": "EU 41",
+        "stock": 45
+      },
+      {
+        "name": "EU 42",
+        "stock": 65
+      },
+      {
+        "name": "EU 43",
+        "stock": 60
+      },
+      {
+        "name": "EU 44",
+        "stock": 40
+      },
+      {
+        "name": "EU 45",
+        "stock": 20
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 1600,
+    "featured": false
+  }
+]

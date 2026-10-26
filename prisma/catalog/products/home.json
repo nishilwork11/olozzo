@@ -1,0 +1,597 @@
+[
+  {
+    "sku": "OLZ-HOM-001",
+    "title": "Stoneware Dinner Set for 4, 12 Pieces",
+    "category": "kitchen-dining",
+    "supplier": "nordhaus",
+    "description": "A versatile 12-piece stoneware set with a soft reactive glaze, so no two pieces look exactly alike. Sturdy enough for everyday meals and smart enough for guests.\n• Includes 4 dinner plates (27 cm), 4 side plates (20 cm) and 4 bowls (15 cm)\n• Glazed stoneware with a food-safe finish\n• Dishwasher and microwave safe\n• Set weight approx. 6 kg",
+    "images": [
+      "https://images.unsplash.com/photo-1631008789162-950869f41805?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1784519488292-bab9355b6d54?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 3999,
+    "compareAtPrice": 5999,
+    "costPrice": 1799,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 60
+      },
+      {
+        "name": "Black",
+        "stock": 45
+      },
+      {
+        "name": "Black and White Mix",
+        "stock": 40
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 6200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-002",
+    "title": "Stainless Steel Cutlery Set for 6, 24 Pieces",
+    "category": "kitchen-dining",
+    "supplier": "nordhaus",
+    "description": "A classic, well-balanced cutlery set with a mirror-polished finish that suits any table. Each piece has a comfortable weight in the hand.\n• Includes 6 each of dinner knives, dinner forks, dessert spoons and teaspoons\n• 18/10 stainless steel, 2.5 mm thick\n• Dishwasher safe; dry promptly for a lasting shine\n• Presented in a gift box",
+    "images": [
+      "https://images.unsplash.com/photo-1658206805853-badb9282212a?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1619367300924-485907ff690d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1760594308629-ea1d7e890804?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1049,
+    "variants": [
+      {
+        "name": "Polished Silver",
+        "stock": 120
+      },
+      {
+        "name": "Matte Black",
+        "stock": 60
+      },
+      {
+        "name": "Gold-Tone",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-003",
+    "title": "Non-Stick Frying Pan 28 cm, Induction Compatible",
+    "category": "cookware",
+    "supplier": "nordhaus",
+    "description": "An everyday frying pan with a durable non-stick coating that releases eggs, pancakes and fish using very little oil. The heavy base spreads heat evenly on every hob.\n• Diameter 28 cm, depth 5 cm, weight 1.1 kg\n• Forged aluminium body with a 3-layer non-stick coating\n• Works on gas, electric, ceramic and induction hobs\n• Soft-touch handle; hand wash recommended",
+    "images": [
+      "https://images.unsplash.com/photo-1592156328697-079f6ee0cfa5?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1612487439139-c2d7bac13577?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621494547944-5ddbc84514b2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2999,
+    "costPrice": 849,
+    "variants": [
+      {
+        "name": "Black",
+        "stock": 150
+      },
+      {
+        "name": "Granite Grey",
+        "stock": 90
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1300,
+    "featured": true
+  },
+  {
+    "sku": "OLZ-HOM-004",
+    "title": "Stainless Steel Saucepan Set with Glass Lids, 3 Pieces",
+    "category": "cookware",
+    "supplier": "nordhaus",
+    "description": "Three nesting saucepans for sauces, soups, pasta and vegetables, each with a tempered glass lid and steam vent. The encapsulated base heats quickly and evenly.\n• Sizes: 16 cm (1.5 L), 18 cm (2 L) and 20 cm (3 L)\n• 18/8 stainless steel with internal measuring marks\n• Suitable for all hobs including induction; oven safe to 200 °C without lids\n• Dishwasher safe",
+    "images": [
+      "https://images.unsplash.com/photo-1601260483544-72824cd8634d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604414499020-f9ac575bc5ec?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1693038603562-bb6191269ecc?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4499,
+    "compareAtPrice": null,
+    "costPrice": 1999,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 3600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-005",
+    "title": "Non-Stick 12-Cup Muffin Tin",
+    "category": "bakeware",
+    "supplier": "nordhaus",
+    "description": "A sturdy carbon steel muffin tin that bakes evenly and releases muffins and cupcakes cleanly. Wide rolled edges make it easy to grip with oven gloves.\n• 12 cups, each 7 cm across and 3 cm deep\n• Overall size: 35 × 26.5 cm\n• Heavy-gauge carbon steel with a double non-stick coating, oven safe to 230 °C\n• Hand wash recommended",
+    "images": [
+      "https://images.unsplash.com/photo-1499889808931-317a0255c0e9?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1658422928126-6120ea188353?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 899,
+    "compareAtPrice": 1299,
+    "costPrice": 349,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 160
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 650,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-006",
+    "title": "Teak Wooden Cooking Utensil Set, 6 Pieces",
+    "category": "kitchen-gadgets",
+    "supplier": "nordhaus",
+    "description": "Smooth teak utensils that are gentle on non-stick pans and comfortable to hold. A natural-looking set for stirring, flipping and serving.\n• Includes spatula, slotted spatula, solid spoon, slotted spoon, salad spoon and ladle\n• Solid teak wood, 30–33 cm long\n• Heat resistant and kind to non-stick coatings\n• Hand wash and oil occasionally",
+    "images": [
+      "https://images.unsplash.com/photo-1730597363352-0a8fe6eb5d12?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1728034261662-460ca4fbecd7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1777499455310-80354aa1021f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1499,
+    "compareAtPrice": 2199,
+    "costPrice": 599,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 180
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 520,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-007",
+    "title": "Stainless Steel Mini Grater with Heart Cut-Outs",
+    "category": "kitchen-gadgets",
+    "supplier": "nordhaus",
+    "description": "A small, sharp grater for garlic, ginger, nutmeg, citrus zest and hard cheese, with playful heart-shaped holes. Compact enough to grate straight over the plate.\n• Size: 15 × 5.5 cm\n• Food-grade stainless steel\n• Fine, sharp holes for zest and spices\n• Hanging loop; dishwasher safe",
+    "images": [
+      "https://images.unsplash.com/photo-1790904734902-e54f4b30090f?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1781018727256-df854d4e231d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 399,
+    "compareAtPrice": null,
+    "costPrice": 149,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 260
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 60,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-008",
+    "title": "Glass Meal Prep Containers with Snap Lids, Set of 5",
+    "category": "food-storage",
+    "supplier": "nordhaus",
+    "description": "Leak-resistant glass containers for meal prep, leftovers and packed lunches. They go from fridge or freezer to microwave or oven (without the lids).\n• 5 containers, 1,040 ml each, 20 × 15 × 6 cm\n• Borosilicate glass, oven safe to 230 °C without lids\n• Four-latch lids with silicone seal, BPA-free\n• Dishwasher safe",
+    "images": [
+      "https://images.unsplash.com/photo-1543352632-5a4b24e4d2a6?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 1049,
+    "variants": [
+      {
+        "name": "Single Compartment",
+        "stock": 90
+      },
+      {
+        "name": "Two Compartments",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 3200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-009",
+    "title": "Glass Storage Jars with Bamboo Lids, Set of 6",
+    "category": "food-storage",
+    "supplier": "nordhaus",
+    "description": "Airtight glass jars that keep pasta, rice, grains and snacks fresh and on show. The bamboo lids seal with a silicone ring.\n• 6 jars: 2 × 1,000 ml, 2 × 650 ml and 2 × 450 ml\n• Borosilicate glass with bamboo lids\n• Silicone sealing ring for an airtight fit\n• Includes 12 reusable labels and a chalk marker",
+    "images": [
+      "https://images.unsplash.com/photo-1543352632-fea6d4f83e78?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509043183980-23be96ae4109?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1620381856261-91ce3d1f0784?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2299,
+    "compareAtPrice": null,
+    "costPrice": 949,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 3000,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-010",
+    "title": "Microfibre Duvet Cover Set 200 × 200 cm with 2 Pillowcases",
+    "category": "bedding",
+    "supplier": "nordhaus",
+    "description": "A soft, brushed microfibre bedding set that feels cosy in winter and stays breathable in summer. Easy-care fabric that resists creases and dries quickly.\n• Duvet cover 200 × 200 cm with hidden zip closure\n• 2 pillowcases 80 × 80 cm with envelope closure\n• 100% brushed polyester microfibre, 90 g/m²\n• Machine washable at 40 °C, tumble dry low",
+    "images": [
+      "https://images.unsplash.com/photo-1564019472231-4586c552dc27?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1762199904138-d163fe89540a?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3699,
+    "costPrice": 999,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 120
+      },
+      {
+        "name": "Grey",
+        "stock": 100
+      },
+      {
+        "name": "Sage Green",
+        "stock": 70
+      },
+      {
+        "name": "Navy",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-011",
+    "title": "Stonewashed Cotton Pillowcases 50 × 75 cm, Set of 2",
+    "category": "bedding",
+    "supplier": "nordhaus",
+    "description": "Relaxed, softly textured pillowcases in stonewashed cotton that get softer with every wash. The casual, lived-in look suits any bedroom.\n• Size: 50 × 75 cm, set of 2\n• 100% cotton, stonewashed for softness\n• Envelope closure keeps the pillow in place\n• Machine washable at 40 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1601276174812-63280a55656e?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1766245456897-5c86726d084d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "White",
+        "stock": 120
+      },
+      {
+        "name": "Oatmeal",
+        "stock": 90
+      },
+      {
+        "name": "Light Grey",
+        "stock": 90
+      },
+      {
+        "name": "Terracotta",
+        "stock": 50
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 400,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-012",
+    "title": "Cotton Bath Towel Set, 4 Pieces",
+    "category": "bath",
+    "supplier": "nordhaus",
+    "description": "Plush, absorbent towels in heavyweight cotton that feel soft from the very first wash. A matching set for a calm, hotel-style bathroom.\n• Includes 2 bath towels (70 × 140 cm) and 2 hand towels (50 × 90 cm)\n• 100% cotton terry, 550 g/m²\n• Hanging loop on every towel\n• Machine washable at 60 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1523471826770-c437b4636fe6?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1574421233376-06f2ccf017f7?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1639298109207-5a9ccc254481?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": 4499,
+    "costPrice": 1299,
+    "variants": [
+      {
+        "name": "Sage Green",
+        "stock": 80
+      },
+      {
+        "name": "White",
+        "stock": 120
+      },
+      {
+        "name": "Grey",
+        "stock": 90
+      },
+      {
+        "name": "Navy",
+        "stock": 60
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 2200,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-013",
+    "title": "Non-Slip Microfibre Bath Mat, 50 × 80 cm",
+    "category": "bath",
+    "supplier": "nordhaus",
+    "description": "A thick, quick-drying bath mat with soft microfibre loops that soak up water from wet feet. The rubberised backing helps keep it in place on tiles.\n• Size: 50 × 80 cm, pile height 2.5 cm\n• Microfibre chenille top with non-slip TPR backing\n• Machine washable at 30 °C; air dry\n• Also works well in kitchens and entryways",
+    "images": [
+      "https://images.unsplash.com/photo-1687526360728-f1af24aac201?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1706459493282-32d7c7d89bb2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": 1499,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Grey",
+        "stock": 140
+      },
+      {
+        "name": "Cream",
+        "stock": 100
+      },
+      {
+        "name": "Brown",
+        "stock": 70
+      },
+      {
+        "name": "Blue",
+        "stock": 70
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-014",
+    "title": "Ceramic Vase Set of 3, Matte Neutral Finish",
+    "category": "home-decor",
+    "supplier": "nordhaus",
+    "description": "Three minimalist vases in soft, earthy tones that work alone or grouped on a shelf, mantel or table. Display fresh flowers or dried stems, or simply leave them empty.\n• Heights: 20 cm, 15 cm and 11 cm\n• Matte-glazed ceramic, glazed inside to hold water\n• Felt pads on the base protect furniture\n• Wipe clean with a damp cloth",
+    "images": [
+      "https://images.unsplash.com/photo-1597696929736-6d13bed8e6a8?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631125915902-d8abe9225ff2?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2499,
+    "compareAtPrice": 3499,
+    "costPrice": 999,
+    "variants": [
+      {
+        "name": "Neutral Mix",
+        "stock": 90
+      },
+      {
+        "name": "Terracotta Mix",
+        "stock": 70
+      },
+      {
+        "name": "All White",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-015",
+    "title": "Cushion Covers 45 × 45 cm, Set of 4",
+    "category": "home-decor",
+    "supplier": "nordhaus",
+    "description": "A coordinated set of four cushion covers to refresh a sofa or bed in minutes. Soft woven fabric with hidden zips for a neat finish.\n• Size: 45 × 45 cm, set of 4 (inserts not included)\n• Material: polyester and linen blend\n• Concealed zip closure\n• Machine washable at 30 °C",
+    "images": [
+      "https://images.unsplash.com/photo-1531592762598-58a792d73aed?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1538577880403-f9998e75dd06?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1299,
+    "compareAtPrice": null,
+    "costPrice": 499,
+    "variants": [
+      {
+        "name": "Green and Orange Mix",
+        "stock": 90
+      },
+      {
+        "name": "Grey and Mustard Mix",
+        "stock": 100
+      },
+      {
+        "name": "Neutral Beige Mix",
+        "stock": 110
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-016",
+    "title": "Woven Seagrass Storage Baskets, Set of 3",
+    "category": "storage-organization",
+    "supplier": "nordhaus",
+    "description": "Handwoven seagrass baskets with built-in handles for tidying toys, towels, blankets and plants. The natural texture adds warmth to any room.\n• Sizes (diameter × height): 38 × 30 cm, 32 × 26 cm and 26 × 22 cm\n• Natural seagrass with woven handles\n• Nest inside one another when not in use\n• Spot clean only",
+    "images": [
+      "https://images.unsplash.com/photo-1777869779118-2389f6c951eb?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1758784881676-68e4b9e26da2?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 2999,
+    "compareAtPrice": null,
+    "costPrice": 1249,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 6,
+    "weightGrams": 1800,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-017",
+    "title": "Expandable Bamboo Cutlery Drawer Organiser",
+    "category": "storage-organization",
+    "supplier": "nordhaus",
+    "description": "A bamboo tray that expands to fit most kitchen drawers, keeping cutlery, utensils and gadgets neatly sorted. Also handy in desks and bathroom drawers.\n• Expands from 33 to 53 cm wide; depth 43 cm; height 5 cm\n• 5 to 7 compartments depending on width\n• Natural bamboo with a smooth lacquered finish\n• Wipe clean; non-slip feet",
+    "images": [
+      "https://images.unsplash.com/photo-1783099780120-9519bd6f7251?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1678108040468-0cc9addd984d?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1999,
+    "compareAtPrice": 2799,
+    "costPrice": 799,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 120
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 1600,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-018",
+    "title": "Amber Glass Spray Bottles 500 ml, Set of 2",
+    "category": "cleaning",
+    "supplier": "nordhaus",
+    "description": "Refillable glass spray bottles for homemade cleaning solutions, plant misting or ironing water. The adjustable trigger switches between fine mist and stream.\n• 2 bottles × 500 ml, amber glass\n• Adjustable trigger: mist, stream or off\n• Includes chalk labels and a small funnel\n• Rinse between refills; not for use with bleach",
+    "images": [
+      "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1550963295-019d8a8a61c5?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 999,
+    "compareAtPrice": null,
+    "costPrice": 399,
+    "variants": [
+      {
+        "name": "Default",
+        "stock": 200
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 900,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-019",
+    "title": "Round Wooden Side Table with Shelf, 45 cm",
+    "category": "furniture",
+    "supplier": "nordhaus",
+    "description": "A compact round side table with a lower shelf for books, magazines or a plant. The warm wood finish suits Scandinavian and modern rooms alike.\n• Size: 45 cm diameter × 50 cm height\n• Engineered wood top with wood veneer and solid pine legs\n• Maximum load: 15 kg on the top, 10 kg on the shelf\n• Simple assembly, tools included",
+    "images": [
+      "https://images.unsplash.com/photo-1611486212355-d276af4581c0?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 4999,
+    "compareAtPrice": null,
+    "costPrice": 2299,
+    "variants": [
+      {
+        "name": "Natural Oak Look",
+        "stock": 50
+      },
+      {
+        "name": "Walnut Look",
+        "stock": 40
+      },
+      {
+        "name": "White",
+        "stock": 35
+      }
+    ],
+    "shippingDaysMin": 3,
+    "shippingDaysMax": 7,
+    "weightGrams": 5500,
+    "featured": false
+  },
+  {
+    "sku": "OLZ-HOM-020",
+    "title": "Soy Wax Scented Candle in Amber Glass Jar, 200 g",
+    "category": "candles",
+    "supplier": "nordhaus",
+    "description": "A slow-burning soy wax candle with a cotton wick and a warm, inviting fragrance. The amber glass jar can be reused once the candle has burned down.\n• 200 g soy wax blend, burn time approx. 40 hours\n• Cotton wick; jar size 8 × 9 cm with metal lid\n• Trim the wick to 5 mm before each use\n• Never leave a burning candle unattended; full safety information on the label",
+    "images": [
+      "https://images.unsplash.com/photo-1772915022472-ffc1df2d6051?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1640095889747-2090ee12fa7d?w=900&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?w=900&q=80&auto=format&fit=crop"
+    ],
+    "price": 1199,
+    "compareAtPrice": 1699,
+    "costPrice": 449,
+    "variants": [
+      {
+        "name": "Vanilla and Sandalwood",
+        "stock": 120
+      },
+      {
+        "name": "Fig and Cedar",
+        "stock": 90
+      },
+      {
+        "name": "Lavender and Sage",
+        "stock": 100
+      },
+      {
+        "name": "Fresh Linen",
+        "stock": 80
+      }
+    ],
+    "shippingDaysMin": 2,
+    "shippingDaysMax": 5,
+    "weightGrams": 420,
+    "featured": true
+  }
+]
