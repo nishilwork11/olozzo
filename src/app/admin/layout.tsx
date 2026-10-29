@@ -1,10 +1,11 @@
-import { Boxes, Factory, FolderTree, LayoutDashboard, Receipt, ScrollText, ShieldCheck, Store, Users } from "lucide-react";
+import { Boxes, CreditCard, Factory, FolderTree, LayoutDashboard, Receipt, ScrollText, ShieldCheck, Store, Users } from "lucide-react";
 import { DashboardShell, type NavItem } from "@/components/dashboard/DashboardShell";
 import { requireUser } from "@/lib/auth";
 
 const NAV: NavItem[] = [
   { href: "/admin", label: "Overview", icon: LayoutDashboard, exact: true },
   { href: "/admin/orders", label: "Orders", icon: Receipt },
+  { href: "/admin/payments", label: "Payments", icon: CreditCard },
   { href: "/admin/stores", label: "Stores", icon: Store },
   { href: "/admin/suppliers", label: "Suppliers", icon: Factory },
   { href: "/admin/products", label: "Products", icon: Boxes },

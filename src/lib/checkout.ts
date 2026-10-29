@@ -1,5 +1,5 @@
 import "server-only";
-import type { Store } from "@prisma/client";
+import { Prisma, type Store } from "@prisma/client";
 import { db } from "./db";
 import { isEuCountry, vatFromGross, vatRateFor } from "./eu";
 import { formatMoney } from "./money";
@@ -39,6 +39,32 @@ export type Quote = {
   platformFee: number;
 };
 
+type DbClient = typeof db | Prisma.TransactionClient;
+
+/**
+ * Units held by orders whose payment is still open (not yet expired) or being processed by the bank.
+ * Suppliers set absolute stock levels, so holds are counted here instead of being taken off `stock`.
+ * `excludeCheckoutKey` leaves out the shopper's own earlier attempt, which a retry replaces.
+ */
+export async function reservedStock(client: DbClient, variantIds: string[], excludeCheckoutKey?: string | null) {
+  if (variantIds.length === 0) return new Map<string, number>();
+  const rows = await client.orderItem.groupBy({
+    by: ["variantId"],
+    where: {
+      variantId: { in: variantIds },
+      order: {
+        stockReserved: true,
+        AND: [
+          { OR: [{ paymentStatus: "PENDING" }, { paymentStatus: "UNPAID", paymentExpiresAt: { gt: new Date() } }] },
+          ...(excludeCheckoutKey ? [{ OR: [{ checkoutKey: null }, { checkoutKey: { not: excludeCheckoutKey } }] }] : []),
+        ],
+      },
+    },
+    _sum: { quantity: true },
+  });
+  return new Map(rows.map((r) => [r.variantId ?? "", r._sum.quantity ?? 0]));
+}
+
 /**
  * Re-price a cart on the server. Never trust prices from the browser: everything here is
  * looked up from the database (active products, approved suppliers, stock, discount rules).
@@ -48,6 +74,7 @@ export async function quoteCart(
   input: CartLineInput[],
   country: string,
   discountCode?: string | null,
+  opts: { excludeCheckoutKey?: string | null } = {},
 ): Promise<Quote> {
   const ids = [...new Set(input.map((i) => i.storeProductId))];
   const storeProducts = await db.storeProduct.findMany({
@@ -60,6 +87,11 @@ export async function quoteCart(
     include: { product: { include: { variants: true } } },
   });
   const byId = new Map(storeProducts.map((sp) => [sp.id, sp]));
+  const reserved = await reservedStock(
+    db,
+    storeProducts.flatMap((sp) => sp.product.variants.map((v) => v.id)),
+    opts.excludeCheckoutKey,
+  );
 
   // Merge duplicate lines (same product + variant)
   const merged = new Map<string, CartLineInput>();
@@ -83,12 +115,13 @@ export async function quoteCart(
       issues.push(`${sp.title}: the selected option is no longer available.`);
       continue;
     }
-    if (variant.stock <= 0) {
+    const available = variant.stock - (reserved.get(variant.id) ?? 0);
+    if (available <= 0) {
       issues.push(`${sp.title} (${variant.name}) is out of stock.`);
       continue;
     }
-    const quantity = Math.min(wanted, variant.stock);
-    if (quantity < wanted) issues.push(`Only ${variant.stock} left of ${sp.title} (${variant.name}).`);
+    const quantity = Math.min(wanted, available);
+    if (quantity < wanted) issues.push(`Only ${available} left of ${sp.title} (${variant.name}).`);
 
     const unitPrice = variantRetailPrice(sp.price, sp.product.costPrice, variant.costPrice);
     lines.push({
@@ -169,51 +202,86 @@ export type ShippingDetails = {
   country: string;
 };
 
+export class OutOfStockError extends Error {}
+
+/**
+ * Create the order and hold its stock until the payment expires. The variant rows are locked first
+ * (in id order, so concurrent checkouts can't deadlock), which stops two shoppers from both getting
+ * the last unit.
+ */
 export async function createOrderFromQuote(
   store: Store,
   quote: Quote,
   shipping: ShippingDetails,
   provider: string,
   customerId: string | null,
+  payment: { checkoutKey: string; accessTokenHash: string; expiresAt: Date },
 ) {
-  return db.order.create({
-    data: {
-      number: `OLZ-${randomCode(8)}`,
-      storeId: store.id,
-      customerId,
-      email: shipping.email.toLowerCase(),
-      name: shipping.name,
-      phone: shipping.phone || null,
-      addressLine1: shipping.addressLine1,
-      addressLine2: shipping.addressLine2 || null,
-      city: shipping.city,
-      postalCode: shipping.postalCode,
-      country: shipping.country,
-      paymentProvider: provider,
-      subtotal: quote.subtotal,
-      discountCode: quote.discountCode,
-      discountTotal: quote.discountTotal,
-      shippingTotal: quote.shippingTotal,
-      vatRate: quote.vatRate,
-      vatTotal: quote.vatTotal,
-      total: quote.total,
-      costTotal: quote.costTotal,
-      platformFee: quote.platformFee,
-      items: {
-        create: quote.lines.map((l) => ({
-          storeProductId: l.storeProductId,
-          productId: l.productId,
-          variantId: l.variantId,
-          supplierId: l.supplierId,
-          title: l.title,
-          variantName: l.variantName,
-          image: l.image,
-          quantity: l.quantity,
-          unitPrice: l.unitPrice,
-          unitCost: l.unitCost,
-          shippingCost: l.shippingCost,
-        })),
+  const wanted = new Map<string, { title: string; quantity: number }>();
+  for (const l of quote.lines) {
+    const prev = wanted.get(l.variantId);
+    wanted.set(l.variantId, { title: `${l.title} (${l.variantName})`, quantity: (prev?.quantity ?? 0) + l.quantity });
+  }
+  const variantIds = [...wanted.keys()];
+
+  return db.$transaction(async (tx) => {
+    await tx.$queryRaw`SELECT id FROM "ProductVariant" WHERE id IN (${Prisma.join(variantIds)}) ORDER BY id FOR UPDATE`;
+    const [variants, reserved] = await Promise.all([
+      tx.productVariant.findMany({ where: { id: { in: variantIds } }, select: { id: true, stock: true } }),
+      reservedStock(tx, variantIds),
+    ]);
+    for (const [variantId, line] of wanted) {
+      const stock = variants.find((v) => v.id === variantId)?.stock ?? 0;
+      const available = stock - (reserved.get(variantId) ?? 0);
+      if (available < line.quantity) {
+        throw new OutOfStockError(
+          available > 0 ? `Only ${available} left of ${line.title}.` : `${line.title} has just sold out.`,
+        );
+      }
+    }
+    return tx.order.create({
+      data: {
+        checkoutKey: payment.checkoutKey,
+        accessTokenHash: payment.accessTokenHash,
+        paymentExpiresAt: payment.expiresAt,
+        stockReserved: true,
+        number: `OLZ-${randomCode(8)}`,
+        storeId: store.id,
+        customerId,
+        email: shipping.email.toLowerCase(),
+        name: shipping.name,
+        phone: shipping.phone || null,
+        addressLine1: shipping.addressLine1,
+        addressLine2: shipping.addressLine2 || null,
+        city: shipping.city,
+        postalCode: shipping.postalCode,
+        country: shipping.country,
+        paymentProvider: provider,
+        subtotal: quote.subtotal,
+        discountCode: quote.discountCode,
+        discountTotal: quote.discountTotal,
+        shippingTotal: quote.shippingTotal,
+        vatRate: quote.vatRate,
+        vatTotal: quote.vatTotal,
+        total: quote.total,
+        costTotal: quote.costTotal,
+        platformFee: quote.platformFee,
+        items: {
+          create: quote.lines.map((l) => ({
+            storeProductId: l.storeProductId,
+            productId: l.productId,
+            variantId: l.variantId,
+            supplierId: l.supplierId,
+            title: l.title,
+            variantName: l.variantName,
+            image: l.image,
+            quantity: l.quantity,
+            unitPrice: l.unitPrice,
+            unitCost: l.unitCost,
+            shippingCost: l.shippingCost,
+          })),
+        },
       },
-    },
+    });
   });
 }

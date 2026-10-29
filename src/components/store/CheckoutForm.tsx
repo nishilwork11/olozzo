@@ -36,7 +36,7 @@ export function CheckoutForm({
   paymentOptions: PaymentOption[];
   prefill: { email: string; name: string } | null;
 }) {
-  const { items, ready, replace } = useCart();
+  const { items, ready, replace, checkout, rememberOrder } = useCart();
   const [country, setCountry] = useState(defaultCountry);
   const [codeInput, setCodeInput] = useState("");
   const [appliedCode, setAppliedCode] = useState<string | null>(null);
@@ -47,10 +47,22 @@ export function CheckoutForm({
   const [provider, setProvider] = useState(paymentOptions[0]?.id ?? "");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  // Link to an order the server says this checkout already has (still processing or already paid)
+  const [existingOrderPath, setExistingOrderPath] = useState<string | null>(null);
   const [notices, setNotices] = useState<string[]>([]);
   const formRef = useRef<HTMLFormElement>(null);
 
   const cartKey = useMemo(() => JSON.stringify(items.map((i) => [i.storeProductId, i.variantId, i.quantity])), [items]);
+
+  // Coming back from the payment page with the browser's Back button restores this page from its cache,
+  // spinner included: re-enable the button so the shopper can try again
+  useEffect(() => {
+    const onPageShow = (e: PageTransitionEvent) => {
+      if (e.persisted) setSubmitting(false);
+    };
+    window.addEventListener("pageshow", onPageShow);
+    return () => window.removeEventListener("pageshow", onPageShow);
+  }, []);
 
   useEffect(() => {
     if (!ready || items.length === 0) return;
@@ -63,6 +75,7 @@ export function CheckoutForm({
         storeSlug,
         country,
         discountCode: appliedCode,
+        checkoutKey: checkout.key || null,
         items: items.map((i) => ({ storeProductId: i.storeProductId, variantId: i.variantId, quantity: i.quantity })),
       }),
       signal: ctrl.signal,
@@ -99,7 +112,7 @@ export function CheckoutForm({
       .finally(() => setQuoting(false));
     return () => ctrl.abort();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [ready, cartKey, country, appliedCode, storeSlug]);
+  }, [ready, cartKey, country, appliedCode, storeSlug, checkout.key]);
 
   function applyCode() {
     const code = codeInput.trim();
@@ -110,7 +123,9 @@ export function CheckoutForm({
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (submitting) return;
     setError(null);
+    setExistingOrderPath(null);
     const fd = new FormData(e.currentTarget);
     const get = (k: string) => String(fd.get(k) ?? "").trim();
     setSubmitting(true);
@@ -120,6 +135,7 @@ export function CheckoutForm({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           storeSlug,
+          checkoutKey: checkout.key || null,
           provider,
           discountCode: appliedCode,
           acceptTerms: fd.get("acceptTerms") === "on",
@@ -140,9 +156,11 @@ export function CheckoutForm({
       if (!res.ok || !data.url) {
         setError(data.error ?? "Something went wrong. Please try again.");
         if (data.issues) setNotices(data.issues);
+        if (data.orderId && data.orderId === checkout.orderId && checkout.orderPath) setExistingOrderPath(checkout.orderPath);
         setSubmitting(false);
         return;
       }
+      if (data.orderPath) rememberOrder(data.orderId, data.orderPath);
       window.location.href = data.url;
     } catch {
       setError("Network error — please check your connection and try again.");
@@ -254,9 +272,20 @@ export function CheckoutForm({
         </label>
 
         {error && (
-          <p className="flex items-center gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
-            <AlertTriangle size={16} /> {error}
-          </p>
+          <div role="alert" className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+            <AlertTriangle size={16} className="mt-0.5 shrink-0" />
+            <p>
+              {error}
+              {existingOrderPath && (
+                <>
+                  {" "}
+                  <Link href={existingOrderPath} className="font-semibold underline">
+                    View your order
+                  </Link>
+                </>
+              )}
+            </p>
+          </div>
         )}
 
         <button type="submit" disabled={submitting || quoting || !provider || !quote || quote.lines.length === 0} className="btn btn-accent btn-lg w-full">

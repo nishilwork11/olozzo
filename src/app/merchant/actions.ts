@@ -8,7 +8,7 @@ import { db } from "@/lib/db";
 import { isEuCountry } from "@/lib/eu";
 import { merchantStoreFor } from "@/lib/merchant";
 import { toCents } from "@/lib/money";
-import { refundPayment } from "@/lib/payments";
+import { refundOrderInFull, retireUnpaidOrder } from "@/lib/payments";
 import { PLANS } from "@/lib/plans";
 import { retailFromCost } from "@/lib/pricing";
 import { int, slugify, str, withFlash } from "@/lib/utils";
@@ -238,12 +238,7 @@ async function ownOrder(orderId: string) {
 
 async function performRefund(orderId: string, userId: string) {
   const order = await db.order.findUniqueOrThrow({ where: { id: orderId } });
-  await refundPayment(order);
-  await db.$transaction([
-    db.order.update({ where: { id: orderId }, data: { status: "REFUNDED", paymentStatus: "REFUNDED" } }),
-    db.supplierOrder.updateMany({ where: { orderId, status: { in: ["PENDING", "ACCEPTED"] } }, data: { status: "CANCELLED" } }),
-  ]);
-  await audit(userId, "order.refunded", "Order", orderId, `${order.number} refunded ${order.total} via ${order.paymentProvider}`);
+  await refundOrderInFull(order, userId);
 }
 
 export async function refundOrder(orderId: string) {
@@ -263,10 +258,20 @@ export async function cancelUnpaidOrder(orderId: string) {
   const { user, order } = await ownOrder(orderId);
   const back = `/merchant/orders/${orderId}`;
   if (order.paymentStatus === "PAID") redirect(withFlash(back, "error", "Paid orders must be refunded instead."));
-  await db.order.update({ where: { id: orderId }, data: { status: "CANCELLED" } });
-  await audit(user.id, "order.cancelled", "Order", orderId, order.number);
+  if (order.paymentStatus === "PENDING") {
+    redirect(withFlash(back, "error", "The customer's bank is still processing this payment. Wait for it to succeed or fail."));
+  }
+  let outcome: "cancelled" | "paid";
+  try {
+    // Closes the payment page first, so the customer can no longer pay for a cancelled order
+    outcome = await retireUnpaidOrder(order, `${order.number} cancelled by the store`, user.id);
+  } catch (err) {
+    console.error("[merchant] cancel failed", err);
+    redirect(withFlash(back, "error", "Could not close the payment with the provider. Please try again."));
+  }
   revalidatePath("/merchant", "layout");
-  redirect(withFlash(back, "ok", "Order cancelled."));
+  if (outcome === "paid") redirect(withFlash(back, "error", "The customer has just paid, so the order was not cancelled."));
+  redirect(withFlash(back, "ok", "Order cancelled. Its payment page is closed."));
 }
 
 export async function resolveReturn(returnId: string, decision: "APPROVED" | "REJECTED" | "REFUNDED", form: FormData) {

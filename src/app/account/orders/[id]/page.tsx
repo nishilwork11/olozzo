@@ -54,6 +54,23 @@ export default async function AccountOrderDetail({
       </div>
       <Flash {...flash} />
 
+      {order.paymentStatus === "PENDING" && (
+        <p className="mb-6 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+          Your bank payment is being processed. This can take a few business days; your items are reserved and ship as soon as it is
+          confirmed. You don&apos;t need to pay again.
+        </p>
+      )}
+      {order.paymentStatus === "UNPAID" && order.status !== "CANCELLED" && (
+        <p className="mb-6 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+          We haven&apos;t received your payment for this order yet.
+        </p>
+      )}
+      {(order.paymentStatus === "FAILED" || (order.paymentStatus === "UNPAID" && order.status === "CANCELLED")) && (
+        <p className="mb-6 rounded-xl border border-ink-200 bg-ink-50 px-4 py-3 text-sm text-ink-700">
+          This order was not paid, so no money was taken and nothing will ship.
+        </p>
+      )}
+
       <Card className="mb-6 p-6">
         <OrderTimeline order={order} />
       </Card>

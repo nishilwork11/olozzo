@@ -55,7 +55,11 @@ Demo stores: `/s/urban-nest` and `/s/glow-and-go`. Try discount codes `WELCOME10
 
 - Webhooks: `POST /api/webhooks/stripe` and `POST /api/webhooks/mollie`
 - Payment is also confirmed when the customer returns to the order page, so orders complete on localhost without webhooks
-- Refunds go through the same provider, from the merchant's order page
+- Stock is reserved for 60 minutes while the customer pays (and while a SEPA payment is processing); a retried checkout reuses the same order and payment page
+- Guest order pages open only through the private link from checkout (or for the signed-in customer, the store owner and admins)
+- Refunds go through the same provider, from the merchant's or the admin's order page; refunds made in the Stripe Dashboard are synced by webhook
+- `/admin/payments`: setup checklist, webhook instructions, payments that need review, latest Stripe events
+- Demo payments are never offered in production builds or next to a live Stripe key
 
 ### EU compliance
 - Prices include VAT. VAT is calculated for the customer's country (OSS rules) for all 27 EU states (`src/lib/eu.ts`)
@@ -128,16 +132,18 @@ suppliers update their parcels.
    then run `npx prisma db push` (or `prisma migrate deploy`).
 2. **Secrets:** set a long random `AUTH_SECRET`, and set `NEXT_PUBLIC_APP_URL` to your domain.
 3. **Payments:** add your Stripe and/or Mollie live keys. In Stripe, create a webhook to
-   `https://<domain>/api/webhooks/stripe` for `checkout.session.completed`, `checkout.session.async_payment_succeeded`,
-   `checkout.session.async_payment_failed` and `checkout.session.expired`. Set `ENABLE_DEMO_PAYMENTS="false"`.
-   Local Stripe testing: `stripe listen --forward-to localhost:3000/api/webhooks/stripe`.
+   `https://<domain>/api/webhooks/stripe` (API version `2026-09-30.endive`) for `checkout.session.completed`,
+   `checkout.session.async_payment_succeeded`, `checkout.session.async_payment_failed`, `checkout.session.expired`,
+   `charge.refunded` and `charge.dispute.created`, and set its signing secret as `STRIPE_WEBHOOK_SECRET`.
+   `/admin/payments` checks the setup. Set `ENABLE_DEMO_PAYMENTS="false"`.
+   Local Stripe testing: `stripe listen --events checkout.session.completed,checkout.session.async_payment_succeeded,checkout.session.async_payment_failed,checkout.session.expired,charge.refunded,charge.dispute.created --forward-to localhost:3000/api/webhooks/stripe`.
 4. **Legal:** replace the template texts in `src/app/legal/[page]/page.tsx` with your company details and have them reviewed.
 5. **Deploy:** Vercel, or any Node host with `npm run build && npm start`.
 
 ## Not included yet
 These need third-party accounts or business decisions:
 - **Payouts:** money currently lands in one platform Stripe/Mollie account. Split payouts to merchants and suppliers need Stripe Connect or Mollie Connect.
-- **Transactional email** (order confirmation, shipping updates): add Resend, Postmark or SMTP where `audit()` is called in `src/lib/orders.ts`.
+- **Transactional email** (order confirmation, shipping updates): add Resend, Postmark or SMTP in `markOrderPaid()` in `src/lib/orders.ts`, after the `order.paid` audit (it runs once per order). Until then, Stripe's own receipts can be switched on in the Dashboard.
 - **Image uploads:** products use image URLs; add S3, R2 or UploadThing for direct uploads.
 - **Multi-language storefronts** (DE/FR/ES/IT/NL) and multi-currency (SEK, PLN, DKK…)
 - **External supplier APIs** (e.g. BigBuy, CJ Dropshipping): the CSV import is the current bulk path

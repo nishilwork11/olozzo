@@ -35,7 +35,7 @@ const toValue = (cents: number) => (cents / 100).toFixed(2);
 
 export async function createMolliePayment(
   order: { id: string; number: string; total: number },
-  opts: { storeSlug: string; baseUrl: string },
+  opts: { redirectUrl: string; baseUrl: string },
 ) {
   const isLocal = /localhost|127\.0\.0\.1/.test(opts.baseUrl);
   return mollie<MolliePayment>("/payments", {
@@ -43,7 +43,7 @@ export async function createMolliePayment(
     body: JSON.stringify({
       amount: { currency: "EUR", value: toValue(order.total) },
       description: `Order ${order.number}`,
-      redirectUrl: `${opts.baseUrl}/s/${opts.storeSlug}/order/${order.id}`,
+      redirectUrl: opts.redirectUrl,
       // Mollie cannot reach localhost — on local dev we verify the payment when the customer returns.
       ...(isLocal ? {} : { webhookUrl: `${opts.baseUrl}/api/webhooks/mollie` }),
       metadata: { orderId: order.id },

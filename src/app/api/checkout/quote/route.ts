@@ -10,18 +10,20 @@ const schema = z.object({
     .max(50),
   country: z.string().length(2),
   discountCode: z.string().max(40).nullish(),
+  checkoutKey: z.string().uuid().nullish(),
 });
 
 /** Live server-side pricing for the checkout page (VAT per country, shipping, discount). */
 export async function POST(req: NextRequest) {
   const parsed = schema.safeParse(await req.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "Invalid request" }, { status: 400 });
-  const { storeSlug, items, country, discountCode } = parsed.data;
+  const { storeSlug, items, country, discountCode, checkoutKey } = parsed.data;
 
   const store = await db.store.findUnique({ where: { slug: storeSlug } });
   if (!store) return NextResponse.json({ error: "Store not found" }, { status: 404 });
 
-  const quote = await quoteCart(store, items, country, discountCode);
+  // The shopper's own open order (a payment page they left) doesn't count against their stock
+  const quote = await quoteCart(store, items, country, discountCode, { excludeCheckoutKey: checkoutKey });
   // Never expose supplier cost data to shoppers
   return NextResponse.json({
     lines: quote.lines.map((l) => ({

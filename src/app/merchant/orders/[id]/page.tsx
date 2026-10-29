@@ -3,11 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { AddressBlock, OrderItemsList, OrderTimeline, OrderTotals, ShipmentList } from "@/components/orders/OrderParts";
+import { PaymentPanel } from "@/components/orders/PaymentPanel";
 import { SubmitButton } from "@/components/client";
 import { Card, CardHeader, Flash, PageHeader, StatusBadge } from "@/components/ui";
 import { db } from "@/lib/db";
 import { requireMerchantStore } from "@/lib/merchant";
 import { formatMoney } from "@/lib/money";
+import { stripeMode } from "@/lib/payments/stripe";
 import { formatDateTime } from "@/lib/utils";
 import { cancelUnpaidOrder, refundOrder, resolveReturn } from "../../actions";
 
@@ -23,14 +25,17 @@ export default async function MerchantOrderDetail({
   const { id } = await params;
   const flash = await searchParams;
   const { store } = await requireMerchantStore();
-  const order = await db.order.findFirst({
-    where: { id, storeId: store.id },
-    include: {
-      items: true,
-      fulfillments: { include: { supplier: true, items: true }, orderBy: { createdAt: "asc" } },
-      returns: { orderBy: { createdAt: "desc" } },
-    },
-  });
+  const [order, events] = await Promise.all([
+    db.order.findFirst({
+      where: { id, storeId: store.id },
+      include: {
+        items: true,
+        fulfillments: { include: { supplier: true, items: true }, orderBy: { createdAt: "asc" } },
+        returns: { orderBy: { createdAt: "desc" } },
+      },
+    }),
+    db.stripeEvent.findMany({ where: { orderId: id }, orderBy: { createdAt: "desc" }, take: 20 }),
+  ]);
   if (!order) notFound();
 
   return (
@@ -40,7 +45,7 @@ export default async function MerchantOrderDetail({
       </Link>
       <PageHeader
         title={`Order ${order.number}`}
-        description={`${formatDateTime(order.createdAt)} · ${order.paymentProvider} payment${order.paymentRef ? ` · ref ${order.paymentRef}` : ""}`}
+        description={`${formatDateTime(order.createdAt)} · ${order.paymentProvider} payment`}
         actions={
           <>
             <Link href={`/s/${store.slug}/order/${order.id}`} target="_blank" className="btn btn-secondary">
@@ -53,7 +58,7 @@ export default async function MerchantOrderDetail({
                 </SubmitButton>
               </form>
             )}
-            {order.paymentStatus !== "PAID" && order.status === "PENDING" && (
+            {order.paymentStatus === "UNPAID" && order.status === "PENDING" && (
               <form action={cancelUnpaidOrder.bind(null, order.id)}>
                 <SubmitButton className="btn btn-danger" confirm="Cancel this unpaid order?">Cancel order</SubmitButton>
               </form>
@@ -124,6 +129,7 @@ export default async function MerchantOrderDetail({
         </div>
 
         <div className="space-y-6">
+          <PaymentPanel order={order} events={events} stripeMode={stripeMode()} />
           <Card className="p-5">
             <h2 className="mb-3 font-semibold">Customer & shipping</h2>
             <AddressBlock order={order} />

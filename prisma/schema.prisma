@@ -176,9 +176,9 @@ model Order {
   postalCode      String
   country         String
   status          String    @default("PENDING") // PENDING | PROCESSING | SHIPPED | DELIVERED | CANCELLED | REFUNDED
-  paymentStatus   String    @default("UNPAID") // UNPAID | PAID | FAILED | REFUNDED
+  paymentStatus   String    @default("UNPAID") // UNPAID | PENDING (delayed method submitted) | PAID | FAILED | REFUNDED
   paymentProvider String // stripe | mollie | demo
-  paymentRef      String?
+  paymentRef      String? // Stripe Checkout Session id (cs_…) or Mollie payment id (tr_…)
   currency        String    @default("EUR")
   subtotal        Int // items total incl. VAT, before discount
   discountCode    String?
@@ -193,9 +193,32 @@ model Order {
   updatedAt       DateTime  @updatedAt
   paidAt          DateTime?
 
+  // Payment lifecycle (see src/lib/orders.ts and src/lib/payments/)
+  checkoutKey          String? // browser-generated id of one checkout attempt: retries reuse the same order
+  accessTokenHash      String? // SHA-256 of the guest's order-page token (the token itself is only in their link)
+  stockReserved        Boolean   @default(false) // holds stock while the payment is open or processing
+  paymentExpiresAt     DateTime? // when the payment page expires and the stock hold lapses
+  paymentIntentId      String?   @unique // Stripe PaymentIntent (pi_…), maps refund and dispute events
+  paymentFailureReason String? // why the payment failed, expired or needs review
+  refundedAt           DateTime?
+
   items        OrderItem[]
   fulfillments SupplierOrder[]
   returns      ReturnRequest[]
+
+  @@index([checkoutKey])
+  @@index([paymentStatus, createdAt])
+}
+
+// Stripe webhook events already processed (Stripe can deliver the same event more than once)
+model StripeEvent {
+  id        String   @id // evt_…
+  type      String
+  orderId   String?
+  summary   String?
+  createdAt DateTime @default(now())
+
+  @@index([orderId])
 }
 
 model OrderItem {

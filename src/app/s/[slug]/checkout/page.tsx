@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CheckoutForm } from "@/components/store/CheckoutForm";
 import { getCurrentUser } from "@/lib/auth";
+import { storeAcceptsOrders } from "@/lib/catalog";
 import { EU_COUNTRIES } from "@/lib/eu";
 import { paymentOptions } from "@/lib/payments";
 import { getStorefront } from "@/lib/store";
@@ -19,6 +20,17 @@ export default async function CheckoutPage({
   const { cancelled } = await searchParams;
   const [store, user] = await Promise.all([getStorefront(slug), getCurrentUser()]);
   if (!store) notFound();
+
+  if (!(await storeAcceptsOrders(store))) {
+    return (
+      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+        <h1 className="text-3xl font-bold tracking-tight">Checkout</h1>
+        <p className="mt-6 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+          This store isn&apos;t taking orders at the moment.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">

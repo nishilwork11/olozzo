@@ -259,10 +259,12 @@ export function CartView({ freeShippingOver, shippingRate }: { freeShippingOver:
   );
 }
 
-export function ClearCart() {
-  const { clear, ready } = useCart();
+/** Empties the cart once the order it produced is paid (or submitted for a delayed payment). */
+export function ClearCart({ orderId }: { orderId: string }) {
+  const { clear, ready, checkout } = useCart();
   useEffect(() => {
-    if (ready) clear();
-  }, [ready, clear]);
+    // Only the cart that became this order: opening an older order's page must not empty a new cart
+    if (ready && checkout.orderId === orderId) clear();
+  }, [ready, clear, checkout.orderId, orderId]);
   return null;
 }

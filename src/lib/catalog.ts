@@ -3,6 +3,7 @@ import type { Prisma } from "@prisma/client";
 import { unstable_cache } from "next/cache";
 import { cache } from "react";
 import { db } from "@/lib/db";
+import { OPEN_STORE_ENABLED } from "@/lib/features";
 import { parseImages } from "@/lib/utils";
 import trendingList from "../../prisma/catalog/trending.json";
 
@@ -121,6 +122,17 @@ const getHouseStore = cache(async () => {
   const store = await db.store.findUnique({ where: { slug: HOUSE_STORE_SLUG }, select: { id: true, published: true } });
   return store?.published ? store : null;
 });
+
+/**
+ * While olozzo sells only its own catalogue, other stores take no orders: payments land in olozzo's own
+ * Stripe/Mollie account, which may only collect money for goods olozzo sells. Without a house store
+ * (demo data only) every published store sells, matching how the shop lists products.
+ */
+export async function storeAcceptsOrders(store: { slug: string; published: boolean }): Promise<boolean> {
+  if (!store.published) return false;
+  if (OPEN_STORE_ENABLED || store.slug === HOUSE_STORE_SLUG) return true;
+  return !(await getHouseStore());
+}
 
 async function listingScope(): Promise<Prisma.StoreProductWhereInput> {
   const house = await getHouseStore();

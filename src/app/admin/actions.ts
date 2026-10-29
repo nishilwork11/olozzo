@@ -6,6 +6,8 @@ import { redirect } from "next/navigation";
 import { audit } from "@/lib/audit";
 import { requirePermission } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { formatMoney } from "@/lib/money";
+import { refundOrderInFull, retireUnpaidOrder, verifyPayment } from "@/lib/payments";
 import { PLANS } from "@/lib/plans";
 import { isRole } from "@/lib/rbac";
 import { slugify, str, withFlash } from "@/lib/utils";
@@ -169,4 +171,61 @@ export async function deleteCategory(categoryId: string) {
   await audit(admin.id, "category.deleted", "Category", categoryId, category.name);
   revalidateCategories();
   redirect(withFlash(CATEGORIES_PATH, "ok", `Category “${category.name}” deleted.`));
+}
+
+// ── Orders & payments ──────────────────────────────────────
+
+async function adminOrder(orderId: string) {
+  const admin = await requirePermission("orders:view_all");
+  const order = await db.order.findUnique({ where: { id: orderId } });
+  if (!order) throw new Error("Order not found");
+  return { admin, order, back: `/admin/orders/${orderId}` };
+}
+
+export async function adminRefundOrder(orderId: string) {
+  const { admin, order, back } = await adminOrder(orderId);
+  if (order.paymentStatus !== "PAID") redirect(withFlash(back, "error", "Only paid orders can be refunded."));
+  try {
+    await refundOrderInFull(order, admin.id);
+  } catch (err) {
+    console.error("[admin] refund failed", err);
+    redirect(withFlash(back, "error", `Refund failed: ${(err as Error).message}`));
+  }
+  revalidatePath("/admin", "layout");
+  redirect(withFlash(back, "ok", `Refunded ${formatMoney(order.total)}. Unshipped supplier orders were cancelled.`));
+}
+
+export async function adminCancelUnpaidOrder(orderId: string) {
+  const { admin, order, back } = await adminOrder(orderId);
+  if (order.paymentStatus !== "UNPAID" || order.status === "CANCELLED") {
+    redirect(withFlash(back, "error", "Only open, unpaid orders can be cancelled."));
+  }
+  let outcome: "cancelled" | "paid";
+  try {
+    outcome = await retireUnpaidOrder(order, `${order.number} cancelled by an admin`, admin.id);
+  } catch (err) {
+    console.error("[admin] cancel failed", err);
+    redirect(withFlash(back, "error", "Could not close the payment with the provider. Please try again."));
+  }
+  revalidatePath("/admin", "layout");
+  if (outcome === "paid") redirect(withFlash(back, "error", "The customer has just paid, so the order was not cancelled."));
+  redirect(withFlash(back, "ok", "Order cancelled. Its payment page is closed and its stock released."));
+}
+
+/** Ask the payment provider for the current state (e.g. when a webhook was missed) and apply it. */
+export async function adminSyncPayment(orderId: string) {
+  const { admin, order, back } = await adminOrder(orderId);
+  await verifyPayment(order);
+  const after = await db.order.findUniqueOrThrow({ where: { id: orderId } });
+  await audit(admin.id, "order.payment_synced", "Order", orderId, `${order.paymentStatus} → ${after.paymentStatus}`);
+  revalidatePath("/admin", "layout");
+  redirect(
+    withFlash(
+      back,
+      "ok",
+      after.paymentStatus === order.paymentStatus
+        ? `Checked with ${order.paymentProvider}: still ${after.paymentStatus.toLowerCase()}.`
+        : `Updated from ${order.paymentProvider}: payment is now ${after.paymentStatus.toLowerCase()}.`,
+    ),
+  );
 }
