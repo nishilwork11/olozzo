@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { AlertTriangle, CheckCircle2, CircleDashed } from "lucide-react";
-import { Card, CardHeader, PageHeader, StatusBadge } from "@/components/ui";
+import { AlertTriangle, CheckCircle2, CircleDashed, Receipt, ScrollText } from "lucide-react";
+import { SubmitButton } from "@/components/client";
+import { LOG_LEVEL_TEXT } from "@/components/orders/PaymentPanel";
+import { Card, CardHeader, Flash, PageHeader, StatusBadge } from "@/components/ui";
 import { db } from "@/lib/db";
 import { formatMoney } from "@/lib/money";
 import { paymentSetup } from "@/lib/payments";
+import { PAYMENT_EVENT_LABELS } from "@/lib/payments/log-details";
 import { STRIPE_WEBHOOK_EVENTS } from "@/lib/payments/stripe-events";
 import { cn, formatDateTime } from "@/lib/utils";
+import { adminReconcilePayments } from "../actions";
 
 export const metadata: Metadata = { title: "Payments · Admin" };
 
@@ -29,12 +33,13 @@ function Check({ state, title, children }: { state: CheckState; title: string; c
   );
 }
 
-export default async function AdminPayments() {
+export default async function AdminPayments({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
+  const flash = await searchParams;
   const setup = paymentSetup();
   const staleBefore = new Date(Date.now() - 2 * 3600_000);
   const slowBefore = new Date(Date.now() - 7 * 86400_000);
 
-  const [review, pending, staleUnpaid, events, oversold] = await Promise.all([
+  const [review, pending, staleUnpaid, events, oversold, problems] = await Promise.all([
     db.order.findMany({
       where: { paymentFailureReason: { startsWith: "Needs review" }, paymentStatus: { not: "PAID" } },
       include: { store: true },
@@ -45,9 +50,14 @@ export default async function AdminPayments() {
     db.order.count({ where: { paymentStatus: "UNPAID", status: "PENDING", createdAt: { lt: staleBefore } } }),
     db.stripeEvent.findMany({ orderBy: { createdAt: "desc" }, take: 15 }),
     db.auditLog.findMany({ where: { action: "order.oversold" }, orderBy: { createdAt: "desc" }, take: 10 }),
+    db.paymentLog.findMany({
+      where: { level: { in: ["WARN", "ERROR"] }, createdAt: { gt: slowBefore } },
+      orderBy: { createdAt: "desc" },
+      take: 10,
+    }),
   ]);
   const eventOrders = await db.order.findMany({
-    where: { id: { in: events.map((e) => e.orderId).filter((id): id is string => Boolean(id)) } },
+    where: { id: { in: [...events, ...problems].map((e) => e.orderId).filter((id): id is string => Boolean(id)) } },
     select: { id: true, number: true },
   });
   const orderNumber = new Map(eventOrders.map((o) => [o.id, o.number]));
@@ -55,7 +65,23 @@ export default async function AdminPayments() {
 
   return (
     <>
-      <PageHeader title="Payments" description="Stripe setup, payments that need attention and the latest webhook events." />
+      <PageHeader
+        title="Payments"
+        description="Stripe setup, payments that need attention and the latest webhook events. Stripe payments compares every payment in Stripe with its order."
+        actions={
+          <>
+            {setup.stripe && (
+              <Link href="/admin/payments/stripe" className="btn btn-secondary">
+                <Receipt size={14} /> Stripe payments
+              </Link>
+            )}
+            <Link href="/admin/payments/log" className="btn btn-secondary">
+              <ScrollText size={14} /> Payment log
+            </Link>
+          </>
+        }
+      />
+      <Flash {...flash} />
 
       <div className="grid gap-6 lg:grid-cols-5">
         <div className="space-y-6 lg:col-span-3">
@@ -76,7 +102,7 @@ export default async function AdminPayments() {
               {setup.stripe && (
                 <Check state={setup.stripeRestrictedKey ? "ok" : "todo"} title={setup.stripeRestrictedKey ? "Using a restricted API key" : "Using a full secret key"}>
                   {!setup.stripeRestrictedKey &&
-                    "Recommended: a restricted key with write access to Checkout Sessions and Refunds, and read access to PaymentIntents and Events, limits the damage if the key leaks."}
+                    "Recommended: a restricted key with write access to Checkout Sessions and Refunds, and read access to PaymentIntents, Charges and Events, limits the damage if the key leaks."}
                 </Check>
               )}
               {setup.stripe && (
@@ -85,6 +111,23 @@ export default async function AdminPayments() {
                     <>
                       Without <code>STRIPE_WEBHOOK_SECRET</code>, orders are confirmed only when the customer returns to the shop, and bank payments (SEPA)
                       never complete. Register the webhook below.
+                    </>
+                  )}
+                </Check>
+              )}
+              {setup.stripe && (
+                <Check
+                  state={setup.cronSecret ? "ok" : "todo"}
+                  title={setup.cronSecret ? "Automatic payment check is enabled" : "Automatic payment check is not enabled"}
+                >
+                  {setup.cronSecret ? (
+                    <>
+                      Make sure a scheduler calls <code>GET /api/cron/payments</code> every 15 minutes with <code>Authorization: Bearer &lt;CRON_SECRET&gt;</code>.
+                    </>
+                  ) : (
+                    <>
+                      Set <code>CRON_SECRET</code> and call <code>GET /api/cron/payments</code> every 15 minutes. It confirms payments whose webhook
+                      never arrived, e.g. when the customer closed the browser before returning to the shop.
                     </>
                   )}
                 </Check>
@@ -154,6 +197,37 @@ export default async function AdminPayments() {
 
         <div className="space-y-6 lg:col-span-2">
           <Card>
+            <CardHeader
+              title="Payment problems (7 days)"
+              action={
+                <Link href="/admin/payments/log?level=problems" className="text-sm font-medium text-brand-700 hover:underline">
+                  View all
+                </Link>
+              }
+            />
+            {problems.length === 0 ? (
+              <p className="p-5 text-sm text-ink-500">No failed, declined or refused payments.</p>
+            ) : (
+              <ul className="divide-y divide-ink-100">
+                {problems.map((p) => (
+                  <li key={p.id} className="px-5 py-3 text-sm">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <span className={cn("font-medium", LOG_LEVEL_TEXT[p.level])}>{PAYMENT_EVENT_LABELS[p.event] ?? p.event}</span>
+                      {p.orderId && (
+                        <Link href={`/admin/orders/${p.orderId}`} className="shrink-0 font-mono text-xs font-semibold hover:underline">
+                          {orderNumber.get(p.orderId) ?? "Order"}
+                        </Link>
+                      )}
+                    </div>
+                    <p className="text-xs text-ink-600">{p.message}</p>
+                    <p className="text-xs text-ink-400">{formatDateTime(p.createdAt)}</p>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </Card>
+
+          <Card>
             <CardHeader title="Needs review" action={<span className="text-sm text-ink-500">{review.length}</span>} />
             {review.length === 0 ? (
               <p className="p-5 text-sm text-ink-500">No payments to review.</p>
@@ -210,6 +284,11 @@ export default async function AdminPayments() {
             <p className="mt-1 text-xs text-ink-500">
               Payment pages expire after 60 minutes. A count that keeps growing usually means the Stripe webhook isn&apos;t reaching the shop.
             </p>
+            {setup.stripe && (
+              <form action={adminReconcilePayments} className="mt-3">
+                <SubmitButton className="btn btn-secondary btn-sm">Check open payments with Stripe</SubmitButton>
+              </form>
+            )}
           </Card>
 
           <Card>

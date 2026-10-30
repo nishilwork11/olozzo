@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
@@ -8,9 +9,10 @@ import { SubmitButton } from "@/components/client";
 import { Card, CardHeader, Flash, PageHeader, StatusBadge } from "@/components/ui";
 import { db } from "@/lib/db";
 import { formatMoney } from "@/lib/money";
-import { stripeMode } from "@/lib/payments/stripe";
+import { stripeEnabled, stripeMode } from "@/lib/payments/stripe";
 import { formatDateTime } from "@/lib/utils";
 import { adminCancelUnpaidOrder, adminRefundOrder, adminSyncPayment } from "../../actions";
+import { StripeCheck } from "./StripeCheck";
 
 export const metadata: Metadata = { title: "Order details · Admin" };
 
@@ -23,7 +25,7 @@ export default async function AdminOrderDetail({
 }) {
   const { id } = await params;
   const flash = await searchParams;
-  const [order, events] = await Promise.all([
+  const [order, logs, emails] = await Promise.all([
     db.order.findUnique({
       where: { id },
       include: {
@@ -33,12 +35,14 @@ export default async function AdminOrderDetail({
         returns: { orderBy: { createdAt: "desc" } },
       },
     }),
-    db.stripeEvent.findMany({ where: { orderId: id }, orderBy: { createdAt: "desc" }, take: 20 }),
+    db.paymentLog.findMany({ where: { orderId: id }, orderBy: { createdAt: "desc" }, take: 50 }),
+    db.emailLog.findMany({ where: { orderId: id }, orderBy: { createdAt: "desc" }, omit: { payload: true } }),
   ]);
   if (!order) notFound();
 
   const canSync = (order.paymentStatus === "UNPAID" || order.paymentStatus === "PENDING") && order.paymentProvider !== "demo";
   const canCancel = order.paymentStatus === "UNPAID" && order.status !== "CANCELLED";
+  const showStripeCheck = order.paymentProvider === "stripe" && stripeEnabled() && Boolean(order.paymentRef || order.paymentIntentId);
 
   return (
     <>
@@ -83,8 +87,9 @@ export default async function AdminOrderDetail({
         <div className="space-y-6">
           <PaymentPanel
             order={order}
-            events={events}
+            logs={logs}
             stripeMode={stripeMode()}
+            showLogDetails
             actions={
               canSync || canCancel || order.paymentStatus === "PAID" ? (
                 <>
@@ -114,9 +119,35 @@ export default async function AdminOrderDetail({
               ) : null
             }
           />
+          {showStripeCheck && (
+            <Suspense fallback={<Card className="p-5 text-sm text-ink-500">Checking with Stripe…</Card>}>
+              <StripeCheck order={order} />
+            </Suspense>
+          )}
           <Card className="p-5">
             <h2 className="mb-3 font-semibold">Customer</h2>
             <AddressBlock order={order} />
+          </Card>
+          <Card className="p-5">
+            <h2 className="mb-3 font-semibold">Emails</h2>
+            {emails.length === 0 ? (
+              <p className="text-sm text-ink-500">No emails sent for this order.</p>
+            ) : (
+              <ul className="space-y-3 text-sm">
+                {emails.map((e) => (
+                  <li key={e.id}>
+                    <Link href={`/admin/emails/${e.id}`} className="font-medium hover:underline">
+                      {e.subject}
+                    </Link>
+                    <span className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-ink-500">
+                      <StatusBadge status={e.status} />
+                      <span className="break-all">{e.to}</span>
+                      <span>{formatDateTime(e.createdAt)}</span>
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            )}
           </Card>
           <Card className="p-5">
             <h2 className="mb-3 font-semibold">Returns</h2>

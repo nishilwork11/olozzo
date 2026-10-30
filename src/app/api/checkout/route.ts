@@ -8,7 +8,10 @@ import { OutOfStockError, createOrderFromQuote, quoteCart, type Quote, type Ship
 import { db } from "@/lib/db";
 import { isEuCountry } from "@/lib/eu";
 import { newOrderAccessToken, orderPagePath } from "@/lib/order-access";
+import { markPaymentFailed } from "@/lib/orders";
 import { isProviderAvailable, resumablePaymentUrl, retireUnpaidOrder, startPayment } from "@/lib/payments";
+import { paymentLog } from "@/lib/payments/log";
+import { errorDetails, errorMessage } from "@/lib/payments/log-details";
 import { PAYMENT_WINDOW_MINUTES, checkoutSummary, sameCheckout } from "@/lib/payments/rules";
 
 const schema = z.object({
@@ -81,6 +84,13 @@ export async function POST(req: NextRequest) {
   });
   if (previous) {
     if (previous.paymentStatus === "PENDING") {
+      await paymentLog({
+        orderId: previous.id,
+        provider: previous.paymentProvider,
+        event: "checkout.still_processing",
+        ref: previous.paymentRef,
+        message: "The customer tried to pay again while their bank payment is still being processed; no new payment started",
+      });
       return NextResponse.json(
         { error: "Your previous payment for this cart is still being processed by your bank.", orderId: previous.id },
         { status: 409 },
@@ -90,12 +100,27 @@ export async function POST(req: NextRequest) {
       if (sameCheckout(previous, snapshot(quote, shipping, provider))) {
         const resume = await resumablePaymentUrl(previous);
         if (resume === "complete") {
+          await paymentLog({
+            orderId: previous.id,
+            level: "WARN",
+            event: "checkout.already_paid",
+            ref: previous.paymentRef,
+            message: "The customer tried to pay again, but Stripe shows this payment as completed; no second payment started",
+          });
           return NextResponse.json(
             { error: "You have already completed the payment for this order. Check your order status before paying again.", orderId: previous.id },
             { status: 409 },
           );
         }
-        if (resume) return NextResponse.json({ url: resume, orderId: previous.id });
+        if (resume) {
+          await paymentLog({
+            orderId: previous.id,
+            event: "checkout.resumed",
+            ref: previous.paymentRef,
+            message: "Same checkout submitted again; the customer was sent back to the same payment page",
+          });
+          return NextResponse.json({ url: resume, orderId: previous.id });
+        }
       }
       if ((await retireUnpaidOrder(previous, "Replaced by a newer checkout")) === "paid") {
         return NextResponse.json(
@@ -104,7 +129,15 @@ export async function POST(req: NextRequest) {
         );
       }
     } catch (err) {
-      console.error("[checkout] could not close the previous payment", err);
+      await paymentLog({
+        orderId: previous.id,
+        provider: previous.paymentProvider,
+        level: "ERROR",
+        event: "checkout.retry_failed",
+        ref: previous.paymentRef,
+        message: `A new checkout for the same cart could not take over this open payment: ${errorMessage(err)}`,
+        data: errorDetails(err),
+      });
       return NextResponse.json({ error: "We could not update your previous payment. Please try again in a moment." }, { status: 502 });
     }
   }
@@ -138,11 +171,16 @@ export async function POST(req: NextRequest) {
     // The browser keeps the order link (with its token) so it can point the shopper back to this order later
     return NextResponse.json({ url, orderId: order.id, orderPath: orderPagePath(store.slug, order.id, access.token) });
   } catch (err) {
-    console.error("[checkout] payment start failed", err);
-    await db.order.update({
-      where: { id: order.id },
-      data: { paymentStatus: "FAILED", status: "CANCELLED", stockReserved: false, paymentFailureReason: "The payment could not be started" },
+    // Stripe's own answer (error code, request id) is kept, so the cause can be looked up in the Stripe Dashboard
+    await paymentLog({
+      orderId: order.id,
+      provider,
+      level: "ERROR",
+      event: "checkout.start_failed",
+      message: `The payment could not be started: ${errorMessage(err)}`,
+      data: errorDetails(err),
     });
+    await markPaymentFailed(order.id, `The payment could not be started: ${errorMessage(err)}`);
     return NextResponse.json({ error: "We could not start the payment. Please try another method." }, { status: 502 });
   }
 }

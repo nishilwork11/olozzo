@@ -4,6 +4,8 @@ import { db } from "../db";
 import { formatMoney } from "../money";
 import { orderPagePath } from "../order-access";
 import { cancelUnpaidOrder, markOrderPaid, markOrderRefunded, markPaymentFailed } from "../orders";
+import { paymentLog } from "./log";
+import { errorDetails, errorMessage, refundDetails, sessionDetails } from "./log-details";
 import { createMolliePayment, getMolliePayment, mollieEnabled, refundMollie } from "./mollie";
 import { demoPaymentsAllowed } from "./rules";
 import { applyCheckoutSession } from "./stripe-events";
@@ -62,10 +64,18 @@ export async function startPayment(
         summary: opts.summary,
         // Stripe fills in {CHECKOUT_SESSION_ID}; the order page confirms that session before rendering
         successUrl: `${orderUrl}${orderUrl.includes("?") ? "&" : "?"}session_id={CHECKOUT_SESSION_ID}`,
-        cancelUrl: `${opts.baseUrl}/s/${store.slug}/checkout?cancelled=1`,
+        // The order id lets the checkout page log that the customer came back without paying
+        cancelUrl: `${opts.baseUrl}/s/${store.slug}/checkout?cancelled=1&order=${order.id}`,
       });
       await db.order.update({ where: { id: order.id }, data: { paymentRef: session.id } });
       if (!session.url) throw new Error("Stripe did not return a checkout URL");
+      await paymentLog({
+        orderId: order.id,
+        event: "checkout.started",
+        ref: session.id,
+        data: sessionDetails(session),
+        message: `Stripe payment page created for ${formatMoney(order.total)}`,
+      });
       return session.url;
     }
     case "mollie": {
@@ -73,13 +83,29 @@ export async function startPayment(
       await db.order.update({ where: { id: order.id }, data: { paymentRef: payment.id } });
       const href = payment._links.checkout?.href;
       if (!href) throw new Error("Mollie did not return a checkout URL");
+      await paymentLog({ orderId: order.id, provider: "mollie", event: "checkout.started", ref: payment.id, message: `Mollie payment created for ${formatMoney(order.total)}` });
       return href;
     }
     case "demo": {
       await markOrderPaid(order.id, `demo_${Date.now()}`);
+      await paymentLog({ orderId: order.id, provider: "demo", event: "checkout.started", message: "Demo payment: marked paid without moving money" });
       return orderUrl;
     }
   }
+}
+
+/** The customer clicked back on the Stripe page (its cancel URL). The order stays open until the page expires. */
+export async function noteCheckoutCancelled(storeId: string, orderId: string) {
+  const order = await db.order.findFirst({ where: { id: orderId, storeId, paymentStatus: "UNPAID" } });
+  if (!order) return;
+  await paymentLog({
+    orderId: order.id,
+    provider: order.paymentProvider,
+    event: "checkout.cancelled",
+    ref: order.paymentRef,
+    message: "The customer left the payment page without paying. The order stays open until the page expires",
+    throttleSeconds: 300,
+  });
 }
 
 /**
@@ -101,10 +127,32 @@ export async function resumablePaymentUrl(order: Order): Promise<string | "compl
  */
 export async function retireUnpaidOrder(order: Order, reason: string, userId: string | null = null): Promise<"cancelled" | "paid"> {
   if (order.paymentProvider === "stripe" && order.paymentRef && stripeEnabled()) {
-    if ((await expireStripeSession(order.paymentRef)) === "complete") {
-      await applyCheckoutSession(await getStripeSession(order.paymentRef));
+    let closed: "expired" | "complete";
+    try {
+      closed = await expireStripeSession(order.paymentRef);
+    } catch (err) {
+      await paymentLog({
+        orderId: order.id,
+        level: "ERROR",
+        event: "session.close_failed",
+        ref: order.paymentRef,
+        message: `Could not close the payment page (${reason}): ${errorMessage(err)}`,
+        data: errorDetails(err),
+      });
+      throw err;
+    }
+    if (closed === "complete") {
+      await paymentLog({
+        orderId: order.id,
+        level: "WARN",
+        event: "session.already_completed",
+        ref: order.paymentRef,
+        message: `Not cancelled (${reason}): the customer had already completed the payment, so the order is synced instead`,
+      });
+      await applyCheckoutSession(await getStripeSession(order.paymentRef), { source: "cancel" });
       return "paid";
     }
+    await paymentLog({ orderId: order.id, event: "session.closed", ref: order.paymentRef, message: `Payment page closed: ${reason}` });
   }
   // Mollie payments cannot be closed from here; if one is still paid later, markOrderPaid honours it
   await cancelUnpaidOrder(order.id, reason, userId);
@@ -116,34 +164,134 @@ export async function retireUnpaidOrder(order: Order, reason: string, userId: st
  * provider, so orders complete even when webhooks are late or not reachable (e.g. on localhost).
  * The payment reference stored on the order wins; the Checkout Session id from the return URL is only
  * used when none was stored, and only if Stripe says that session belongs to this order.
+ * Staff use the same check ("Check with Stripe"), with source "admin".
  */
-export async function verifyPayment(order: Order, returnedSessionId?: string | null) {
+export async function verifyPayment(order: Order, returnedSessionId?: string | null, source: "return" | "admin" = "return") {
   if (order.paymentStatus !== "UNPAID" && order.paymentStatus !== "PENDING") return;
+  const sessionId = order.paymentRef ?? (returnedSessionId?.startsWith("cs_") ? returnedSessionId : null);
   try {
-    const sessionId = order.paymentRef ?? (returnedSessionId?.startsWith("cs_") ? returnedSessionId : null);
-    if (order.paymentProvider === "stripe" && stripeEnabled() && sessionId) {
+    if (order.paymentProvider === "stripe") {
+      if (!stripeEnabled() || !sessionId) {
+        await paymentLog({
+          orderId: order.id,
+          level: "WARN",
+          event: "verify.skipped",
+          message: !stripeEnabled()
+            ? "Cannot check the payment with Stripe: STRIPE_SECRET_KEY is not set"
+            : "Cannot check the payment with Stripe: no payment page is stored for this order",
+          throttleSeconds: 300, // the order page runs this check on every view
+        });
+        return;
+      }
       const session = await getStripeSession(sessionId);
-      if (session.metadata?.orderId === order.id) await applyCheckoutSession(session);
+      if (session.metadata?.orderId === order.id) await applyCheckoutSession(session, { source });
+      else {
+        await paymentLog({
+          orderId: order.id,
+          level: "WARN",
+          event: "verify.skipped",
+          ref: session.id,
+          message: `Session ${session.id} from the return link belongs to another order; ignored`,
+        });
+      }
     } else if (order.paymentProvider === "mollie" && mollieEnabled() && order.paymentRef) {
       const payment = await getMolliePayment(order.paymentRef);
       if (payment.status === "paid") await markOrderPaid(order.id, payment.id);
       else if (["canceled", "expired", "failed"].includes(payment.status)) await markPaymentFailed(order.id, `Mollie: ${payment.status}`);
     }
   } catch (err) {
-    console.error("[payments] verification failed", err);
+    await paymentLog({
+      orderId: order.id,
+      provider: order.paymentProvider,
+      level: "ERROR",
+      event: "verify.failed",
+      ref: sessionId,
+      message: `Could not check the payment with ${order.paymentProvider} (${source === "admin" ? "checked by staff" : "order page opened"}): ${errorMessage(err)}`,
+      data: errorDetails(err),
+    });
   }
+}
+
+/**
+ * Safety net for missed webhooks: asks Stripe about orders still unpaid 10 minutes after their payment page expired,
+ * and about bank payments still in progress, then applies the answer. Run it every 15 minutes from a scheduler
+ * (GET /api/cron/payments) or from admin → Payments. A payment it has to confirm is logged as a warning, because
+ * it means the webhook never delivered it.
+ */
+export async function reconcileStripePayments(limit = 25) {
+  const result = { checked: 0, updated: 0, failed: 0 };
+  if (!stripeEnabled()) return result;
+  const expiredBefore = new Date(Date.now() - 10 * 60_000);
+  // Payments flagged for review stay as they are until staff have looked at them
+  const notFlagged = { OR: [{ paymentFailureReason: null }, { NOT: { paymentFailureReason: { startsWith: "Needs review" } } }] };
+  const [unpaid, pending] = await Promise.all([
+    db.order.findMany({
+      where: { paymentProvider: "stripe", paymentRef: { not: null }, paymentStatus: "UNPAID", status: "PENDING", paymentExpiresAt: { lt: expiredBefore }, ...notFlagged },
+      orderBy: { paymentExpiresAt: "asc" },
+      take: limit,
+    }),
+    db.order.findMany({
+      where: { paymentProvider: "stripe", paymentRef: { not: null }, paymentStatus: "PENDING", ...notFlagged },
+      orderBy: { updatedAt: "asc" },
+      take: limit,
+    }),
+  ]);
+
+  // One at a time, to stay well inside Stripe's rate limits
+  for (const order of [...unpaid, ...pending]) {
+    if (!order.paymentRef) continue;
+    result.checked++;
+    try {
+      await applyCheckoutSession(await getStripeSession(order.paymentRef), { source: "reconcile" });
+      const after = await db.order.findUnique({ where: { id: order.id }, select: { paymentStatus: true } });
+      if (after && after.paymentStatus !== order.paymentStatus) result.updated++;
+    } catch (err) {
+      result.failed++;
+      await paymentLog({
+        orderId: order.id,
+        level: "ERROR",
+        event: "reconcile.failed",
+        ref: order.paymentRef,
+        message: `Automatic check with Stripe failed: ${errorMessage(err)}`,
+        data: errorDetails(err),
+      });
+    }
+  }
+  return result;
 }
 
 /** Refund (fully or partially) through the provider that took the payment. */
 export async function refundPayment(order: Order, amount = order.total) {
   if (order.paymentStatus !== "PAID") throw new Error("Only paid orders can be refunded");
-  if (order.paymentProvider === "stripe") {
-    await refundStripe(order, amount);
-  } else if (order.paymentProvider === "mollie") {
-    if (!order.paymentRef) throw new Error("Missing Mollie reference");
-    await refundMollie(order.paymentRef, amount);
+  try {
+    if (order.paymentProvider === "stripe") {
+      const refund = await refundStripe(order, amount);
+      // Must not be recorded as refunded: the order stays paid and staff see why
+      if (refund.status === "failed") throw new Error(`Stripe could not complete refund ${refund.id} (${refund.failure_reason ?? "no reason given"})`);
+      await paymentLog({
+        orderId: order.id,
+        event: "refund.created",
+        ref: refund.id,
+        data: refundDetails(refund),
+        message: `Refund of ${formatMoney(amount)} sent to Stripe (status: ${refund.status})`,
+      });
+    } else if (order.paymentProvider === "mollie") {
+      if (!order.paymentRef) throw new Error("Missing Mollie reference");
+      await refundMollie(order.paymentRef, amount);
+      await paymentLog({ orderId: order.id, provider: "mollie", event: "refund.created", ref: order.paymentRef, message: `Refund of ${formatMoney(amount)} sent to Mollie` });
+    }
+    // demo payments: nothing to call
+  } catch (err) {
+    await paymentLog({
+      orderId: order.id,
+      provider: order.paymentProvider,
+      level: "ERROR",
+      event: "refund.failed",
+      message: `${order.paymentProvider === "stripe" ? "Stripe" : "Mollie"} refused the refund of ${formatMoney(amount)}: ${errorMessage(err)}`,
+      data: errorDetails(err),
+    });
+    throw err;
   }
-  // demo payments: nothing to call
 }
 
 /**
@@ -162,6 +310,7 @@ export function paymentSetup() {
     stripeMode: stripeMode(),
     stripeRestrictedKey: /^rk_/.test(process.env.STRIPE_SECRET_KEY ?? ""),
     stripeWebhookSecret: Boolean(process.env.STRIPE_WEBHOOK_SECRET),
+    cronSecret: Boolean(process.env.CRON_SECRET),
     mollie: mollieEnabled(),
     demo: demoPaymentsEnabled(),
     appUrl: process.env.NEXT_PUBLIC_APP_URL || null,

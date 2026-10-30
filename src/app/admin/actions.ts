@@ -6,8 +6,9 @@ import { redirect } from "next/navigation";
 import { audit } from "@/lib/audit";
 import { requirePermission } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { processEmailQueue, sendEmailNow } from "@/lib/email/outbox";
 import { formatMoney } from "@/lib/money";
-import { refundOrderInFull, retireUnpaidOrder, verifyPayment } from "@/lib/payments";
+import { reconcileStripePayments, refundOrderInFull, retireUnpaidOrder, verifyPayment } from "@/lib/payments";
 import { PLANS } from "@/lib/plans";
 import { isRole } from "@/lib/rbac";
 import { slugify, str, withFlash } from "@/lib/utils";
@@ -215,7 +216,7 @@ export async function adminCancelUnpaidOrder(orderId: string) {
 /** Ask the payment provider for the current state (e.g. when a webhook was missed) and apply it. */
 export async function adminSyncPayment(orderId: string) {
   const { admin, order, back } = await adminOrder(orderId);
-  await verifyPayment(order);
+  await verifyPayment(order, null, "admin");
   const after = await db.order.findUniqueOrThrow({ where: { id: orderId } });
   await audit(admin.id, "order.payment_synced", "Order", orderId, `${order.paymentStatus} → ${after.paymentStatus}`);
   revalidatePath("/admin", "layout");
@@ -226,6 +227,65 @@ export async function adminSyncPayment(orderId: string) {
       after.paymentStatus === order.paymentStatus
         ? `Checked with ${order.paymentProvider}: still ${after.paymentStatus.toLowerCase()}.`
         : `Updated from ${order.paymentProvider}: payment is now ${after.paymentStatus.toLowerCase()}.`,
+    ),
+  );
+}
+
+/** Run the missed-webhook safety net now (it normally runs from /api/cron/payments). */
+export async function adminReconcilePayments() {
+  const admin = await requirePermission("orders:view_all");
+  const back = "/admin/payments";
+  let result: Awaited<ReturnType<typeof reconcileStripePayments>>;
+  try {
+    result = await reconcileStripePayments();
+  } catch (err) {
+    console.error("[admin] payment check failed", err);
+    redirect(withFlash(back, "error", "Could not check open payments. Please try again."));
+  }
+  await audit(admin.id, "payments.reconciled", "Order", null, `${result.checked} checked, ${result.updated} updated, ${result.failed} failed`);
+  revalidatePath("/admin", "layout");
+  redirect(
+    withFlash(
+      back,
+      result.failed > 0 ? "error" : "ok",
+      result.checked === 0
+        ? "No open payments to check."
+        : `Checked ${result.checked} open payment${result.checked === 1 ? "" : "s"} with Stripe: ${result.updated} updated${result.failed > 0 ? `, ${result.failed} could not be checked (see the payment log)` : ""}.`,
+    ),
+  );
+}
+
+/** Send one skipped or failed email now, from its admin page. */
+export async function adminSendEmailNow(emailId: string) {
+  const admin = await requirePermission("orders:view_all");
+  const back = `/admin/emails/${emailId}`;
+  const sent = await sendEmailNow(emailId);
+  const email = await db.emailLog.findUnique({ where: { id: emailId }, select: { subject: true, error: true } });
+  await audit(admin.id, "email.sent_again", "EmailLog", emailId, `${email?.subject ?? emailId}: ${sent ? "sent" : "not sent"}`);
+  revalidatePath("/admin/emails");
+  redirect(withFlash(back, sent ? "ok" : "error", sent ? "Email sent." : `Not sent${email?.error ? `: ${email.error}` : "."}`));
+}
+
+/** Send waiting emails and retry failed ones now (this normally runs from /api/cron/payments). */
+export async function adminSendEmails() {
+  const admin = await requirePermission("orders:view_all");
+  const back = "/admin/emails";
+  let result: Awaited<ReturnType<typeof processEmailQueue>>;
+  try {
+    result = await processEmailQueue(50);
+  } catch (err) {
+    console.error("[admin] sending emails failed", err);
+    redirect(withFlash(back, "error", "Could not send the waiting emails. Please try again."));
+  }
+  await audit(admin.id, "emails.sent", "EmailLog", null, `${result.sent} sent, ${result.failed} failed`);
+  revalidatePath("/admin/emails");
+  redirect(
+    withFlash(
+      back,
+      result.failed > 0 ? "error" : "ok",
+      result.sent + result.failed === 0
+        ? "No emails waiting."
+        : `${result.sent} sent${result.failed > 0 ? `, ${result.failed} failed again (see the error on each)` : ""}.`,
     ),
   );
 }

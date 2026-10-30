@@ -25,7 +25,7 @@ export default async function MerchantOrderDetail({
   const { id } = await params;
   const flash = await searchParams;
   const { store } = await requireMerchantStore();
-  const [order, events] = await Promise.all([
+  const [order, logs] = await Promise.all([
     db.order.findFirst({
       where: { id, storeId: store.id },
       include: {
@@ -34,7 +34,7 @@ export default async function MerchantOrderDetail({
         returns: { orderBy: { createdAt: "desc" } },
       },
     }),
-    db.stripeEvent.findMany({ where: { orderId: id }, orderBy: { createdAt: "desc" }, take: 20 }),
+    db.paymentLog.findMany({ where: { orderId: id }, orderBy: { createdAt: "desc" }, take: 50 }),
   ]);
   if (!order) notFound();
 
@@ -129,7 +129,7 @@ export default async function MerchantOrderDetail({
         </div>
 
         <div className="space-y-6">
-          <PaymentPanel order={order} events={events} stripeMode={stripeMode()} />
+          <PaymentPanel order={order} logs={logs} stripeMode={stripeMode()} />
           <Card className="p-5">
             <h2 className="mb-3 font-semibold">Customer & shipping</h2>
             <AddressBlock order={order} />

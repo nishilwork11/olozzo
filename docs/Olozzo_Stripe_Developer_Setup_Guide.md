@@ -59,7 +59,7 @@ cp .env.example .env
 
 1. Sign in at https://dashboard.stripe.com and open a **sandbox** (account picker → Sandboxes). The Dashboard shows a "Sandbox" / test badge.
 2. **API key:** Developers → **API keys** → copy the **Secret key** (`sk_test_…`) into `STRIPE_SECRET_KEY`.
-   - Optional, closer to production: create a **restricted key** (`rk_test_…`) with **Checkout Sessions: Write**, **Refunds: Write**, **PaymentIntents: Read**. If checkout, refunds and webhooks all work with it, those permissions are confirmed for the live key too.
+   - Optional, closer to production: create a **restricted key** (`rk_test_…`) with **Checkout Sessions: Write**, **Refunds: Write**, **PaymentIntents: Read**, **Charges: Read** (for the Stripe check on admin order pages and /admin/payments/stripe). If checkout, refunds and webhooks all work with it, those permissions are confirmed for the live key too.
 3. **Payment methods:** Settings → **Payment methods** → enable what you want to test (Cards are on by default; add SEPA Direct Debit, Klarna, etc.). The code doesn't list payment methods; Stripe shows whatever is enabled here.
 4. No publishable key is needed: the site uses Stripe's hosted Checkout page.
 
@@ -79,7 +79,7 @@ Windows notes:
 Start forwarding. CLI 1.55+ requires the event list; keep this terminal open while you work:
 
 ```bash
-stripe listen --events checkout.session.completed,checkout.session.async_payment_succeeded,checkout.session.async_payment_failed,checkout.session.expired,charge.refunded,charge.dispute.created --forward-to localhost:3000/api/webhooks/stripe
+stripe listen --events checkout.session.completed,checkout.session.async_payment_succeeded,checkout.session.async_payment_failed,checkout.session.expired,payment_intent.payment_failed,charge.refunded,refund.failed,charge.dispute.created --forward-to localhost:3000/api/webhooks/stripe
 ```
 
 Copy the printed `whsec_…` into `STRIPE_WEBHOOK_SECRET`. The secret stays the same for your machine and account, so you only do this once.

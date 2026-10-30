@@ -37,7 +37,7 @@ Client signature: ______________________  Date: ________
 | ☐ | Restricted live key permissions tested in staging / sandbox | Deployment Guide §4.1 |
 | ☐ | No demo accounts with the default password in production | Runbook 1.9 (blocker B6) |
 | ☐ | Live restricted key created in the client's account and stored only in the secret store | Runbook §4.1 |
-| ☐ | Live webhook endpoint created (six events, snapshot, API version `2026-09-30.endive`) and its secret stored | Runbook §4.2 |
+| ☐ | Live webhook endpoint created (eight events, snapshot, API version `2026-09-30.endive`) and its secret stored | Runbook §4.2 |
 | ☐ | Schema change previewed (no `DROP`) and applied after backup | Runbook §3.4 |
 | ☐ | Post-deployment checks passed: HTTPS, webhook probe `400`, admin page shows **live mode** | Runbook §6 |
 | ☐ | Rollback target recorded: `<PREVIOUS_RELEASE_TAG>` / previous deployment | Runbook §10 |

@@ -69,6 +69,46 @@ export async function getStripeSession(sessionId: string) {
   return stripe().checkout.sessions.retrieve(sessionId, { expand: ["payment_intent"] });
 }
 
+/** stripe-node turns HTTP 403, e.g. a restricted key without the needed permission, into a StripePermissionError. */
+function permissionDenied(err: unknown): boolean {
+  return err instanceof Stripe.errors.StripePermissionError;
+}
+
+/**
+ * A payment with its latest charge (payment method, refunds, dispute, receipt). Loading the charge needs read access to
+ * Charges: with a restricted key that lacks it, the payment comes without its charge and `chargeAccess` is false.
+ */
+export async function getStripePayment(paymentIntentId: string) {
+  try {
+    return { payment: await stripe().paymentIntents.retrieve(paymentIntentId, { expand: ["latest_charge"] }), chargeAccess: true };
+  } catch (err) {
+    if (!permissionDenied(err)) throw err;
+    return { payment: await stripe().paymentIntents.retrieve(paymentIntentId), chargeAccess: false };
+  }
+}
+
+/** The account's latest payments, newest first, with their charges when the key may read them (see getStripePayment). */
+export async function listStripePayments(opts: { limit: number; startingAfter?: string }) {
+  const params = { limit: opts.limit, ...(opts.startingAfter ? { starting_after: opts.startingAfter } : {}) };
+  try {
+    return { page: await stripe().paymentIntents.list({ ...params, expand: ["data.latest_charge"] }), chargeAccess: true };
+  } catch (err) {
+    if (!permissionDenied(err)) throw err;
+    return { page: await stripe().paymentIntents.list(params), chargeAccess: false };
+  }
+}
+
+/** What Stripe says right now about an order's Checkout Session and payment. `payment` is null until the customer submits one. */
+export async function getStripeOrderPayment(order: { paymentRef: string | null; paymentIntentId: string | null }) {
+  const [session, known] = await Promise.all([
+    order.paymentRef ? stripe().checkout.sessions.retrieve(order.paymentRef) : null,
+    order.paymentIntentId ? getStripePayment(order.paymentIntentId) : null,
+  ]);
+  const paymentIntentId = known ? null : session && paymentIntentIdOf(session);
+  const found = known ?? (paymentIntentId ? await getStripePayment(paymentIntentId) : null);
+  return { session, payment: found?.payment ?? null, chargeAccess: found?.chargeAccess ?? true };
+}
+
 export function paymentIntentIdOf(session: Stripe.Checkout.Session): string | null {
   const pi = session.payment_intent;
   return typeof pi === "string" ? pi : (pi?.id ?? null);

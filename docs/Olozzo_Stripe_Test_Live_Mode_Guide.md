@@ -97,7 +97,7 @@ Use only if staging is impossible, with every step below:
 3. Confirm in the Stripe Dashboard that the client's account can accept live payments (no outstanding verification).
 4. Set `STRIPE_SECRET_KEY` to the **live** key (`rk_live_…` / `sk_live_…`).
 5. Set `STRIPE_WEBHOOK_SECRET` to the **live** endpoint's secret.
-6. Confirm the live webhook endpoint exists for `https://<PRODUCTION_DOMAIN>/api/webhooks/stripe` with the six events. No other Stripe object IDs are configured in this app; sessions are created per order.
+6. Confirm the live webhook endpoint exists for `https://<PRODUCTION_DOMAIN>/api/webhooks/stripe` with the eight events. No other Stripe object IDs are configured in this app; sessions are created per order.
 7. Remove any temporary overrides, e.g. sandbox variables in other scopes, and make sure `ENABLE_DEMO_PAYMENTS` isn't `true`.
 8. Redeploy or restart.
 9. Verify: `/admin/payments` shows **live mode**; the webhook probe (`curl -X POST …/api/webhooks/stripe`) returns `400 Missing signature`; Stripe's page shows no Sandbox badge (open it, don't pay).

@@ -1,6 +1,7 @@
 import "server-only";
 import { audit } from "./audit";
 import { db } from "./db";
+import { notifyAdmins, notifyOrderConfirmed, notifyOrderPaid, notifyPaymentFailed, notifyRefund } from "./email/notify";
 
 export const ORDER_STATUSES = ["PENDING", "PROCESSING", "SHIPPED", "DELIVERED", "CANCELLED", "REFUNDED"] as const;
 export const PAYMENT_STATUSES = ["UNPAID", "PENDING", "PAID", "FAILED", "REFUNDED"] as const;
@@ -12,7 +13,7 @@ export const RETURN_WINDOW_DAYS = 30;
 
 // Every transition below is a conditional update on the current payment status, so it is safe to run
 // twice or concurrently (webhook retries, the webhook racing the customer's return page): only the first
-// caller changes anything, and only that caller performs side effects.
+// caller changes anything, and only that caller performs side effects (audit entries, emails).
 
 /**
  * Called once a payment provider confirms payment. Idempotent and race-safe:
@@ -93,6 +94,7 @@ export async function markOrderPaid(
   if (result.oversold.length > 0) {
     await audit(null, "order.oversold", "Order", orderId, `Not enough stock when payment arrived: ${result.oversold.join(", ")}`);
   }
+  await notifyOrderPaid(orderId, result.oversold);
   return true;
 }
 
@@ -102,7 +104,10 @@ export async function markPaymentPending(orderId: string, paymentIntentId?: stri
     where: { id: orderId, paymentStatus: "UNPAID" },
     data: { paymentStatus: "PENDING", ...(paymentIntentId ? { paymentIntentId } : {}) },
   });
-  if (res.count > 0) await audit(null, "order.payment_pending", "Order", orderId, "Payment submitted; waiting for the bank to confirm");
+  if (res.count > 0) {
+    await audit(null, "order.payment_pending", "Order", orderId, "Payment submitted; waiting for the bank to confirm");
+    await notifyOrderConfirmed(orderId);
+  }
   return res.count > 0;
 }
 
@@ -111,7 +116,10 @@ export async function markPaymentFailed(orderId: string, reason = "Payment faile
     where: { id: orderId, paymentStatus: { in: ["UNPAID", "PENDING"] } },
     data: { paymentStatus: "FAILED", status: "CANCELLED", stockReserved: false, paymentFailureReason: reason },
   });
-  if (res.count > 0) await audit(null, "order.payment_failed", "Order", orderId, reason);
+  if (res.count > 0) {
+    await audit(null, "order.payment_failed", "Order", orderId, reason);
+    await notifyPaymentFailed(orderId);
+  }
   return res.count > 0;
 }
 
@@ -139,7 +147,10 @@ export async function markOrderRefunded(orderId: string, detail: string, userId:
     await tx.supplierOrder.updateMany({ where: { orderId, status: { in: ["PENDING", "ACCEPTED"] } }, data: { status: "CANCELLED" } });
     return true;
   });
-  if (changed) await audit(userId, "order.refunded", "Order", orderId, detail);
+  if (changed) {
+    await audit(userId, "order.refunded", "Order", orderId, detail);
+    await notifyRefund(orderId, { full: true });
+  }
   return changed;
 }
 
@@ -152,6 +163,7 @@ export async function flagPaymentForReview(orderId: string, reason: string): Pro
   if (res.count > 0) {
     console.error(`[payments] order ${orderId} needs review: ${reason}`);
     await audit(null, "order.payment_review", "Order", orderId, reason);
+    await notifyAdmins({ kind: "payment_review", orderId, title: "Payment needs review", message: `${reason}. It was not sent to suppliers.` });
   }
 }
 

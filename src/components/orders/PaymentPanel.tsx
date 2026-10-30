@@ -1,31 +1,30 @@
-import type { Order, StripeEvent } from "@prisma/client";
+import type { Order, PaymentLog } from "@prisma/client";
 import { AlertTriangle, ExternalLink } from "lucide-react";
 import { Card, CardHeader, StatusBadge } from "@/components/ui";
 import { formatMoney } from "@/lib/money";
+import { PAYMENT_EVENT_LABELS } from "@/lib/payments/log-details";
 import { stripePaymentUrl, type StripeMode } from "@/lib/payments/rules";
-import { formatDateTime } from "@/lib/utils";
+import { cn, formatDateTime } from "@/lib/utils";
 
 const PROVIDER_NAMES: Record<string, string> = { stripe: "Stripe", mollie: "Mollie", demo: "Demo (no money moved)" };
 
-const EVENT_LABELS: Record<string, string> = {
-  "checkout.session.completed": "Checkout completed",
-  "checkout.session.async_payment_succeeded": "Bank payment succeeded",
-  "checkout.session.async_payment_failed": "Bank payment failed",
-  "checkout.session.expired": "Payment page expired",
-  "charge.refunded": "Refund recorded",
-  "charge.dispute.created": "Dispute opened",
-};
+export const LOG_LEVEL_TEXT: Record<string, string> = { INFO: "text-ink-800", WARN: "text-amber-700", ERROR: "text-red-700" };
 
-/** Payment details for staff: status, provider references, the stock hold and the webhook history. */
+/**
+ * Payment details for staff: status, provider references, the stock hold and the payment log (newest first).
+ * `showLogDetails` adds the stored provider data (error codes, request ids) to each log entry, for admins.
+ */
 export function PaymentPanel({
   order,
-  events,
+  logs,
   stripeMode,
+  showLogDetails = false,
   actions,
 }: {
   order: Order;
-  events: StripeEvent[];
+  logs: PaymentLog[];
   stripeMode: StripeMode | null;
+  showLogDetails?: boolean;
   actions?: React.ReactNode;
 }) {
   const needsReview = order.paymentFailureReason?.startsWith("Needs review");
@@ -110,24 +109,28 @@ export function PaymentPanel({
           )}
         </dl>
 
-        {order.paymentProvider === "stripe" && (
-          <div>
-            <p className="mb-2 font-medium">Stripe events</p>
-            {events.length === 0 ? (
-              <p className="text-xs text-ink-500">No webhook events received for this order yet.</p>
-            ) : (
-              <ul className="space-y-1.5">
-                {events.map((e) => (
-                  <li key={e.id} className="text-xs">
-                    <span className="font-medium text-ink-800">{EVENT_LABELS[e.type] ?? e.type}</span>
-                    <span className="text-ink-500"> · {formatDateTime(e.createdAt)}</span>
-                    {e.summary && <span className="block text-ink-500">{e.summary}</span>}
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-        )}
+        <div>
+          <p className="mb-2 font-medium">Payment log</p>
+          {logs.length === 0 ? (
+            <p className="text-xs text-ink-500">Nothing recorded for this order yet.</p>
+          ) : (
+            <ul className="space-y-2">
+              {logs.map((l) => (
+                <li key={l.id} className="text-xs">
+                  <span className={cn("font-medium", LOG_LEVEL_TEXT[l.level])}>{PAYMENT_EVENT_LABELS[l.event] ?? l.event}</span>
+                  <span className="text-ink-500"> · {formatDateTime(l.createdAt)}</span>
+                  <span className="block text-ink-600">{l.message}</span>
+                  {showLogDetails && l.data !== null && (
+                    <details className="mt-0.5">
+                      <summary className="cursor-pointer text-ink-400 hover:text-ink-700">Details</summary>
+                      <pre className="mt-1 overflow-x-auto rounded bg-ink-50 p-2 font-mono text-[11px] text-ink-700">{JSON.stringify(l.data, null, 2)}</pre>
+                    </details>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
 
         {actions && <div className="flex flex-wrap gap-2 border-t border-ink-100 pt-4">{actions}</div>}
       </div>

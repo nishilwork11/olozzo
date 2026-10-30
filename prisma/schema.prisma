@@ -221,6 +221,47 @@ model StripeEvent {
   @@index([orderId])
 }
 
+// Every step of a payment and every answer from the provider: checkout started, payment page closed, card declined,
+// bank payment failed, webhook rejected or failed, refund refused… Written for failures too, so an order that was
+// not paid can always be traced back to why. Shown in admin → Payments → Payment log and on each order.
+model PaymentLog {
+  id        String   @id @default(cuid())
+  orderId   String?
+  provider  String // stripe | mollie | demo
+  level     String // INFO | WARN | ERROR
+  event     String // e.g. checkout.started, payment.declined, webhook.invalid_signature (see src/lib/payments/log.ts)
+  message   String
+  ref       String? // provider object it is about: cs_…, pi_…, evt_…, re_…, tr_…
+  data      Json? // selected fields of the provider's response or error (no card details, no addresses)
+  createdAt DateTime @default(now())
+
+  @@index([orderId, createdAt])
+  @@index([level, createdAt])
+}
+
+// Every email the platform sends: order confirmations, shipping, refunds, returns, and alerts to suppliers, merchants
+// and admins (see src/lib/email/). The unique key sends each email once, however often the step behind it runs
+// (webhook retries, the customer's return page, the cron). Failed emails are retried by /api/cron/payments.
+model EmailLog {
+  id         String    @id @default(cuid())
+  key        String    @unique // e.g. order-confirmation:<orderId>, parcel-shipped:<supplierOrderId>:<tracking number>
+  kind       String // one of EMAIL_KINDS (src/lib/email/templates.ts)
+  orderId    String?
+  to         String // comma-separated
+  subject    String
+  status     String    @default("QUEUED") // QUEUED | SENDING | SENT | FAILED | SKIPPED (email not set up)
+  attempts   Int       @default(0)
+  providerId String? // the provider's message id
+  error      String?
+  payload    Json? // { from, to, replyTo, html, text }: kept for retries and the admin preview, cleared after 90 days
+  sentAt     DateTime?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  @@index([orderId, createdAt])
+  @@index([status, createdAt])
+}
+
 model OrderItem {
   id              String          @id @default(cuid())
   orderId         String

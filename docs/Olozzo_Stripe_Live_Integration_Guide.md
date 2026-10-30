@@ -136,7 +136,7 @@ Next.js loads `.env` from the project root at startup (`.env` is git-ignored). T
 5. Forward webhooks. CLI 1.55+ requires the event list:
 
    ```bash
-   stripe listen --events checkout.session.completed,checkout.session.async_payment_succeeded,checkout.session.async_payment_failed,checkout.session.expired,charge.refunded,charge.dispute.created --forward-to localhost:3000/api/webhooks/stripe
+   stripe listen --events checkout.session.completed,checkout.session.async_payment_succeeded,checkout.session.async_payment_failed,checkout.session.expired,payment_intent.payment_failed,charge.refunded,refund.failed,charge.dispute.created --forward-to localhost:3000/api/webhooks/stripe
    ```
 
    Copy the printed `whsec_…` into `STRIPE_WEBHOOK_SECRET`. Keep this terminal running.
@@ -250,7 +250,7 @@ Customer pays on Olozzo.com → Stripe processes the payment
 
 | Option | Recommendation |
 |---|---|
-| **Restricted key** `rk_live_…` | **Recommended** by Stripe. Minimum permissions for this code: **Checkout Sessions: Write** (create, retrieve, expire), **Refunds: Write**, **PaymentIntents: Read**. Webhook endpoints are managed in the Dashboard, not through the API. 🟡 Verify these permissions in staging before live use; a missing permission surfaces as an authentication or permission error in the server log |
+| **Restricted key** `rk_live_…` | **Recommended** by Stripe. Minimum permissions for this code: **Checkout Sessions: Write** (create, retrieve, expire), **Refunds: Write**, **PaymentIntents: Read**, **Charges: Read** (for the Stripe check on admin order pages and /admin/payments/stripe). Webhook endpoints are managed in the Dashboard, not through the API. 🟡 Verify these permissions in staging before live use; a missing permission surfaces as an authentication or permission error in the server log |
 | Secret key `sk_live_…` | Works with no further setup, but has unrestricted access |
 
 Stripe shows a live key you create yourself **only once**. Store it in the hosting platform's secret manager immediately. Source: https://docs.stripe.com/keys
@@ -269,7 +269,7 @@ Stripe shows a live key you create yourself **only once**. Store it in the hosti
 |---|---|
 | Route | `POST /api/webhooks/stripe` (`src/app/api/webhooks/stripe/route.ts`) |
 | Production URL | `https://<PRODUCTION_DOMAIN>/api/webhooks/stripe` (❓ domain to be confirmed) |
-| Events (exactly these six; source `STRIPE_WEBHOOK_EVENTS`) | `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `checkout.session.async_payment_failed`, `checkout.session.expired`, `charge.refunded`, `charge.dispute.created` |
+| Events (exactly these eight; source `STRIPE_WEBHOOK_EVENTS`) | `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `checkout.session.async_payment_failed`, `checkout.session.expired`, `payment_intent.payment_failed`, `charge.refunded`, `refund.failed`, `charge.dispute.created` |
 | Payload type | **Snapshot** events. The handler uses `webhooks.constructEvent()`; thin events are not supported by this code |
 | API version for the endpoint | `2026-09-30.endive` (matches `stripe@23.0.1`) |
 | Secret variable | `STRIPE_WEBHOOK_SECRET`, the **live** endpoint's `whsec_…`. Sandbox and live endpoints have different secrets |
@@ -342,7 +342,7 @@ Environment: **S** = local or staging with sandbox keys; **P** = production with
 | ☐ | Live `STRIPE_SECRET_KEY` (preferably `rk_live_`) and live `STRIPE_WEBHOOK_SECRET` in the host secret store | Developer |
 | ☐ | `NEXT_PUBLIC_APP_URL=https://<PRODUCTION_DOMAIN>`; HTTPS valid | Developer |
 | ☐ | `ENABLE_DEMO_PAYMENTS` unset or `false`; build runs with `NODE_ENV=production` | Developer |
-| ☐ | Live webhook endpoint registered (6 events, snapshot, `2026-09-30.endive`) | Developer |
+| ☐ | Live webhook endpoint registered (8 events, snapshot, `2026-09-30.endive`) | Developer |
 | ☐ | `/admin/payments` shows **live mode** and the webhook secret is set | Developer |
 | ☐ | Webhook probe returns `400 {"error":"Missing signature"}` | Developer |
 | ☐ | Demo accounts absent or passwords changed in production (F32) | Developer |

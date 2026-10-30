@@ -75,7 +75,7 @@ Never put a secret on a command line, in Git, chat, email, tickets or logs; neve
 | Step | Owner | Action |
 |---|---|---|
 | 4.1.1 | CLI | Invite DEV to the Stripe account as a team member (no shared login) |
-| 4.1.2 | DEV | Live mode → Developers → API keys → create a restricted key `olozzo-production`: Checkout Sessions **Write**, Refunds **Write**, PaymentIntents **Read** (permissions confirmed in staging first) |
+| 4.1.2 | DEV | Live mode → Developers → API keys → create a restricted key `olozzo-production`: Checkout Sessions **Write**, Refunds **Write**, PaymentIntents **Read**, Charges **Read** (permissions confirmed in staging first) |
 | 4.1.3 | DEV | Copy it **once**, straight into the secret store (§3.3); optionally attach an access policy |
 
 ### 4.2 Live webhook endpoint
@@ -83,7 +83,7 @@ Never put a secret on a command line, in Git, chat, email, tickets or logs; neve
 | Step | Owner | Action |
 |---|---|---|
 | 4.2.1 | DEV | Live mode → Workbench → Webhooks → Create event destination → Your account → **Snapshot**, API version **`2026-09-30.endive`** |
-| 4.2.2 | DEV | Events: `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `checkout.session.async_payment_failed`, `checkout.session.expired`, `charge.refunded`, `charge.dispute.created` |
+| 4.2.2 | DEV | Events: `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `checkout.session.async_payment_failed`, `checkout.session.expired`, `payment_intent.payment_failed`, `charge.refunded`, `refund.failed`, `charge.dispute.created` |
 | 4.2.3 | DEV | URL `https://<PRODUCTION_DOMAIN>/api/webhooks/stripe` (final URL, no redirect) |
 | 4.2.4 | DEV / OPS | Signing secret → `STRIPE_WEBHOOK_SECRET` (§3.3) |
 

@@ -122,7 +122,7 @@ The country, business type, verification status and bank details are **not assum
 
 ### 4.1 Restricted key permissions
 
-Minimum for the current code: **Checkout Sessions: Write**, **Refunds: Write**, **PaymentIntents: Read**; everything else None. 🟡 Confirm in staging with a sandbox restricted key before creating the live one. A missing permission shows up as a Stripe permission error in the logs during checkout, refund or webhook processing.
+Minimum for the current code: **Checkout Sessions: Write**, **Refunds: Write**, **PaymentIntents: Read**, **Charges: Read**; everything else None. 🟡 Confirm in staging with a sandbox restricted key before creating the live one. A missing permission shows up as a Stripe permission error in the logs during checkout, refund or webhook processing.
 
 ## 5. Configuring live credentials securely
 
@@ -143,11 +143,11 @@ Minimum for the current code: **Checkout Sessions: Write**, **Refunds: Write**, 
 |---|---|---|
 | Route | `POST /api/webhooks/stripe` | `src/app/api/webhooks/stripe/route.ts` |
 | Production URL | `https://<PRODUCTION_DOMAIN>/api/webhooks/stripe`, the final URL with no redirect (❓ domain) | Next.js routing |
-| Events (exactly six) | `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `checkout.session.async_payment_failed`, `checkout.session.expired`, `charge.refunded`, `charge.dispute.created` | `STRIPE_WEBHOOK_EVENTS` in `src/lib/payments/stripe-events.ts` |
+| Events (exactly eight) | `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `checkout.session.async_payment_failed`, `checkout.session.expired`, `payment_intent.payment_failed`, `charge.refunded`, `refund.failed`, `charge.dispute.created` | `STRIPE_WEBHOOK_EVENTS` in `src/lib/payments/stripe-events.ts` |
 | Payload | **Snapshot** (the handler uses `constructEvent`; thin events not supported) | Code |
 | API version | `2026-09-30.endive` | `stripe@23.0.1` |
 
-**Register (live mode):** Workbench → Webhooks → **Create an event destination** → Your account → Snapshot, API version `2026-09-30.endive` → select the six events → Webhook endpoint → URL above → create → reveal the signing secret → store it as `STRIPE_WEBHOOK_SECRET` (§5). Name it e.g. "olozzo production (live)".
+**Register (live mode):** Workbench → Webhooks → **Create an event destination** → Your account → Snapshot, API version `2026-09-30.endive` → select the eight events → Webhook endpoint → URL above → create → reveal the signing secret → store it as `STRIPE_WEBHOOK_SECRET` (§5). Name it e.g. "olozzo production (live)".
 
 **Behaviour (✅ verified):**
 
@@ -331,7 +331,7 @@ See §10.
 | ☐ | Blockers B1–B6 closed | §2.2 |
 | ☐ | Restricted key permissions confirmed in staging | §4.1 |
 | ☐ | Live key and live webhook secret stored; Production scope only | C-B1–C-B3 |
-| ☐ | Live webhook endpoint: six events, snapshot, `2026-09-30.endive`, final HTTPS URL | §6 |
+| ☐ | Live webhook endpoint: eight events, snapshot, `2026-09-30.endive`, final HTTPS URL | §6 |
 | ☐ | HTTPS valid; `NEXT_PUBLIC_APP_URL` set before the build | C-D1 |
 | ☐ | DB backed up; schema change applied | C-C1–C-C3 |
 | ☐ | Duplicate protection and refund workflow verified in sandbox | Integration Guide §12 (T6, T7, T10) |

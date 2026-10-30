@@ -59,7 +59,28 @@ Demo stores: `/s/urban-nest` and `/s/glow-and-go`. Try discount codes `WELCOME10
 - Guest order pages open only through the private link from checkout (or for the signed-in customer, the store owner and admins)
 - Refunds go through the same provider, from the merchant's or the admin's order page; refunds made in the Stripe Dashboard are synced by webhook
 - `/admin/payments`: setup checklist, webhook instructions, payments that need review, latest Stripe events
+- `/admin/payments/stripe`: payments read live from Stripe (amount received, method, refunds, disputes) next to their orders, with every disagreement flagged; each admin order page has the same live "Stripe check"
 - Demo payments are never offered in production builds or next to a live Stripe key
+
+### Emails
+Sent through [Resend](https://resend.com) (`RESEND_API_KEY`, `EMAIL_FROM`); code in `src/lib/email/`.
+
+| Email | When | To |
+|---|---|---|
+| Order confirmation (items, VAT, address, withdrawal right and model form) | Card payment confirmed, or bank payment submitted | Customer |
+| Parcel shipped (carrier, tracking), or new tracking | Each time a supplier ships its parcel or corrects the tracking | Customer |
+| Payment failed | A submitted bank payment is refused | Customer |
+| Refund (full, or partial from the Stripe Dashboard) | Refund recorded | Customer |
+| Return received / approved / rejected | Customer requests a return, merchant decides | Customer |
+| New order to ship | Order paid | Each supplier |
+| New order, return requested | Order paid, return requested | Merchant |
+| Payment needs review, oversold, refund failed, dispute | Those payment problems | Admins |
+
+- Each email goes out once, however often the step behind it runs (webhook retries, the return page, the cron)
+- Emails are recorded first and sent after the response, so a slow or failing provider never breaks a payment or webhook; `/api/cron/payments` retries failed ones
+- Customer emails come from the store's name, with replies going to the store's support email; their order links work without signing in
+- `/admin/emails`: every email with its status and a preview; each admin order page lists its emails. Without `RESEND_API_KEY` emails are only recorded (status Skipped), and a skipped or failed email can be sent from its page
+- Local testing with [Mailpit](https://mailpit.axllent.org): run `mailpit --smtp 127.0.0.1:1025 --listen 127.0.0.1:8025`, set `SMTP_URL="smtp://127.0.0.1:1025"` and `EMAIL_FROM="orders@olozzo.test"` in `.env`, and read the emails at http://localhost:8025. Leave `SMTP_URL` unset on the live server
 
 ### EU compliance
 - Prices include VAT. VAT is calculated for the customer's country (OSS rules) for all 27 EU states (`src/lib/eu.ts`)
@@ -134,16 +155,22 @@ suppliers update their parcels.
 3. **Payments:** add your Stripe and/or Mollie live keys. In Stripe, create a webhook to
    `https://<domain>/api/webhooks/stripe` (API version `2026-09-30.endive`) for `checkout.session.completed`,
    `checkout.session.async_payment_succeeded`, `checkout.session.async_payment_failed`, `checkout.session.expired`,
-   `charge.refunded` and `charge.dispute.created`, and set its signing secret as `STRIPE_WEBHOOK_SECRET`.
+   `payment_intent.payment_failed`, `charge.refunded`, `refund.failed` and `charge.dispute.created`, and set its signing secret as `STRIPE_WEBHOOK_SECRET`.
    `/admin/payments` checks the setup. Set `ENABLE_DEMO_PAYMENTS="false"`.
-   Local Stripe testing: `stripe listen --events checkout.session.completed,checkout.session.async_payment_succeeded,checkout.session.async_payment_failed,checkout.session.expired,charge.refunded,charge.dispute.created --forward-to localhost:3000/api/webhooks/stripe`.
-4. **Legal:** replace the template texts in `src/app/legal/[page]/page.tsx` with your company details and have them reviewed.
-5. **Deploy:** Vercel, or any Node host with `npm run build && npm start`.
+   Local Stripe testing: `stripe listen --events checkout.session.completed,checkout.session.async_payment_succeeded,checkout.session.async_payment_failed,checkout.session.expired,payment_intent.payment_failed,charge.refunded,refund.failed,charge.dispute.created --forward-to localhost:3000/api/webhooks/stripe`.
+   Set `CRON_SECRET` and have a scheduler call `GET /api/cron/payments` every 15 minutes with `Authorization: Bearer <CRON_SECRET>`:
+   it confirms payments whose webhook never arrived. Every payment step, Stripe answer and failure is recorded in
+   `/admin/payments/log` and on each order.
+4. **Email:** create a Resend account, verify the sending domain (its SPF and DKIM DNS records), then set
+   `RESEND_API_KEY` and `EMAIL_FROM` (e.g. `orders@olozzo.com`), and optionally `EMAIL_REPLY_TO`. `/admin/emails` shows
+   what was sent. Once these emails are live, turn off Stripe's own email receipts so customers don't get two.
+5. **Legal:** replace the template texts in `src/app/legal/[page]/page.tsx` with your company details and have them reviewed.
+6. **Deploy:** Vercel, or any Node host with `npm run build && npm start`.
 
 ## Not included yet
 These need third-party accounts or business decisions:
 - **Payouts:** money currently lands in one platform Stripe/Mollie account. Split payouts to merchants and suppliers need Stripe Connect or Mollie Connect.
-- **Transactional email** (order confirmation, shipping updates): add Resend, Postmark or SMTP in `markOrderPaid()` in `src/lib/orders.ts`, after the `order.paid` audit (it runs once per order). Until then, Stripe's own receipts can be switched on in the Dashboard.
+- **Delivered emails and stores' postal addresses:** customers get no email when a parcel is delivered, and the withdrawal form in the order confirmation names the store by name and support email only (stores have no address field yet).
 - **Image uploads:** products use image URLs; add S3, R2 or UploadThing for direct uploads.
 - **Multi-language storefronts** (DE/FR/ES/IT/NL) and multi-currency (SEK, PLN, DKK…)
 - **External supplier APIs** (e.g. BigBuy, CJ Dropshipping): the CSV import is the current bulk path

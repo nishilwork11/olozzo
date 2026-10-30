@@ -11,6 +11,7 @@ export const metadata: Metadata = { title: "Orders · Admin" };
 const PAYMENT_FILTERS = [
   { key: "review", label: "Needs review", where: { paymentFailureReason: { startsWith: "Needs review" }, paymentStatus: { not: "PAID" } } },
   { key: "PENDING", label: "Bank payment processing", where: { paymentStatus: "PENDING" } },
+  { key: "PAID", label: "Paid", where: { paymentStatus: "PAID" } },
   { key: "UNPAID", label: "Unpaid", where: { paymentStatus: "UNPAID" } },
   { key: "FAILED", label: "Failed", where: { paymentStatus: "FAILED" } },
   { key: "REFUNDED", label: "Refunded", where: { paymentStatus: "REFUNDED" } },

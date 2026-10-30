@@ -7,6 +7,7 @@ import { audit } from "@/lib/audit";
 import { trackingUrlFor } from "@/lib/carriers";
 import { requirePermission } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { notifyParcelShipped } from "@/lib/email/notify";
 import { isEuCountry } from "@/lib/eu";
 import { toCents } from "@/lib/money";
 import { syncOrderStatus } from "@/lib/orders";
@@ -314,6 +315,7 @@ export async function shipFulfillment(id: string, form: FormData) {
   });
   await syncOrderStatus(f.orderId);
   await audit(user.id, "fulfillment.shipped", "SupplierOrder", id, `${f.order.number} · ${carrier} ${trackingNumber}`);
+  await notifyParcelShipped(id);
   revalidatePath("/supplier", "layout");
   redirect(withFlash("/supplier/orders", "ok", `${f.order.number} marked as shipped. The customer can now track the parcel.`));
 }

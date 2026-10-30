@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { audit } from "@/lib/audit";
 import { requirePermission } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { notifyReturnResolved } from "@/lib/email/notify";
 import { isEuCountry } from "@/lib/eu";
 import { merchantStoreFor } from "@/lib/merchant";
 import { toCents } from "@/lib/money";
@@ -290,6 +291,7 @@ export async function resolveReturn(returnId: string, decision: "APPROVED" | "RE
   }
   await db.returnRequest.update({ where: { id: returnId }, data: { status: decision, resolution } });
   await audit(user.id, `return.${decision.toLowerCase()}`, "ReturnRequest", returnId, ret.order.number);
+  await notifyReturnResolved(returnId);
   revalidatePath("/merchant", "layout");
   redirect(withFlash(back, "ok", `Return ${decision.toLowerCase()}.`));
 }

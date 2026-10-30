@@ -4,7 +4,7 @@ import { CheckoutForm } from "@/components/store/CheckoutForm";
 import { getCurrentUser } from "@/lib/auth";
 import { storeAcceptsOrders } from "@/lib/catalog";
 import { EU_COUNTRIES } from "@/lib/eu";
-import { paymentOptions } from "@/lib/payments";
+import { noteCheckoutCancelled, paymentOptions } from "@/lib/payments";
 import { getStorefront } from "@/lib/store";
 
 export const metadata: Metadata = { title: "Checkout" };
@@ -14,12 +14,17 @@ export default async function CheckoutPage({
   searchParams,
 }: {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ cancelled?: string }>;
+  searchParams: Promise<{ cancelled?: string; order?: string }>;
 }) {
   const { slug } = await params;
-  const { cancelled } = await searchParams;
+  const { cancelled, order: cancelledOrderId } = await searchParams;
   const [store, user] = await Promise.all([getStorefront(slug), getCurrentUser()]);
   if (!store) notFound();
+
+  // Back from the payment page without paying (Stripe's cancel URL carries the order id)
+  if (cancelled && typeof cancelledOrderId === "string" && cancelledOrderId.length <= 40) {
+    await noteCheckoutCancelled(store.id, cancelledOrderId);
+  }
 
   if (!(await storeAcceptsOrders(store))) {
     return (
