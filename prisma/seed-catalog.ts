@@ -309,12 +309,10 @@ async function syncCategories(tree: CategoryJson[]) {
 
 async function moveLegacyProducts(categoryIds: Map<string, string>, catalogSkus: Set<string>) {
   const slugByTitle = new Map(LEGACY_PRODUCTS.map(([title, slug]) => [title.toLowerCase(), slug]));
-  const found = (
-    await db.product.findMany({
-      where: { OR: LEGACY_PRODUCTS.map(([title]) => ({ title: { equals: title, mode: "insensitive" as const } })) },
-      select: { id: true, title: true, sku: true, categoryId: true },
-    })
-  ).filter((p) => slugByTitle.has(p.title.toLowerCase()) && !catalogSkus.has(p.sku));
+  // Titles are matched case-insensitively in code (SQLite's `equals` is case-sensitive)
+  const found = (await db.product.findMany({ select: { id: true, title: true, sku: true, categoryId: true } })).filter(
+    (p) => slugByTitle.has(p.title.toLowerCase()) && !catalogSkus.has(p.sku),
+  );
 
   const moves = new Map<string, string[]>(); // category id → product ids
   const warnings: string[] = [];

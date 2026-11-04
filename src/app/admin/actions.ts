@@ -88,10 +88,11 @@ async function readCategoryForm(form: FormData, back: string, current?: { id: st
   }
   if (position !== null && (!Number.isInteger(position) || position < 0 || position > 9999)) fail("Position must be a whole number from 0 to 9999.");
 
-  const clash = await db.category.findFirst({
-    where: { OR: [{ slug }, { name: { equals: name, mode: "insensitive" } }], ...(current ? { NOT: { id: current.id } } : {}) },
-    select: { name: true, slug: true },
-  });
+  // Names are compared case-insensitively in code: SQLite's `equals` is case-sensitive
+  const lowerName = name.toLowerCase();
+  const clash = (
+    await db.category.findMany({ where: current ? { NOT: { id: current.id } } : {}, select: { name: true, slug: true } })
+  ).find((c) => c.slug === slug || c.name.toLowerCase() === lowerName);
   if (clash) fail(clash.slug === slug ? `The slug “${slug}” is already used by “${clash.name}”.` : `There is already a category called “${clash.name}”.`);
 
   if (parentId) {

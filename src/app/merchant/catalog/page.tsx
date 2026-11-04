@@ -26,7 +26,7 @@ export default async function CatalogPage({
   const where: Prisma.ProductWhereInput = {
     active: true,
     supplier: { status: "APPROVED", ...(from ? { country: from } : {}) },
-    ...(q ? { OR: [{ title: { contains: q, mode: "insensitive" } }, { description: { contains: q, mode: "insensitive" } }] } : {}),
+    ...(q ? { OR: [{ title: { contains: q } }, { description: { contains: q } }] } : {}),
     // a top-level category includes its subcategories
     ...(category ? { category: { OR: [{ slug: category }, { parent: { slug: category } }] } } : {}),
   };

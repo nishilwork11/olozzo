@@ -10,6 +10,8 @@ next-env.d.ts
 .env*.local
 prisma/*.db
 prisma/*.db-journal
+prisma/*.db-wal
+prisma/*.db-shm
 
 # misc
 .DS_Store
@@ -20,3 +22,6 @@ npm-debug.log*
 
 .vercel
 .env*
+
+# Postgres client generated only for moving the old Neon data (scripts/postgres-to-sqlite.cjs)
+prisma/postgres/

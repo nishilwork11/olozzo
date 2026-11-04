@@ -4,15 +4,16 @@
 // Money:      all amounts are integer cents in EUR
 // Retail:     prices shown to customers are gross (VAT included, EU B2C rule)
 //
-// Postgres everywhere (Vercel cannot run SQLite: its filesystem is read-only
-// and not shared between functions). Point DATABASE_URL at your database.
+// SQLite: one database file on the server's disk (self-hosted, not Vercel — Vercel's
+// filesystem is read-only). DATABASE_URL="file:/absolute/path/olozzo.db"; keep the
+// file outside the app folder so deploys never touch it. See docs/SELF_HOSTING.md.
 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 

@@ -15,7 +15,7 @@ per supplier and sent to them automatically, and suppliers ship straight to the 
 
 ```bash
 npm install
-npm run setup        # creates the tables in DATABASE_URL (Postgres) and seeds demo data
+npm run setup        # creates the SQLite database (DATABASE_URL) and seeds demo data
 npm run dev          # http://localhost:3000
 ```
 
@@ -103,7 +103,7 @@ Merchant profit per order = (total − VAT) − supplier cost − supplier shipp
 
 ## Tech stack
 - Next.js 15 (App Router, Server Components, Server Actions), React 19, TypeScript
-- Prisma ORM on Postgres (e.g. Neon)
+- Prisma ORM on SQLite (one database file)
 - Tailwind CSS 3, lucide-react icons
 - `jose` (JWT sessions), `bcryptjs` (passwords), `zod` (validation), `stripe`
 
@@ -124,15 +124,15 @@ suppliers update their parcels.
 
 ## Going to production
 
-1. **Database:** point `DATABASE_URL` at Postgres (Neon via the Vercel Marketplace, Supabase, RDS…),
-   then run `npx prisma db push` (or `prisma migrate deploy`).
+1. **Database:** SQLite file on the server, e.g. `DATABASE_URL="file:/var/lib/olozzo/olozzo.db"`, created with
+   `npx prisma db push`. Moving the data over from the old Neon/Postgres database: `scripts/postgres-to-sqlite.cjs`.
 2. **Secrets:** set a long random `AUTH_SECRET`, and set `NEXT_PUBLIC_APP_URL` to your domain.
 3. **Payments:** add your Stripe and/or Mollie live keys. In Stripe, create a webhook to
    `https://<domain>/api/webhooks/stripe` for `checkout.session.completed`, `checkout.session.async_payment_succeeded`,
    `checkout.session.async_payment_failed` and `checkout.session.expired`. Set `ENABLE_DEMO_PAYMENTS="false"`.
    Local Stripe testing: `stripe listen --forward-to localhost:3000/api/webhooks/stripe`.
 4. **Legal:** replace the template texts in `src/app/legal/[page]/page.tsx` with your company details and have them reviewed.
-5. **Deploy:** Vercel, or any Node host with `npm run build && npm start`.
+5. **Deploy:** your own server (SQLite needs a persistent disk, so not Vercel) — step by step in [docs/SELF_HOSTING.md](docs/SELF_HOSTING.md).
 
 ## Not included yet
 These need third-party accounts or business decisions:

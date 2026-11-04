@@ -238,9 +238,9 @@ async function buildWhere(query: ShopQuery): Promise<Prisma.StoreProductWhereInp
   const term = query.q?.trim().slice(0, 100);
   if (term) {
     where.OR = [
-      { title: { contains: term, mode: "insensitive" } },
-      { description: { contains: term, mode: "insensitive" } },
-      { product: { category: { name: { contains: term, mode: "insensitive" } } } },
+      { title: { contains: term } },
+      { description: { contains: term } },
+      { product: { category: { name: { contains: term } } } },
     ];
   }
   if (query.minPrice != null || query.maxPrice != null) {
@@ -292,7 +292,8 @@ async function matchingRows(where: Prisma.StoreProductWhereInput): Promise<Light
  * named after it, then the ones that only mention it in the description. The order within each group is kept.
  */
 async function rankBySearch(rows: LightRow[], where: Prisma.StoreProductWhereInput, term: string): Promise<LightRow[]> {
-  const contains = { contains: term, mode: "insensitive" as const };
+  // On SQLite `contains` is a LIKE, which already ignores case for A–Z
+  const contains = { contains: term };
   const [inTitle, inCategory] = await Promise.all([
     db.storeProduct.findMany({ where: { AND: [where, { title: contains }] }, select: { id: true } }),
     db.storeProduct.findMany({ where: { AND: [where, { product: { category: { name: contains } } }] }, select: { id: true } }),
