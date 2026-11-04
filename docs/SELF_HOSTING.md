@@ -24,18 +24,17 @@ Commit the SQLite changes and push the branch so the server can download it:
 cd D:/olozzo
 git switch self-hosting-sqlite
 git status                     # review what will be committed
-git add .env.example .gitignore .gitattributes README.md package.json prisma/schema.prisma prisma/seed-catalog.ts scripts deploy docs src
+git add .env.example .gitignore .gitattributes README.md package.json prisma/schema.prisma prisma/seed-catalog.ts scripts deploy docs src vercel.json
 git commit -m "Move olozzo to SQLite for self-hosting"
 git push -u origin self-hosting-sqlite
 ```
 
 Never add database files (`*.db`), `.env` files or backups: the repository is public.
 
-Vercel may build a preview for this branch; it won't work there (Vercel can't keep a SQLite file) and that's fine —
-**olozzo.com keeps running from `main` on Vercel and is not affected.**
-
-**Don't merge this branch into `develop` or `main` while olozzo.com still runs on Vercel:** Vercel would deploy it and
-the live site would stop working. Merge only after the switch to your server (Part D).
+`vercel.json` turns off Vercel's automatic deployments (`git.deploymentEnabled: false`) for every commit that
+contains it: pushing this branch builds nothing on Vercel, and even if it is merged into `develop` or `main`, Vercel
+doesn't deploy it — **olozzo.com keeps running its current deployment on Vercel and is not affected.**
+Still, merge it into `develop`/`main` only after the switch to your server (Part D).
 
 ---
 
