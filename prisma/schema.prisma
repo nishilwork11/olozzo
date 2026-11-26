@@ -238,6 +238,12 @@ model SupplierOrder {
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
 
+  // CJdropshipping fulfilment link (only set when this slice is fulfilled by the CJ virtual supplier).
+  // All nullable/additive: manual suppliers are unaffected. See src/lib/cj/.
+  cjOrderId       String? @unique // CJ order id returned by createOrderV2
+  cjOrderStatus   String? // CJ's order status (raw)
+  cjPaymentStatus String? // whether the CJ order has been paid from the CJ wallet
+
   items OrderItem[]
 }
 
@@ -280,4 +286,61 @@ model AuditLog {
   entityId  String?
   details   String?
   createdAt DateTime @default(now())
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// CJdropshipping integration (see src/lib/cj/). CJ is modelled as one "virtual
+// supplier"; these tables hold the connection, the CJ⇄Olozzo id mapping and logs.
+// Everything here is additive — it never changes how manual suppliers work.
+// ─────────────────────────────────────────────────────────────────────────────
+
+// The single CJ connection (one row, id = "default"). The API key itself stays in
+// env (CJ_API_KEY); only the cached access/refresh tokens and status live here.
+model CjAccount {
+  id           String    @id @default("default")
+  accessToken  String?
+  refreshToken String?
+  tokenExpires DateTime?
+  status       String    @default("DISCONNECTED") // CONNECTED | ERROR | DISCONNECTED
+  lastError    String?
+  lastCheckAt  DateTime?
+  updatedAt    DateTime  @updatedAt @default(now())
+}
+
+// Maps one imported Olozzo Product to its CJ source product. @unique on both sides
+// prevents importing the same CJ product twice.
+model CjProduct {
+  id           String    @id @default(cuid())
+  productId    String    @unique // -> Product.id (not a relation: keeps Product model untouched)
+  cjPid        String    @unique // CJ product id
+  cjSku        String
+  lastSyncedAt DateTime?
+  syncStatus   String    @default("OK") // OK | STOCK_OUT | REMOVED | ERROR
+  raw          Json? // last CJ detail payload, for debugging
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  @@index([syncStatus])
+}
+
+// Maps one Olozzo ProductVariant to its CJ variant (for stock sync and order line items).
+model CjVariant {
+  id           String @id @default(cuid())
+  variantId    String @unique // -> ProductVariant.id
+  cjVid        String // CJ variant id (vid)
+  cjVariantSku String
+}
+
+// Audit of every CJ API operation (mirrors the PaymentLog pattern).
+model CjSyncLog {
+  id        String   @id @default(cuid())
+  kind      String // auth | catalog-sync | import | order-push | track-sync
+  refId     String? // productId / supplierOrderId / cj order id
+  level     String // INFO | WARN | ERROR
+  message   String
+  data      Json?
+  createdAt DateTime @default(now())
+
+  @@index([kind, createdAt])
+  @@index([level, createdAt])
 }
