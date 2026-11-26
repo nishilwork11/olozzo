@@ -17,6 +17,7 @@ export const PERMISSIONS = {
   "products:moderate": "Hide or restore any supplier product",
   "orders:view_all": "View every order on the platform",
   "audit:view": "Read the audit log",
+  "cj:manage": "Connect CJdropshipping, browse and import its products",
   "store:manage": "Edit own store settings, theme and shipping",
   "catalog:import": "Browse the supplier catalog and import products",
   "store_products:manage": "Edit prices and visibility of own store products",
