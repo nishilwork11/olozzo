@@ -81,6 +81,9 @@ export function OrdersTable({
                 <td>
                   <StatusBadge status={o.paymentStatus} />
                   <p className="mt-0.5 text-xs capitalize text-ink-500">{o.paymentProvider}</p>
+                  {o.paymentStatus !== "PAID" && o.paymentFailureReason?.startsWith("Needs review") && (
+                    <p className="mt-0.5 text-xs font-semibold text-red-700">Needs review</p>
+                  )}
                 </td>
                 <td>
                   <StatusBadge status={o.status} />

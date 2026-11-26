@@ -4,6 +4,7 @@ import { Euro, Factory, Receipt, Store, TrendingUp, Users } from "lucide-react";
 import { BarChart, Card, CardHeader, Flash, PageHeader, StatCard, StatusBadge } from "@/components/ui";
 import { db } from "@/lib/db";
 import { formatMoney } from "@/lib/money";
+import { paymentSetup } from "@/lib/payments";
 import { formatDate, lastDays } from "@/lib/utils";
 
 export const metadata: Metadata = { title: "Overview · Admin" };
@@ -25,6 +26,17 @@ export default async function AdminOverview({ searchParams }: { searchParams: Pr
     db.returnRequest.count({ where: { status: "REQUESTED" } }),
   ]);
 
+  const setup = paymentSetup();
+  const paymentsToReview = await db.order.count({
+    where: { paymentFailureReason: { startsWith: "Needs review" }, paymentStatus: { not: "PAID" } },
+  });
+  const paymentAlerts = [
+    setup.demo && "demo payments are on",
+    setup.stripe && !setup.stripeWebhookSecret && "the Stripe webhook secret is missing",
+    !setup.stripe && !setup.mollie && "no payment provider is connected",
+    paymentsToReview > 0 && `${paymentsToReview} payment${paymentsToReview > 1 ? "s" : ""} need${paymentsToReview > 1 ? "" : "s"} review`,
+  ].filter((a): a is string => Boolean(a));
+
   const pendingSuppliers = supplierCounts.find((s) => s.status === "PENDING")?._count ?? 0;
   const approvedSuppliers = supplierCounts.find((s) => s.status === "APPROVED")?._count ?? 0;
   const byDay = new Map(lastDays(14).map((d) => [d, 0]));
@@ -37,6 +49,15 @@ export default async function AdminOverview({ searchParams }: { searchParams: Pr
     <>
       <PageHeader title="Platform overview" description="Gross merchandise volume, fees and activity across all olozzo stores." />
       <Flash {...flash} />
+
+      {paymentAlerts.length > 0 && (
+        <Link href="/admin/payments" className="mb-4 flex items-center justify-between rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-900 hover:bg-red-100">
+          <span>
+            <b>Payments:</b> {paymentAlerts.join(" · ")}
+          </span>
+          <span className="font-semibold">Open payments →</span>
+        </Link>
+      )}
 
       {pendingSuppliers > 0 && (
         <Link href="/admin/suppliers" className="mb-6 flex items-center justify-between rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900 hover:bg-amber-100">

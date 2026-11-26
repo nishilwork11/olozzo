@@ -176,9 +176,9 @@ model Order {
   postalCode      String
   country         String
   status          String    @default("PENDING") // PENDING | PROCESSING | SHIPPED | DELIVERED | CANCELLED | REFUNDED
-  paymentStatus   String    @default("UNPAID") // UNPAID | PAID | FAILED | REFUNDED
+  paymentStatus   String    @default("UNPAID") // UNPAID | PENDING (delayed method submitted) | PAID | FAILED | REFUNDED
   paymentProvider String // stripe | mollie | demo
-  paymentRef      String?
+  paymentRef      String? // Stripe Checkout Session id (cs_…) or Mollie payment id (tr_…)
   currency        String    @default("EUR")
   subtotal        Int // items total incl. VAT, before discount
   discountCode    String?
@@ -193,9 +193,73 @@ model Order {
   updatedAt       DateTime  @updatedAt
   paidAt          DateTime?
 
+  // Payment lifecycle (see src/lib/orders.ts and src/lib/payments/)
+  checkoutKey          String? // browser-generated id of one checkout attempt: retries reuse the same order
+  accessTokenHash      String? // SHA-256 of the guest's order-page token (the token itself is only in their link)
+  stockReserved        Boolean   @default(false) // holds stock while the payment is open or processing
+  paymentExpiresAt     DateTime? // when the payment page expires and the stock hold lapses
+  paymentIntentId      String?   @unique // Stripe PaymentIntent (pi_…), maps refund and dispute events
+  paymentFailureReason String? // why the payment failed, expired or needs review
+  refundedAt           DateTime?
+
   items        OrderItem[]
   fulfillments SupplierOrder[]
   returns      ReturnRequest[]
+
+  @@index([checkoutKey])
+  @@index([paymentStatus, createdAt])
+}
+
+// Stripe webhook events already processed (Stripe can deliver the same event more than once)
+model StripeEvent {
+  id        String   @id // evt_…
+  type      String
+  orderId   String?
+  summary   String?
+  createdAt DateTime @default(now())
+
+  @@index([orderId])
+}
+
+// Every step of a payment and every answer from the provider: checkout started, payment page closed, card declined,
+// bank payment failed, webhook rejected or failed, refund refused… Written for failures too, so an order that was
+// not paid can always be traced back to why. Shown in admin → Payments → Payment log and on each order.
+model PaymentLog {
+  id        String   @id @default(cuid())
+  orderId   String?
+  provider  String // stripe | mollie | demo
+  level     String // INFO | WARN | ERROR
+  event     String // e.g. checkout.started, payment.declined, webhook.invalid_signature (see src/lib/payments/log.ts)
+  message   String
+  ref       String? // provider object it is about: cs_…, pi_…, evt_…, re_…, tr_…
+  data      Json? // selected fields of the provider's response or error (no card details, no addresses)
+  createdAt DateTime @default(now())
+
+  @@index([orderId, createdAt])
+  @@index([level, createdAt])
+}
+
+// Every email the platform sends: order confirmations, shipping, refunds, returns, and alerts to suppliers, merchants
+// and admins (see src/lib/email/). The unique key sends each email once, however often the step behind it runs
+// (webhook retries, the customer's return page, the cron). Failed emails are retried by /api/cron/payments.
+model EmailLog {
+  id         String    @id @default(cuid())
+  key        String    @unique // e.g. order-confirmation:<orderId>, parcel-shipped:<supplierOrderId>:<tracking number>
+  kind       String // one of EMAIL_KINDS (src/lib/email/templates.ts)
+  orderId    String?
+  to         String // comma-separated
+  subject    String
+  status     String    @default("QUEUED") // QUEUED | SENDING | SENT | FAILED | SKIPPED (email not set up)
+  attempts   Int       @default(0)
+  providerId String? // the provider's message id
+  error      String?
+  payload    Json? // { from, to, replyTo, html, text }: kept for retries and the admin preview, cleared after 90 days
+  sentAt     DateTime?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  @@index([orderId, createdAt])
+  @@index([status, createdAt])
 }
 
 model OrderItem {

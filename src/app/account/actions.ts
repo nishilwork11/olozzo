@@ -6,6 +6,7 @@ import { redirect } from "next/navigation";
 import { audit } from "@/lib/audit";
 import { destroySession, requirePermission, requireUser } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { notifyReturnRequested } from "@/lib/email/notify";
 import { RETURN_WINDOW_DAYS } from "@/lib/orders";
 import { str, withFlash } from "@/lib/utils";
 
@@ -31,6 +32,7 @@ export async function requestReturn(orderId: string, form: FormData) {
 
   const ret = await db.returnRequest.create({ data: { orderId, reason, details: str(form, "details").slice(0, 1000) || null } });
   await audit(user.id, "return.requested", "ReturnRequest", ret.id, `${order.number}: ${reason}`);
+  await notifyReturnRequested(ret.id);
   revalidatePath(back);
   redirect(withFlash(back, "ok", "Return requested. The store will contact you with return instructions."));
 }
