@@ -308,6 +308,13 @@ model SupplierOrder {
   cjOrderStatus   String? // CJ's order status (raw)
   cjPaymentStatus String? // whether the CJ order has been paid from the CJ wallet
 
+  // BigBuy fulfilment link (only set when this slice is fulfilled by the BigBuy virtual supplier).
+  // Same nullable/additive pattern as the CJ fields above. See src/lib/bigbuy/.
+  bigBuyOrderId       String? @unique // BigBuy order id returned by /rest/order/create/multishipping
+  bigBuyOrderStatus   String? // BigBuy's order status (raw)
+  bigBuyPaymentStatus String? // whether the BigBuy order has been funded from the prepaid balance
+  bigBuyWarehouse     Int? // BigBuy may split one request across warehouses; records which one shipped this slice
+
   items OrderItem[]
 }
 
@@ -368,7 +375,7 @@ model CjAccount {
   status       String    @default("DISCONNECTED") // CONNECTED | ERROR | DISCONNECTED
   lastError    String?
   lastCheckAt  DateTime?
-  updatedAt    DateTime  @updatedAt @default(now())
+  updatedAt    DateTime  @default(now()) @updatedAt
 }
 
 // Maps one imported Olozzo Product to its CJ source product. @unique on both sides
@@ -400,6 +407,94 @@ model CjSyncLog {
   id        String   @id @default(cuid())
   kind      String // auth | catalog-sync | import | order-push | track-sync
   refId     String? // productId / supplierOrderId / cj order id
+  level     String // INFO | WARN | ERROR
+  message   String
+  data      Json?
+  createdAt DateTime @default(now())
+
+  @@index([kind, createdAt])
+  @@index([level, createdAt])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// BigBuy integration (see src/lib/bigbuy/). BigBuy is modelled as a second "virtual
+// supplier", exactly like CJ above. Everything here is additive — it never changes
+// how manual suppliers or the CJ supplier work.
+//
+// Differences from CJ: BigBuy authenticates with a static Bearer API key (no token
+// exchange, so no token columns), and its prices are already EUR + net (ex-VAT).
+// Its catalogue is served in bulk per first-level taxonomy with no search endpoint,
+// so we cache a snapshot (BigBuyCatalogItem) that the admin browse/import reads.
+// ─────────────────────────────────────────────────────────────────────────────
+
+// The single BigBuy connection (one row, id = "default"). The API key lives only in
+// env (BIGBUY_API_KEY); this row just holds the admin-facing connection status.
+model BigBuyAccount {
+  id          String    @id @default("default")
+  status      String    @default("DISCONNECTED") // CONNECTED | ERROR | DISCONNECTED
+  lastError   String?
+  lastCheckAt DateTime?
+  updatedAt   DateTime  @default(now()) @updatedAt
+}
+
+// Cached snapshot of a BigBuy catalogue product, refreshed per-taxonomy by the cron.
+// The admin browse/search/import read this table (BigBuy has no live search endpoint),
+// so importing never needs a live API call. `raw` holds the merged payload used on import.
+model BigBuyCatalogItem {
+  id             String   @id @default(cuid())
+  bbId           Int      @unique // BigBuy product id
+  bbSku          String   @unique // BigBuy product reference (SKU) — used as order `reference`
+  name           String   @default("")
+  description    String   @default("") // plain text, already stripped of HTML
+  costCents      Int      @default(0) // wholesalePrice (net EUR) → cents
+  taxRate        Float    @default(0) // BigBuy taxRate for the product
+  image          String? // cover image URL
+  images         String   @default("[]") // JSON array of image URLs
+  parentTaxonomy Int? // first-level taxonomy this item was pulled under
+  stock          Int      @default(0) // total available units across handling-day bands
+  weightGrams    Int      @default(500)
+  active         Boolean  @default(true)
+  condition      String   @default("NEW")
+  hasVariations  Boolean  @default(false)
+  raw            Json? // merged core+info+images+variations payload, for import
+  lastSeenAt     DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([parentTaxonomy])
+  @@index([active])
+}
+
+// Maps one imported Olozzo Product to its BigBuy source product. @unique on both sides
+// prevents importing the same BigBuy product twice.
+model BigBuyProduct {
+  id             String    @id @default(cuid())
+  productId      String    @unique // -> Product.id (not a relation: keeps Product model untouched)
+  bbId           Int       @unique // BigBuy product id
+  bbSku          String    @unique // BigBuy product reference (SKU)
+  parentTaxonomy Int? // taxonomy the product belongs to (so stock sync knows which dump to pull)
+  lastSyncedAt   DateTime?
+  syncStatus     String    @default("OK") // OK | STOCK_OUT | REMOVED | ERROR
+  raw            Json? // last BigBuy payload, for debugging
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@index([syncStatus])
+}
+
+// Maps one Olozzo ProductVariant to its BigBuy variation (for stock sync and order line items).
+// cjVariant's analogue — bbSku is the per-variation reference sent as order `reference`.
+model BigBuyVariant {
+  id          String @id @default(cuid())
+  variantId   String @unique // -> ProductVariant.id
+  bbVariation Int? // BigBuy variation id (null for single-variant products)
+  bbSku       String // BigBuy variation reference (SKU) — used as order `reference`
+}
+
+// Audit of every BigBuy API operation (mirrors CjSyncLog / PaymentLog).
+model BigBuySyncLog {
+  id        String   @id @default(cuid())
+  kind      String // auth | catalog-sync | import | order-check | order-push | track-sync
+  refId     String? // productId / supplierOrderId / bigbuy order id
   level     String // INFO | WARN | ERROR
   message   String
   data      Json?

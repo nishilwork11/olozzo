@@ -1,4 +1,4 @@
-import { Boxes, CreditCard, Factory, FolderTree, LayoutDashboard, Mail, PackageSearch, Receipt, ScrollText, ShieldCheck, Store, Users } from "lucide-react";
+import { Boxes, CreditCard, Factory, FolderTree, LayoutDashboard, Mail, PackageSearch, Receipt, ScrollText, ShieldCheck, Store, Truck, Users } from "lucide-react";
 import { DashboardShell, type NavItem } from "@/components/dashboard/DashboardShell";
 import { requireUser } from "@/lib/auth";
 
@@ -10,6 +10,7 @@ const NAV: NavItem[] = [
   { href: "/admin/stores", label: "Stores", icon: Store },
   { href: "/admin/suppliers", label: "Suppliers", icon: Factory },
   { href: "/admin/cj", label: "CJdropshipping", icon: PackageSearch },
+  { href: "/admin/bigbuy", label: "BigBuy", icon: Truck },
   { href: "/admin/products", label: "Products", icon: Boxes },
   { href: "/admin/users", label: "Users", icon: Users },
   { href: "/admin/categories", label: "Categories", icon: FolderTree },
